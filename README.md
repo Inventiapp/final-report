@@ -197,7 +197,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
           <p align="justify">
-            ...
+            Soy una estudiante responsable con el trabajo. Respeto y escucho la opinión de los demás ayudando al trabajo en equipo. Me comprometo a contribuir al equipo siendo puntual en las reuniones y responsable en las entregas.
           </p>
     </td>
   </tr>
