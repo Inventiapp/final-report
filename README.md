@@ -275,6 +275,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+
+<p align="center">
+  <img src="./assets/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+</p>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
