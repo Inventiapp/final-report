@@ -19,6 +19,24 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 
 Esta sección expone los segmentos vinculados al contexto del problema, integrando características demográficas y datos estadísticos que respaldan el análisis. En este sentido, y con el propósito de desarrollar un producto que se ajuste de manera efectiva a las necesidades de los clientes, **StockTrack** enfocará sus esfuerzos en los siguientes segmentos de la población.
 
-**1. Dueños de bodegas**
+**1. Dueños de bodegas:** Estos usuarios tienen como puesto de trabajo su bodega. Ellos buscan una solución práctica que los ayude a realizar la logística de manera más eficiente y sin errores
 
-**2. Dueños de almacenes**
+- Edad: 20 a 60 años
+- Ocupación: Dueños de bodegas.
+- País: Perú.
+- Dominio: Nivel intermedio o básico en tecnología, pero familiarizados con apps móviles.
+- Beneficios buscados:
+    - Rápidez de cálculos logísticos.
+    - Orden y administración sencilla de los productos.
+
+**2. Startups y emprendedores en expansión con necesidades logísticas:** Estos usuarios se encuentran en una etapa de crecimiento de su negocio y requieren herramientas que les permitan profesionalizar la gestión de sus operaciones. Buscan soluciones accesibles y escalables que faciliten el control del inventario sin necesidad de invertir en sistemas costosos o complejos.
+
+- Edad: 22 a 45 años
+- Ocupación: Fundadores de startups, emprendedores y  pequeños empresarios.
+- País: Perú (con potencial de expansión a otros países de Latinoamérica).
+- Dominio: Nivel intermedio en el uso de herramientas digitales y aplicaciones móviles.
+- Beneficios buscados:
+    - Escalabilidad en el control del inventario.
+    - Reducción de costos y optimización de recursos.
+    - Mayor visibilidad y control en tiempo real sobre el stock.
+    - Herramientas que acompañen el crecimiento del negocio sin requerir infraestructura adicional.
