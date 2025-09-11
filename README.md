@@ -270,6 +270,67 @@ Hemos observado un factor crítico que afecta la eficiencia de los negocios y es
 ¿Cómo lograr que las bodegas y almacenes adopten un sistema que automatice el control de inventario, reduzca errores humanos y mejore la eficiencia operativa sin necesidad de procesos manuales que limiten el crecimiento del negocio?
 
 #### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions**
+
+Creo que mis clientes necesitan una forma confiable, rápida y automatizada de controlar su inventario en tiempo real para reducir errores y pérdidas económicas.
+
+Estas necesidades se pueden resolver con una aplicación que registre entradas y salidas de productos, genere alertas inteligentes y centralice la información en un solo panel.
+
+Mis clientes iniciales serán pequeñas y medianas empresas con bodegas y almacenes que actualmente usan procesos manuales (Excel, papel, o registros básicos) para su inventario.
+
+El valor #1 que un cliente quiere de mi servicio es evitar pérdidas y desabastecimientos a través de un control de inventario preciso y en tiempo real.
+
+El cliente también puede obtener los beneficios de reducción de errores humanos, ahorro de tiempo, mejor planificación de compras y reportes analíticos para decisiones estratégicas.
+
+Voy a adquirir la mayoría de mis clientes a través de estrategias de marketing digital, en redes sociales y/o Google Ads, asociaciones con cámaras de comercio y ventas directas B2B.
+
+Haré dinero a través de suscripciones mensuales o anuales, con planes escalables según el número de productos o almacenes que gestione cada cliente.
+
+Mi competencia principal en el mercado será otros sistemas de gestión de inventarios o soluciones locales personalizadas.
+
+Los venceremos debido a una interfaz más intuitiva, precios accesibles, configuración sencilla y un enfoque especializado en pymes que no pueden costear sistemas complejos.
+
+Mi mayor riesgo de producto es que los clientes perciban el sistema como complejo o no lo adopten porque prefieren seguir con sus métodos manuales.
+
+Resolveremos esto a través de una experiencia de usuario simple, capacitación inicial y soporte al cliente accesible para facilitar la adopción.
+
+**User Assumptions**
+
+¿Quién es el usuario?
+
+Encargados de almacén, emprendedores, administradores de bodegas y dueños de pequeños negocios.
+
+¿Dónde encaja nuestro producto en su trabajo o vida?
+
+En las operaciones diarias de registro de entradas y salidas de productos, control de stock y planificación de compras.
+
+¿Qué problemas tiene nuestro producto que resolver?
+
+Errores en registros manuales, pérdida de productos por vencimiento o sobrestock, falta de información en tiempo real y dificultad para generar reportes claros.
+
+¿Cuándo y cómo es nuestro producto usado?
+
+Se usa todos los días, durante la recepción y despacho de productos, así como en reuniones de planificación donde se revisan reportes y métricas.
+
+¿Qué características son importantes?
+
+Registro rápido de productos, alertas personalizables, reportes visuales, acceso desde cualquier dispositivo y seguridad en los datos.
+
+¿Cómo debe verse nuestro producto y cómo comportarse?
+
+Debe ser intuitivo, minimalista y responsivo, fácil de aprender sin necesidad de manuales extensos, y comportarse de forma rápida, confiable y sin errores.
+
+**Feature Assumptions**
+
+Creemos que la aplicación debe contar con una interfaz de usuario intuitiva y responsiva que permitirá a los encargados de almacén, emprendedores y administradores adoptarla sin dificultad, reduciendo la curva de aprendizaje.
+
+Creemos que la plataforma debe proporcionar notificaciones y alertas personalizables tales como stock bajo o fechas próximas de vencimiento, que mantendrán a los usuarios informados para evitar errores logísticos y quiebres de stock.
+
+Creemos que el sistema debe ser accesible desde la web y dispositivos móviles para asegurar disponibilidad en todo momento.
+
+Creemos que la seguridad en los datos es clave para generar confianza en los usuarios.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
 
