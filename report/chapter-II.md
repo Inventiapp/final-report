@@ -3,7 +3,7 @@
 ### 2.1.1. Análisis competitivo
 
 <p align="center">
-  <img src="final-report/report/report/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+  <img src="./analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
 </p>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
