@@ -313,6 +313,23 @@ Debe ser intuitivo, minimalista y responsivo, fácil de aprender sin necesidad d
 - Creemos que la seguridad en los datos es clave para generar confianza en los usuarios.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Creemos que implementar alertas personalizables sobre niveles bajos de stock y fechas próximas de vencimiento reducirá las pérdidas por quiebre o vencimiento de productos.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando observemos al menos un 30% de reducción en productos vencidos o faltantes en comparación con los registros previos al uso de alertas.
+
+Creemos que los usuarios valorarán la disponibilidad de reportes gráficos que muestren los productos más rotados, niveles de stock y tendencias de consumo.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando al menos un 70% de los usuarios activos usen el módulo de reportes semanalmente y reporten satisfacción positiva en encuestas cualitativas.
+
+Creemos que una interfaz intuitiva y fácil de aprender aumentará la adopción por parte de usuarios que dependen de Excel o registros manuales.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando al menos el 60% de los nuevos clientes registren sus primeros productos dentro de las 24 horas posteriores a la activación de su cuenta.
+
+Creemos que habilitar el acceso a la aplicación tanto desde la web como desde dispositivos móviles aumentará la frecuencia de uso.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día desde distintos dispositivos.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
