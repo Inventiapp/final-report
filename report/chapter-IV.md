@@ -73,17 +73,18 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 *4.1.1.4 Spacing*
 
 <p align="justify">
-- Margen estándar: 16px entre bloques de contenido.
-</p>
-<p align="justify">
-- Padding mínimo en botones: 12px vertical / 24px horizontal.
-</p>
-<p align="justify">
-- Grillas: sistema de 12 columnas (desktop) y 4 columnas (móvil).
+El espaciado juega un rol fundamental en la experiencia de usuario, asegurando legibilidad, orden y consistencia visual en todas las interfaces de StockTrack. Hemos definido un sistema de espaciado que será utilizado en la aplicación web.
+
 </p>
 
-<p align="center">
-  <img src="report/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+<p align="justify">
+| Elemento                        | Peso          | Tamaño          | Line height | Notas                                                    |
+| ------------------------------- | ------------- | --------------- | ----------- | -------------------------------------------------------- |
+| **H1 (títulos)**                | Bold 700      | 48px            | 110% – 120% | Espaciado adicional de +0.5px para mayor impacto visual. |
+| **H2 – H3 (secciones)**         | Semi-Bold 600 | 32px – 40px     | 120% – 130% | Claridad visual, adecuado para encabezados intermedios.  |
+| **H4 – H5 (subtítulos)**        | Medium 500    | 24px            | 130% – 140% | Transiciones suaves entre secciones y subsecciones.      |
+| **Body text (texto principal)** | Regular 400   | 16px – 18px     | 150% – 160% | Legible y cómodo para párrafos largos.                   |
+| **Botones / CTAs**              | Semi-Bold 600 | 16px            | 120%        | Uso de mayúsculas opcionales para dar fuerza visual.     |
 </p>
 
 *4.1.1.5 Tono de comunicación*
