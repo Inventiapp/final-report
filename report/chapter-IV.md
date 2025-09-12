@@ -22,7 +22,7 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
 </p>
 
 <p align="center">
-  <img src="report/logoStockTrack.png" alt="Logo" width="550">
+  <img src="./logoStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.2 Typografía*
