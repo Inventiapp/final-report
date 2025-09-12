@@ -28,13 +28,28 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
 *4.1.1.2 Typografía*
 
 <p align="justify">
-- Tipografía primaria: Roboto (Google Fonts), por su legibilidad en pantallas digitales.
+- Fuente principal:
 </p>
 <p align="justify">
-- Tipografía secundaria: Open Sans para textos descriptivos y largos.
+Nuestra fuente principal es Open Sauce, la cual aporta un estilo sólido y moderno que transmite fuerza, confiabilidad y profesionalismo. Perfecta para logotipos y títulos de alta relevancia, esta tipografía está diseñada para proyectar claridad y autoridad visual. Uso exclusivamente para el logo y títulos principales. Estilo: Mayúsculas, Bold, tamaño 64px.
+</p>
+
+<p align="justify">
+- Fuente secundaria:
 </p>
 <p align="justify">
-- Jerarquía tipográfica: H1: títulos principales (32px, bold), H2: subtítulos (24px, semibold), Párrafos: 16px, regular, Notas/etiquetas: 12px.
+La fuente secundaria utilizada es Roboto, la cual aporta legibilidad y neutralidad en interfaces digitales. Su estilo limpio y curvo facilita la lectura continua en pantallas, ideal para textos extensos, descripciones y datos de inventario. Uso en párrafos, subtítulos, descripciones y etiquetas dentro de la aplicación.
+</p>
+
+<p align="justify">
+- Jerarquía tipográfica: 
+</p>
+<p align="justify">
+Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bold), H2: subtítulos (24px, semibold), Párrafos: 16px, regular, Notas/etiquetas: 12px). Asegura una visualización cómoda y ordenada.
+</p>
+
+<p align="center">
+  <img src="./typografiaStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.3 Colores*
