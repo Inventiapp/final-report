@@ -53,18 +53,21 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 *4.1.1.3 Colores*
+ 
+<p align="justify">
+La paleta de colores de StockTrack fue diseñada para transmitir energía, confianza y control en la gestión de inventarios.
+</p>
 
 <p align="justify">
-- Color primario: Azul (#004AAD) – transmite confianza y seguridad.
+-Colores principales: Naranja (#FFA22A): Representa dinamismo, accesibilidad y cercanía con el usuario evocando movimiento y acción. Amarillo (#FFC64D): Simboliza optimismo y rapidez, reforzando la idea de eficiencia en procesos. Se emplean como colores principales en el logo y en elementos destacados de la interfaz (botones de acción, iconografía principal). Verde (#2ECC71): Asociado al éxito, la validación y la seguridad. Refuerza el concepto de control y precisión en el stock, se reserva para estados positivos, alertas de stock correcto o validaciones (check, confirmaciones).
 </p>
+
 <p align="justify">
-- Color secundario: Verde (#5CB85C) – resalta acciones positivas (ej. botones “confirmar”).
+- Colores secundarios: Gris oscuro (#333333): Usado en tipografía y detalles, transmite seriedad y profesionalismo. Blanco (#FFFFFF): Representa simplicidad y claridad visual. Conforman la base de la tipografía y fondos, asegurando contraste y legibilidad en cualquier dispositivo.
 </p>
-<p align="justify">
-- Color de acento: Naranja (#FF7A00) – usado para alertas o acciones destacadas.
-</p>
-<p align="justify">
-- Neutrales: Gama de grises (#333333, #777777, #F5F5F5) para textos y fondos.
+
+<p align="center">
+  <img src="./colorStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.4 Spacing*
