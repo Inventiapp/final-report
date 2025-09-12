@@ -49,7 +49,7 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 <p align="center">
-  <img src="./typografiaStockTrack.png" alt="Logo" width="550">
+  <img src="./typografiaStockTrack.png" alt="Tipografía" width="550">
 </p>
 
 *4.1.1.3 Colores*
@@ -67,7 +67,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 </p>
 
 <p align="center">
-  <img src="./colorStockTrack.png" alt="Logo" width="550">
+  <img src="./colorStockTrack.png" alt="Color" width="550">
 </p>
 
 *4.1.1.4 Spacing*
