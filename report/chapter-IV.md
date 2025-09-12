@@ -67,7 +67,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 </p>
 
 <p align="center">
-  <img src="./colorStockTrack.png" alt="Color" width="550">
+  <img src="./coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 *4.1.1.4 Spacing*
