@@ -103,6 +103,13 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 </p>
 
 ### 4.1.2. Web Style Guidelines
+
+<p align="justify">
+Figma: 
+https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH1SOxvblAFqkd-1
+</p>
+
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
