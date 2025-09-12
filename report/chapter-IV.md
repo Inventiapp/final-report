@@ -6,13 +6,23 @@
 *4.1.1.1 Branding*
 
 <p align="justify">
-- Logo: versión principal a color y versión monocromática para usos secundarios.
+Para nuestro logo, hemos implementado símbolos que reflejan el propósito central de StockTrack: la gestión eficiente y confiable del inventario. El logo de StockTrack proyecta una identidad sólida y práctica, alineada con su misión de brindar una solución tecnológica sencilla pero poderosa para la gestión de inventarios.
 </p>
+
 <p align="justify">
-- Uso del logo: mantener proporciones, no distorsionar ni modificar colores.
+La caja representa de manera clara y universal el concepto de mercancía, almacenaje y stock, siendo el núcleo del negocio de bodegas y almacenes. El check verde simboliza control, seguridad y validación, transmitiendo la idea de que los productos están siempre bajo seguimiento y en orden.
 </p>
+
 <p align="justify">
-- Identidad de marca: proyectar confianza, accesibilidad y simplicidad.
+El conjunto visual comunica simplicidad, confiabilidad y modernidad, reforzando el objetivo de StockTrack de ayudar a las bodegas a mantener su inventario bajo control, reducir errores y optimizar procesos.
+</p>
+
+<p align="justify">
+La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinamismo, accesibilidad y cercanía con el usuario, junto con un verde que transmite seguridad, éxito y confianza.
+</p>
+
+<p align="center">
+  <img src="report/logoStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.2 Typografía*
