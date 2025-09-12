@@ -74,10 +74,8 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 
 <p align="justify">
 El espaciado juega un rol fundamental en la experiencia de usuario, asegurando legibilidad, orden y consistencia visual en todas las interfaces de StockTrack. Hemos definido un sistema de espaciado que será utilizado en la aplicación web.
-
 </p>
 
-<p align="justify">
 | Elemento                        | Peso          | Tamaño          | Line height | Notas                                                    |
 | :------------------------------ | :------------ | :-------------- | :---------- | :------------------------------------------------------- |
 | **H1 (títulos)**                | Bold 700      | 48px            | 110% – 120% | Espaciado adicional de +0.5px para mayor impacto visual. |
@@ -85,7 +83,6 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 | **H4 – H5 (subtítulos)**        | Medium 500    | 24px            | 130% – 140% | Transiciones suaves entre secciones y subsecciones.      |
 | **Body text (texto principal)** | Regular 400   | 16px – 18px     | 150% – 160% | Legible y cómodo para párrafos largos.                   |
 | **Botones / CTAs**              | Semi-Bold 600 | 16px            | 120%        | Uso de mayúsculas opcionales para dar fuerza visual.     |
-</p>
 
 *4.1.1.5 Tono de comunicación*
 
