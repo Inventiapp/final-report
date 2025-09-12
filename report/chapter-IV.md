@@ -79,7 +79,7 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 
 <p align="justify">
 | Elemento                        | Peso          | Tamaño          | Line height | Notas                                                    |
-| ------------------------------- | ------------- | --------------- | ----------- | -------------------------------------------------------- |
+| :------------------------------ | :------------ | :-------------- | :---------- | :------------------------------------------------------- |
 | **H1 (títulos)**                | Bold 700      | 48px            | 110% – 120% | Espaciado adicional de +0.5px para mayor impacto visual. |
 | **H2 – H3 (secciones)**         | Semi-Bold 600 | 32px – 40px     | 120% – 130% | Claridad visual, adecuado para encabezados intermedios.  |
 | **H4 – H5 (subtítulos)**        | Medium 500    | 24px            | 130% – 140% | Transiciones suaves entre secciones y subsecciones.      |
