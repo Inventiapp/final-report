@@ -332,7 +332,7 @@ Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día d
 
 #### 1.2.2.4. Lean UX Canvas
 
-
+![Lean UX Canvas](./assets/imgs/Lean-UX-Canvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
