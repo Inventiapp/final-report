@@ -192,7 +192,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/imgs/FotoChoy.jpeg" alt="FotoChoy" width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -280,7 +280,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ### 2.1.1. Análisis competitivo
 
 <p align="center">
-  <img src="./analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+  <img src="assets/imgs/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
 </p>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -363,7 +363,7 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
 </p>
 
 <p align="center">
-  <img src="./logoStockTrack.png" alt="Logo" width="550">
+  <img src="assets/imgs/logoStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.2 Typografía*
@@ -390,7 +390,7 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 <p align="center">
-  <img src="./typografiaStockTrack.png" alt="Tipografía" width="550">
+  <img src="assets/imgs/typografiaStockTrack.png" alt="Tipografía" width="550">
 </p>
 
 *4.1.1.3 Colores*
@@ -408,7 +408,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 </p>
 
 <p align="center">
-  <img src="./coloresStockTrack.png" alt="Colores" width="550">
+  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 *4.1.1.4 Spacing*
