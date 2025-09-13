@@ -206,7 +206,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/imgs/Foto-María.jpeg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -331,6 +331,8 @@ Sabremos que hemos tenido éxito<br>
 Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día desde distintos dispositivos.
 
 #### 1.2.2.4. Lean UX Canvas
+
+
 
 ## 1.3. Segmentos objetivo
 
