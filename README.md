@@ -260,6 +260,69 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+**What (Qué)**
+
+- ¿Cuál es el problema?<br>
+El problema principal es la falta de control en los inventarios de bodegas y almacenes, lo que genera pérdidas por vencimiento de productos, errores en el registro manual de entradas y salidas, y retrasos en la reposición de stock. Muchas empresas aún dependen de hojas de cálculo o procesos manuales que no reflejan la situación en tiempo real.
+
+- ¿Cuál es la relación con la persona en cuestión?<br>
+El problema afecta directamente a dueños de negocios, administradores de almacenes y encargados de logística, quienes necesitan herramientas confiables para evitar quiebres de stock o sobreacumulación. StockTrack se convierte en un aliado para optimizar su gestión y reducir riesgos.
+
+**When (Cuándo)**
+
+- ¿Cuándo sucede el problema?<br>
+El problema ocurre en el momento en que se registran entradas o salidas de productos y no hay un sistema automatizado que actualice la información en tiempo real. Esto puede darse diariamente, con cada movimiento de mercadería.
+
+- ¿Cuándo utiliza el cliente el producto?<br>
+El cliente utiliza StockTrack en todo momento que gestiona inventario, al recibir un nuevo lote, al realizar ventas o despachos, al planificar compras, e incluso al revisar reportes para la toma de decisiones estratégicas.
+
+**Where (dónde)**
+
+- ¿Dónde está el cliente cuando usa el producto?<br>
+El cliente generalmente se encuentra dentro de la bodega o almacén, donde se realizan los movimientos físicos de los productos, o en su oficina, desde donde consulta los reportes y analíticas.
+
+- ¿A dónde se dirige?<br>
+El cliente se dirige a digitalizar sus procesos y a tener un mayor control de su inventario con datos confiables y centralizados, accesibles en cualquier momento y lugar.
+
+- ¿Dónde surge el problema?<br>
+El problema surge en los puntos críticos del control de inventario, tales como la falta de trazabilidad en los registros manuales, la ausencia de alertas automáticas y la desconexión entre la gestión operativa y la planificación estratégica.
+
+**Who (quién)**
+
+- ¿Quiénes están involucrados?<br>
+Están involucrados dueños de negocios, jefes de almacén, encargados de logística y el personal que manipula y registra el stock en la bodega.
+
+- ¿A quiénes le sucede el problema?<br>
+El problema le sucede tanto a pequeños y medianos empresarios como a grandes almacenes que carecen de un sistema confiable para controlar su inventario en tiempo real.
+
+- ¿Quién lo utilizará?<br>
+El sistema será utilizado principalmente por administradores de almacén y personal operativo, pero también beneficiará a los gerentes y dueños, quienes tendrán acceso a reportes y analíticas centralizadas.
+
+**Why (por qué)**
+
+- ¿Cuál es la causa del problema?<br>
+La causa principal es la dependencia de procesos manuales o de sistemas desactualizados que no permiten el registro automatizado ni generan alertas preventivas. Esto provoca errores humanos, retrasos en la reposición, y pérdidas por vencimientos o robos no detectados a tiempo.
+
+**How (cómo)**
+- ¿En qué condiciones los clientes usan nuestro producto?<br>
+Los clientes usan StockTrack en un entorno de trabajo dinámico y operativo, donde es necesario registrar movimientos de stock de manera rápida y sencilla. Lo utilizan desde dispositivos móviles o computadoras para que la información se actualice en tiempo real.
+
+- ¿Cómo nos conocieron los compradores?<br>
+Los compradores conocen StockTrack a través de recomendaciones de otros negocios, redes sociales y campañas digitales enfocadas en la optimización de procesos logísticos. También por demostraciones en ferias o eventos de tecnología empresarial.
+
+- ¿Cómo prefieren los lectores acceder a nuestro contenido?<br>
+Los clientes prefieren acceder al sistema mediante una aplicación web intuitiva y fácil de usar, complementada con alertas inteligentes vía correo electrónico o notificaciones móviles.
+
+- ¿Qué llevó a la persona a llegar a esta situación?<br>
+La persona llegó a esta situación por la necesidad de controlar mejor su inventario, evitar pérdidas económicas y tener mayor seguridad y confiabilidad en la gestión de sus productos.
+
+**How much (cuánto)**
+
+Según un estudio realizado por GS1 Uruguay (2024), el porcentaje de productos no encontrados en góndolas alcanzó el 7.08 %, lo que representa un aumento del 74 % respecto al año anterior; este dato indica que por cada 100 productos auditados, 7 no estaban disponibles, evidenciando el impacto directo que una gestión ineficiente de inventarios puede tener en la disponibilidad, las ventas y la experiencia del cliente.
+
+![Evolución del Índice](./assets/imgs/Evolucion-del-Indice.png)
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
