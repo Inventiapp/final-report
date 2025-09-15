@@ -247,12 +247,12 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/imgs/profile-piero.png"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
           <p align="justify">
-             ...
+             Curso la carrera de Ingeniería de Software y tengo experiencia en desarrollo web, trabajando con equipos pequeños. Me gusta el Front End, en especial el diseño de interfaces 3D y productos creativos. Tengo conocimientos que pueden ayudar al equipo como levantamiento de requerimientos, diseño de interfaces, desarrollo web (React, Typescript), diseño de bases de datos y las habilidades de organización y colaboración en equipos pequeños.
           </p>
     </td>
   </tr>
