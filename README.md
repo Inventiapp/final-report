@@ -443,7 +443,7 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 </p>
 
 <p align="center">
-  <img src="assets/imgs/webStyleStockTrack.png" alt="Colores" width="550">
+  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 ### 4.1.2. Web Style Guidelines
@@ -472,7 +472,7 @@ COMPONENTES VISUALES:
 
 
 <p align="center">
-  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
+  <img src="assets/imgs/webStyleStockTrack.png" alt="Colores" width="550">    
 </p>
 
 ## 4.2. Information Architecture.
