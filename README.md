@@ -45,11 +45,13 @@
     </table>
 </div>
 
+<br>
+
 <p align="center">
     <strong>Septiembre, 2025</strong>
 </p>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 <div style="text-align:center;">
     <h1 align="center">Registro de versiones del Informe</h1>
@@ -70,20 +72,14 @@
     </table>
 <div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
-Link del repositorio del reporte: https://github.com/Inventiapp/workstation-markdown
+Link del repositorio del reporte: https://github.com/Inventiapp/workstation-markdown <br>
 
-## TB1
-
-<br>
+<div style="page-break-after: always;"></div>
 
 # Contenido
-[Student Outcome](#student-outcome)
-
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -151,37 +147,25 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.2.1. Sprint n](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-  
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Student Outcome
 
-<br>
-<br>
-
-# Objetivos SMART
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Presentación
 
@@ -189,10 +173,10 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/FotoChoy.jpeg" alt="FotoChoy" width="520"></img>
+      <img src="assets/imgs/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -202,11 +186,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="" alt="Foto de María Hernández" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -216,11 +200,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="" alt="Foto de Dayro Rios" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
@@ -230,11 +214,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="" alt="Foto de Fabiola Saldaña" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -244,10 +228,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     </td>
   </tr>
 </table>
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/profile-piero.png"  width="520"></img>
+      <img src="assets/imgs/profile-piero.png" alt="Foto de Piero Sulca" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
@@ -257,6 +242,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     </td>
   </tr>
 </table>
+<br>
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -268,8 +254,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ## 1.3. Segmentos objetivo
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -282,7 +267,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-*Estrategias*
+**Estrategias**
 <p align="justify">
     1. Diferenciación por simplicidad y usabilidad: La solución estará enfocada en bodegas y pequeñas empresas que requieren una interfaz intuitiva y un flujo de trabajo sencillo, reduciendo la curva de aprendizaje.
 </p>
@@ -296,7 +281,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     4. Posicionamiento digital: Focalización en marketing digital dirigido a bodegueros y pymes mediante redes sociales, asociaciones de comerciantes y programas de referidos.
 </p>
 
-*Tácticas*
+**Tácticas**
 <p align="justify">
     1. Frente a las fortalezas de competidores: Ofrecer un onboarding rápido y gratuito que simplifique la transición a nuestro sistema. Mantener integraciones básicas con e-commerce.
 </p>
@@ -309,7 +294,6 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <p align="justify">
     4. Mitigando amenazas: Diferenciarse de grandes empresas destacando el enfoque local. Crear una comunidad de usuarios locales que genere lealtad frente a la entrada de nuevos competidores. Innovar constantemente incorporando módulos escalables.
 </p>
-
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -325,8 +309,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ## 2.4. Big Picture Event Storming.
 ## 2.5. Ubiquitous Language.
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
@@ -334,8 +317,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
@@ -343,7 +325,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ### 4.1.1. General Style Guidelines
 
 
-*4.1.1.1 Branding*
+**Branding**
 
 <p align="justify">
 Para nuestro logo, hemos implementado símbolos que reflejan el propósito central de StockTrack: la gestión eficiente y confiable del inventario. El logo de StockTrack proyecta una identidad sólida y práctica, alineada con su misión de brindar una solución tecnológica sencilla pero poderosa para la gestión de inventarios.
@@ -365,7 +347,7 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
   <img src="assets/imgs/logoStockTrack.png" alt="Logo" width="550">
 </p>
 
-*4.1.1.2 Typografía*
+**Tipografía**
 
 <p align="justify">
 - Fuente principal:
@@ -392,7 +374,7 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
   <img src="assets/imgs/typografiaStockTrack.png" alt="Tipografía" width="550">
 </p>
 
-*4.1.1.3 Colores*
+**Colores**
  
 <p align="justify">
 La paleta de colores de StockTrack fue diseñada para transmitir energía, confianza y control en la gestión de inventarios.
@@ -410,7 +392,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
   <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
-*4.1.1.4 Spacing*
+**Spacing**
 
 <p align="justify">
 El espaciado juega un rol fundamental en la experiencia de usuario, asegurando legibilidad, orden y consistencia visual en todas las interfaces de StockTrack. Hemos definido un sistema de espaciado que será utilizado en la aplicación web.
@@ -424,7 +406,7 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 | **Body text (texto principal)** | Regular 400   | 16px – 18px     | 150% – 160% | Legible y cómodo para párrafos largos.                   |
 | **Botones / CTAs**              | Semi-Bold 600 | 16px            | 120%        | Uso de mayúsculas opcionales para dar fuerza visual.     |
 
-*4.1.1.5 Tono de comunicación*
+**Tono de comunicación**
 
 <p align="justify">
 - Lenguaje: Claro, cercano y profesional.    
@@ -506,8 +488,7 @@ COMPONENTES VISUALES:
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -518,43 +499,26 @@ COMPONENTES VISUALES:
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-#### 5.2.X.2. Aspect Leaders and Collaborators.
-#### 5.2.X.3. Sprint Backlog n.
-#### 5.2.X.4. Development Evidence for Sprint Review.
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
-
-## 5.4. Video About-the-Product.
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Conclusiones
-## Conclusiones y recomendaciones.
-## Video About-the-Team.
-
-# Conclusiones
-
 ## Conclusiones y recomendaciones
 
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
