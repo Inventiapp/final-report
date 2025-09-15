@@ -309,6 +309,8 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <p align="justify">
     4. Mitigando amenazas: Diferenciarse de grandes empresas destacando el enfoque local. Crear una comunidad de usuarios locales que genere lealtad frente a la entrada de nuevos competidores. Innovar constantemente incorporando módulos escalables.
 </p>
+
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
@@ -443,8 +445,27 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 ### 4.1.2. Web Style Guidelines
 
 <p align="justify">
-Figma: 
-https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH1SOxvblAFqkd-1
+DISEÑO RESPONSIVE: El diseño se adaptará automáticamente al tamaño de la pantalla.
+</p>
+<p align="justify">
+COMPONENTES VISUALES: 
+</p>
+<p align="justify">
+- Botones: Redondeados con 10px de radio. Cambian de color y tienen un efecto de sombra al usarse.
+</p>
+<p align="justify">
+- Formularios: Cajas de texto con bordes suaves y sombreados ligeros, 40px. de alto.
+</p>
+<p align="justify">
+- Links: En azul (#0000FF), subrayado. Subrayado, con color de cambio a azul oscuro  (#00008E).
+</p>
+<p align="justify">
+- Navegación: Menú superior: Con enlaces a las principales secciones.
+</p>
+
+
+<p align="center">
+  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 ## 4.2. Information Architecture.
