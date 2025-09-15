@@ -442,10 +442,17 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 - Entusiasta/Sereno: Entusiasta, motivando a los usuarios a participar en debates y predicciones.
 </p>
 
+<p align="center">
+  <img src="assets/imgs/webStyleStockTrack.png" alt="Colores" width="550">
+</p>
+
 ### 4.1.2. Web Style Guidelines
 
 <p align="justify">
-DISEÑO RESPONSIVE: El diseño se adaptará automáticamente al tamaño de la pantalla.
+DISEÑO RESPONSIVE:
+</p>
+<p align="justify">
+- El diseño se adaptará automáticamente al tamaño de la pantalla.
 </p>
 <p align="justify">
 COMPONENTES VISUALES: 
