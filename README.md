@@ -282,18 +282,189 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
+
+En esta sección se lleva a cabo la investigación y recopilación de información mediante entrevistas a los usuarios de cada segmento objetivo, con el propósito de comprenderlos de manera más profunda.
+
 ### 2.2.1. Diseño de entrevistas
+
+En esta sección se plantean preguntas principales y complementarias destinadas a entrevistas con cada uno de nuestros segmentos objetivos, con el propósito de recopilar la mayor cantidad posible de información relevante. Tras un análisis detallado, se definieron las siguientes preguntas para aplicar en las entrevistas a dichos segmentos.
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+Preguntas principales:
+
+¿Podrías describirme cómo gestionas actualmente el inventario de tu bodega?
+
+¿Cuáles consideras que son los principales desafíos al momento de organizar tus productos?
+
+¿Has enfrentado pérdidas o inconvenientes por errores en el inventario? ¿Cómo los solucionaste?
+
+¿Qué tan relevante es para ti contar con un control del stock en tiempo real?
+
+¿Empleas algún sistema o herramienta digital para la gestión? Si es así, ¿cuál utilizas y cómo ha sido tu experiencia?
+
+Preguntas complementarias:
+
+¿De qué manera detectas cuando un producto está por agotarse o próximo a vencer?
+
+¿Qué tipo de reportes o información te gustaría obtener acerca de tu inventario?
+
+¿Qué navegador y sistema operativo utilizas más? ¿Qué dispositivos utilizas con mayor frecuencia en tu trabajo (laptop, celular, tablet)?
+
+¿Cómo imaginas que una plataforma digital podría ayudarte a optimizar tu operación diaria?
+
+¿Qué redes sociales o canales digitales empleas para vender tus productos?
+
+¿Te consideras una persona introvertida o extrovertida?
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+Preguntas principales:
+
+¿Cómo gestionas actualmente el inventario de tu negocio?
+
+¿En qué situaciones sientes que el control del stock te limita o te hace perder tiempo?
+
+¿De qué forma registras las entradas y salidas de productos?
+
+¿Qué aspectos te gustaría mejorar en tu proceso logístico actual?
+
+¿Has evaluado implementar una plataforma para gestionar tu inventario? ¿Por qué tomarías o no esa decisión?
+
+Preguntas complementarias:
+
+¿Qué herramientas digitales utilizas actualmente en tu negocio?
+
+¿Dónde se encuentran almacenados tus productos?
+
+¿Con qué frecuencia necesitas revisar tu stock?
+
+¿Qué redes sociales o canales digitales empleas para vender tus productos?
+
+¿Qué navegador y sistema operativo utilizas más? ¿Qué dispositivos utilizas con mayor frecuencia en tu trabajo (laptop, celular, tablet)?
+
+¿Te consideras una persona introvertida o extrovertida?
+
+
 ### 2.2.2. Registro de entrevistas
+
+Entrevista x:
+
+[video]
+
+[XX:XX - XX:XX]
+
+Duración: 
+
+Link de la entrevista: (link acortado en algun shortener)
+
+Nombre: 
+
+Apellidos: 
+
+Edad: 
+
+Distrito:
+
+Resumen:
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
-## 2.4. Big Picture Event Storming.
-## 2.5. Ubiquitous Language.
+### 2.3.1. User Personas
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/segmento1.png" alt="User persona - segmento 1" width="700"/>
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/segmento2.png" alt="User persona - segmento 2" width="700"/>
+
+### 2.3.2. User Task Matrix
+
+**Segmento 1: Dueños de bodegas**
+
+| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|----------------|------------------|
+| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
+| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
+| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
+| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
+| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
+| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
+| Atender clientes en tienda                                          | Alta           | Alta             |
+| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
+| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
+| Resolver errores de inventario (sobrestock, productos vencidos)  | Alta           | Alta             |
+
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| **Task Matrix**                                                                | **Frecuencia** | **Importancia** |
+| ------------------------------------------------------------------------------ | -------------- | --------------- |
+| Gestionar el envío y distribución de productos                                 | Alta           | Alta            |
+| Coordinar con operadores logísticos y transportistas                           | Alta           | Alta            |
+| Monitorear tiempos de entrega y resolver incidencias                           | Alta           | Alta            |
+| Optimizar costos de transporte y almacenamiento                                | Media          | Alta            |
+| Evaluar y contratar proveedores logísticos externos                            | Media          | Alta            |
+| Implementar herramientas digitales para el control de logística                | Media          | Alta            |
+| Revisar métricas de satisfacción del cliente respecto a entregas               | Media          | Alta            |
+| Escalar la capacidad de operaciones en función de la demanda                   | Media          | Alta            |
+
+### 2.3.3. User Journey Mapping
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/journeymap1.png" alt="Journey map - segmento 1" width="700"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/journeymap2.png" alt="Journey map - segmento 2" width="700"/>
+
+
+### 2.3.4. Empathy Mapping
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/empathymap1.png" alt="Empathy map - segmento 1" width="700"/>
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/empathymap2.png" alt="Empathy map - segmento 2" width="700"/>
+
+## 2.4. Big Picture Event Storming
+
+## 2.5. Ubiquitous Language
+El siguiente glosario presenta los términos clave utilizados en el desarrollo del proyecto StockTrack. Este lenguaje común asegura que todos los miembros del equipo (técnicos y no técnicos) compartan una comprensión unificada de los conceptos centrales, facilitando la comunicación y el diseño colaborativo del sistema.
+
+1. **Landing Page**: Página inicial de StockTrack que presenta la propuesta de valor y permite a los usuarios registrarse o iniciar sesión.
+
+2. **Inventario**: Conjunto organizado de productos gestionados dentro de la plataforma, que incluye información como cantidades disponibles, ubicación en la bodega, lotes y fechas de vencimiento.
+
+3. **Producto**: Unidad básica registrada en el sistema. Cada producto posee atributos como nombre, descripción, categoría, unidades de medida, stock mínimo y fecha de vencimiento.
+
+4. **Stock**: Cantidad disponible de un producto específico dentro del inventario.
+
+5. **Stock mínimo**: Nivel definido por el usuario que representa la cantidad mínima aceptable de un producto antes de requerir reposición.
+
+6. **Stock bajo**: Estado de un producto cuyo nivel de stock ha alcanzado o está por debajo del stock mínimo definido.
+
+7. **Panel de Control**: Interfaz principal de la plataforma que centraliza la visualización de métricas clave (inventario disponible, alertas de stock bajo, movimientos recientes y reportes).
+
+8. **Movimiento de Inventario**: Registro de cualquier variación en las existencias de productos, incluyendo entradas (compras o reposiciones), salidas (ventas, pérdidas o devoluciones) y ajustes manuales.
+
+9. **Reporte**: Representación visual o estadística generada por el sistema que resume información relevante del inventario (rotación de productos, quiebres de stock, productos próximos a vencer, etc.).
+
+10. **Bodega**: Pequeño negocio de venta de productos de consumo diario, principalmente alimentos, bebidas y artículos de primera necesidad.
+
+11. **Dueña/o de bodega**: Usuario que gestiona directamente la operación de su bodega y utiliza StockTrack para optimizar el control de inventario, evitar pérdidas y mejorar la eficiencia.
+
+12. **Emprendedor/a**: Usuario en etapa de crecimiento que gestiona uno o más puntos de venta y requiere profesionalizar su gestión logística con herramientas digitales.
+
+13. **Proveedor**: Persona o empresa que abastece a las bodegas o emprendedores con productos que serán registrados y gestionados en StockTrack.
+
+14. **Pedido**: Solicitud de reposición o compra de productos hecha a un proveedor, ya sea de forma manual o asistida por las recomendaciones del sistema.
+
+15. **Alerta**: Notificación generada automáticamente por el sistema cuando ocurre un evento relevante (stock bajo, productos próximos a vencer, quiebre de stock, etc.).
+
+
 
 <br>
 <br>
