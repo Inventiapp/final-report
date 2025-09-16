@@ -113,8 +113,8 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
@@ -430,6 +430,15 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 <img src="assets/Chapter-II/empathymap2.png" alt="Empathy map - segmento 2" width="700"/>
 
 ## 2.4. Big Picture Event Storming
+
+<img src="assets/Chapter-II/event-storming1.png" alt="Big Picture Event Storming" width="700"/>
+
+<img src="assets/Chapter-II/event-storming2.png" alt="Big Picture Event Storming" width="700"/>
+<img src="assets/Chapter-II/event-storming3.png" alt="Big Picture Event Storming" width="700"/>
+<img src="assets/Chapter-II/event-storming4.png" alt="Big Picture Event Storming" width="700"/>
+
+
+
 
 ## 2.5. Ubiquitous Language
 El siguiente glosario presenta los términos clave utilizados en el desarrollo del proyecto StockTrack. Este lenguaje común asegura que todos los miembros del equipo (técnicos y no técnicos) compartan una comprensión unificada de los conceptos centrales, facilitando la comunicación y el diseño colaborativo del sistema.
