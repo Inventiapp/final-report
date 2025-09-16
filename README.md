@@ -202,7 +202,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
           <p align="justify">
-            ...
+            Soy una estudiante responsable con el trabajo. Respeto y escucho la opinión de los demás ayudando al trabajo en equipo. Me comprometo a contribuir al equipo siendo puntual en las reuniones y responsable en las entregas.
           </p>
     </td>
   </tr>
@@ -211,7 +211,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/Chapter-I/maria-hernandez.jpeg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -239,7 +239,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/Chapter-I/fabiola.jpeg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -431,6 +431,15 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 ## 2.4. Big Picture Event Storming
 
+<img src="assets/Chapter-II/event-storming1.png" alt="Big Picture Event Storming" width="700"/>
+
+<img src="assets/Chapter-II/event-storming2.png" alt="Big Picture Event Storming" width="700"/>
+<img src="assets/Chapter-II/event-storming3.png" alt="Big Picture Event Storming" width="700"/>
+<img src="assets/Chapter-II/event-storming4.png" alt="Big Picture Event Storming" width="700"/>
+
+
+
+
 ## 2.5. Ubiquitous Language
 El siguiente glosario presenta los términos clave utilizados en el desarrollo del proyecto StockTrack. Este lenguaje común asegura que todos los miembros del equipo (técnicos y no técnicos) compartan una comprensión unificada de los conceptos centrales, facilitando la comunicación y el diseño colaborativo del sistema.
 
@@ -483,7 +492,6 @@ El siguiente glosario presenta los términos clave utilizados en el desarrollo d
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
 ### 4.1.2. Web Style Guidelines.
-
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
