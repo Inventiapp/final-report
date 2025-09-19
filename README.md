@@ -537,6 +537,62 @@ Estructura de las ramas:
 
 **Convenciones de commits:** Para los mensajes de commits se empleará la especificación **Conventional Commits**, basada en las **Angular Commit Guidelines**, siguiendo una estructura estandarizada para mantener claridad y coherencia en el historial de cambios.
 
+
+Versionado Semántico (Semantic Versioning)
+
+El proyecto sigue el estándar Semantic Versioning 2.0.0, lo que permite asignar versiones de forma clara y predecible utilizando el esquema X.Y.Z, donde:
+
+`Z`(Patch): se incrementa cuando se aplican correcciones menores que no afectan la compatibilidad.
+
+`Y` (Minor): se incrementa al incorporar nuevas funcionalidades que mantienen la compatibilidad con versiones anteriores.
+
+`X` (Major): se incrementa cuando se introducen cambios que rompen la compatibilidad con versiones anteriores.
+
+Ejemplos de nombres de ramas de lanzamiento:
+
+`release-1.0.5`
+
+`release-2.1.4`
+
+`release-2.2.1`
+
+Commits Convencionales (Conventional Commits)
+
+Para mantener un historial de cambios claro y coherente, se utiliza el estándar Conventional Commits, que define la siguiente estructura para los mensajes de commit:
+
+``` <type>[opcional scope]: <descripción> ```
+
+```[optional body]```
+
+```[optional footer]```
+
+
+Tipos de commit:
+
+`feat`: Nueva funcionalidad
+
+`fix`: Corrección de errores
+
+`docs`: Cambios en la documentación
+
+`refactor`: Reestructuración de código sin modificar su comportamiento
+
+`perf`: Mejoras de rendimiento
+
+`chore`: Tareas menores sin impacto funcional
+
+`build`: Cambios relacionados con dependencias o configuración
+
+Otros elementos:
+
+scope (opcional): Identifica el módulo o componente modificado
+
+description (obligatoria): Breve explicación en minúsculas y en modo imperativo
+
+body (opcional): Detalles adicionales del cambio
+
+footer (opcional): Información adicional, como advertencias de cambios incompatibles
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 Esta sección detalla la manera en que se gestionaron los cambios realizados al código del sistema StockTrack, así como las convenciones utilizadas para los commits y el control de versiones durante todo el ciclo de desarrollo.
