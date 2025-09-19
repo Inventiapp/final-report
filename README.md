@@ -484,21 +484,76 @@ https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
+
+Seguidamente, se mostrará un repositorio centralizado y estructurado que funcionará como referencia para un desarrollo enfocado y coherente de nuestra solución. Además se incluyen otras secciones para Source Code Management, Development Environment Configuration y Deployment Configuration.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo.
+
+#### Diseño UX/UI del producto:
+
+- UXPressia: Plataforma colaborativa que nos permitirá crear user personas e integrados con los múltiples mapas para evaluar sus prioridades.
+
+- Figma: Herramienta colaborativa que nos permitirá desarrollar wireframes y mockups.
+
+- Miro: Es una plataforma en línea que facilita la colaboración en tiempo real mediante pizarras digitales. Proporciona herramientas para crear diagramas, mapas mentales, flujos de trabajo y otros tipos de representaciones visuales.
+
+- LucidChart: Aplicación web destinada a la elaboración de Wireflows, Users Flows y diagramas de clases.
+
+#### Desarrollo del software:
+
+Github: Plataforma colaborativa que nos permitirá gestionar el código fuente de los productos de software.
+
+WebStorm: Entorno de desarrollo integrado (IDE) que nos permitirá desarrollar el frontend de la solución.
+
+Visual Studio Code: Entorno de desarrollo integrado (IDE) que nos permitirá desarrollar la landing page.
+
 ### 5.1.2. Source Code Management.
+
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como Workflow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page, Web Services y Frontend Web Applications.
+
+Repositorio del Landing Page: 
+
+Repositorio del Backend: 
+
+Repositorio del Frontend: 
+
+### Plataforma de Control de Versiones
+
+Se utilizó GitHub como plataforma de control de versiones, aprovechando sus características para la colaboración en equipo y la gestión eficiente del código fuente.
+
+### Gitflow
+
+Estructura de las ramas:
+
+1. **Rama principal (Master branch):** Esta rama funcionará como la base principal de la aplicación y contendrá únicamente versiones estables y definitivas del proyecto. Solo se integrarán en ella cambios que hayan sido previamente probados y validados en otras ramas.
+
+2. **Rama de desarrollo (Develop branch):** Esta rama se destina al trabajo colaborativo del equipo, centralizando los avances y manteniendo los archivos principales para el desarrollo continuo del proyecto.
+
+3. **Ramas de funcionalidad (Feature branches):** Cada nueva funcionalidad se desarrollará en su propia rama, independiente del flujo principal de desarrollo. Una vez completada y validada, se integrará en la rama de desarrollo. Las ramas de funcionalidad deberán nombrarse siguiendo un formato descriptivo y único, como por ejemplo: `feature/nombre-de-la-funcionalidad`.
+
+4. **Ramas de lanzamiento (Release branches):** Estas ramas se crearán a partir de la rama de desarrollo cuando se tenga una versión cercana a ser liberada en la rama principal. El nombre de estas ramas seguirá el esquema de **Versionado Semántico (Semantic Versioning 2.0.0)** para identificar las versiones de lanzamiento.
+
+**Convenciones de commits:** Para los mensajes de commits se empleará la especificación **Conventional Commits**, basada en las **Angular Commit Guidelines**, siguiendo una estructura estandarizada para mantener claridad y coherencia en el historial de cambios.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+Esta sección detalla la manera en que se gestionaron los cambios realizados al código del sistema StockTrack, así como las convenciones utilizadas para los commits y el control de versiones durante todo el ciclo de desarrollo.
+
+
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-#### 5.2.X.2. Aspect Leaders and Collaborators.
-#### 5.2.X.3. Sprint Backlog n.
-#### 5.2.X.4. Development Evidence for Sprint Review.
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
