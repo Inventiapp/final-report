@@ -113,6 +113,9 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
   - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
+    - [User Stories](#user-stories)
+    - [Epics](#epics)
+    - [Technical stories](#technical-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
@@ -454,6 +457,289 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+
+
+### User Stories<!-- User Stories – Salida de producto / Venta (inventario + ganancia) -->
+<!-- User Stories – Salida de productos (inventario + ganancia, con kits) -->
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Iniciar borrador de salida</td>
+      <td>Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.</td>
+      <td>
+        <strong>Escenario 01: Borrador creado</strong><br>
+        <strong>Dado</strong> que el usuario está en “Nueva venta”,<br>
+        <strong>Cuando</strong> selecciona “Iniciar borrador”,<br>
+        <strong>Entonces</strong> el sistema crea un borrador con ID único, estado <em>Draft</em> y fecha de inicio.<br><br>
+        <strong>Escenario 02: Reanudación</strong><br>
+        <strong>Dado</strong> un borrador en estado <em>Draft</em>,<br>
+        <strong>Cuando</strong> el usuario lo reanuda,<br>
+        <strong>Entonces</strong> el sistema muestra ítems, cantidades y totales parciales guardados.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Gestionar ítems del borrador</td>
+      <td>Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.</td>
+      <td>
+        <strong>Escenario 01: Agregar ítem</strong><br>
+        <strong>Dado</strong> un borrador activo,<br>
+        <strong>Cuando</strong> agrego un producto con cantidad &gt; 0,<br>
+        <strong>Entonces</strong> el ítem se añade/actualiza (agrupado por producto/lote) y se recalculan subtotales.<br><br>
+        <strong>Escenario 02: Editar cantidad</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> cambio la cantidad a un valor válido (&gt; 0),<br>
+        <strong>Entonces</strong> el sistema actualiza el ítem y muestra el nuevo subtotal.<br><br>
+        <strong>Escenario 03: Retirar ítem</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> lo retiro,<br>
+        <strong>Entonces</strong> el ítem desaparece del borrador y se recalculan totales.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Calcular total y utilidad de la salida</td>
+      <td>Como dueño, quiero que el sistema calcule en tiempo real el total y la utilidad por ítem/kit y global, usando el costo vigente.</td>
+      <td>
+        <strong>Escenario 01: Utilidad por ítem</strong><br>
+        <strong>Dado</strong> un ítem con precio y costo vigente,<br>
+        <strong>Cuando</strong> se recalcula el total,<br>
+        <strong>Entonces</strong> se registra <em>utilidad_item = (precio - costo) × cantidad</em> y margen %.<br><br>
+        <strong>Escenario 02: Utilidad de la salida</strong><br>
+        <strong>Dado</strong> varios ítems (y/o kits),<br>
+        <strong>Cuando</strong> se recalcula el total,<br>
+        <strong>Entonces</strong> el sistema calcula <em>utilidad_total = Σ utilidad_item</em> y la muestra en el encabezado.<br><br>
+        <strong>Escenario 03: Política de costo</strong><br>
+        <strong>Dado</strong> una política de costo (p. ej., promedio ponderado o por lote),<br>
+        <strong>Cuando</strong> se obtiene el costo,<br>
+        <strong>Entonces</strong> el cálculo usa la política activa y deja traza de cuál costo se aplicó.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Confirmar salida y descontar inventario</td>
+      <td>Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.</td>
+      <td>
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+        <strong>Dado</strong> un borrador válido,<br>
+        <strong>Cuando</strong> confirmo la salida,<br>
+        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
+        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
+        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
+        <strong>Escenario 03: Disparo de alertas</strong><br>
+        <strong>Dado</strong> que se confirma la salida,<br>
+        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
+        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+      </td>
+      <td>EP-04</td>
+    </tr>
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US05</td>
+      <td>Reporte de stock a fecha (valorizado)</td>
+      <td>
+        Como gerente, quiero emitir un reporte de stock a una fecha de corte, con cantidades on-hand, costo vigente y valorizado por producto/lote.
+      </td>
+      <td>
+        <strong>Escenario 01: Corte por fecha</strong><br>
+        <strong>Dado</strong> una fecha de corte seleccionada,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> se muestran columnas: producto, lote (si aplica), UM, on_hand, costo_vigente, <em>valorizado = on_hand × costo_vigente</em>.<br><br>
+        <strong>Escenario 02: Filtros</strong><br>
+        <strong>Dado</strong> filtros por categoría, producto y con/sin lotes,<br>
+        <strong>Cuando</strong> aplico los filtros,<br>
+        <strong>Entonces</strong> el reporte refleja solo los ítems coincidentes.<br><br>
+        <strong>Escenario 03: Export</strong><br>
+        <strong>Dado</strong> un reporte en pantalla,<br>
+        <strong>Cuando</strong> elijo “Exportar”,<br>
+        <strong>Entonces</strong> puedo descargar CSV y PDF con el mismo contenido y metadatos (fecha de corte, filtros).
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Reporte de rotación y ventas (utilidad)</td>
+      <td>
+        Como gerente, quiero un reporte por periodo con unidades vendidas, ingreso, costo y utilidad por producto/categoría, para identificar top/slow movers.
+      </td>
+      <td>
+        <strong>Escenario 01: Cálculo por periodo</strong><br>
+        <strong>Dado</strong> un rango de fechas,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> se calculan por producto: unidades_vendidas, <em>ingreso = Σ (precio × cantidad)</em>, <em>costo = Σ (costo_aplicado × cantidad)</em>, <em>utilidad = ingreso − costo</em>, margen% = utilidad/ingreso.<br><br>
+        <strong>Escenario 02: Orden y agrupación</strong><br>
+        <strong>Dado</strong> opciones de ordenar por unidades/ingreso/utilidad,<br>
+        <strong>Cuando</strong> selecciono el criterio,<br>
+        <strong>Entonces</strong> el listado se ordena y permite agrupar por categoría.<br><br>
+        <strong>Escenario 03: Kits</strong><br>
+        <strong>Dado</strong> ventas con kits,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> puedo ver el kit como línea y (opcional) desglosar a componentes; la utilidad considera la suma de costos de componentes.<br><br>
+        <strong>Escenario 04: Export</strong><br>
+        <strong>Dado</strong> el reporte en pantalla,<br>
+        <strong>Cuando</strong> exporto,<br>
+        <strong>Entonces</strong> obtengo CSV/PDF con encabezado de parámetros (rango, agrupación).
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Reporte de mermas y ajustes</td>
+      <td>
+        Como dueño, quiero un reporte de ajustes (±) y mermas por periodo, con motivo, usuario y valorizado, para auditar pérdidas.
+      </td>
+      <td>
+        <strong>Escenario 01: Detalle de movimientos</strong><br>
+        <strong>Dado</strong> un rango de fechas,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> se listan: fecha, producto/lote, cantidad (±), motivo, usuario, <em>valor = |cantidad| × costo_aplicado</em>.<br><br>
+        <strong>Escenario 02: Totales</strong><br>
+        <strong>Dado</strong> el reporte en pantalla,<br>
+        <strong>Cuando</strong> visualizo el resumen,<br>
+        <strong>Entonces</strong> veo totales por motivo (merma, corrección, conteo) y total general valorizado.<br><br>
+        <strong>Escenario 03: Evidencia</strong><br>
+        <strong>Dado</strong> ajustes con evidencia (nota/foto),<br>
+        <strong>Cuando</strong> consulto el detalle,<br>
+        <strong>Entonces</strong> puedo abrir el enlace/adjunto de la evidencia.<br><br>
+        <strong>Escenario 04: Export</strong><br>
+        <strong>Dado</strong> el reporte,<br>
+        <strong>Cuando</strong> exporto,<br>
+        <strong>Entonces</strong> descargo CSV/PDF con detalle y totales.
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Reporte de bajo stock y próximos a vencer</td>
+      <td>
+        Como jefe de compras, quiero un listado de productos bajo umbral y lotes próximos a vencer, con días de cobertura y acciones sugeridas.
+      </td>
+      <td>
+        <strong>Escenario 01: Bajo stock</strong><br>
+        <strong>Dado</strong> los umbrales por producto,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> se listan productos con on_hand &lt; umbral y se calcula <em>días_cobertura = on_hand / consumo_promedio_diario</em> (si hay historial).<br><br>
+        <strong>Escenario 02: Próximos a vencer</strong><br>
+        <strong>Dado</strong> una ventana de X días,<br>
+        <strong>Cuando</strong> genero el reporte,<br>
+        <strong>Entonces</strong> se listan lotes con vencimiento dentro de la ventana con cantidad y fecha.<br><br>
+        <strong>Escenario 03: Acciones</strong><br>
+        <strong>Dado</strong> el reporte en pantalla,<br>
+        <strong>Cuando</strong> selecciono un ítem,<br>
+        <strong>Entonces</strong> puedo abrir atajos a “Registrar ingreso”, “Iniciar salida” o “Ajuste/merma” (según corresponda).<br><br>
+        <strong>Escenario 04: Export</strong><br>
+        <strong>Dado</strong> el reporte,<br>
+        <strong>Cuando</strong> exporto,<br>
+        <strong>Entonces</strong> descargo CSV/PDF (y opcional envío a Google Sheets).
+      </td>
+      <td>EP-07</td>
+    </tr>
+  </tbody>
+</table>
+
+  </tbody>
+</table>
+
+
+<br>
+
+### Epics
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:10%;">Epic ID</th>
+      <th style="width:20%;">Título</th>
+      <th style="width:55%;">Descripción</th>
+      <th style="width:15%;">HUs asociadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP-01</td>
+      <td>Catálogo de Productos</td>
+      <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-02</td>
+      <td>Lotes y Vencimientos</td>
+      <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-03</td>
+      <td>Ingresos de Inventario</td>
+      <td>Como encargado, quiero registrar stock inicial, ingresos manuales y ajustes con motivo y evidencia, para mantener saldos correctos y un ledger auditable de movimientos.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-04</td>
+      <td>Salida de productos</td>
+      <td>Como cajero, quiero armar un borrador de salida, confirmar la venta y descontar inventario calculando total y utilidad, para controlar existencias y medir la ganancia por venta.</td>
+      <td>US01, US02, US03, US04, US05, US06</td>
+    </tr>
+    <tr>
+      <td>EP-05</td>
+      <td>Kits</td>
+      <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-06</td>
+      <td>Alertas y Notificaciones</td>
+      <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-07</td>
+      <td>Reportes Operativos</td>
+      <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
+      <td>US07, US08, US09, US10, US11</td>
+    </tr>
+    <tr>
+      <td>EP-08</td>
+      <td>Usuarios, Roles y Permisos</td>
+      <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>EP-09</td>
+      <td>Landing</td>
+      <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Technical stories
+
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 
