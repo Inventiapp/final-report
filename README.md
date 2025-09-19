@@ -459,7 +459,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ## 3.1. User Stories
 
 
-### User Stories<!-- User Stories – Salida de producto / Venta (inventario + ganancia) -->
+### User Stories
+<!-- User Stories – Salida de producto / Venta (inventario + ganancia) -->
 <!-- User Stories – Salida de productos (inventario + ganancia, con kits) -->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
   <thead>
@@ -666,7 +667,160 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 </table>
 
 
+
+
+
+<!-- Landing -->
+
+
+
+
+
+<!-- Catálogo de Productos -->
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+    
+  <tbody>
+    <tr>
+      <td>US12</td>
+      <td>Crear producto en catálogo</td>
+      <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
+      <td>
+        <strong>Escenario 01: Borrador creado</strong><br>
+        <strong>Dado</strong> que el usuario está en “Nueva venta”,<br>
+        <strong>Cuando</strong> selecciona “Iniciar borrador”,<br>
+        <strong>Entonces</strong> el sistema crea un borrador con ID único, estado <em>Draft</em> y fecha de inicio.<br><br>
+        <strong>Escenario 02: Reanudación</strong><br>
+        <strong>Dado</strong> un borrador en estado <em>Draft</em>,<br>
+        <strong>Cuando</strong> el usuario lo reanuda,<br>
+        <strong>Entonces</strong> el sistema muestra ítems, cantidades y totales parciales guardados.
+      </td>
+      <td>EP-04</td>
+    </tr>
+      
+    <tr>
+      <td>US13</td>
+      <td>Edición de producto</td>
+      <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
+      <td>
+        <strong>Escenario 01: Agregar ítem</strong><br>
+        <strong>Dado</strong> un borrador activo,<br>
+        <strong>Cuando</strong> agrego un producto con cantidad &gt; 0,<br>
+        <strong>Entonces</strong> el ítem se añade/actualiza (agrupado por producto/lote) y se recalculan subtotales.<br><br>
+        <strong>Escenario 02: Editar cantidad</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> cambio la cantidad a un valor válido (&gt; 0),<br>
+        <strong>Entonces</strong> el sistema actualiza el ítem y muestra el nuevo subtotal.<br><br>
+        <strong>Escenario 03: Retirar ítem</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> lo retiro,<br>
+        <strong>Entonces</strong> el ítem desaparece del borrador y se recalculan totales.
+      </td>
+      <td>EP-12</td>
+    </tr>
+      
+    <tr>
+      <td>US14</td>
+      <td>Eliminación e inhabilitacion de productos</td>
+      <td>Como jefe de compras quiero poder desactivar o eliminar un producto en lugar de borrarlo físicamente para mantener la trazabilidad del histórico</td>
+      <td>
+        <strong>Escenario 01: Utilidad por ítem</strong><br>
+        <strong>Dado</strong> un ítem con precio y costo vigente,<br>
+        <strong>Cuando</strong> se recalcula el total,<br>
+        <strong>Entonces</strong> se registra <em>utilidad_item = (precio - costo) × cantidad</em> y margen %.<br><br>
+        <strong>Escenario 02: Utilidad de la salida</strong><br>
+        <strong>Dado</strong> varios ítems (y/o kits),<br>
+        <strong>Cuando</strong> se recalcula el total,<br>
+        <strong>Entonces</strong> el sistema calcula <em>utilidad_total = Σ utilidad_item</em> y la muestra en el encabezado.<br><br>
+        <strong>Escenario 03: Política de costo</strong><br>
+        <strong>Dado</strong> una política de costo (p. ej., promedio ponderado o por lote),<br>
+        <strong>Cuando</strong> se obtiene el costo,<br>
+        <strong>Entonces</strong> el cálculo usa la política activa y deja traza de cuál costo se aplicó.
+      </td>
+      <td>EP-04</td>
+    </tr>
+      
+    <tr>
+      <td>US15</td>
+      <td>Clasificación de productos por categoría</td>
+      <td>Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.</td>
+      <td>
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+        <strong>Dado</strong> un borrador válido,<br>
+        <strong>Cuando</strong> confirmo la salida,<br>
+        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
+        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
+        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
+        <strong>Escenario 03: Disparo de alertas</strong><br>
+        <strong>Dado</strong> que se confirma la salida,<br>
+        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
+        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+      </td>
+      <td>EP-04</td>
+    </tr>
+      
+    <tr>
+      <td>US16</td>
+      <td>Búsqueda y filtrado de productos</td>
+      <td>Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.</td>
+      <td>
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+        <strong>Dado</strong> un borrador válido,<br>
+        <strong>Cuando</strong> confirmo la salida,<br>
+        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
+        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
+        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
+        <strong>Escenario 03: Disparo de alertas</strong><br>
+        <strong>Dado</strong> que se confirma la salida,<br>
+        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
+        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+      </td>
+      <td>EP-04</td>
+    </tr>
+      
+    <tr>
+      <td>US17</td>
+      <td>Historial de cambios de producto</td>
+      <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
+      <td>
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+        <strong>Dado</strong> un borrador válido,<br>
+        <strong>Cuando</strong> confirmo la salida,<br>
+        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
+        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
+        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
+        <strong>Escenario 03: Disparo de alertas</strong><br>
+        <strong>Dado</strong> que se confirma la salida,<br>
+        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
+        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+      </td>
+      <td>EP-04</td>
+    </tr>
+      
 <br>
+
+
+
+
+
+
+
+
+
 
 ### Epics
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
@@ -683,7 +837,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
       <td>Catálogo de Productos</td>
       <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-      <td>—</td>
+      <td>US018, US19, US20, US21, US22, US23</td>
     </tr>
     <tr>
       <td>EP-02</td>
@@ -731,7 +885,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
       <td>Landing</td>
       <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
-      <td>—</td>
+      <td>US012, US13, US14, US15, US16, US17</td>
     </tr>
   </tbody>
 </table>
