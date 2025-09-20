@@ -541,6 +541,51 @@ Este sistema de etiquetado unificado asegura que la experiencia del usuario en S
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+En esta sección se definen los principales meta tags y etiquetas SEO que se implementarán en las páginas clave de la solución StockTrack. El objetivo es optimizar la visibilidad de nuestra plataforma en los motores de búsqueda (como Google) para atraer a nuestros segmentos objetivo, y asegurar que el contenido se presente de manera clara y relevante en los resultados de búsqueda.
+
+A continuación, se especifican los valores para las etiquetas `Title`, `Description`, `Keywords` y `Author` para la Landing Page (sitio web estático) y la página principal de la Web Application (Dashboard).
+
+**1. Landing Page (Sitio Web Estático)**
+
+Esta es la página principal de cara al público, diseñada para atraer y convertir a nuevos usuarios. Las etiquetas están optimizadas con palabras clave relevantes para dueños de bodegas y emprendedores que buscan una solución de inventario.
+
+* **Title Tag:**
+    * `<title>StockTrack | Software de Inventario para Bodegas y Emprendedores</title>`
+    * **Justificación:** Incluye el nombre de la marca ("StockTrack") y las palabras clave principales ("Software de Inventario", "Bodegas", "Pymes") para un posicionamiento claro y directo. Es conciso y descriptivo.
+
+* **Meta Tag Description:**
+    * `<meta name="description" content="Gestiona tu inventario sin errores ni pérdidas. StockTrack es el software fácil de usar para bodegas y emprendedores. Controla tu stock en tiempo real, recibe alertas y toma mejores decisiones. ¡Prueba gratis!">`
+    * **Justificación:** Es un resumen persuasivo de la propuesta de valor. Incluye un llamado a la acción ("¡Prueba gratis!") y palabras clave relevantes para atraer clics desde los resultados de búsqueda.
+
+* **Meta Tag Keywords:**
+    * `<meta name="keywords" content="software de inventario, control de stock, gestión de inventario para pymes, inventario para bodegas, sistema de inventario, control de vencimientos, app para inventario, perú">`
+    * **Justificación:** Contiene una lista de términos de búsqueda relevantes que nuestros segmentos objetivo (Carla y Andrés) podrían utilizar para encontrar una solución como StockTrack. Incluye términos de cola larga y geolocalización ("perú").
+
+* **Meta Tag Author:**
+    * `<meta name="author" content="Inventiapp">`
+    * **Justificación:** Identifica a los creadores del contenido de la página.
+
+**2. Web Application (Dashboard Principal)**
+
+Esta es la página que ven los usuarios después de iniciar sesión. Aunque su indexación por parte de buscadores públicos no es una prioridad, es una buena práctica definir sus etiquetas para la claridad en el navegador y la gestión de marcadores.
+
+* **Title Tag:**
+    * `<title>Dashboard | StockTrack</title>`
+    * **Justificación:** Ofrece una identificación clara de la página actual ("Dashboard") dentro de la aplicación ("StockTrack") en la pestaña del navegador, mejorando la usabilidad para el usuario.
+
+* **Meta Tag Description:**
+    * `<meta name="description" content="Panel de control de tu inventario. Visualiza tus alertas, niveles de stock y reportes clave en un solo lugar.">`
+    * **Justificación:** Describe de manera concisa el propósito de la página para el usuario, aunque no esté destinada a SEO público.
+
+* **Meta Tag Keywords:**
+    * `<meta name="keywords" content="dashboard, inventario, control de stock, reportes, alertas">`
+    * **Justificación:** Términos relevantes que describen el contenido de la página, principalmente para propósitos internos.
+
+* **Meta Tag Author:**
+    * `<meta name="author" content="Inventiapp">`
+    * **Justificación:** Mantiene la consistencia en la autoría del contenido.
+
+## 4.2.4 Searching Systems
 
 
 
