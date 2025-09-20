@@ -666,16 +666,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
-
-
-
-
-<!-- Landing -->
-
-
-
-
-
 <!-- Catálogo de Productos -->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
   <thead>
@@ -694,16 +684,16 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>Crear producto en catálogo</td>
       <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
       <td>
-        <strong>Escenario 01: Borrador creado</strong><br>
-        <strong>Dado</strong> que el usuario está en “Nueva venta”,<br>
-        <strong>Cuando</strong> selecciona “Iniciar borrador”,<br>
-        <strong>Entonces</strong> el sistema crea un borrador con ID único, estado <em>Draft</em> y fecha de inicio.<br><br>
-        <strong>Escenario 02: Reanudación</strong><br>
-        <strong>Dado</strong> un borrador en estado <em>Draft</em>,<br>
-        <strong>Cuando</strong> el usuario lo reanuda,<br>
-        <strong>Entonces</strong> el sistema muestra ítems, cantidades y totales parciales guardados.
+        <strong>Escenario 01: Registro exitoso</strong><br>
+        <strong>Dado</strong> que ingreso un producto con todos los campos obligatorios,<br>
+        <strong>Cuando</strong> confirmo el registro,<br>
+        <strong>Entonces</strong> el sistema guarda el producto y lo hace disponible en el catálogo.<br><br>
+        <strong>Escenario 02: Producto duplicado</strong><br>
+        <strong>Dado</strong>que ya existe un producto con el mismo nombre y categoría, <em>Draft</em>,<br>
+        <strong>Cuando</strong> intento registrarlo,<br>
+        <strong>Entonces</strong> el sistema bloquea el registro y muestra un mensaje de duplicado.
       </td>
-      <td>EP-04</td>
+      <td>EP-01</td>
     </tr>
       
     <tr>
@@ -711,83 +701,66 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>Edición de producto</td>
       <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
       <td>
-        <strong>Escenario 01: Agregar ítem</strong><br>
-        <strong>Dado</strong> un borrador activo,<br>
-        <strong>Cuando</strong> agrego un producto con cantidad &gt; 0,<br>
-        <strong>Entonces</strong> el ítem se añade/actualiza (agrupado por producto/lote) y se recalculan subtotales.<br><br>
-        <strong>Escenario 02: Editar cantidad</strong><br>
-        <strong>Dado</strong> un ítem en el borrador,<br>
-        <strong>Cuando</strong> cambio la cantidad a un valor válido (&gt; 0),<br>
-        <strong>Entonces</strong> el sistema actualiza el ítem y muestra el nuevo subtotal.<br><br>
-        <strong>Escenario 03: Retirar ítem</strong><br>
-        <strong>Dado</strong> un ítem en el borrador,<br>
-        <strong>Cuando</strong> lo retiro,<br>
-        <strong>Entonces</strong> el ítem desaparece del borrador y se recalculan totales.
+        <strong>Escenario 01: Edición exitosa</strong><br>
+        <strong>Dado</strong> que selecciono un producto existente,<br>
+        <strong>Cuando</strong> edito sus datos válidos,<br>
+        <strong>Entonces</strong> el sistema actualiza la información inmediatamente.<br><br>
+        <strong>Escenario 02: Campo bloqueado</strong><br>
+        <strong>Dado</strong> que intento modificar el identificador único,<br>
+        <strong>Cuando</strong> guardo los cambios,<br>
+        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.<br><br>
       </td>
-      <td>EP-12</td>
+      <td>EP-01</td>
     </tr>
       
     <tr>
       <td>US14</td>
       <td>Eliminación e inhabilitacion de productos</td>
-      <td>Como jefe de compras quiero poder desactivar o eliminar un producto en lugar de borrarlo físicamente para mantener la trazabilidad del histórico</td>
+      <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
       <td>
-        <strong>Escenario 01: Utilidad por ítem</strong><br>
-        <strong>Dado</strong> un ítem con precio y costo vigente,<br>
-        <strong>Cuando</strong> se recalcula el total,<br>
-        <strong>Entonces</strong> se registra <em>utilidad_item = (precio - costo) × cantidad</em> y margen %.<br><br>
-        <strong>Escenario 02: Utilidad de la salida</strong><br>
-        <strong>Dado</strong> varios ítems (y/o kits),<br>
-        <strong>Cuando</strong> se recalcula el total,<br>
-        <strong>Entonces</strong> el sistema calcula <em>utilidad_total = Σ utilidad_item</em> y la muestra en el encabezado.<br><br>
-        <strong>Escenario 03: Política de costo</strong><br>
-        <strong>Dado</strong> una política de costo (p. ej., promedio ponderado o por lote),<br>
-        <strong>Cuando</strong> se obtiene el costo,<br>
-        <strong>Entonces</strong> el cálculo usa la política activa y deja traza de cuál costo se aplicó.
-      </td>
-      <td>EP-04</td>
+        <strong>Escenario 01: Desactivación exitosa</strong><br>
+        <strong>Dado</strong> que selecciono un producto activo,<br>
+        <strong>Cuando</strong> ejecuto la acción de desactivar,<br>
+        <strong>Entonces</strong> el sistema cambia el estado a inactivo y lo oculta de búsquedas activas.<br><br>
+        <strong>Escenario 02: Consulta histórica</strong><br>
+        <strong>Dado</strong> que un producto está inactivo,<br>
+        <strong>Cuando</strong> consulto un historial o reporte,<br>
+        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
+      <td>EP-01</td>
     </tr>
       
     <tr>
       <td>US15</td>
       <td>Clasificación de productos por categoría</td>
-      <td>Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.</td>
+      <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
       <td>
-        <strong>Escenario 01: Confirmación exitosa</strong><br>
-        <strong>Dado</strong> un borrador válido,<br>
-        <strong>Cuando</strong> confirmo la salida,<br>
-        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
-        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
-        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
-        <strong>Cuando</strong> intento confirmar,<br>
-        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
-        <strong>Escenario 03: Disparo de alertas</strong><br>
-        <strong>Dado</strong> que se confirma la salida,<br>
-        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
-        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+        <strong>Escenario 01: Clasificación válida</strong><br>
+        <strong>Dado</strong> que existe un catálogo de categorías,<br>
+        <strong>Cuando</strong> asigno una categoría a un producto,<br>
+        <strong>Entonces</strong> el producto queda organizado bajo esa categoría.<br><br>
+        <strong>Escenario 02: Filtrado por categoría</strong><br>
+        <strong>Dado</strong> que existen varios productos en distintas categorías,<br>
+        <strong>Cuando</strong> aplico un filtro por categoría,<br>
+        <strong>Entonces</strong> el sistema muestra solo los productos correspondientes.<br><br>
       </td>
-      <td>EP-04</td>
+      <td>EP-01</td>
     </tr>
       
     <tr>
       <td>US16</td>
       <td>Búsqueda y filtrado de productos</td>
-      <td>Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.</td>
+      <td>Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información</td>
       <td>
-        <strong>Escenario 01: Confirmación exitosa</strong><br>
-        <strong>Dado</strong> un borrador válido,<br>
-        <strong>Cuando</strong> confirmo la salida,<br>
-        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
-        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
-        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
-        <strong>Cuando</strong> intento confirmar,<br>
-        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
-        <strong>Escenario 03: Disparo de alertas</strong><br>
-        <strong>Dado</strong> que se confirma la salida,<br>
-        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
-        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+        <strong>Escenario 01: Búsqueda parcial</strong><br>
+        <strong>Dado</strong> que existen productos registrados,<br>
+        <strong>Cuando</strong> busco por coincidencias parciales de nombre,<br>
+        <strong>Entonces</strong> el sistema lista los resultados correctos.<br><br>
+        <strong>Escenario 02: Búsqueda combinada</strong><br>
+        <strong>Dado</strong> que aplico filtros por categoría y estado,<br>
+        <strong>Cuando</strong> ejecuto la búsqueda,<br>
+        <strong>Entonces</strong> el sistema muestra los productos que cumplen todas las condiciones.<br><br>
       </td>
-      <td>EP-04</td>
+      <td>EP-01</td>
     </tr>
       
     <tr>
@@ -795,26 +768,136 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>Historial de cambios de producto</td>
       <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
       <td>
-        <strong>Escenario 01: Confirmación exitosa</strong><br>
-        <strong>Dado</strong> un borrador válido,<br>
-        <strong>Cuando</strong> confirmo la salida,<br>
-        <strong>Entonces</strong> el sistema crea movimientos por ítem (y por componente de kit), decrementa <em>on-hand</em>, guarda <em>saldo_post</em> y cambia el estado a <em>Confirmed</em>.<br><br>
-        <strong>Escenario 02: Bloqueo por stock insuficiente</strong><br>
-        <strong>Dado</strong> que hay ítems/componentes sin stock suficiente y el stock negativo está desactivado,<br>
-        <strong>Cuando</strong> intento confirmar,<br>
-        <strong>Entonces</strong> el sistema bloquea la acción y lista los faltantes.<br><br>
-        <strong>Escenario 03: Disparo de alertas</strong><br>
-        <strong>Dado</strong> que se confirma la salida,<br>
-        <strong>Cuando</strong> algún producto queda por debajo del umbral,<br>
-        <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
+        <strong>Escenario 01: Registro de cambios</strong><br>
+        <strong>Dado</strong> que un usuario edita un producto,<br>
+        <strong>Cuando</strong> se confirma el cambio,<br>
+        <strong>Entonces</strong> el sistema genera un registro con usuario, fecha y detalle.<br><br>
+        <strong>Escenario 02: Consulta de historial</strong><br>
+        <strong>Dado</strong> que accedo al detalle de un producto,<br>
+        <strong>Cuando</strong> selecciono la opción de historial,<br>
+        <strong>Entonces</strong> el sistema muestra la lista completa de modificaciones.<br><br>
       </td>
-      <td>EP-04</td>
+      <td>EP-01</td>
     </tr>
       
 <br>
 
 
-
+<!-- Landing -->
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+    
+  <tbody>
+    <tr>
+      <td>US18</td>
+      <td>Crear producto en catálogo</td>
+      <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
+      <td>
+        <strong>Escenario 01: Registro exitoso</strong><br>
+        <strong>Dado</strong> que ingreso un producto con todos los campos obligatorios,<br>
+        <strong>Cuando</strong> confirmo el registro,<br>
+        <strong>Entonces</strong> el sistema guarda el producto y lo hace disponible en el catálogo.<br><br>
+        <strong>Escenario 02: Producto duplicado</strong><br>
+        <strong>Dado</strong>que ya existe un producto con el mismo nombre y categoría, <em>Draft</em>,<br>
+        <strong>Cuando</strong> intento registrarlo,<br>
+        <strong>Entonces</strong> el sistema bloquea el registro y muestra un mensaje de duplicado.
+      </td>
+      <td>EP-01</td>
+    </tr>
+      
+    <tr>
+      <td>US19</td>
+      <td>Edición de producto</td>
+      <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
+      <td>
+        <strong>Escenario 01: Edición exitosa</strong><br>
+        <strong>Dado</strong> que selecciono un producto existente,<br>
+        <strong>Cuando</strong> edito sus datos válidos,<br>
+        <strong>Entonces</strong> el sistema actualiza la información inmediatamente.<br><br>
+        <strong>Escenario 02: Campo bloqueado</strong><br>
+        <strong>Dado</strong> que intento modificar el identificador único,<br>
+        <strong>Cuando</strong> guardo los cambios,<br>
+        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.<br><br>
+      </td>
+      <td>EP-01</td>
+    </tr>
+      
+    <tr>
+      <td>US20</td>
+      <td>Eliminación e inhabilitacion de productos</td>
+      <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
+      <td>
+        <strong>Escenario 01: Desactivación exitosa</strong><br>
+        <strong>Dado</strong> que selecciono un producto activo,<br>
+        <strong>Cuando</strong> ejecuto la acción de desactivar,<br>
+        <strong>Entonces</strong> el sistema cambia el estado a inactivo y lo oculta de búsquedas activas.<br><br>
+        <strong>Escenario 02: Consulta histórica</strong><br>
+        <strong>Dado</strong> que un producto está inactivo,<br>
+        <strong>Cuando</strong> consulto un historial o reporte,<br>
+        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
+      <td>EP-01</td>
+    </tr>
+      
+    <tr>
+      <td>US21</td>
+      <td>Clasificación de productos por categoría</td>
+      <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
+      <td>
+        <strong>Escenario 01: Clasificación válida</strong><br>
+        <strong>Dado</strong> que existe un catálogo de categorías,<br>
+        <strong>Cuando</strong> asigno una categoría a un producto,<br>
+        <strong>Entonces</strong> el producto queda organizado bajo esa categoría.<br><br>
+        <strong>Escenario 02: Filtrado por categoría</strong><br>
+        <strong>Dado</strong> que existen varios productos en distintas categorías,<br>
+        <strong>Cuando</strong> aplico un filtro por categoría,<br>
+        <strong>Entonces</strong> el sistema muestra solo los productos correspondientes.<br><br>
+      </td>
+      <td>EP-01</td>
+    </tr>
+      
+    <tr>
+      <td>US22</td>
+      <td>Búsqueda y filtrado de productos</td>
+      <td>Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información</td>
+      <td>
+        <strong>Escenario 01: Búsqueda parcial</strong><br>
+        <strong>Dado</strong> que existen productos registrados,<br>
+        <strong>Cuando</strong> busco por coincidencias parciales de nombre,<br>
+        <strong>Entonces</strong> el sistema lista los resultados correctos.<br><br>
+        <strong>Escenario 02: Búsqueda combinada</strong><br>
+        <strong>Dado</strong> que aplico filtros por categoría y estado,<br>
+        <strong>Cuando</strong> ejecuto la búsqueda,<br>
+        <strong>Entonces</strong> el sistema muestra los productos que cumplen todas las condiciones.<br><br>
+      </td>
+      <td>EP-01</td>
+    </tr>
+      
+    <tr>
+      <td>US23</td>
+      <td>Historial de cambios de producto</td>
+      <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
+      <td>
+        <strong>Escenario 01: Registro de cambios</strong><br>
+        <strong>Dado</strong> que un usuario edita un producto,<br>
+        <strong>Cuando</strong> se confirma el cambio,<br>
+        <strong>Entonces</strong> el sistema genera un registro con usuario, fecha y detalle.<br><br>
+        <strong>Escenario 02: Consulta de historial</strong><br>
+        <strong>Dado</strong> que accedo al detalle de un producto,<br>
+        <strong>Cuando</strong> selecciono la opción de historial,<br>
+        <strong>Entonces</strong> el sistema muestra la lista completa de modificaciones.<br><br>
+      </td>
+      <td>EP-01</td>
+    </tr>
+      
+<br>
 
 
 
