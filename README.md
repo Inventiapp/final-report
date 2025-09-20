@@ -1041,6 +1041,114 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US30</td>
+      <td>Configurar umbrales de stock</td>
+      <td>Como jefe de compras, quiero definir umbrales mínimos de stock por producto para que el sistema pueda generar alertas automáticas.</td>
+      <td>
+        <strong>Escenario 01: Registro de umbral</strong><br>
+        <strong>Dado</strong> un producto sin umbral,<br>
+        <strong>Cuando</strong> registro un valor mínimo,&nbsp;<br>
+        <strong>Entonces</strong> el sistema guarda la configuración asociada al producto.<br><br> <strong>Escenario 02: Edición</strong><br>
+        <strong>Dado</strong> un umbral ya configurado,<br>
+        <strong>Cuando</strong> lo edito y guardo,<br>
+        <strong>Entonces</strong> el sistema actualiza el valor y registra la fecha de modificación.
+      </td>
+        <td>EP-06</td> 
+    </tr>
+    <tr>
+      <td>US31</td>
+      <td>Generar alerta de bajo stock</td>
+      <td>Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado.</td>
+      <td>
+        <strong>Escenario 01: Umbral superado</strong><br>
+        <strong>Dado</strong> que un producto tiene stock menor al umbral,<br>
+        <strong>Cuando</strong> se registra un movimiento de salida,<br>
+        <strong>Entonces</strong> el sistema crea una alerta de tipo “Bajo stock” con fecha y cantidad disponible <br><br>
+        <strong>Escenario 02: No aplica</strong><br>
+        <strong>Dado</strong> un producto sin umbral definido,<br>
+        <strong>Cuando</strong> se procesa la salida,<br>
+        <strong>Entonces</strong> no se genera alerta.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>US32</td>
+      <td>Generar alerta de vencimiento</td>
+      <td>Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada.</td>
+      <td>
+        <strong>Escenario 01: Próximo vencimiento</strong><br>
+        <strong>Dado</strong> un lote con fecha de vencimiento a menos de X días,<br>
+        <strong>Cuando</strong> se actualiza el inventario,<br>
+        <strong>Entonces</strong> el sistema crea una alerta “Próximo a vencer” con lote, cantidad y fecha.<br><br>
+        <strong>Escenario 02: Fuera de ventana</strong><br>
+        <strong>Dado</strong> un lote con vencimiento mayor al rango configurado,<br>
+        <strong>Cuando</strong> se valida el inventario,<br>
+        <strong>Entonces</strong> no se genera alerta. 
+      </td>
+      <td>EP-06</td> 
+    </tr>
+    <tr>
+      <td>US33</td>
+      <td>Listar alertas pendientes</td>
+      <td>Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones.</td>
+      <td> 
+        <strong>Escenario 01: Listado</strong><br>
+        <strong>Dado</strong> que existen alertas activas,<br>
+        <strong>Cuando</strong> ingreso al módulo de alertas,<br>
+        <strong>Entonces</strong> el sistema muestra tabla con tipo, producto/lote, fecha y estado.<br><br>
+        <strong>Escenario 02: Sin alertas</strong><br>
+        <strong>Dado</strong> que no existen alertas activas,<br>
+        <strong>Cuando</strong> consulto el listado,<br>
+        <strong>Entonces</strong> el sistema muestra mensaje “No hay alertas pendientes”.
+      </td>
+      <td>EP-06</td> 
+    </tr> 
+    <tr>
+      <td>US34</td>
+      <td>Notificación externa de alertas</td>
+      <td>Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas.</td> <td>
+        <strong>Escenario 01: Envío de correo</strong><br>
+        <strong>Dado</strong> una alerta de tipo “Bajo stock crítico”,<br>
+        <strong>Cuando</strong> se genera,<br>
+        <strong>Entonces</strong> el sistema envía correo al jefe de compras con detalle.<br><br>
+        <strong>Escenario 02: Notificación push</strong><br>
+        <strong>Dado</strong> que el usuario tiene app móvil habilitada,<br>
+        <strong>Cuando</strong> ocurre la alerta,<br>
+        <strong>Entonces</strong> recibe notificación push con resumen y enlace al sistema.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>US35</td>
+      <td>Gestionar estado de alertas</td>
+      <td>Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento.</td>
+      <td>
+        <strong>Escenario 01: Marcar como atendida</strong><br>
+        <strong>Dado</strong> una alerta activa,<br>
+        <strong>Cuando</strong> la marco como atendida,<br>
+        <strong>Entonces</strong> el sistema cambia el estado y registra usuario/fecha.<br><br>
+        <strong>Escenario 02: Descartar</strong><br>
+        <strong>Dado</strong> una alerta no aplicable,<br>
+        <strong>Cuando</strong> la descarto,<br>
+        <strong>Entonces</strong> el sistema la archiva sin afectar inventario.
+      </td>
+      <td>EP-06</td> 
+    </tr>
+  </tbody>
+</table>
+
 
 ### Epics
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
@@ -1087,7 +1195,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td>
       <td>Alertas y Notificaciones</td>
       <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
-      <td>—</td>
+      <td>US30, US31, US32, US33, US34, US35</td>
     </tr>
     <tr>
       <td>EP-07</td>
