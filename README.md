@@ -526,12 +526,13 @@ GitHub: https://github.com/Inventiapp
 Ramas principales:
 - main: Contiene la versión estable y en producción.
 - develop: Rama de integración de nuevas funcionalidades.
-- 
+
 Ramas secundarias:
 - feature/<nombre> → Ramas temporales para funciones especificas 
 
 Versionado: Se emplea Semantic Versioning (SemVer 2.0.0) en el formato MAJOR.MINOR.PATCH.
 
+Todas las integraciones hacia develop o main requieren Pull Requests revisados por al menos un miembro del equipo.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
