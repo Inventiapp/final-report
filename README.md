@@ -469,11 +469,19 @@ El siguiente glosario presenta los términos clave utilizados en el desarrollo d
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
 ### 4.1.2. Web Style Guidelines.
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
+## 4.2. Information Architecture
+En esta sección se detallará parte importante de la estructura y etiquetado de la aplicación web.
+### 4.2.1. Organization Systems
+**Jerarquía del sistema de organización de la aplicación web**
+<img src="assets/Chapter-IV/organization-system-herarchy-web-app.jpg" alt="Jerarquía del sistema de organización de la aplicación web" width="700"/>
+
+**Jerarquía del sistema de organización de la landing page**
+<img src="assets/Chapter-IV/organization-system-herarchy-landing-page.jpg" alt="Jerarquía del sistema de organización de la landing page" width="700"/>
+
+### 4.2.2. Labeling Systems
+
+
+
 ### 4.2.5. Navigation Systems.
 
 ## 4.3. Landing Page UI Design.
