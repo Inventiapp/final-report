@@ -663,8 +663,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
-  </tbody>
-</table>
 
 <!-- Catálogo de Productos -->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
@@ -779,9 +777,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-      
-<br>
-
 
 <!-- Landing -->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
