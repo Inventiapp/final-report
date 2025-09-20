@@ -548,6 +548,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
       </td>
       <td>EP-04</td>
+  </tbody>
+</table>  
     </tr>
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
   <thead>
@@ -771,7 +773,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-
+  </tbody>
+</table>
 <!-- Landing -->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
   <thead>
@@ -879,8 +882,164 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-09</td>
     </tr>
-      
+  </tbody>   
+</table>
+
 <br>
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US24</td>
+      <td>Crear proveedor</td>
+      <td>Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores.</td>
+      <td>
+        <strong>Escenario 01: Creación exitosa</strong><br>
+        <strong>Dado</strong> que ingreso los datos obligatorios de un nuevo proveedor,<br>
+        <strong>Cuando</strong> guardo el formulario,<br>
+        <strong>Entonces</strong> el proveedor se crea y aparece en el listado general.<br><br>
+        <strong>Escenario 02: Validación de duplicados</strong><br>
+        <strong>Dado</strong> que ya existe un proveedor con el mismo RUC,<br>
+        <strong>Cuando</strong> intento guardar el nuevo proveedor,<br>
+        <strong>Entonces</strong> el sistema muestra un error de duplicidad y no permite el registro.
+      </td>
+      <td>EP-10</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Consultar y editar proveedores</td>
+      <td>Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados.</td>
+      <td>
+        <strong>Escenario 01: Edición exitosa</strong><br>
+        <strong>Dado</strong> que abro la ficha de un proveedor existente,<br>
+        <strong>Cuando</strong> modifico su número de teléfono y guardo,<br>
+        <strong>Entonces</strong> la información se actualiza correctamente.<br><br>
+        <strong>Escenario 02: Búsqueda por nombre</strong><br>
+        <strong>Dado</strong> que estoy en la lista de proveedores,<br>
+        <strong>Cuando</strong> escribo parte del nombre en la barra de búsqueda,<br>
+        <strong>Entonces</strong> la lista se filtra en tiempo real mostrando solo las coincidencias.
+      </td>
+      <td>EP-10</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Asociar productos a proveedor</td>
+      <td>Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes.</td>
+      <td>
+        <strong>Escenario 01: Asociar producto</strong><br>
+        <strong>Dado</strong> que estoy en la ficha de un proveedor,<br>
+        <strong>Cuando</strong> selecciono la opción "Asociar producto" y elijo un ítem del catálogo,<br>
+        <strong>Entonces</strong> el producto queda vinculado al proveedor.<br><br>
+        <strong>Escenario 02: Visualizar productos del proveedor</strong><br>
+        <strong>Dado</strong> un proveedor con productos asociados,<br>
+        <strong>Cuando</strong> consulto su ficha,<br>
+        <strong>Entonces</strong> puedo ver una lista de todos los productos que este me suministra.
+      </td>
+      <td>EP-10</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US27</td>
+      <td>Visualizar KPIs principales</td>
+      <td>Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio.</td>
+      <td>
+        <strong>Escenario 01: KPI de Valor de Inventario</strong><br>
+        <strong>Dado</strong> que he iniciado sesión,<br>
+        <strong>Cuando</strong> cargo el dashboard,<br>
+        <strong>Entonces</strong> veo una tarjeta que muestra el valor total de mi inventario (stock x costo).<br><br>
+        <strong>Escenario 02: KPI de Stock Bajo</strong><br>
+        <strong>Dado</strong> que he iniciado sesión,<br>
+        <strong>Cuando</strong> cargo el dashboard,<br>
+        <strong>Entonces</strong> veo una tarjeta que muestra el número total de productos cuyo stock está por debajo del umbral mínimo.
+      </td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+    <td>US28</td>
+    <td>Ver alertas críticas</td>
+    <td>Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas.</td>
+    <td>
+      <strong>Escenario 01: Mostrar lotes por vencer</strong><br>
+      <strong>Dado</strong> que existen lotes cuya fecha de vencimiento es en los próximos 7 días,<br>
+      <strong>Cuando</strong> cargo el dashboard,<br>
+      <strong>Entonces</strong> veo una sección de alertas con la lista de dichos lotes.<br><br>
+      <strong>Escenario 02: Navegación desde alerta</strong><br>
+      <strong>Dado</strong> que veo una alerta de un lote por vencer,<br>
+      <strong>Cuando</strong> hago clic en la alerta,<br>
+      <strong>Entonces</strong> el sistema me redirige a la ficha del producto correspondiente para gestionarlo.
+    </td>
+    <td>EP-03</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US29</td>
+      <td>Definir composición de un kit</td>
+      <td>Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes.</td>
+      <td>
+        <strong>Escenario 01: Creación de la definición</strong><br>
+        <strong>Dado</strong> que estoy en la sección de Kits,<br>
+        <strong>Cuando</strong> creo un nuevo kit, le asigno un nombre y agrego 3 productos componentes con sus respectivas cantidades,<br>
+        <strong>Entonces</strong> el sistema guarda la definición (receta) del kit.<br><br>
+        <strong>Escenario 02: Edición de componentes</strong><br>
+        <strong>Dado</strong> que un kit ya está definido,<br>
+        <strong>Cuando</strong> edito el kit para cambiar la cantidad de un componente,<br>
+        <strong>Entonces</strong> la receta del kit se actualiza para futuros ensamblajes.
+      </td>
+    <td>EP-05</td>
+    </tr>
+    <tr>
+    <td>US30</td>
+    <td>Ensamblar kits y ajustar stock</td>
+    <td>Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final.</td>
+    <td>
+      <strong>Escenario 01: Ensamblaje exitoso</strong><br>
+      <strong>Dado</strong> que tengo stock suficiente de todos los componentes de un kit,<br>
+      <strong>Cuando</strong> registro el ensamblaje de 5 kits,<br>
+      <strong>Entonces</strong> el sistema reduce el stock de los componentes y aumenta en 5 el stock del producto kit.<br><br>
+      <strong>Escenario 02: Bloqueo por falta de stock</strong><br>
+      <strong>Dado</strong> que no tengo stock suficiente de uno de los componentes,<br>
+      <strong>Cuando</strong> intento registrar el ensamblaje de un kit,<br>
+      <strong>Entonces</strong> el sistema bloquea la acción y me informa qué componente falta.
+    </td>
+    <td>EP-05</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Epics
@@ -908,21 +1067,21 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     </tr>
     <tr>
       <td>EP-03</td>
-      <td>Ingresos de Inventario</td>
-      <td>Como encargado, quiero registrar stock inicial, ingresos manuales y ajustes con motivo y evidencia, para mantener saldos correctos y un ledger auditable de movimientos.</td>
-      <td>—</td>
+      <td>Dashboard</td>
+      <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
+      <td>US27, US28</td>
     </tr>
     <tr>
       <td>EP-04</td>
-      <td>Salida de productos</td>
-      <td>Como cajero, quiero armar un borrador de salida, confirmar la venta y descontar inventario calculando total y utilidad, para controlar existencias y medir la ganancia por venta.</td>
+      <td>Movimientos de Inventario</td>
+      <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
       <td>US01, US02, US03, US04, US05, US06</td>
     </tr>
     <tr>
       <td>EP-05</td>
       <td>Kits</td>
       <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
-      <td>—</td>
+      <td>US29, US30</td>
     </tr>
     <tr>
       <td>EP-06</td>
@@ -947,6 +1106,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>Landing</td>
       <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
       <td>US012, US13, US14, US15, US16, US17</td>
+    </tr>
+    <tr>
+      <td>EP-10</td>
+      <td>Proveedores</td>
+      <td>Como encargado de compras, quiero registrar, consultar, editar y eliminar proveedores, asociarlos a productos y gestionar datos de contacto, para asegurar un abastecimiento confiable y trazable.</td>
+      <td>US24, US25, US26</td>
     </tr>
   </tbody>
 </table>
