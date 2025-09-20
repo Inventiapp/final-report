@@ -1,4 +1,4 @@
-# <center>Project Report</center>
+ # <center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -693,7 +693,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-      
     <tr>
       <td>US13</td>
       <td>Edición de producto</td>
