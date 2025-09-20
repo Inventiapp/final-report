@@ -798,111 +798,106 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   <tbody>
     <tr>
       <td>US18</td>
-      <td>Crear producto en catálogo</td>
-      <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
+      <td>Sección de funcionalidades</td>
+      <td>Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma</td>
       <td>
-        <strong>Escenario 01: Registro exitoso</strong><br>
-        <strong>Dado</strong> que ingreso un producto con todos los campos obligatorios,<br>
-        <strong>Cuando</strong> confirmo el registro,<br>
-        <strong>Entonces</strong> el sistema guarda el producto y lo hace disponible en el catálogo.<br><br>
-        <strong>Escenario 02: Producto duplicado</strong><br>
-        <strong>Dado</strong>que ya existe un producto con el mismo nombre y categoría, <em>Draft</em>,<br>
-        <strong>Cuando</strong> intento registrarlo,<br>
-        <strong>Entonces</strong> el sistema bloquea el registro y muestra un mensaje de duplicado.
+        <strong>Escenario 01: Visualización clara</strong><br>
+        <strong>Dado</strong> que navego en la landing,<br>
+        <strong>Cuando</strong> hago scroll hasta la sección de funcionalidades,<br>
+        <strong>Entonces</strong> se muestran al menos 4 funcionalidades clave con iconos y descripciones.<br><br>
+        <strong>Escenario 02: Enlace de más información</strong><br>
+        <strong>Dado</strong> que visualizo una funcionalidad,<em>Draft</em>,<br>
+        <strong>Cuando</strong> hago clic en “ver más”,<br>
+        <strong>Entonces</strong> el sistema me dirige a una página con detalles ampliados.<br><br>
       </td>
-      <td>EP-01</td>
+      <td>EP-09 </td>
     </tr>
       
     <tr>
       <td>US19</td>
-      <td>Edición de producto</td>
-      <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
+      <td>Formulario de registro</td>
+      <td>Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente</td>
       <td>
-        <strong>Escenario 01: Edición exitosa</strong><br>
-        <strong>Dado</strong> que selecciono un producto existente,<br>
-        <strong>Cuando</strong> edito sus datos válidos,<br>
-        <strong>Entonces</strong> el sistema actualiza la información inmediatamente.<br><br>
-        <strong>Escenario 02: Campo bloqueado</strong><br>
-        <strong>Dado</strong> que intento modificar el identificador único,<br>
-        <strong>Cuando</strong> guardo los cambios,<br>
-        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.<br><br>
+        <strong>Escenario 01: Registro básico</strong><br>
+        <strong>Dado</strong> que accedo al formulario de registro,<br>
+        <strong>Cuando</strong> completo los campos obligatorios y envío,<br>
+        <strong>Entonces</strong> el sistema crea mi cuenta y me redirige al panel de bienvenida.<br><br>
+        <strong>Escenario 02: Validación de datos</strong><br>
+        <strong>Dado</strong> que ingreso datos incompletos o inválidos,<br>
+        <strong>Cuando</strong> intento registrar,<br>
+        <strong>Entonces</strong> el sistema muestra mensajes de error específicos por campo.<br><br>
       </td>
-      <td>EP-01</td>
+      <td>EP-09</td>
     </tr>
       
     <tr>
       <td>US20</td>
-      <td>Eliminación e inhabilitacion de productos</td>
-      <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
+      <td>Formulario de contacto</td>
+      <td>Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack</td>
       <td>
-        <strong>Escenario 01: Desactivación exitosa</strong><br>
-        <strong>Dado</strong> que selecciono un producto activo,<br>
-        <strong>Cuando</strong> ejecuto la acción de desactivar,<br>
-        <strong>Entonces</strong> el sistema cambia el estado a inactivo y lo oculta de búsquedas activas.<br><br>
-        <strong>Escenario 02: Consulta histórica</strong><br>
-        <strong>Dado</strong> que un producto está inactivo,<br>
-        <strong>Cuando</strong> consulto un historial o reporte,<br>
-        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
-      <td>EP-01</td>
+        <strong>Escenario 01: Envío exitoso</strong><br>
+        <strong>Dado</strong> que ingreso mis datos y consulta en el formulario,<br>
+        <strong>Cuando</strong> hago clic en enviar,<br>
+        <strong>Entonces</strong> el sistema guarda la solicitud y muestra un mensaje de confirmación.<br><br>
+        <strong>Escenario 02: Validación de campos</strong><br>
+        <strong>Dado</strong> que ingreso un email no válido,<br>
+        <strong>Cuando</strong> intento enviar,<br>
+        <strong>Entonces</strong> el sistema bloquea la acción y muestra el error.<br><br>
+      <td>EP-09</td>
     </tr>
       
     <tr>
       <td>US21</td>
-      <td>Clasificación de productos por categoría</td>
-      <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
+      <td>Diseño responsive</td>
+      <td>Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo</td>
       <td>
-        <strong>Escenario 01: Clasificación válida</strong><br>
-        <strong>Dado</strong> que existe un catálogo de categorías,<br>
-        <strong>Cuando</strong> asigno una categoría a un producto,<br>
-        <strong>Entonces</strong> el producto queda organizado bajo esa categoría.<br><br>
-        <strong>Escenario 02: Filtrado por categoría</strong><br>
-        <strong>Dado</strong> que existen varios productos en distintas categorías,<br>
-        <strong>Cuando</strong> aplico un filtro por categoría,<br>
-        <strong>Entonces</strong> el sistema muestra solo los productos correspondientes.<br><br>
+        <strong>Escenario 01: Adaptación en móvil</strong><br>
+        <strong>Dado</strong> que accedo desde un celular,<br>
+        <strong>Cuando</strong> cargo la landing,<br>
+        <strong>Entonces</strong> todos los elementos se adaptan al ancho de pantalla.<br><br>
+        <strong>Escenario 02: Adaptación en tablet</strong><br>
+        <strong>Dado</strong> que accedo desde una tablet,<br>
+        <strong>Cuando</strong> cargo la landing,<br>
+        <strong>Entonces</strong> las secciones mantienen legibilidad y proporciones correctas.<br><br>
       </td>
-      <td>EP-01</td>
+      <td>EP-09</td>
     </tr>
       
     <tr>
       <td>US22</td>
-      <td>Búsqueda y filtrado de productos</td>
-      <td>Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información</td>
+      <td>Sección de testimonios</td>
+      <td>Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma</td>
       <td>
-        <strong>Escenario 01: Búsqueda parcial</strong><br>
-        <strong>Dado</strong> que existen productos registrados,<br>
-        <strong>Cuando</strong> busco por coincidencias parciales de nombre,<br>
-        <strong>Entonces</strong> el sistema lista los resultados correctos.<br><br>
-        <strong>Escenario 02: Búsqueda combinada</strong><br>
-        <strong>Dado</strong> que aplico filtros por categoría y estado,<br>
-        <strong>Cuando</strong> ejecuto la búsqueda,<br>
-        <strong>Entonces</strong> el sistema muestra los productos que cumplen todas las condiciones.<br><br>
+        <strong>Escenario 01: Visualización de testimonios</strong><br>
+        <strong>Dado</strong> que llego a la sección de testimonios,<br>
+        <strong>Cuando</strong> la página carga,<br>
+        <strong>Entonces</strong> se muestran al menos 3 testimonios con nombre, foto y comentario.<br><br>
+        <strong>Escenario 02: Rotación automática</strong><br>
+        <strong>Dado</strong> que estoy en la sección de testimonios,<br>
+        <strong>Cuando</strong> pasan 5 segundos,<br>
+        <strong>Entonces</strong> el sistema muestra automáticamente el siguiente testimonio.<br><br>
       </td>
-      <td>EP-01</td>
+      <td>EP-09</td>
     </tr>
-      
+
     <tr>
       <td>US23</td>
-      <td>Historial de cambios de producto</td>
-      <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
+      <td>Botones claros</td>
+      <td>Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación</td>
       <td>
-        <strong>Escenario 01: Registro de cambios</strong><br>
-        <strong>Dado</strong> que un usuario edita un producto,<br>
-        <strong>Cuando</strong> se confirma el cambio,<br>
-        <strong>Entonces</strong> el sistema genera un registro con usuario, fecha y detalle.<br><br>
-        <strong>Escenario 02: Consulta de historial</strong><br>
-        <strong>Dado</strong> que accedo al detalle de un producto,<br>
-        <strong>Cuando</strong> selecciono la opción de historial,<br>
-        <strong>Entonces</strong> el sistema muestra la lista completa de modificaciones.<br><br>
+        <strong>Escenario 01: Botnes visibles</strong><br>
+        <strong>Dado</strong> que navego en la landing,<br>
+        <strong>Cuando</strong> la página carga,<br>
+        <strong>Entonces</strong> encontrar botones visibles sin necesidad de buscar.<br><br>
+        <strong>Escenario 02: Redirección correcta</strong><br>
+        <strong>Dado</strong> que hago clic en el boton,<br>
+        <strong>Cuando</strong> lo presiono,<br>
+        <strong>Entonces</strong> el sistema me lleva directamente al formulario correcto.<br><br>
       </td>
-      <td>EP-01</td>
+      <td>EP-09</td>
     </tr>
       
 <br>
-
-
-
-
-
 
 
 ### Epics
