@@ -412,7 +412,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 <img src="assets/Chapter-II/event-storming2.png" alt="Big Picture Event Storming" width="700"/>
 <img src="assets/Chapter-II/event-storming3.png" alt="Big Picture Event Storming" width="700"/>
-<img src="assets/Chapter-II/event-storming4.png" alt="Big Picture Event Storming" width="700"/>
 
 
 
