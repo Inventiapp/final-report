@@ -501,8 +501,65 @@ COMPONENTES VISUALES:
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+
+| Producto         | Propósito en el proyecto                                | Categoría                   | Ruta de descarga/acceso                                                          | Descripción                                                                                                        |
+| ---------------- | ------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **OpenJDK**      | Ejecución y compilación de aplicaciones Java            | Software Development        | [https://jdk.java.net/](https://jdk.java.net/)                                   | Implementación de código abierto del JDK, necesaria para compilar y ejecutar aplicaciones backend con Spring Boot. |
+| **Maven**        | Automatización de compilación y gestión de dependencias | Software Development        | [https://maven.apache.org/](https://maven.apache.org/)                           | Herramienta para gestionar dependencias y construir proyectos Java, ampliamente utilizada con Spring Boot.         |
+| **Spring Boot**  | Desarrollo simplificado de microservicios y APIs REST   | Software Development        | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) | Framework que acelera el desarrollo de servicios backend y APIs con configuración mínima.                          |
+| **VS Code**      | Edición y desarrollo rápido de frontend                 | Software Development        | [https://code.visualstudio.com/](https://code.visualstudio.com/)                 | Editor ligero con extensiones para Angular, TypeScript, HTML y CSS, útil para desarrollo ágil.                     |
+| **Angular CLI**  | Gestión del ciclo de vida de aplicaciones Angular       | Software Development        | [https://angular.io/cli](https://angular.io/cli)                                 | Interfaz de línea de comandos para generar y administrar componentes, servicios y módulos en Angular.              |
+| **Postman**      | Pruebas y validación de APIs REST                       | Software Development        | [https://www.postman.com/](https://www.postman.com/)                             | Herramienta para probar endpoints y documentar APIs de forma colaborativa.                                         |
+| **Figma**        | Diseño UI/UX y prototipado de interfaces                | Product UX/UI Design        | [https://figma.com/](https://figma.com/)                                         | Plataforma colaborativa para diseño de interfaces, integración de prototipos y handoff a desarrollo.               |
+| **Lucidchart**   | Modelado de procesos y diagramas de arquitectura        | Product UX/UI Design        | [https://www.lucidchart.com/](https://www.lucidchart.com/)                       | Herramienta de diagramación para flujos de procesos, arquitecturas y casos de uso.                                 |
+| **Firebase**     | Servicios de backend en la nube                         | Software Development        | [https://firebase.google.com/](https://firebase.google.com/)                     | Plataforma de Google que ofrece autenticación, base de datos NoSQL y hosting para el proyecto.                     |
+| **GitHub**       | Control de versiones y repositorios del proyecto        | Project Management / DevOps | [https://github.com/](https://github.com/)                                       | Plataforma para almacenar el código fuente, gestionar ramas y colaborar en equipo.                                 |
+| **Google Drive** | Gestión de documentación colaborativa                   | Documentation               | [https://drive.google.com/](https://drive.google.com/)                           | Almacenamiento y edición colaborativa de documentos, reportes y manuales del sistema.                              |
+
+
 ### 5.1.2. Source Code Management.
+
+El proyecto StockTrack aplica GitHub como plataforma de control de versiones bajo el modelo GitFlow, lo que garantiza la trazabilidad del código, colaboración organizada y estabilidad en cada release.
+
+GitHub: https://github.com/Inventiapp 
+
+Ramas principales:
+- main: Contiene la versión estable y en producción.
+- develop: Rama de integración de nuevas funcionalidades.
+- 
+Ramas secundarias:
+- feature/<nombre> → Ramas temporales para funciones especificas 
+
+Versionado: Se emplea Semantic Versioning (SemVer 2.0.0) en el formato MAJOR.MINOR.PATCH.
+
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+El proyecto mantiene una guía de estilo de código uniforme para mejorar la legibilidad, mantenibilidad y colaboración en equipo.
+
+Lenguaje: Todos los identificadores, comentarios y documentación estarán en inglés.
+
+Backend (Java con Spring Boot)
+- Nombres de clases → PascalCase (ej: StockService)
+- Métodos y variables → camelCase (ej: calculateTotalStock)
+- Constantes → UPPER_SNAKE_CASE (ej: MAX_STOCK_LIMIT)
+- Paquetes organizados por funcionalidad (controller, service, repository, model).
+
+Frontend (Angular con TypeScript, HTML, CSS)
+- Estándares: Angular Style Guide
+- Componentes y clases → PascalCase (ej: InventoryComponent)
+- Archivos → kebab-case (ej: inventory-list.component.ts)
+- Variables y métodos → camelCase
+- Uso de programación reactiva con RxJS y principios SOLID en componentes.
+
+HTML / CSS
+- Archivos → kebab-case (ej: main-layout.css)
+- Clases CSS → en inglés y descriptivas (ej: .inventory-card)
+- Uso de etiquetas semánticas (<header>, <section>, <article>, <footer>).
+  
+Convenciones generales
+- Commits claros y cortos bajo Conventional Commits.
+
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
