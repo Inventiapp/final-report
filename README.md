@@ -315,6 +315,13 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ## 3.1. User Stories
 ## 3.2. Impact Mapping
+
+
+
+
+
+
+
 ## 3.3. Product Backlog
 
 <div style="page-break-after: always;"></div>
