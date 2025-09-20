@@ -1149,6 +1149,119 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción técnica</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US36</td>
+      <td>Iniciar borrador de ingreso</td>
+      <td>Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos.</td>
+      <td>
+        <strong>Escenario 01: Borrador creado</strong><br>
+        <strong>Dado</strong> que estoy en “Nuevo ingreso”,<br>
+        <strong>Cuando</strong> selecciono “Iniciar borrador”,<br>
+        <strong>Entonces</strong> el sistema crea un borrador con ID único, estado <em>Draft</em> y fecha de inicio.<br><br>
+        <strong>Escenario 02: Reanudación</strong><br>
+        <strong>Dado</strong> un borrador en estado <em>Draft</em>,<br>
+        <strong>Cuando</strong> lo reanudo,<br>
+        <strong>Entonces</strong> se muestran ítems y cantidades guardadas.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US37</td>
+      <td>Registrar ítems del ingreso</td>
+      <td>Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock.</td>
+      <td>
+        <strong>Escenario 01: Agregar ítem</strong><br>
+        <strong>Dado</strong> un borrador activo,<br>
+        <strong>Cuando</strong> agrego un producto con lote y cantidad válida,&nbsp;<br>
+        <strong>Entonces</strong> el sistema registra el ítem en el borrador.<br><br>
+        <strong>Escenario 02: Editar cantidad</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> cambio la cantidad,<br>
+        <strong>Entonces</strong> se actualiza el subtotal.<br><br>
+        <strong>Escenario 03: Retirar ítem</strong><br>
+        <strong>Dado</strong> un ítem en el borrador,<br>
+        <strong>Cuando</strong> lo elimino,<br>
+        <strong>Entonces</strong> desaparece y se recalculan totales.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US38</td>
+      <td>Registrar costo y proveedor</td>
+      <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
+      <td>
+        <strong>Escenario 01: Costo y proveedor válidos</strong><br>
+        <strong>Dado</strong> un borrador de ingreso,<br>
+        <strong>Cuando</strong> ingreso costo y proveedor,<br>
+        <strong>Entonces</strong> se guarda la información por producto/lote.<br><br>
+        <strong>Escenario 02: Datos incompletos</strong><br>
+        <strong>Dado</strong> un ítem sin costo o proveedor,<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema muestra error indicando campos obligatorios.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US39</td>
+      <td>Confirmar ingreso y actualizar stock</td>
+      <td>Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand.</td>
+      <td>
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+        <strong>Dado</strong> un borrador válido,<br>
+        <strong>Cuando</strong> confirmo,<br>
+        <strong>Entonces</strong> el sistema crea movimientos por ítem, incrementa on-hand y cambia estado a <em>Confirmed</em>.<br><br>
+        <strong>Escenario 02: Duplicidad de lote</strong><br>
+        <strong>Dado</strong> que ya existe el lote,<br>
+        <strong>Cuando</strong> confirmo ingreso,<br>
+        <strong>Entonces</strong> el sistema suma cantidades y deja traza de consolidación.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>US40</td>
+      <td>Adjuntar documento de respaldo</td>
+      <td>Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental.</td>
+      <td>
+        <strong>Escenario 01: Adjuntar archivo</strong><br>
+        <strong>Dado</strong> un borrador,<br>
+        <strong>Cuando</strong> subo un PDF o imagen,<br>
+        <strong>Entonces</strong> queda vinculado al ingreso y visible en el detalle.<br><br>
+        <strong>Escenario 02: Formato inválido</strong><br>
+        <strong>Dado</strong> un archivo distinto a PDF/imagen,<br>
+        <strong>Cuando</strong> lo subo,<br>
+        <strong>Entonces</strong> el sistema rechaza el archivo y muestra mensaje de error.
+      </td>
+      <td>EP-04</td> 
+    </tr>
+    <tr>
+      <td>US41</td>
+      <td>Disparar alertas por ingreso</td>
+      <td>Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso.</td>
+      <td>
+        <strong>Escenario 01: Recalculo de coberturas</strong><br>
+        <strong>Dado</strong> que confirmo un ingreso,<br>
+        <strong>Cuando</strong> incrementa el stock de un producto,<br>
+        <strong>Entonces</strong> se recalculan días de cobertura y se actualiza estado de alertas previas.<br><br>
+        <strong>Escenario 02: Eliminación de alerta</strong><br>
+        <strong>Dado</strong> una alerta activa de bajo stock,<br>
+        <strong>Cuando</strong> el ingreso hace que on-hand supere el umbral,<br>
+        <strong>Entonces</strong> el sistema marca la alerta como resuelta automáticamente.
+      </td>
+      <td>EP-04</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Epics
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
