@@ -586,8 +586,92 @@ Esta es la página que ven los usuarios después de iniciar sesión. Aunque su i
     * **Justificación:** Mantiene la consistencia en la autoría del contenido.
 
 ## 4.2.4 Searching Systems
+En esta sección se describen los medios de ayuda que se proporcionarán al usuario para la búsqueda de datos dentro de la plataforma **StockTrack**. Estas decisiones sobre los sistemas de búsqueda están diseñadas para evitar que los usuarios se sientan perdidos entre el volumen de información y para permitirles encontrar lo que necesitan con rapidez y sin esfuerzo.
 
+A continuación, se especifican las opciones de búsqueda que ofrecerá la aplicación, los filtros disponibles en cada caso y cómo se presentarán los datos después de la búsqueda.
 
+**1. Sistema de Búsqueda del Catálogo de Productos**
+
+Esta funcionalidad es central para la gestión diaria del inventario, permitiendo localizar productos específicos dentro del catálogo.
+
+* **Opciones de Búsqueda:**
+  - Barra de búsqueda principal y prominente en la parte superior de la vista del catálogo.
+  - Búsqueda dinámica (autocompletado en tiempo real) en los siguientes campos:
+    - Nombre del producto
+    - SKU / Código de barras
+    - Descripción corta
+
+* **Filtros Disponibles:**
+  - **Por Categoría:** menú desplegable (ej: *Bebidas*, *Lácteos*).
+  - **Por Proveedor:** menú desplegable que muestra los productos asociados a un proveedor específico.
+  - **Por Estado de Stock:** opciones predefinidas (*En stock, Stock bajo, Agotado*).
+
+* **Presentación de Resultados:**
+  - La cuadrícula/lista de productos se actualiza en tiempo real.
+  - Contador de resultados (ej: *“Mostrando 25 de 150 productos”*).
+  - Mensaje claro si no hay coincidencias (ej: *“No se encontraron productos. Intenta con otros términos.”*).
+
+**2. Sistema de Búsqueda del Historial de Movimientos**
+
+Permite auditar y encontrar transacciones específicas de inventario (entradas, salidas o ajustes).
+
+* **Opciones de Búsqueda:**
+  - Barra de búsqueda que acepta nombre del producto o SKU.
+
+* **Filtros Disponibles:**
+  - **Por Tipo de Movimiento:** selector (*Entradas, Salidas, Ajustes*).
+  - **Por Rango de Fechas:** calendario con fecha de inicio y fin.
+  - **Por Usuario (para planes multiusuario):** selector de responsables de la transacción.
+
+* **Presentación de Resultados:**
+  - Tabla cronológica con los movimientos filtrados.
+  - Filtros activos visibles (ej: *“Mostrando: Entradas | Período: 01/08/2025 - 31/08/2025”*).
+
+**3. Sistema de Búsqueda de Proveedores**
+
+Facilita la localización de un proveedor específico dentro del directorio.
+
+* **Opciones de Búsqueda:**
+  - Barra de búsqueda simple que evalúa:
+    - Nombre del proveedor
+    - Nombre del contacto
+    - RUC o identificador fiscal
+
+* **Filtros Disponibles:**
+  - Inicialmente, no se aplican filtros avanzados.
+  - A futuro, posibilidad de **etiquetas personalizadas** (*Local, Importado*).
+
+* **Presentación de Resultados:**
+  - Lista en tiempo real a medida que se escribe.
+  - Resultados en formato de tarjetas con información clave de cada proveedor.
+
+**4. Sistema de Búsqueda de Lotes y Vencimientos**
+
+Permite ubicar y controlar productos a nivel de lote.
+
+* **Opciones de Búsqueda:**
+  - Barra de búsqueda para número de lote o nombre de producto asociado.
+
+* **Filtros Disponibles:**
+  - **Por Fecha de Vencimiento:** selector con orden cronológico ascendente.
+  - **Por Estado:** (*Vigente, Próximo a vencer, Vencido*).
+
+* **Presentación de Resultados:**
+  - Tabla con columnas de producto, lote, cantidad, fecha de vencimiento y estado.
+  - Codificación por colores: verde (vigente), naranja (próximo a vencer), rojo (vencido).
+
+**5. Sistemas de Búsqueda y Filtrado de Datos en Reportes**
+
+Cada reporte individual dentro de la plataforma contará con un potente sistema de filtros para permitir al usuario analizar la información específica que necesita.
+
+* **Filtros Disponibles en todos los Reportes:**
+  - **Por Rango de Fechas:** Permite seleccionar períodos predefinidos (diario, semanal, mensual) o un rango personalizado.
+  - **Por Categoría de Producto:** Focaliza el análisis en un grupo temático de productos.
+  - **Por Proveedor:** Analiza el rendimiento o los movimientos de productos de un proveedor específico.
+
+* **Presentación de Resultados:**
+  - Los datos del reporte se actualizan dinámicamente al aplicar los filtros.
+  - El panel visual muestra gráficos interactivos (barras, líneas, circulares) que reflejan la data filtrada.
 
 ### 4.2.5. Navigation Systems.
 
