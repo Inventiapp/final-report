@@ -1296,7 +1296,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
       <td>Movimientos de Inventario</td>
       <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
-      <td>US01, US02, US03, US04, US05, US06</td>
+      <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
     </tr>
     <tr>
       <td>EP-05</td>
