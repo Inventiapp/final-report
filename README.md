@@ -675,7 +675,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <th style="width:10%;">Relacionado con (Epic ID)</th>
     </tr>
   </thead>
-    
   <tbody>
     <tr>
       <td>US12</td>
@@ -709,7 +708,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-      
     <tr>
       <td>US14</td>
       <td>Eliminación e inhabilitacion de productos</td>
@@ -725,7 +723,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
       <td>EP-01</td>
     </tr>
-      
     <tr>
       <td>US15</td>
       <td>Clasificación de productos por categoría</td>
@@ -742,7 +739,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-      
     <tr>
       <td>US16</td>
       <td>Búsqueda y filtrado de productos</td>
@@ -759,7 +755,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-      
     <tr>
       <td>US17</td>
       <td>Historial de cambios de producto</td>
@@ -787,8 +782,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <th style="width:40%;">Criterios de Aceptación</th>
       <th style="width:10%;">Relacionado con (Epic ID)</th>
     </tr>
-  </thead>
-    
+  </thead>  
   <tbody>
     <tr>
       <td>US18</td>
@@ -806,7 +800,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-09 </td>
     </tr>
-      
     <tr>
       <td>US19</td>
       <td>Formulario de registro</td>
@@ -823,7 +816,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-09</td>
     </tr>
-      
     <tr>
       <td>US20</td>
       <td>Formulario de contacto</td>
@@ -839,7 +831,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> el sistema bloquea la acción y muestra el error.<br><br>
       <td>EP-09</td>
     </tr>
-      
     <tr>
       <td>US21</td>
       <td>Diseño responsive</td>
@@ -855,8 +846,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> las secciones mantienen legibilidad y proporciones correctas.<br><br>
       </td>
       <td>EP-09</td>
-    </tr>
-      
+    </tr>  
     <tr>
       <td>US22</td>
       <td>Sección de testimonios</td>
@@ -873,7 +863,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-09</td>
     </tr>
-
     <tr>
       <td>US23</td>
       <td>Botones claros</td>
