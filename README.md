@@ -675,9 +675,51 @@ Cada reporte individual dentro de la plataforma contará con un potente sistema 
 
 ### 4.2.5. Navigation Systems.
 
+### 4.2.5. Navigation Systems
+
+En esta sección, el equipo explica las acciones y técnicas que guiarán a los usuarios a través del Landing Page y la aplicación web de StockTrack. El objetivo de estos sistemas es permitirles a los usuarios cumplir sus metas e interactuar de forma satisfactoria con el producto, detallando las maneras en que podrán recorrer el contenido y las funcionalidades.
+
+Para lograr una experiencia de usuario fluida e intuitiva, se han diseñado sistemas de navegación distintos pero coherentes para el sitio público (Landing Page) y la aplicación privada (post-login).
+
+**1. Sistema de Navegación del Landing Page**
+
+El sistema de navegación del sitio web estático está optimizado para la conversión. Su diseño es minimalista para mantener al usuario enfocado en la propuesta de valor y guiarlo hacia la acción principal: iniciar una prueba gratuita.
+
+* **Navegación Principal (Global):**
+    * **Técnica:** Una barra de navegación fija en la parte superior de la página (header).
+    * **Acciones:** Contiene enlaces de anclaje que permiten al usuario desplazarse suavemente a las secciones clave de la misma página. Esto facilita la exploración del contenido sin salir de la vista principal.
+    * **Etiquetas:** `Beneficios`, `Características`, `Planes`, `FAQ`.
+
+* **Navegación de Cortesía (Botones de Acción):**
+    * **Técnica:** Botones claramente diferenciados ubicados en la esquina superior derecha del header.
+    * **Acciones:** Proporcionan los dos caminos principales para un usuario: `Iniciar Sesión` para usuarios existentes, y el Call-to-Action principal `[ Prueba Gratis ]` para nuevos visitantes. Su visibilidad constante asegura que la acción de conversión esté siempre al alcance.
+
+**2. Sistema de Navegación de la Aplicación Web (Post-Login)**
+
+Una vez que el usuario inicia sesión, el sistema de navegación cambia para centrarse en la eficiencia y la funcionalidad, permitiendo un acceso rápido a todas las herramientas de gestión de inventario.
+
+* **Navegación Principal Persistente (Barra Lateral):**
+    * **Técnica:** Una barra de navegación vertical y fija en el lado izquierdo de la pantalla.
+    * **Acciones:** Muestra los enlaces a los módulos principales de la aplicación, correspondiendo a la estructura jerárquica del sistema: `Dashboard`, `Productos`, `Inventario`, `Proveedores`, `Reportes` y `Configuración`. Al ser persistente, el usuario siempre sabe dónde está y cómo acceder a otras secciones sin importar en qué parte de la aplicación se encuentre.
+
+* **Navegación Secundaria (Local):**
+    * **Técnica:** Pestañas (tabs) o un submenú que aparece debajo del título de una sección principal.
+    * **Acciones:** Se utiliza para organizar funcionalidades dentro de un módulo complejo. Por ejemplo, en la sección de `Configuración`, el usuario verá pestañas para navegar entre `Perfil de Cuenta`, `Gestión de Alertas` y `Usuarios y Roles`, manteniendo la vista principal limpia y organizada.
+
+* **Navegación Contextual:**
+    * **Técnica:** Enlaces y botones integrados directamente en el contenido que el usuario está viendo.
+    * **Acciones:** Este es el sistema que hace que la aplicación se sienta fluida e inteligente. Permite al usuario realizar acciones relevantes en el momento justo. Ejemplos:
+        * **Enlaces en Tablas:** El nombre de cada producto en el catálogo será un enlace directo a su ficha de detalle.
+        * **Alertas Interactivas:** Una alerta de "Stock Bajo" en el Dashboard será un enlace que llevará al usuario directamente al producto afectado para que pueda tomar una acción.
+        * **Migas de Pan (Breadcrumbs):** Se mostrará una ruta de navegación en la parte superior de las vistas internas (ej: `Productos > Bebidas > Detalle de Producto`) para que el usuario siempre sepa su ubicación dentro de la jerarquía y pueda retroceder fácilmente.
+
+* **Navegación de Cortesía (Menú de Usuario):**
+    * **Técnica:** Un menú desplegable en la esquina superior derecha, activado al hacer clic en el nombre o avatar del usuario.
+    * **Acciones:** Proporciona acceso a funciones relacionadas con la sesión del usuario, como `Mi Perfil` y la acción esencial de `Cerrar Sesión`.
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
-### 4.3.2. Landing Page Mock-up.
+### 4.3.2. Landing Page Mock-up.  
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
