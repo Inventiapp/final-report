@@ -557,7 +557,6 @@ HTML / CSS
 - Archivos → kebab-case (ej: main-layout.css)
 - Clases CSS → en inglés y descriptivas (ej: .inventory-card)
 - Uso de etiquetas semánticas
-  <p>(<header>, <section>, <article>, <footer>).</p>
   
 Convenciones generales
 - Commits claros y cortos bajo Conventional Commits.
