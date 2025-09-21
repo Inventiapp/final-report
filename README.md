@@ -184,7 +184,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="200" height="200" style="object-fit: cover;">
+      <img src="assets/Chapter-I/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="500" height="500" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -198,7 +198,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="250" height="250" style="object-fit: cover;">
+      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="700" height="700" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -212,7 +212,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="250" height="250" style="object-fit: cover;">
+      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="700" height="700" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
@@ -226,7 +226,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/fabiola.jpeg" alt="Foto de Fabiola Saldaña" width="250" height="250" style="object-fit: cover;">
+      <img src="assets/Chapter-I/fabiola.jpeg" alt="Foto de Fabiola Saldaña" width="700" height="700" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -240,7 +240,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="250" height="250" style="object-fit: cover;">
+      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="700" height="700" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
@@ -698,7 +698,7 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 <p align="center">
-  <img src="assets/Chapter-IV/typografiaStockTrack.pn" alt="Tipografía" width="550">
+  <img src="assets/Chapter-IV/typografiaStockTrack.png" alt="Tipografía" width="550">
 </p>
 
 **Colores**
@@ -752,7 +752,7 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 </p>
 
 <p align="center">
-  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
+  <img src="assets/Chapter-IV/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 ### 4.1.2. Web Style Guidelines
@@ -781,7 +781,7 @@ COMPONENTES VISUALES:
 
 
 <p align="center">
-  <img src="assets/imgs/webStyleStockTrack.png" alt="Colores" width="550">    
+  <img src="assets/Chapter-IV/webStyleStockTrack.png" alt="Colores" width="550">    
 </p>
 
 ## 4.2. Information Architecture.
