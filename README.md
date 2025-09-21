@@ -236,7 +236,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/imgs/FotoChoy.jpeg " alt="Foto de Vanessa Choy" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -250,7 +250,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/Chapter-I/maria-hernandez.jpeg " alt="Foto de María Hernández" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -278,7 +278,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/fabiola.jpeg" alt="Foto de Fabiola Saldaña" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/Chapter-I/fabiola.jpeg " alt="Foto de Fabiola Saldaña" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -292,7 +292,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/profile-piero.png" alt="Foto de Piero Sulca" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/imgs/profile-piero.png " alt="Foto de Piero Sulca" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
