@@ -1614,6 +1614,63 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 
+| Orden | User Story Id | Título | Descripción | Story Points |
+|-------|---------------|--------|-------------|--------------|
+| 1 | US15 | Sección de funcionalidades | Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma | 3 |
+| 2 | US16 | Formulario de registro | Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente | 5 |
+| 3 | US17 | Formulario de contacto | Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack | 2 |
+| 4 | US18 | Diseño responsive | Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo | 3 |
+| 5 | US19 | Sección de testimonios | Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma | 2 |
+| 6 | US20 | Botones claros | Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación | 1 |
+| 7 | US47 | Crear usuarios nuevos | Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma. | 5 |
+| 8 | US48 | Asignar roles | Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación. | 3 |
+| 9 | US54 | Roles predefinidos | Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial. | 2 |
+| 10 | US24 | Visualizar KPIs principales | Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio. | 5 |
+| 11 | US25 | Ver alertas críticas | Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas. | 3 |
+| 12 | US09 | Crear producto en catálogo | Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente | 5 |
+| 13 | US10 | Edición de producto | Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo | 3 |
+| 14 | US12 | Clasificación de productos por categoría | Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas | 3 |
+| 15 | US13 | Búsqueda y filtrado de productos | Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información | 3 |
+| 16 | US21 | Crear proveedor | Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores. | 3 |
+| 17 | US22 | Consultar y editar proveedores | Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados. | 2 |
+| 18 | US23 | Asociar productos a proveedor | Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes. | 3 |
+| 19 | US34 | Iniciar borrador de ingreso | Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos. | 3 |
+| 20 | US35 | Registrar ítems del ingreso | Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock. | 5 |
+| 21 | US36 | Registrar costo y proveedor | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras. | 3 |
+| 22 | US37 | Confirmar ingreso y actualizar stock | Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand. | 8 |
+| 23 | US38 | Adjuntar documento de respaldo | Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental. | 2 |
+| 24 | US40 | Verificar compra de lotes | Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario. | 3 |
+| 25 | US41 | Ver fecha de vencimiento de los lotes | Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos. | 2 |
+| 26 | US45 | Editar información de un lote | Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro. | 3 |
+| 27 | US01 | Iniciar borrador de salida | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla. | 3 |
+| 28 | US02 | Gestionar ítems del borrador | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún. | 5 |
+| 29 | US03 | Calcular total y utilidad de la salida | Como dueño, quiero que el sistema calcule en tiempo real el total y la utilidad por ítem/kit y global, usando el costo vigente. | 8 |
+| 30 | US04 | Confirmar salida y descontar inventario | Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand. | 8 |
+| 31 | US26 | Definir composición de un kit | Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes. | 5 |
+| 32 | US27 | Ensamblar kits y ajustar stock | Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final. | 8 |
+| 33 | US28 | Configurar umbrales de stock | Como jefe de compras, quiero definir umbrales mínimos de stock por producto para que el sistema pueda generar alertas automáticas. | 3 |
+| 34 | US29 | Generar alerta de bajo stock | Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado. | 5 |
+| 35 | US30 | Generar alerta de vencimiento | Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada. | 5 |
+| 36 | US43 | Alertar vencimiento próximo | Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo. | 3 |
+| 37 | US31 | Listar alertas pendientes | Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones. | 3 |
+| 38 | US33 | Gestionar estado de alertas | Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento. | 2 |
+| 39 | US32 | Notificación externa de alertas | Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas. | 5 |
+| 40 | US39 | Disparar alertas por ingreso | Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso. | 3 |
+| 41 | US05 | Reporte de stock a fecha (valorizado) | Como gerente, quiero emitir un reporte de stock a una fecha de corte, con cantidades on-hand, costo vigente y valorizado por producto/lote. | 5 |
+| 42 | US06 | Reporte de rotación y ventas (utilidad) | Como gerente, quiero un reporte por periodo con unidades vendidas, ingreso, costo y utilidad por producto/categoría, para identificar top/slow movers. | 8 |
+| 43 | US07 | Reporte de mermas y ajustes | Como dueño, quiero un reporte de ajustes (±) y mermas por periodo, con motivo, usuario y valorizado, para auditar pérdidas. | 5 |
+| 44 | US08 | Reporte de bajo stock y próximos a vencer | Como jefe de compras, quiero un listado de productos bajo umbral y lotes próximos a vencer, con días de cobertura y acciones sugeridas. | 5 |
+| 45 | US44 | Buscar lotes por proveedor | Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial. | 2 |
+| 46 | US46 | Ver historial de movimientos de un lote | Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas. | 3 |
+| 47 | US14 | Historial de cambios de producto | Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente | 3 |
+| 48 | US11 | Eliminación e inhabilitacion de productos | Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema | 2 |
+| 49 | US49 | Editar permisos personalizados | Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales. | 5 |
+| 50 | US50 | Bloquear usuarios | Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados. | 2 |
+| 51 | US51 | Ver lista de usuarios | Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo. | 2 |
+| 52 | US52 | Cambiar rol de un usuario | Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup. | 3 |
+| 53 | US53 | Auditoría de accesos | Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas. | 5 |
+| 54 | US42 | Registrar costo y proveedor | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras. | 3 |
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
