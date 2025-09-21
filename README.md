@@ -1550,61 +1550,61 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
       <td>Catálogo de Productos</td>
       <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-      <td>US018, US19, US20, US21, US22, US23</td>
+      <td>US009, US10, US11, US12, US13, US14</td>
     </tr>
     <tr>
       <td>EP-02</td>
       <td>Lotes y Vencimientos</td>
       <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
-      <td>US43, US44, US45, US46, US47, US48</td>
+      <td>US40, US41, US42, US43, US44, US45, US46</td>
     </tr>
     <tr>
       <td>EP-03</td>
       <td>Dashboard</td>
       <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
-      <td>US27, US28</td>
+      <td>US24, US25</td>
     </tr>
     <tr>
       <td>EP-04</td>
       <td>Movimientos de Inventario</td>
       <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
-      <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
+      <td>US01, US02, US03, US04, US34, US35, US36, US37, US38, US39</td>
     </tr>
     <tr>
       <td>EP-05</td>
       <td>Kits</td>
       <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
-      <td>US29, US30</td>
+      <td>US26, US27</td>
     </tr>
     <tr>
       <td>EP-06</td>
       <td>Alertas y Notificaciones</td>
       <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
-      <td>US30, US31, US32, US33, US34, US35</td>
+      <td>US28, US29, US30, US31, US32, US33</td>
     </tr>
     <tr>
       <td>EP-07</td>
       <td>Reportes Operativos</td>
       <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
-      <td>US07, US08, US09, US10, US11</td>
+      <td>US05, US06, US07, US08</td>
     </tr>
     <tr>
       <td>EP-08</td>
       <td>Usuarios, Roles y Permisos</td>
       <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
-      <td>US49, US50, US51, US52, US53, US54, US55</td>
+      <td>US47, US48, US49, US50, US51, US52, US53, US54</td>
     </tr>
     <tr>
       <td>EP-09</td>
       <td>Landing</td>
       <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
-      <td>US012, US13, US14, US15, US16, US17</td>
+      <td>US015, US16, US17, US18, US19, US20</td>
     </tr>
     <tr>
       <td>EP-10</td>
       <td>Proveedores</td>
       <td>Como encargado de compras, quiero registrar, consultar, editar y eliminar proveedores, asociarlos a productos y gestionar datos de contacto, para asegurar un abastecimiento confiable y trazable.</td>
-      <td>US24, US25, US26</td>
+      <td>US21, US22, US23</td>
     </tr>
   </tbody>
 </table>
