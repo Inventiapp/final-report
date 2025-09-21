@@ -2323,6 +2323,32 @@ Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementaci
 No disponemos de documentación como evidencia, ya que en el primer sprint nuestro enfoque se centró en la elaboración de la landing page.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se detallan los procesos ejecutados durante el Sprint 1. Para este desarrollo se empleó Vercel, una herramienta que se integró de manera sencilla en nuestro flujo de trabajo y permitió desplegar la Landing Page desde un repositorio. 
+
+Página de Vercel: https://vercel.com/
+
+Link de la landing page: https://landing-page-two-iota-z65h50d6ix.vercel.app
+
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
+
+
+Escogemos el repositorio de GitHub donde se encuentra el código de la Landing Page.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
+
+
+Seguidamente, se configura el proyecto y se despliega.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
+De esta manera, se obtiene la landing page desplegada y accesible públicamente.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/deployment-stocktrack.png)
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 En esta vista se refleja el trabajo colaborativo del equipo para concretar la entrega de este sprint. Se presentan las métricas relacionadas con la creación de la landing page, desarrollada con HTML, CSS y JavaScript, junto con los commits correspondientes.
