@@ -1024,22 +1024,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-09</td>
     </tr>
-  </tbody>   
-</table>
-
-<br>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US21</td>
       <td>Crear proveedor</td>
@@ -1088,20 +1072,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-10</td>
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US24</td>
       <td>Visualizar KPIs principales</td>
@@ -1134,20 +1104,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     </td>
     <td>EP-03</td>
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US26</td>
       <td>Definir composición de un kit</td>
