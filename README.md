@@ -1400,258 +1400,133 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
- 
 <!--Lotes y vencimiento-->
-
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-
   <thead>
-
     <tr>
-
       <th style="width:8%;">Story ID</th>
-
       <th style="width:18%;">Título</th>
-
       <th style="width:24%;">Descripción técnica</th>
-
       <th style="width:40%;">Criterios de Aceptación</th>
-
       <th style="width:10%;">Relacionado con (Epic ID)</th>
-
     </tr>
-
   </thead>
-
   <tbody>
-
     <tr>
-
       <td>US42</td>
-
       <td>Verificar compra de lotes</td>
-
       <td>Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.</td>
-
       <td>
-
         <strong>Escenario 01: Añadir nuevo lote sin registrar</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega entra a la aplicación<br>
-
         <strong>Cuando</strong> recibe un nuevo lote de productos no registrados previamente,<br>
-
         <strong>Entonces</strong> registra el lote recibido con los datos respectivos dentro de la aplicación <br><br>
-
         <strong>Escenario 02: Añadir lote registrado</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega entra a la aplicación,<br>
-
         <strong>Cuando</strong> recibe un nuevo lote de productos registrados previamente,<br>
-
         <strong>Entonces</strong> añade la cantidad de lotes recibidos registrados previamente.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
       <td>US43</td>
-
       <td>Ver fecha de vencimiento de los lotes</td>
-
       <td>Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.</td>
-
       <td>
-
         <strong>Escenario 01: Verificar fecha de vencimiento de los lotes</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y tengo lotes registrados,<br>
-
         <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos <br>
-
         <strong>Entonces</strong> el sistema muestra la información del lote junto con fecha de vencimiento de los mismos .<br><br>
-
         <strong>Escenario 02: No hay lotes registrados</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y no tiene lotes registrados,<br>
-
         <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos,<br>
-
         <strong>Entonces</strong> no se muestra información de los productos y el sistema muestra que se deben registrar lotes primero.<br><br>
-        
       </td>
-
       <td>EP-02</td>
-
     </tr>
 
     <tr>
-
       <td>US44</td>
-
       <td>Registrar costo y proveedor</td>
-
       <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
-
       <td>
-
         <strong>Escenario 01: Costo y proveedor válidos</strong><br>
-
         <strong>Dado</strong> un borrador de ingreso,<br>
-
         <strong>Cuando</strong> ingreso costo y proveedor,<br>
-
         <strong>Entonces</strong> se guarda la información por producto/lote.<br><br>
-
         <strong>Escenario 02: Datos incompletos</strong><br>
-
         <strong>Dado</strong> un ítem sin costo o proveedor,<br>
-
         <strong>Cuando</strong> intento confirmar,<br>
-
         <strong>Entonces</strong> el sistema muestra error indicando campos obligatorios.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
       <td>US45</td>
-
       <td>Alertar vencimiento próximo</td>
-
       <td>Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.</td>
-
       <td>
-
         <strong>Escenario 01: Confirmación exitosa</strong><br>
-
         <strong>Dado</strong> que hay un lote registrado con fecha de vencimiento en menos de 15 días<br>
-
         <strong>Cuando</strong> confirmo,<br>
-
         <strong>Entonces</strong> el sistema muestra una alerta visual indicando producto, lote y fecha próxima a vencer.<br><br>
-
         <strong>Escenario 02: Sin lotes próximos a vencer</strong><br>
-
         <strong>Dado</strong> que todos los lotes registrados vencen en más de 15 días,<br>
-
         <strong>Cuando</strong> ingreso a la aplicación,<br>
-
         <strong>Entonces</strong> no se muestra ninguna alerta
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
       <td>US46</td>
-
       <td>Buscar lotes por proveedor</td>
-
       <td>Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.</td>
-
       <td>
-
         <strong>Escenario 01: Proveedor con lotes registrados</strong><br>
-
         <strong>Dado</strong> que existen lotes con proveedor “Distribuidora XYZ”,<br>
-
         <strong>Cuando</strong> filtro por ese proveedor,<br>
-
         <strong>Entonces</strong> el sistema lista los lotes asociados a él con sus fechas de vencimiento.<br><br>
-
         <strong>Escenario 02: Proveedor sin lotes registrados</strong><br>
-
         <strong>Dado</strong> que “Proveedor ABC” no tiene lotes en el sistema,<br>
-
         <strong>Cuando</strong> aplico el filtro,<br>
-
         <strong>Entonces</strong> el sistema muestra “No hay lotes asociados a este proveedor”.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
       <td>US47</td>
-
       <td>Editar información de un lote</td>
-
       <td>Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.</td>
-
       <td>
-
         <strong>Escenario 01: Edición exitosa</strong><br>
-
         <strong>Dado</strong> que un lote está registrado,<br>
-
         <strong>Cuando</strong> modifico su fecha de vencimiento o cantidad,<br>
-
         <strong>Entonces</strong> el sistema guarda los cambios y muestra un mensaje de confirmación.<br><br>
-
         <strong>Escenario 02: Intento de edición con datos inválidos</strong><br>
-
         <strong>Dado</strong> que ingreso una fecha de vencimiento en el pasado,<br>
-
         <strong>Cuando</strong> intento guardar,<br>
-
         <strong>Entonces</strong> el sistema rechaza el cambio y muestra un error.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
     <tr>
-
       <td>US48</td>
-
       <td>Ver historial de movimientos de un lote</td>
-
       <td>Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.</td>
-
       <td>
-
         <strong>Escenario 01: Historial disponible</strong><br>
-
         <strong>Dado</strong> que un lote tiene registros de ingreso y salida,<br>
-
         <strong>Cuando</strong> consulto su historial,<br>
-
         <strong>Entonces</strong> el sistema muestra una lista con fecha, tipo de movimiento, cantidad y usuario que lo realizó.<br><br>
-
         <strong>Escenario 02: Sin historial</strong><br>
-
         <strong>Dado</strong> que un lote recién se registró y no tiene movimientos,<br>
-
         <strong>Cuando</strong> consulto el historial,<br>
-
         <strong>Entonces</strong> el sistema indica “Este lote no tiene movimientos registrados”.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
   </tbody>
-
 </table>
-
-
 
 
 <!--- Usuarios, permisos y roles --->
@@ -1799,51 +1674,29 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 
 ### Epics
-
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-
   <thead>
-
     <tr>
-
       <th style="width:10%;">Epic ID</th>
-
       <th style="width:20%;">Título</th>
-
       <th style="width:55%;">Descripción</th>
-
       <th style="width:15%;">HUs asociadas</th>
-
     </tr>
-
   </thead>
-
   <tbody>
-
     <tr>
-
       <td>EP-01</td>
-
       <td>Catálogo de Productos</td>
-
       <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-
       <td>US018, US19, US20, US21, US22, US23</td>
-
     </tr>
-
     <tr>
-
       <td>EP-02</td>
-
       <td>Lotes y Vencimientos</td>
-
       <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
-
       <td>US43, US44, US45, US46, US47, US48</td>
-
     </tr>
-
+    
     <tr>
 
       <td>EP-03</td>
@@ -1945,20 +1798,63 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 </table>
 
 
-### Technical stories
+### 3.3. Impact Mapping
+A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, donde se muestra la relación entre el *Business Goal* definido, los **User Personas** identificados, los **Impactos** esperados en su comportamiento, los **Deliverables** que como negocio digital podemos ofrecer y las **User Stories** asociadas que permitirán implementar las funcionalidades necesarias en la aplicación web y la landing page. Este mapa busca asegurar la alineación entre los objetivos estratégicos y el desarrollo de la solución digital.
 
 
-## 3.2. Impact Mapping
+<p align="center">
+  <img src="./assets/impactMap.png" alt="Impact Map" width="700">
+</p>
 
-.
+### 3.4. Product Backlog
+
+| # Orden |  User Story Id  | Título                                            | Descripción                                                                                                                     |  Story Points (1/2/3/5/8) |
+| :------ | :-------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------|
+|    01   | US-01           | Registro con validación universitaria             | Como estudiante quiero registrarme usando mi documento y correo universitario para que mi afiliación sea validada rápidamente.  |  5                        |
+|    02   | US-02           | Inicio de sesión seguro                           | Como usuario quiero iniciar sesión de forma segura para acceder a mi panel.                                                     |  3                        |
+|    03   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
+|    04   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
+|    05   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
+|    06   | US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                             |  2                        |
+|    07   | US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                            |  2                        |
+|    08   | US-08           | Iniciar reclamo por chat (foto + texto)           | Como usuario quiero abrir un reclamo desde el chat subiendo foto y descripción para rapidez.                                    |  5                        |
+|    09   | US-09           | Validación automática de reclamos menores         | Como usuario quiero que reclamos sencillos sean evaluados automáticamente para respuesta rápida.                                |  5                        |
+|    10   | US-10           | Escalamiento y comunicación con ajustador         | Como usuario quiero que reclamos complejos se escalen a un ajustador y tenga comunicación clara.                                |  3                        |
+|    11   | US-11           | Historial y estado de reclamos                    | Como usuario quiero ver el historial y estado de mis reclamos para seguimiento.                                                 |  3                        |
+|    12   | US-12           | Simulador de devolución (cliente)                 | Como usuario quiero simular cuánto recibiría en caso de reclamo para tomar decisiones.                                          |  3                        |
+|    13   | US-13           | Panel de prevenciones y recordatorios             | Como usuario quiero recibir alertas de prevención y recordatorios para reducir riesgos.                                         |  3                        |
+|    14   | US-14           | Teleconsulta on-demand                            | Como usuario quiero solicitar una teleconsulta rápida para atención médica menor.                                               |  5                        |
+|    24   | US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                         |  3                        |
+|    25   | US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                                |  5                        |
+|    26   | US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                 |  3                        |
+|    27   | US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                        |  2                        |
+|    28   | US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                           |  2                        |
+|    01   | US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                 |  3                        |
+|    02   | US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                     |  2                        |
+|    03   | US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                         |  3                        |
+|    04   | US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                                |  2                        |
+|    05   | US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                              |  3                        |
+|    06   | US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                               |  2                        |
+|    07   | US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                    |  8                        |
+|    08   | US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                               |  1                        |
+|    09   | US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                 |  3                        |
+|    29   | US-29           | FAQ y centro de ayuda                             | Como usuario quiero acceso rápido a preguntas frecuentes y tutoriales para usar la app.                                         |  2                        |
+|    30   | US-30           | Descargar certificado de cobertura                | Como usuario quiero descargar un certificado de cobertura para trámites o acreditación.                                         |  2                        |
+|    31   | US-31           | Compartir evidencia múltiple                      | Como usuario quiero subir varias fotos o archivos en un reclamo para respaldar mi caso.                                         |  3                        |
+|    32   | US-32           | Chat histórico por reclamo                        | Como usuario quiero ver el historial de mensajes relacionados a cada reclamo.                                                   |  2                        |
+|    33   | US-33           | Evaluación al cierre del reclamo                  | Como usuario quiero calificar la resolución del reclamo para retroalimentación.                                                 |  2                        |
+|    34   | TS-01           | Arquitectura backend modular y simple             | Definir arquitectura backend modular (monolito modular o microservicios ligeros) para usuarios, reclamos y pagos.               |  5                        |
+|    35   | TS-02           | Modelado de base de datos relacional (Postgres)   | Diseñar esquema de BD para usuarios, pólizas, reclamos, evidencias y auditoría con migraciones.                                 |  5                        |
+|    36   | TS-03           | API REST documentada y protegida (OpenAPI)        | Desarrollar endpoints REST para auth, póliza, reclamos y evidencias con documentación mínima.                                   |  5                        |
+|    37   | TS-04           | Integración SSO universitario (opcional)          | Implementar opción para autenticación con credenciales universitarias (SSO) si la universidad lo permite.                       |  5                        |
+|    38   | TS-05           | Pipeline CI básico (lint + tests)                 | Configurar pipeline en GitHub Actions/GitLab CI que corra lint y tests unitarios antes de merge.                                |  5                        |
+|    39   | TS-06           | Almacenamiento de imágenes con URLs firmadas      | Implementar almacenamiento (S3/MinIO) con URLs firmadas y expiración para evidencias.                                           |  3                        |
+|    40   | TS-07           | Motor de reglas liviano (JSON)                    | Implementar motor de reglas JSON para validaciones automáticas (fecha, tamaño imagen, metadatos).                               |  5                        |
+|    41   | TS-08           | Sistema de notificaciones básico                  | Implementar servicio para push/email con templates que se conecte a eventos de la app.                                          |  5                        |
+|    42   | TS-09           | Pagos: integración simple y seguras (webhooks)    | Integrar pasarela de pagos con tokenización y manejo de webhooks básicos.                                                       |  5                        |
+|    43   | TS-10           | Logs y monitoreo accesible                        | Implementar logging estructurado y métricas básicas (errores, latencia) con dashboard simple.                                   |  3                        |
 
 
-
-
-
-## 3.3. Product Backlog
-
-<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
