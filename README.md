@@ -903,6 +903,8 @@ Convenciones generales
 
 # Bibliografía
 
+GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Investigación 2024_. <https://fmguy.org/web-2024/indice-faltantes.html>
+
 <div style="page-break-after: always;"></div>
 
 # Anexos
