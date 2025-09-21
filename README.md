@@ -184,7 +184,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="200" height="200" style="object-fit: cover;">
+      <img src="assets/Chapter-I/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="200" height="200" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -240,7 +240,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/profile-piero.png" alt="Foto de Piero Sulca" width="250" height="250" style="object-fit: cover;">
+      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="250" height="250" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
