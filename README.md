@@ -915,6 +915,7 @@ El prototipo web de StockTrack ha sido concebido aplicando principios de arquite
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+![Context Diagram](./assets/Chapter-IV/diagramadeclases.svg)
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
