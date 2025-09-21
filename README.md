@@ -749,7 +749,7 @@ Una vez que el usuario inicia sesión, el sistema de navegación cambia para cen
 ![](./assets/Chapter-IV/login-2.jpg)
 ![](./assets/Chapter-IV/login-1.jpg)
 ![](./assets/Chapter-IV/Inventario-1.jpg)
-![](./assets/Chapter-IV/Inventario%20-%20Información%20Producto-1.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Información%20Producto.jpg)
 ![](./assets/Chapter-IV/Inventario%20-%20Nuevo%20Producto.jpg)
 ![](./assets/Chapter-IV/Inventario%20-%20Reposición.jpg)
 ![](./assets/Chapter-IV/Inventario%20-%20Reposición.jpg)
