@@ -200,7 +200,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/imgs/FotoChoy.jpeg" alt="FotoChoy" width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -268,11 +268,142 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+
+**What (Qué)**
+
+- ¿Cuál es el problema?<br>
+El problema principal es la falta de control en los inventarios de bodegas y almacenes, lo que genera pérdidas por vencimiento de productos, errores en el registro manual de entradas y salidas, y retrasos en la reposición de stock. Muchas empresas aún dependen de hojas de cálculo o procesos manuales que no reflejan la situación en tiempo real.
+
+- ¿Cuál es la relación con la persona en cuestión?<br>
+El problema afecta directamente a dueños de negocios, administradores de almacenes y encargados de logística, quienes necesitan herramientas confiables para evitar quiebres de stock o sobreacumulación. StockTrack se convierte en un aliado para optimizar su gestión y reducir riesgos.
+
+**When (Cuándo)**
+
+- ¿Cuándo sucede el problema?<br>
+El problema ocurre en el momento en que se registran entradas o salidas de productos y no hay un sistema automatizado que actualice la información en tiempo real. Esto puede darse diariamente, con cada movimiento de mercadería.
+
+- ¿Cuándo utiliza el cliente el producto?<br>
+El cliente utiliza StockTrack en todo momento que gestiona inventario, al recibir un nuevo lote, al realizar ventas o despachos, al planificar compras, e incluso al revisar reportes para la toma de decisiones estratégicas.
+
+**Where (dónde)**
+
+- ¿Dónde está el cliente cuando usa el producto?<br>
+El cliente generalmente se encuentra dentro de la bodega o almacén, donde se realizan los movimientos físicos de los productos, o en su oficina, desde donde consulta los reportes y analíticas.
+
+- ¿A dónde se dirige?<br>
+El cliente se dirige a digitalizar sus procesos y a tener un mayor control de su inventario con datos confiables y centralizados, accesibles en cualquier momento y lugar.
+
+- ¿Dónde surge el problema?<br>
+El problema surge en los puntos críticos del control de inventario, tales como la falta de trazabilidad en los registros manuales, la ausencia de alertas automáticas y la desconexión entre la gestión operativa y la planificación estratégica.
+
+**Who (quién)**
+
+- ¿Quiénes están involucrados?<br>
+Están involucrados dueños de negocios, jefes de almacén, encargados de logística y el personal que manipula y registra el stock en la bodega.
+
+- ¿A quiénes le sucede el problema?<br>
+El problema le sucede tanto a pequeños y medianos empresarios como a grandes almacenes que carecen de un sistema confiable para controlar su inventario en tiempo real.
+
+- ¿Quién lo utilizará?<br>
+El sistema será utilizado principalmente por administradores de almacén y personal operativo, pero también beneficiará a los gerentes y dueños, quienes tendrán acceso a reportes y analíticas centralizadas.
+
+**Why (por qué)**
+
+- ¿Cuál es la causa del problema?<br>
+La causa principal es la dependencia de procesos manuales o de sistemas desactualizados que no permiten el registro automatizado ni generan alertas preventivas. Esto provoca errores humanos, retrasos en la reposición, y pérdidas por vencimientos o robos no detectados a tiempo.
+
+**How (cómo)**
+- ¿En qué condiciones los clientes usan nuestro producto?<br>
+Los clientes usan StockTrack en un entorno de trabajo dinámico y operativo, donde es necesario registrar movimientos de stock de manera rápida y sencilla. Lo utilizan desde dispositivos móviles o computadoras para que la información se actualice en tiempo real.
+
+- ¿Cómo nos conocieron los compradores?<br>
+Los compradores conocen StockTrack a través de recomendaciones de otros negocios, redes sociales y campañas digitales enfocadas en la optimización de procesos logísticos. También por demostraciones en ferias o eventos de tecnología empresarial.
+
+- ¿Cómo prefieren los lectores acceder a nuestro contenido?<br>
+Los clientes prefieren acceder al sistema mediante una aplicación web intuitiva y fácil de usar, complementada con alertas inteligentes vía correo electrónico o notificaciones móviles.
+
+- ¿Qué llevó a la persona a llegar a esta situación?<br>
+La persona llegó a esta situación por la necesidad de controlar mejor su inventario, evitar pérdidas económicas y tener mayor seguridad y confiabilidad en la gestión de sus productos.
+
+**How much (cuánto)**
+
+Según un estudio realizado por GS1 Uruguay (2024), el porcentaje de productos no encontrados en góndolas alcanzó el 7.08 %, lo que representa un aumento del 74 % respecto al año anterior; este dato indica que por cada 100 productos auditados, 7 no estaban disponibles, evidenciando el impacto directo que una gestión ineficiente de inventarios puede tener en la disponibilidad, las ventas y la experiencia del cliente.
+
+![Evolución del Índice](./assets/imgs/Evolucion-del-Indice.png)
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro servicio ofrece a las bodegas y almacenes una plataforma innovadora para gestionar inventarios en tiempo real, permitiendo registrar movimientos de stock, generar alertas inteligentes, centralizar información de productos y acceder a reportes analíticos que apoyan la toma de decisiones estratégicas.
+
+Hemos observado un factor crítico que afecta la eficiencia de los negocios y esto radica en que actualmente muchas empresas siguen utilizando procesos manuales, como hojas de cálculo o registros en papel para controlar su inventario. Esto provoca errores humanos frecuentes, falta de visibilidad en tiempo real, pérdidas por sobrestock o desabastecimiento y retrasos en la identificación de productos próximos a vencerse.
+
+¿Cómo lograr que las bodegas y almacenes adopten un sistema que automatice el control de inventario, reduzca errores humanos y mejore la eficiencia operativa sin necesidad de procesos manuales que limiten el crecimiento del negocio?
+
 #### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions**
+
+- Creo que mis clientes necesitan una forma confiable, rápida y automatizada de controlar su inventario en tiempo real para reducir errores y pérdidas económicas.
+- Estas necesidades se pueden resolver con una aplicación que registre entradas y salidas de productos, genere alertas inteligentes y centralice la información en un solo panel.
+- Mis clientes iniciales serán pequeñas y medianas empresas con bodegas y almacenes que actualmente usan procesos manuales (Excel, papel, o registros básicos) para su inventario.
+- El valor #1 que un cliente quiere de mi servicio es evitar pérdidas y desabastecimientos a través de un control de inventario preciso y en tiempo real.
+- El cliente también puede obtener los beneficios de reducción de errores humanos, ahorro de tiempo, mejor planificación de compras y reportes analíticos para decisiones estratégicas.
+- Voy a adquirir la mayoría de mis clientes a través de estrategias de marketing digital, en redes sociales y/o Google Ads, asociaciones con cámaras de comercio y ventas directas B2B.
+- Haré dinero a través de suscripciones mensuales o anuales, con planes escalables según el número de productos o almacenes que gestione cada cliente.
+- Mi competencia principal en el mercado será otros sistemas de gestión de inventarios o soluciones locales personalizadas.
+- Los venceremos debido a una interfaz más intuitiva, precios accesibles, configuración sencilla y un enfoque especializado en pymes que no pueden costear sistemas complejos.
+- Mi mayor riesgo de producto es que los clientes perciban el sistema como complejo o no lo adopten porque prefieren seguir con sus métodos manuales.
+- Resolveremos esto a través de una experiencia de usuario simple, capacitación inicial y soporte al cliente accesible para facilitar la adopción.
+
+**User Assumptions**
+
+- ¿Quién es el usuario?
+Encargados de almacén, emprendedores, administradores de bodegas y dueños de pequeños negocios.
+
+- ¿Dónde encaja nuestro producto en su trabajo o vida?
+En las operaciones diarias de registro de entradas y salidas de productos, control de stock y planificación de compras.
+
+- ¿Qué problemas tiene nuestro producto que resolver?
+Errores en registros manuales, pérdida de productos por vencimiento o sobrestock, falta de información en tiempo real y dificultad para generar reportes claros.
+
+- ¿Cuándo y cómo es nuestro producto usado?
+Se usa todos los días, durante la recepción y despacho de productos, así como en reuniones de planificación donde se revisan reportes y métricas.
+
+- ¿Qué características son importantes?
+Registro rápido de productos, alertas personalizables, reportes visuales, acceso desde cualquier dispositivo y seguridad en los datos.
+
+- ¿Cómo debe verse nuestro producto y cómo comportarse?
+Debe ser intuitivo, minimalista y responsivo, fácil de aprender sin necesidad de manuales extensos, y comportarse de forma rápida, confiable y sin errores.
+
+**Feature Assumptions**
+
+- Creemos que la aplicación debe contar con una interfaz de usuario intuitiva y responsiva que permitirá a los encargados de almacén, emprendedores y administradores adoptarla sin dificultad, reduciendo la curva de aprendizaje.
+- Creemos que la plataforma debe proporcionar notificaciones y alertas personalizables tales como stock bajo o fechas próximas de vencimiento, que mantendrán a los usuarios informados para evitar errores logísticos y quiebres de stock.
+- Creemos que el sistema debe ser accesible desde la web y dispositivos móviles para asegurar disponibilidad en todo momento.
+- Creemos que la seguridad en los datos es clave para generar confianza en los usuarios.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+Creemos que implementar alertas personalizables sobre niveles bajos de stock y fechas próximas de vencimiento reducirá las pérdidas por quiebre o vencimiento de productos.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando observemos al menos un 30% de reducción en productos vencidos o faltantes en comparación con los registros previos al uso de alertas.
+
+Creemos que los usuarios valorarán la disponibilidad de reportes gráficos que muestren los productos más rotados, niveles de stock y tendencias de consumo.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando al menos un 70% de los usuarios activos usen el módulo de reportes semanalmente y reporten satisfacción positiva en encuestas cualitativas.
+
+Creemos que una interfaz intuitiva y fácil de aprender aumentará la adopción por parte de usuarios que dependen de Excel o registros manuales.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando al menos el 60% de los nuevos clientes registren sus primeros productos dentro de las 24 horas posteriores a la activación de su cuenta.
+
+Creemos que habilitar el acceso a la aplicación tanto desde la web como desde dispositivos móviles aumentará la frecuencia de uso.<br>
+Sabremos que hemos tenido éxito<br>
+Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día desde distintos dispositivos.
+
 #### 1.2.2.4. Lean UX Canvas
+
+![Lean UX Canvas](./assets/imgs/Lean-UX-Canvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
@@ -307,7 +438,41 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+
+<p align="center">
+  <img src="assets/imgs/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+</p>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+*Estrategias*
+<p align="justify">
+    1. Diferenciación por simplicidad y usabilidad: La solución estará enfocada en bodegas y pequeñas empresas que requieren una interfaz intuitiva y un flujo de trabajo sencillo, reduciendo la curva de aprendizaje.
+</p>
+<p align="justify">
+    2. Accesibilidad económica: La startup ofrecerá planes escalables y accesibles, con opción gratis básica para atraer usuarios y fomentar adopción masiva.
+</p>
+<p align="justify">
+    3. Adaptación al mercado local: Integración directa con la facturación electrónica exigida por SUNAT en Perú y soporte en español, lo cual representa una ventaja frente a soluciones globales.    
+</p>
+<p align="justify">    
+    4. Posicionamiento digital: Focalización en marketing digital dirigido a bodegueros y pymes mediante redes sociales, asociaciones de comerciantes y programas de referidos.
+</p>
+
+*Tácticas*
+<p align="justify">
+    1. Frente a las fortalezas de competidores: Ofrecer un onboarding rápido y gratuito que simplifique la transición a nuestro sistema. Mantener integraciones básicas con e-commerce.
+</p>
+<p align="justify">
+    2. Frente a las debilidades de competidores: Simplificar los módulos de inventario para usuarios no técnicos. Ofrecer precios más bajos y planes sin contratos largos. Incorporar soporte técnico personalizado en español.
+</p>
+<p align="justify">
+    3. Aprovechando oportunidades del mercado: Posicionarse como solución para la digitalización de bodegas y pequeños negocios. Diseñar versiones móviles ligeras, dado que muchos bodegueros usan smartphones como principal herramienta de gestión.
+</p>
+<p align="justify">
+    4. Mitigando amenazas: Diferenciarse de grandes empresas destacando el enfoque local. Crear una comunidad de usuarios locales que genere lealtad frente a la entrada de nuevos competidores. Innovar constantemente incorporando módulos escalables.
+</p>
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
@@ -337,8 +502,114 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
-### 4.1.1. General Style Guidelines.
-### 4.1.2. Web Style Guidelines.
+### 4.1.1. General Style Guidelines
+
+*4.1.1.1 Branding*
+
+<p align="justify">
+Para nuestro logo, hemos implementado símbolos que reflejan el propósito central de StockTrack: la gestión eficiente y confiable del inventario. El logo de StockTrack proyecta una identidad sólida y práctica, alineada con su misión de brindar una solución tecnológica sencilla pero poderosa para la gestión de inventarios.
+</p>
+
+<p align="justify">
+La caja representa de manera clara y universal el concepto de mercancía, almacenaje y stock, siendo el núcleo del negocio de bodegas y almacenes. El check verde simboliza control, seguridad y validación, transmitiendo la idea de que los productos están siempre bajo seguimiento y en orden.
+</p>
+
+<p align="justify">
+El conjunto visual comunica simplicidad, confiabilidad y modernidad, reforzando el objetivo de StockTrack de ayudar a las bodegas a mantener su inventario bajo control, reducir errores y optimizar procesos.
+</p>
+
+<p align="justify">
+La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinamismo, accesibilidad y cercanía con el usuario, junto con un verde que transmite seguridad, éxito y confianza.
+</p>
+
+<p align="center">
+  <img src="assets/imgs/logoStockTrack.png" alt="Logo" width="550">
+</p>
+
+*4.1.1.2 Typografía*
+
+<p align="justify">
+- Fuente principal:
+</p>
+<p align="justify">
+Nuestra fuente principal es Open Sauce, la cual aporta un estilo sólido y moderno que transmite fuerza, confiabilidad y profesionalismo. Perfecta para logotipos y títulos de alta relevancia, esta tipografía está diseñada para proyectar claridad y autoridad visual. Uso exclusivamente para el logo y títulos principales. Estilo: Mayúsculas, Bold, tamaño 64px.
+</p>
+
+<p align="justify">
+- Fuente secundaria:
+</p>
+<p align="justify">
+La fuente secundaria utilizada es Roboto, la cual aporta legibilidad y neutralidad en interfaces digitales. Su estilo limpio y curvo facilita la lectura continua en pantallas, ideal para textos extensos, descripciones y datos de inventario. Uso en párrafos, subtítulos, descripciones y etiquetas dentro de la aplicación.
+</p>
+
+<p align="justify">
+- Jerarquía tipográfica: 
+</p>
+<p align="justify">
+Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bold), H2: subtítulos (24px, semibold), Párrafos: 16px, regular, Notas/etiquetas: 12px). Asegura una visualización cómoda y ordenada.
+</p>
+
+<p align="center">
+  <img src="assets/imgs/typografiaStockTrack.png" alt="Tipografía" width="550">
+</p>
+
+*4.1.1.3 Colores*
+ 
+<p align="justify">
+La paleta de colores de StockTrack fue diseñada para transmitir energía, confianza y control en la gestión de inventarios.
+</p>
+
+<p align="justify">
+-Colores principales: Naranja (#FFA22A): Representa dinamismo, accesibilidad y cercanía con el usuario evocando movimiento y acción. Amarillo (#FFC64D): Simboliza optimismo y rapidez, reforzando la idea de eficiencia en procesos. Se emplean como colores principales en el logo y en elementos destacados de la interfaz (botones de acción, iconografía principal). Verde (#2ECC71): Asociado al éxito, la validación y la seguridad. Refuerza el concepto de control y precisión en el stock, se reserva para estados positivos, alertas de stock correcto o validaciones (check, confirmaciones).
+</p>
+
+<p align="justify">
+- Colores secundarios: Gris oscuro (#333333): Usado en tipografía y detalles, transmite seriedad y profesionalismo. Blanco (#FFFFFF): Representa simplicidad y claridad visual. Conforman la base de la tipografía y fondos, asegurando contraste y legibilidad en cualquier dispositivo.
+</p>
+
+<p align="center">
+  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
+</p>
+
+*4.1.1.4 Spacing*
+
+<p align="justify">
+El espaciado juega un rol fundamental en la experiencia de usuario, asegurando legibilidad, orden y consistencia visual en todas las interfaces de StockTrack. Hemos definido un sistema de espaciado que será utilizado en la aplicación web.
+</p>
+
+| Elemento                        | Peso          | Tamaño          | Line height | Notas                                                    |
+| :------------------------------ | :------------ | :-------------- | :---------- | :------------------------------------------------------- |
+| **H1 (títulos)**                | Bold 700      | 48px            | 110% – 120% | Espaciado adicional de +0.5px para mayor impacto visual. |
+| **H2 – H3 (secciones)**         | Semi-Bold 600 | 32px – 40px     | 120% – 130% | Claridad visual, adecuado para encabezados intermedios.  |
+| **H4 – H5 (subtítulos)**        | Medium 500    | 24px            | 130% – 140% | Transiciones suaves entre secciones y subsecciones.      |
+| **Body text (texto principal)** | Regular 400   | 16px – 18px     | 150% – 160% | Legible y cómodo para párrafos largos.                   |
+| **Botones / CTAs**              | Semi-Bold 600 | 16px            | 120%        | Uso de mayúsculas opcionales para dar fuerza visual.     |
+
+*4.1.1.5 Tono de comunicación*
+
+<p align="justify">
+- Lenguaje: Claro, cercano y profesional.    
+</p>
+<p align="justify">
+- Formal/Casual: Casual, pero con respeto hacia los usuarios.
+</p>
+<p align="justify">
+- Divertido/Serio: Equilibrio entre serio y entusiasta.
+</p>
+<p align="justify">
+- Respetuoso/Irreverente: Respetuoso con un toque de humor ligero cuando sea apropiado.
+</p>
+<p align="justify">
+- Entusiasta/Sereno: Entusiasta, motivando a los usuarios a participar en debates y predicciones.
+</p>
+
+### 4.1.2. Web Style Guidelines
+
+<p align="justify">
+Figma: 
+https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH1SOxvblAFqkd-1
+</p>
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
