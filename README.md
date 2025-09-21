@@ -2277,7 +2277,15 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
 
@@ -2291,9 +2299,6 @@ Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementaci
 
 ![Landing Page Screenshot](assets/Chapter-V/sprint-1/footer.png)
 
-
-
-#### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 No disponemos de documentación como evidencia, ya que en el primer sprint nuestro enfoque se centró en la elaboración de la landing page.
