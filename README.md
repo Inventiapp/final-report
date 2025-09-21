@@ -685,21 +685,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
       </td>
       <td>EP-04</td>
-  </tbody>
-</table>  
-    </tr>
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+   </tr> 
+   <tr>
       <td>US05</td>
       <td>Reporte de stock a fecha (valorizado)</td>
       <td>
@@ -799,22 +786,14 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-07</td>
     </tr>
-  </tbody>
-</table>
 
 
-<!-- Catálogo de Productos -->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
+
+
+
+
+
+  
     <tr>
       <td>US12</td>
       <td>Crear producto en catálogo</td>
@@ -910,20 +889,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-  </tbody>
-</table>
-<!-- Landing -->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>  
-  <tbody>
     <tr>
       <td>US18</td>
       <td>Sección de funcionalidades</td>
@@ -1175,20 +1140,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     </td>
     <td>EP-05</td>
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US30</td>
       <td>Configurar umbrales de stock</td>
@@ -1283,20 +1234,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-06</td> 
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US36</td>
       <td>Iniciar borrador de ingreso</td>
@@ -1397,21 +1334,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-04</td>
     </tr>
-  </tbody>
-</table>
-
-<!--Lotes y vencimiento-->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US42</td>
       <td>Verificar compra de lotes</td>
@@ -1524,21 +1446,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-02</td>
     </tr>
-  </tbody>
-</table>
-
-<!--- Usuarios, permisos y roles --->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción</th>
-      <th style="width:40%;">Escenarios</th>
-      <th style="width:10%;">Épica</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>US49</td>
       <td>Crear usuarios nuevos</td>
@@ -1667,31 +1574,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-08</td>
     </tr>
-  </tbody>
-</table>
-
-### Epics
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:10%;">Epic ID</th>
-      <th style="width:20%;">Título</th>
-      <th style="width:55%;">Descripción</th>
-      <th style="width:15%;">HUs asociadas</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>EP-01</td>
       <td>Catálogo de Productos</td>
       <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-      <td>US018, US19, US20, US21, US22, US23</td>
+      <td>US012, US013, US014, US015, US016, US017, </td>
     </tr>
     <tr>
       <td>EP-02</td>
       <td>Lotes y Vencimientos</td>
       <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
-      <td>US43, US44, US45, US46, US47, US48</td>
+      <td>US42, US43, US44, US45, US46, US47, US48</td>
     </tr>
     <tr>
       <td>EP-03</td>
@@ -1703,7 +1596,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
       <td>Movimientos de Inventario</td>
       <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
-      <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
+      <td>US01, US02, US03, US04, US36, US37, US38, US39, US40, US41, </td>
     </tr>
     <tr>
       <td>EP-05</td>
@@ -1721,7 +1614,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-07</td>
       <td>Reportes Operativos</td>
       <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
-      <td>US07, US08, US09, US10, US11</td>
+      <td>US05, US06, US07, US08</td>
     </tr>
     <tr>
       <td>EP-08</td>
@@ -1733,7 +1626,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
       <td>Landing</td>
       <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
-      <td>US012, US13, US14, US15, US16, US17</td>
+      <td>US18, US19, US20, US21, US22, US23</td>
     </tr>
     <tr>
       <td>EP-10</td>
@@ -1758,60 +1651,66 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 | # Orden |  User Story Id  | Título                                            | Descripción                                                                                                                     |  Story Points (1/2/3/5/8) |
 | :------ | :-------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------|
 |    01   | US-01           | Iniciar borrador de salida             | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.  |  5                        |
-|    02   | US-02           | Gestionar ítems del borrador                           | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                     |  3                        |
-|    03   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
-|    04   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
-|    05   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
-|    06   | US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                             |  2                        |
-|    07   | US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                            |  2                        |
-|    08   | US-08           | Iniciar reclamo por chat (foto + texto)           | Como usuario quiero abrir un reclamo desde el chat subiendo foto y descripción para rapidez.                                    |  5                        |
-|    09   | US-09           | Validación automática de reclamos menores         | Como usuario quiero que reclamos sencillos sean evaluados automáticamente para respuesta rápida.                                |  5                        |
-|    10   | US-10           | Escalamiento y comunicación con ajustador         | Como usuario quiero que reclamos complejos se escalen a un ajustador y tenga comunicación clara.                                |  3                        |
-|    11   | US-11           | Historial y estado de reclamos                    | Como usuario quiero ver el historial y estado de mis reclamos para seguimiento.                                                 |  3                        |
-|    12   | US-12           | Simulador de devolución (cliente)                 | Como usuario quiero simular cuánto recibiría en caso de reclamo para tomar decisiones.                                          |  3                        |
-|    13   | US-13           | Panel de prevenciones y recordatorios             | Como usuario quiero recibir alertas de prevención y recordatorios para reducir riesgos.                                         |  3                        |
-|    14   | US-14           | Teleconsulta on-demand                            | Como usuario quiero solicitar una teleconsulta rápida para atención médica menor.                                               |  5                        |
-|    15   | US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                         |  3                        |
-|    16   | US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                                |  5                        |
-|    17   | US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                 |  3                        |
-|    18   | US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                        |  2                        |
-|    19   | US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                           |  2                        |
-|    20   | US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                 |  3                        |
-|    21   | US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                     |  2                        |
-|    22   | US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                         |  3                        |
-|    23   | US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                                |  2                        |
-|    24   | US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                              |  3                        |
-|    25   | US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                               |  2                        |
-|    26   | US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                    |  8                        |
-|    27   | US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                               |  1                        |
-|    28   | US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                 |  3                        |
-|    29   | US-29           | FAQ y centro de ayuda                             | Como usuario quiero acceso rápido a preguntas frecuentes y tutoriales para usar la app.                                         |  2                        |
-|    30   | US-30           | Descargar certificado de cobertura                | Como usuario quiero descargar un certificado de cobertura para trámites o acreditación.                                         |  2                        |
-|    31   | US-31           | Compartir evidencia múltiple                      | Como usuario quiero subir varias fotos o archivos en un reclamo para respaldar mi caso.                                         |  3                        |
-|    32   | US-32           | Chat histórico por reclamo                        | Como usuario quiero ver el historial de mensajes relacionados a cada reclamo.                                                   |  2                        |
-|    33   | US-33           | Evaluación al cierre del reclamo                  | Como usuario quiero calificar la resolución del reclamo para retroalimentación.                                                 |  2                        |
-|    34   | TS-01           | Arquitectura backend modular y simple             | Definir arquitectura backend modular (monolito modular o microservicios ligeros) para usuarios, reclamos y pagos.               |  5                        |
-|    35   | TS-02           | Modelado de base de datos relacional (Postgres)   | Diseñar esquema de BD para usuarios, pólizas, reclamos, evidencias y auditoría con migraciones.                                 |  5                        |
-|    36   | TS-03           | API REST documentada y protegida (OpenAPI)        | Desarrollar endpoints REST para auth, póliza, reclamos y evidencias con documentación mínima.                                   |  5                        |
-|    37   | TS-04           | Integración SSO universitario (opcional)          | Implementar opción para autenticación con credenciales universitarias (SSO) si la universidad lo permite.                       |  5                        |
-|    38   | TS-05           | Pipeline CI básico (lint + tests)                 | Configurar pipeline en GitHub Actions/GitLab CI que corra lint y tests unitarios antes de merge.                                |  5                        |
-|    39   | TS-06           | Almacenamiento de imágenes con URLs firmadas      | Implementar almacenamiento (S3/MinIO) con URLs firmadas y expiración para evidencias.                                           |  3                        |
-|    40   | TS-07           | Motor de reglas liviano (JSON)                    | Implementar motor de reglas JSON para validaciones automáticas (fecha, tamaño imagen, metadatos).                               |  5                        |
-|    41   | TS-08           | Sistema de notificaciones básico                  | Implementar servicio para push/email con templates que se conecte a eventos de la app.                                          |  5                        |
-|    42   | TS-09           | Pagos: integración simple y seguras (webhooks)    | Integrar pasarela de pagos con tokenización y manejo de webhooks básicos.                                                       |  5                        |
-|    43   | TS-10           | Logs y monitoreo accesible                        | Implementar logging estructurado y métricas básicas (errores, latencia) con dashboard simple.                                   |  3                        |
-|    44   | US-01           | Iniciar borrador de salida             | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.  |  5                        |
-|    45   | US-02           | Gestionar ítems del borrador                           | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                     |  3                        |
-|    46   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
-|    47   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
-|    48   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
-|    49   | US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                             |  2                        |
-|    50   | US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                            |  2                        |
-|    51   | US-08           | Bloquear usuarios          | Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.                                    |  5                        |
-|    52   | US-09           | Ver lista de usuarios        | Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.                                |  5                        |
-|    53   | US-10           | Cambiar rol de un usuario         | Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.                                |  3                        |
-|    54   | US-11           | Auditoría de accesos                    | Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.                                                 |  3                        |
-|    55   | US-55           | Roles predefinidos                 | Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.                                         |  3                        |
+|    02   | US-02           | Gestionar ítems del borrador                          | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                   |  3                        |
+|    03   | US-03           | Calcular total y utilidad de la salida                        | Como dueño, quiero que el sistema calcule en tiempo real el total y la utilidad por ítem/kit y global, usando el costo vigente.                                              |  2                        |
+|    04   | US-04           | Confirmar salida y descontar inventario                            | Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.                                           |  3                        |
+|    05   | US-05           | Reporte de stock a fecha (valorizado)                       | Como gerente, quiero emitir un reporte de stock a una fecha de corte, con cantidades on-hand, costo vigente y valorizado por producto/lote.                              |  5                        |
+|    06   | US-06           | Reporte de rotación y ventas (utilidad)                        | Como gerente, quiero un reporte por periodo con unidades vendidas, ingreso, costo y utilidad por producto/categoría, para identificar top/slow movers.                                                             |  2                        |
+|    07   | US-07           | Reporte de mermas y ajustes              | Como dueño, quiero un reporte de ajustes (±) y mermas por periodo, con motivo, usuario y valorizado, para auditar pérdidas.                          |  2                        |
+|    08   | US-08           | Reporte de bajo stock y próximos a vencer           | Como jefe de compras, quiero un listado de productos bajo umbral y lotes próximos a vencer, con días de cobertura y acciones sugeridas.                                    |  5                        |
+
+
+|    09   | US-09           | Filtrado de métricas         | Como usuario, quiero filtrar las métricas del dashboard por rango de fechas y categorías de productos, para analizar información más específica y relevante.                               |  5                        |
+|    10   | US-10           | Exportación de métricas         | Como usuario, quiero exportar los datos del dashboard, para compartirlos fácilmente con mi equipo o realizar reportes externos.                                |  3                        |
+|    11   | US-11           | Notificaciones en el dashboard                    | Como usuario, quiero visualizar en el dashboard notificaciones destacadas de bajo stock y próximos vencimientos, para priorizar las acciones más urgentes.                                                 |  3                        |
+
+
+|    12   | US-12           | Crear producto en catálogo                | Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente                                          |  3                        |
+|    13   | US-13           | Edición de producto            | Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo                                        |  3                        |
+|    14   | US-14           | Eliminación e inhabilitacion de productos                            | Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema                                              |  5                        |
+|    15   | US-15           | Clasificación de productos por categoría              | Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas                                       |  3                        |
+|    16   | US-16           | Búsqueda y filtrado de productos     | Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información                                               |  5                        |
+|    17   | US-17           | Historial de cambios de producto            | Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente                                |  3                        |
+|    18   | US-18           | Sección de funcionalidades                      | Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma                                        |  2                        |
+|    19   | US-19           | Formulario de registro               | Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente                                           |  2                        |
+|    20   | US-20           | Formulario de contacto              | Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack                                 |  3                        |
+|    21   | US-21           | Diseño responsive                 | Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo                                                     |  2                        |
+|    22   | US-22           | Sección de testimonios | Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma                         |  3                        |
+|    23   | US-23           | Botones claros             | Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación                                                |  2                        |
+|    24   | US-24           | Crear proveedor   | Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores.                                            |  3                        |
+|    25   | US-25           | Consultar y editar proveedores                   | Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados.                             |  2                        |
+|    26   | US-26           | Asociar productos a proveedor       | Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes.                                                  |  8                        |
+|    27   | US-27           | 	Visualizar KPIs principales                           | Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio.                               |  1                        |
+|    28   | US-28           | Ver alertas críticas                    | Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas.                                |  3                        |
+|    29   | US-29           | Definir composición de un kit                             | Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes.                                        |  2                        |
+|    30   | US-30           | Ensamblar kits y ajustar stock               | Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final.                                  |  2                        |
+|    31   | US-31           | Generar alerta de bajo stock                     | Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado.                                      |  3                        |
+|    32   | US-32           | Generar alerta de vencimiento                        | Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada.                                                |  2                        |
+|    33   | US-33           | Listar alertas pendientes                 | Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones.                                                |  2                        |
+|    34   | TS-01           | Notificación externa de alertas            | Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas.             |  5                        |
+|    35   | TS-02           | Gestionar estado de alertas   | Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento.                                 |  5                        |
+|    36   | TS-03           | Iniciar borrador de ingreso        | Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos.                                   |  5                        |
+|    37   | TS-04           | Registrar ítems del ingreso          | Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock.                       |  5                        |
+|    38   | TS-05           | Registrar costo y proveedor                 | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.                                |  5                        |
+|    39   | TS-06           | Confirmar ingreso y actualizar stock     | Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand.                                          |  3                        |
+|    40   | TS-07           | Adjuntar documento de respaldo                    | Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental.                               |  5                        |
+|    41   | TS-08           | Disparar alertas por ingreso                | Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso.                                          |  5                        |
+|    42   | TS-09           | Verificar compra de lotes    | Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.                                                      |  5                        |
+|    43   | TS-10           | Ver fecha de vencimiento de los lotes                      | Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.                                   |  3                        |
+|    44   | US-01           | Registrar costo y proveedor            | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.  |  5                        |
+|    45   | US-02           | Alertar vencimiento próximo                          | Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.                                                     |  3                        |
+|    46   | US-03           | Buscar lotes por proveedor                        | Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.                                               |  2                        |
+|    47   | US-04           | Editar información de un lote                            | Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.                                            |  3                        |
+|    48   | US-05           | Ver historial de movimientos de un lote                        | Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.                            |  5                        |
+|    49   | US-06           | Crear usuarios nuevos                        | Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma.                                                            |  2                        |
+|    50   | US-07           | Asignar roles               | Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación.                            |  2                        |
+|    51   | US-55           | Editar permisos personalizados                 | Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.                                        |  3                        |
+|    52   | US-08           | Bloquear usuarios          | Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.                                    |  5                        |
+|    53   | US-09           | Ver lista de usuarios        | Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.                                |  5                        |
+|    54   | US-10           | Cambiar rol de un usuario         | Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.                                |  3                        |
+|    55   | US-11           | Auditoría de accesos                    | Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.                                                 |  3                        |
+|    56   | US-55           | Roles predefinidos                 | Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.                                         |  3                        |
+
 
 
 # Capítulo IV: Product Design
