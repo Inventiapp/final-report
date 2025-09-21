@@ -2199,6 +2199,25 @@ Convenciones generales
 
 ### 5.1.4. Software Deployment Configuration.
 
+En esta sección se detallan las herramientas y procesos utilizados para el despliegue de la landing page, frontend y backend de nuestra solución.
+
+Landing page: Vercel
+
+Para el despliegue de la landing page, utilizamos Vercel, una plataforma que permite desplegar aplicaciones web de manera sencilla y eficiente. Vercel se integra perfectamente con GitHub, lo que facilita el despliegue automático cada vez que se realiza un push a la rama principal del repositorio.
+
+Paso 1: Conectar el repositorio de GitHub a Vercel.
+
+![Vercel Connection Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
+
+Paso 2: Configurar las opciones de despliegue, como la rama a desplegar y las variables de entorno necesarias.
+
+![Vercel Configuration Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
+
+Paso 3: Desplegar la aplicación y obtener la URL pública.
+
+![Vercel Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 En esta sección se detalla y demuestra el proceso llevado a cabo para la implementación, pruebas, documentación y despliegue de la Landing Page, los Servicios Web y las Aplicaciones Web Frontend.
@@ -2289,15 +2308,15 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-1.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-1.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-2.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-2.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-3.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-3.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-4.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-4.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/footer.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/footer.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -2305,6 +2324,9 @@ No disponemos de documentación como evidencia, ya que en el primer sprint nuest
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+En esta vista se refleja el trabajo colaborativo del equipo para concretar la entrega de este sprint. Se presentan las métricas relacionadas con la creación de la landing page, desarrollada con HTML, CSS y JavaScript, junto con los commits correspondientes.
+
 
 <div style="page-break-after: always;"></div>
 
