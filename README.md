@@ -1263,78 +1263,548 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
-### Epics
+ 
+<!--Lotes y vencimiento-->
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+
+  <thead>
+
+    <tr>
+
+      <th style="width:8%;">Story ID</th>
+
+      <th style="width:18%;">Título</th>
+
+      <th style="width:24%;">Descripción técnica</th>
+
+      <th style="width:40%;">Criterios de Aceptación</th>
+
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+
+      <td>US42</td>
+
+      <td>Verificar compra de lotes</td>
+
+      <td>Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.</td>
+
+      <td>
+
+        <strong>Escenario 01: Añadir nuevo lote sin registrar</strong><br>
+
+        <strong>Dado</strong> que el dueño de bodega entra a la aplicación<br>
+
+        <strong>Cuando</strong> recibe un nuevo lote de productos no registrados previamente,<br>
+
+        <strong>Entonces</strong> registra el lote recibido con los datos respectivos dentro de la aplicación <br><br>
+
+        <strong>Escenario 02: Añadir lote registrado</strong><br>
+
+        <strong>Dado</strong> que el dueño de bodega entra a la aplicación,<br>
+
+        <strong>Cuando</strong> recibe un nuevo lote de productos registrados previamente,<br>
+
+        <strong>Entonces</strong> añade la cantidad de lotes recibidos registrados previamente.
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+
+    <tr>
+
+      <td>US43</td>
+
+      <td>Ver fecha de vencimiento de los lotes</td>
+
+      <td>Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.</td>
+
+      <td>
+
+        <strong>Escenario 01: Verificar fecha de vencimiento de los lotes</strong><br>
+
+        <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y tengo lotes registrados,<br>
+
+        <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos <br>
+
+        <strong>Entonces</strong> el sistema muestra la información del lote junto con fecha de vencimiento de los mismos .<br><br>
+
+        <strong>Escenario 02: No hay lotes registrados</strong><br>
+
+        <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y no tiene lotes registrados,<br>
+
+        <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos,<br>
+
+        <strong>Entonces</strong> no se muestra información de los productos y el sistema muestra que se deben registrar lotes primero.<br><br>
+        
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+
+    <tr>
+
+      <td>US44</td>
+
+      <td>Registrar costo y proveedor</td>
+
+      <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
+
+      <td>
+
+        <strong>Escenario 01: Costo y proveedor válidos</strong><br>
+
+        <strong>Dado</strong> un borrador de ingreso,<br>
+
+        <strong>Cuando</strong> ingreso costo y proveedor,<br>
+
+        <strong>Entonces</strong> se guarda la información por producto/lote.<br><br>
+
+        <strong>Escenario 02: Datos incompletos</strong><br>
+
+        <strong>Dado</strong> un ítem sin costo o proveedor,<br>
+
+        <strong>Cuando</strong> intento confirmar,<br>
+
+        <strong>Entonces</strong> el sistema muestra error indicando campos obligatorios.
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+
+    <tr>
+
+      <td>US45</td>
+
+      <td>Alertar vencimiento próximo</td>
+
+      <td>Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.</td>
+
+      <td>
+
+        <strong>Escenario 01: Confirmación exitosa</strong><br>
+
+        <strong>Dado</strong> que hay un lote registrado con fecha de vencimiento en menos de 15 días<br>
+
+        <strong>Cuando</strong> confirmo,<br>
+
+        <strong>Entonces</strong> el sistema muestra una alerta visual indicando producto, lote y fecha próxima a vencer.<br><br>
+
+        <strong>Escenario 02: Sin lotes próximos a vencer</strong><br>
+
+        <strong>Dado</strong> que todos los lotes registrados vencen en más de 15 días,<br>
+
+        <strong>Cuando</strong> ingreso a la aplicación,<br>
+
+        <strong>Entonces</strong> no se muestra ninguna alerta
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+
+    <tr>
+
+      <td>US46</td>
+
+      <td>Buscar lotes por proveedor</td>
+
+      <td>Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.</td>
+
+      <td>
+
+        <strong>Escenario 01: Proveedor con lotes registrados</strong><br>
+
+        <strong>Dado</strong> que existen lotes con proveedor “Distribuidora XYZ”,<br>
+
+        <strong>Cuando</strong> filtro por ese proveedor,<br>
+
+        <strong>Entonces</strong> el sistema lista los lotes asociados a él con sus fechas de vencimiento.<br><br>
+
+        <strong>Escenario 02: Proveedor sin lotes registrados</strong><br>
+
+        <strong>Dado</strong> que “Proveedor ABC” no tiene lotes en el sistema,<br>
+
+        <strong>Cuando</strong> aplico el filtro,<br>
+
+        <strong>Entonces</strong> el sistema muestra “No hay lotes asociados a este proveedor”.
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+
+    <tr>
+
+      <td>US47</td>
+
+      <td>Editar información de un lote</td>
+
+      <td>Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.</td>
+
+      <td>
+
+        <strong>Escenario 01: Edición exitosa</strong><br>
+
+        <strong>Dado</strong> que un lote está registrado,<br>
+
+        <strong>Cuando</strong> modifico su fecha de vencimiento o cantidad,<br>
+
+        <strong>Entonces</strong> el sistema guarda los cambios y muestra un mensaje de confirmación.<br><br>
+
+        <strong>Escenario 02: Intento de edición con datos inválidos</strong><br>
+
+        <strong>Dado</strong> que ingreso una fecha de vencimiento en el pasado,<br>
+
+        <strong>Cuando</strong> intento guardar,<br>
+
+        <strong>Entonces</strong> el sistema rechaza el cambio y muestra un error.
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+    <tr>
+
+      <td>US48</td>
+
+      <td>Ver historial de movimientos de un lote</td>
+
+      <td>Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.</td>
+
+      <td>
+
+        <strong>Escenario 01: Historial disponible</strong><br>
+
+        <strong>Dado</strong> que un lote tiene registros de ingreso y salida,<br>
+
+        <strong>Cuando</strong> consulto su historial,<br>
+
+        <strong>Entonces</strong> el sistema muestra una lista con fecha, tipo de movimiento, cantidad y usuario que lo realizó.<br><br>
+
+        <strong>Escenario 02: Sin historial</strong><br>
+
+        <strong>Dado</strong> que un lote recién se registró y no tiene movimientos,<br>
+
+        <strong>Cuando</strong> consulto el historial,<br>
+
+        <strong>Entonces</strong> el sistema indica “Este lote no tiene movimientos registrados”.
+
+      </td>
+
+      <td>EP-02</td>
+
+    </tr>
+  </tbody>
+
+</table>
+
+
+
+
+<!--- Usuarios, permisos y roles --->
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
   <thead>
     <tr>
-      <th style="width:10%;">Epic ID</th>
-      <th style="width:20%;">Título</th>
-      <th style="width:55%;">Descripción</th>
-      <th style="width:15%;">HUs asociadas</th>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción</th>
+      <th style="width:40%;">Escenarios</th>
+      <th style="width:10%;">Épica</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>EP-01</td>
-      <td>Catálogo de Productos</td>
-      <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-      <td>US018, US19, US20, US21, US22, US23</td>
-    </tr>
-    <tr>
-      <td>EP-02</td>
-      <td>Lotes y Vencimientos</td>
-      <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>EP-03</td>
-      <td>Dashboard</td>
-      <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
-      <td>US27, US28</td>
-    </tr>
-    <tr>
-      <td>EP-04</td>
-      <td>Movimientos de Inventario</td>
-      <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
-      <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
-    </tr>
-    <tr>
-      <td>EP-05</td>
-      <td>Kits</td>
-      <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
-      <td>US29, US30</td>
-    </tr>
-    <tr>
-      <td>EP-06</td>
-      <td>Alertas y Notificaciones</td>
-      <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
-      <td>US30, US31, US32, US33, US34, US35</td>
-    </tr>
-    <tr>
-      <td>EP-07</td>
-      <td>Reportes Operativos</td>
-      <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
-      <td>US07, US08, US09, US10, US11</td>
-    </tr>
-    <tr>
+      <td>US49</td>
+      <td>Crear usuarios nuevos</td>
+      <td>Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma.</td>
+      <td>
+        <strong>Escenario 01: Creación exitosa</strong><br>
+        Dado que estoy en el módulo de usuarios,<br>
+        Cuando ingreso nombre, correo y rol,<br>
+        Entonces el sistema guarda el nuevo usuario y envía invitación.<br><br>
+        <strong>Escenario 02: Datos incompletos</strong><br>
+        Dado que no ingresé correo electrónico,<br>
+        Cuando intento crear el usuario,<br>
+        Entonces el sistema muestra error de campo obligatorio.
+      </td>
       <td>EP-08</td>
-      <td>Usuarios, Roles y Permisos</td>
-      <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
-      <td>—</td>
     </tr>
     <tr>
-      <td>EP-09</td>
-      <td>Landing</td>
-      <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
-      <td>US012, US13, US14, US15, US16, US17</td>
+      <td>US50</td>
+      <td>Asignar roles</td>
+      <td>Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación.</td>
+      <td>
+        <strong>Escenario 01: Rol asignado correctamente</strong><br>
+        Dado que un usuario existe,<br>
+        Cuando le asigno el rol “Asistente”,<br>
+        Entonces el sistema actualiza sus permisos.<br><br>
+        <strong>Escenario 02: Usuario sin rol</strong><br>
+        Dado que un usuario no tiene rol,<br>
+        Cuando intenta ingresar,<br>
+        Entonces el sistema muestra “Acceso restringido”.
+      </td>
+      <td>EP-08</td>
     </tr>
     <tr>
-      <td>EP-10</td>
-      <td>Proveedores</td>
-      <td>Como encargado de compras, quiero registrar, consultar, editar y eliminar proveedores, asociarlos a productos y gestionar datos de contacto, para asegurar un abastecimiento confiable y trazable.</td>
-      <td>US24, US25, US26</td>
+      <td>US52</td>
+      <td>Editar permisos personalizados</td>
+      <td>Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.</td>
+      <td>
+        <strong>Escenario 01: Permiso extra</strong><br>
+        Dado que un usuario tiene rol “Asistente”,<br>
+        Cuando le habilito permiso extra de “Ver reportes”,<br>
+        Entonces el usuario puede acceder al módulo.<br><br>
+        <strong>Escenario 02: Quitar permisos</strong><br>
+        Dado que un usuario tenía acceso a “Crear lotes”,<br>
+        Cuando desactivo ese permiso,<br>
+        Entonces el sistema bloquea su acceso.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>US51</td>
+      <td>Bloquear usuarios</td>
+      <td>Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.</td>
+      <td>
+        <strong>Escenario 01: Usuario bloqueado</strong><br>
+        Dado que un usuario está activo,<br>
+        Cuando lo marco como bloqueado,<br>
+        Entonces ya no puede iniciar sesión.<br><br>
+        <strong>Escenario 02: Intento de ingreso bloqueado</strong><br>
+        Dado que un usuario está bloqueado,<br>
+        Cuando intenta iniciar sesión,<br>
+        Entonces el sistema muestra “Cuenta deshabilitada”.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>US52</td>
+      <td>Ver lista de usuarios</td>
+      <td>Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.</td>
+      <td>
+        <strong>Escenario 01: Lista con usuarios</strong><br>
+        Dado que hay usuarios registrados,<br>
+        Cuando entro al módulo,<br>
+        Entonces veo listado con nombre, correo, rol y estado.<br><br>
+        <strong>Escenario 02: Sin usuarios</strong><br>
+        Dado que no hay usuarios en el sistema,<br>
+        Cuando consulto el listado,<br>
+        Entonces se muestra “No existen usuarios registrados”.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>US53</td>
+      <td>Cambiar rol de un usuario</td>
+      <td>Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.</td>
+      <td>
+        <strong>Escenario 01: Cambio exitoso</strong><br>
+        Dado que un usuario tiene rol “Asistente”,<br>
+        Cuando lo cambio a “Supervisor”,<br>
+        Entonces el sistema actualiza sus permisos.<br><br>
+        <strong>Escenario 02: Restricción</strong><br>
+        Dado que intento degradar al único “Administrador”,<br>
+        Cuando confirmo,<br>
+        Entonces el sistema impide la acción.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>US54</td>
+      <td>Auditoría de accesos</td>
+      <td>Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.</td>
+      <td>
+        <strong>Escenario 01: Accesos exitosos</strong><br>
+        Dado que los usuarios ingresaron,<br>
+        Cuando consulto el historial,<br>
+        Entonces veo fecha, hora, usuario y estado.<br><br>
+        <strong>Escenario 02: Intentos fallidos</strong><br>
+        Dado que un usuario ingresó mal contraseña 3 veces,<br>
+        Cuando reviso,<br>
+        Entonces aparece “intento fallido”.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>US55</td>
+      <td>Roles predefinidos</td>
+      <td>Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.</td>
+      <td>
+        <strong>Escenario 01: Crear usuario con rol predefinido</strong><br>
+        Dado que selecciono “Supervisor”,<br>
+        Cuando creo al usuario,<br>
+        Entonces el sistema aplica permisos estándar.<br><br>
+        <strong>Escenario 02: Personalizar rol</strong><br>
+        Dado que un usuario tiene rol “Asistente”,<br>
+        Cuando ajusto permisos,<br>
+        Entonces el sistema conserva la base del rol y aplica cambios.
+      </td>
+      <td>EP-08</td>
     </tr>
   </tbody>
+</table>
+
+
+### Epics
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+
+  <thead>
+
+    <tr>
+
+      <th style="width:10%;">Epic ID</th>
+
+      <th style="width:20%;">Título</th>
+
+      <th style="width:55%;">Descripción</th>
+
+      <th style="width:15%;">HUs asociadas</th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+
+      <td>EP-01</td>
+
+      <td>Catálogo de Productos</td>
+
+      <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
+
+      <td>US018, US19, US20, US21, US22, US23</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-02</td>
+
+      <td>Lotes y Vencimientos</td>
+
+      <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
+
+      <td>US43, US44, US45, US46, US47, US48</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-03</td>
+
+      <td>Dashboard</td>
+
+      <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
+
+      <td>US27, US28</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-04</td>
+
+      <td>Movimientos de Inventario</td>
+
+      <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
+
+      <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-05</td>
+
+      <td>Kits</td>
+
+      <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
+
+      <td>US29, US30</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-06</td>
+
+      <td>Alertas y Notificaciones</td>
+
+      <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
+
+      <td>US30, US31, US32, US33, US34, US35</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-07</td>
+
+      <td>Reportes Operativos</td>
+
+      <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
+
+      <td>US07, US08, US09, US10, US11</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-08</td>
+
+      <td>Usuarios, Roles y Permisos</td>
+
+      <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
+
+      <td>US49, US50, US51, US52, US53, US54, US55</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-09</td>
+
+      <td>Landing</td>
+
+      <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
+
+      <td>US012, US13, US14, US15, US16, US17</td>
+
+    </tr>
+
+    <tr>
+
+      <td>EP-10</td>
+
+      <td>Proveedores</td>
+
+      <td>Como encargado de compras, quiero registrar, consultar, editar y eliminar proveedores, asociarlos a productos y gestionar datos de contacto, para asegurar un abastecimiento confiable y trazable.</td>
+
+      <td>US24, US25, US26</td>
+
+    </tr>
+
+  </tbody>
+
 </table>
 
 
