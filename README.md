@@ -198,7 +198,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="700" height="700" style="object-fit: cover;">
+      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="600" height="600" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -240,7 +240,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="700" height="700" style="object-fit: cover;">
+      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="750" height="750" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
