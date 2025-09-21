@@ -745,6 +745,22 @@ Una vez que el usuario inicia sesión, el sistema de navegación cambia para cen
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.2. Web Applications Mock-ups.
+
+![](./assets/Chapter-IV/login-2.jpg)
+![](./assets/Chapter-IV/login-1.jpg)
+![](./assets/Chapter-IV/Inventario-1.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Información%20Producto-1.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Nuevo%20Producto.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Reposición.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Reposición.jpg)
+![](./assets/Chapter-IV/Inventario%20-%20Nuevo%20kit.jpg)
+![](./assets/Chapter-IV/Proveedores-2.jpg)
+![](./assets/Chapter-IV/Proveedores-3.jpg)
+![](./assets/Chapter-IV/Administración%20del%20personal-1.jpg)
+![](./assets/Chapter-IV/Administración%20del%20personal%20-%20Creación%20Personal.jpg)
+![](./assets/Chapter-IV/Administración%20del%20personal%20-%20Creación%20roles.jpg)
+![](./assets/Chapter-IV/Salida%20producto-1.jpg)
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 ## 4.5. Web Applications Prototyping.
