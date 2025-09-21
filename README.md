@@ -325,25 +325,47 @@ Preguntas complementarias:
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento #1: Bodegas especializadas por rubro**
 Entrevista x:
 
-[video]
+<img src="" alt="Entrevista - segmento 1" width="500"/>
 
 [XX:XX - XX:XX]
 
 Duración: 
 
-Link de la entrevista: (link acortado en algun shortener)
-
 Nombre: 
-
-Apellidos: 
 
 Edad: 
 
-Distrito:
-
 Resumen:
+
+
+<br>
+
+
+<br>
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+Entrevista 4:
+<br>
+
+<img src="assets/Chapter-II/Entrevista-Alexander-Miranda.png" alt="Entrevista - segmento 2" width="500"/>
+
+[XX:XX - XX:XX]
+
+Duración: 3:30 min
+
+Nombre: Alexander Miranda Vivanco
+
+Edad: 27 años
+ 
+Resumen: Alexander Miranda tiene un emprendimiento dedicado a venta de productos para mascotas. Actualmente, gestiona su inventario revisando su almacén presencialmente y lo hace interdiario, dependiendo de las ventas. Se siente limitado por lo tardado que es revisar el stock disponible. Registra su inventario únicamente en Excel y se guía por las boletas que emite. Le gustaría mejorar las entradas y salidas de productos e inventariado para así llevar un mejor control y saber cuando es necesario reponer ciertos ítems. Aún no ha considerado implementar una página, pero lo considera una oportunidad para digitalizar el negcio y agilizar el proceso de venta e inventario.
+
+<br>
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
