@@ -1610,6 +1610,102 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 </table>
 
 ### Technical stories
+<!-- Technical Stories – Formato "Como... quiero... para..." + Criterios (Dado/Cuando/Entonces) -->
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Bloqueo optimista en stock</td>
+      <td>Como administrador del sistema, quiero usar control de versión en inventario para evitar sobreventas cuando dos usuarios confirman salidas a la vez.</td>
+      <td>
+        <strong>Escenario 01: Actualización con versión válida</strong><br>
+        <strong>Dado</strong> un registro con versión <em>v</em>,<br>
+        <strong>Cuando</strong> confirmo la salida enviando <em>v</em>,<br>
+        <strong>Entonces</strong> se descuenta el stock y la versión cambia a <em>v+1</em>.<br><br>
+        <strong>Escenario 02: Conflicto de concurrencia</strong><br>
+        <strong>Dado</strong> dos confirmaciones sobre el mismo producto/lote,<br>
+        <strong>Cuando</strong> la segunda llega con versión desactualizada,<br>
+        <strong>Entonces</strong> el sistema responde <em>409 Conflict</em> y pide recargar.<br><br>
+        <strong>Escenario 03: Transacción de un solo agregado</strong><br>
+        <strong>Dado</strong> una confirmación de salida,<br>
+        <strong>Cuando</strong> se persiste,<br>
+        <strong>Entonces</strong> todo ocurre en una única transacción del agregado de inventario.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Outbox + eventos de dominio</td>
+      <td>Como desarrollador, quiero registrar eventos en una Outbox para enviarlos de forma segura a los consumidores y mantener consistencia.</td>
+      <td>
+        <strong>Escenario 01: Escritura transaccional</strong><br>
+        <strong>Dado</strong> una salida/ingreso confirmado,<br>
+        <strong>Cuando</strong> se guarda el movimiento,<br>
+        <strong>Entonces</strong> se guarda también un evento en Outbox con <em>status=Pending</em>.<br><br>
+        <strong>Escenario 02: Despacho resiliente</strong><br>
+        <strong>Dado</strong> eventos pendientes,<br>
+        <strong>Cuando</strong> corre el despachador,<br>
+        <strong>Entonces</strong> publica con reintentos y marca <em>Processed</em>.<br><br>
+        <strong>Escenario 03: Idempotencia</strong><br>
+        <strong>Dado</strong> que un evento llega duplicado al consumidor,<br>
+        <strong>Cuando</strong> intenta procesarlo,<br>
+        <strong>Entonces</strong> no duplica efectos (se deduplica por <em>event_id</em>).
+      </td>
+      <td>EP-04, EP-06, EP-07</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Motor de kits (receta y costo)</td>
+      <td>Como encargado, quiero que el sistema desglose los kits en componentes al vender o ensamblar para descontar stock y calcular costo correcto.</td>
+      <td>
+        <strong>Escenario 01: Desglose al confirmar</strong><br>
+        <strong>Dado</strong> una salida con kits,<br>
+        <strong>Cuando</strong> confirmo,<br>
+        <strong>Entonces</strong> se crean movimientos por cada componente y se descuenta su stock.<br><br>
+        <strong>Escenario 02: Cálculo de costo del kit</strong><br>
+        <strong>Dado</strong> una receta válida,<br>
+        <strong>Cuando</strong> se calcula la utilidad,<br>
+        <strong>Entonces</strong> el costo del kit = Σ(costos × cantidades) de componentes.<br><br>
+        <strong>Escenario 03: Validaciones</strong><br>
+        <strong>Dado</strong> falta de stock o receta con errores (ciclos/componente inexistente),<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea y muestra el error.
+      </td>
+      <td>EP-05, EP-04</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Read models para KPIs/Reportes</td>
+      <td>Como analista, quiero modelos de lectura actualizados por eventos para consultar KPIs y reportes rápidos sin afectar la base transaccional.</td>
+      <td>
+        <strong>Escenario 01: Proyección consistente</strong><br>
+        <strong>Dado</strong> eventos de ingreso/salida/ajuste,<br>
+        <strong>Cuando</strong> se procesan,<br>
+        <strong>Entonces</strong> los modelos de lectura reflejan saldos y KPIs correctos.<br><br>
+        <strong>Escenario 02: Desempeño</strong><br>
+        <strong>Dado</strong> volúmenes altos,<br>
+        <strong>Cuando</strong> consulto KPIs,<br>
+        <strong>Entonces</strong> la API responde &lt; 200&nbsp;ms en consultas comunes.<br><br>
+        <strong>Escenario 03: Consistencia eventual</strong><br>
+        <strong>Dado</strong> carga elevada,<br>
+        <strong>Cuando</strong> ocurre la proyección,<br>
+        <strong>Entonces</strong> la latencia es &le; 5&nbsp;s y se muestra “actualizado hace X s”.
+      </td>
+      <td>EP-03, EP-07</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
