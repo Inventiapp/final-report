@@ -251,7 +251,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="" alt="Foto de María Hernández" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/Chapter-I/maria-hernandez.jpeg " alt="Foto de María Hernández" width="500" height="500" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -265,7 +265,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="700" height="700" style="object-fit: cover;">
+      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="500" height="500" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
@@ -279,7 +279,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="" alt="Foto de Fabiola Saldaña" width="160" height="160" style="object-fit: cover;">
+      <img src="assets/Chapter-I/fabiola.jpeg " alt="Foto de Fabiola Saldaña" width="500" height="500" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -293,7 +293,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="750" height="750" style="object-fit: cover;">
+      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="500" height="500" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
