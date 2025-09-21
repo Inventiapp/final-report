@@ -329,7 +329,7 @@ La persona llegó a esta situación por la necesidad de controlar mejor su inven
 
 Según un estudio realizado por GS1 Uruguay (2024), el porcentaje de productos no encontrados en góndolas alcanzó el 7.08 %, lo que representa un aumento del 74 % respecto al año anterior; este dato indica que por cada 100 productos auditados, 7 no estaban disponibles, evidenciando el impacto directo que una gestión ineficiente de inventarios puede tener en la disponibilidad, las ventas y la experiencia del cliente.
 
-![Evolución del Índice](./assets/imgs/Evolucion-del-Indice.png)
+![Evolución del Índice](./assets/Chapter-I/Evolucion-del-Indice.png)
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -403,7 +403,7 @@ Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día d
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Canvas](./assets/imgs/Lean-UX-Canvas.jpg)
+![Lean UX Canvas](./assets/Chapter-I/Lean-UX-Canvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
@@ -440,7 +440,7 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
 ### 2.1.1. Análisis competitivo
 
 <p align="center">
-  <img src="assets/imgs/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
+  <img src="assets/Chapter-II/analisisCompetitivo.jpg" alt="Análisis Competitivo" width="550">
 </p>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -523,7 +523,7 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
 </p>
 
 <p align="center">
-  <img src="assets/imgs/logoStockTrack.png" alt="Logo" width="550">
+  <img src="assets/Chapter-IV/logoStockTrack.png" alt="Logo" width="550">
 </p>
 
 *4.1.1.2 Typografía*
@@ -550,7 +550,7 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 <p align="center">
-  <img src="assets/imgs/typografiaStockTrack.png" alt="Tipografía" width="550">
+  <img src="assets/Chapter-IV/typografiaStockTrack.png" alt="Tipografía" width="550">
 </p>
 
 *4.1.1.3 Colores*
@@ -568,7 +568,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
 </p>
 
 <p align="center">
-  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
+  <img src="assets/Chapter-IV/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
 *4.1.1.4 Spacing*
