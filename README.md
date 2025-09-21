@@ -786,14 +786,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-07</td>
     </tr>
-
-
-
-
-
-
-
-  
     <tr>
       <td>US12</td>
       <td>Crear producto en catálogo</td>
