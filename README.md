@@ -719,7 +719,12 @@ Una vez que el usuario inicia sesión, el sistema de navegación cambia para cen
 
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+![](./assets/Chapter-IV/Wireframe.png)
+
 ### 4.3.2. Landing Page Mock-up.  
+
+![](./assets/Chapter-IV/Mockup.png)
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
