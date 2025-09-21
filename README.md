@@ -82,9 +82,12 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 # Contenido
 [Student Outcome](#student-outcome)
 
+- [Project Report](#project-report)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [TB1](#tb1)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
+- [Objetivos SMART](#objetivos-smart)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -97,7 +100,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -110,64 +113,66 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming.](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram.](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams.](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams.](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+  - [4.8. Database Design.](#48-database-design)
     - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
+      - [5.2.X.1. Sprint Planning n.](#52x1-sprint-planning-n)
+      - [5.2.X.2. Aspect Leaders and Collaborators.](#52x2-aspect-leaders-and-collaborators)
+      - [5.2.X.3. Sprint Backlog n.](#52x3-sprint-backlog-n)
+      - [5.2.X.4. Development Evidence for Sprint Review.](#52x4-development-evidence-for-sprint-review)
+      - [5.2.X.5. Execution Evidence for Sprint Review.](#52x5-execution-evidence-for-sprint-review)
+      - [5.2.X.6. Services Documentation Evidence for Sprint Review.](#52x6-services-documentation-evidence-for-sprint-review)
+      - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
       - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
+  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
+  - [Video About-the-Team.](#video-about-the-team)
+- [Conclusiones](#conclusiones-1)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -187,6 +192,9 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+StockTrack es una aplicación innovadora que busca optimizar la gestión de inventarios en bodegas y almacenes, brindando a los negocios una herramienta sencilla, confiable y en tiempo real para controlar el ingreso y salida de productos. La plataforma permite registrar movimientos de stock de manera automatizada, generar alertas inteligentes en caso de niveles bajos o próximos vencimientos, visualizar la información centralizada de cada producto y acceder a reportes con analíticas que facilitan la toma de decisiones estratégicas. Con ello, StockTrack elimina la dependencia de procesos manuales, reduce errores humanos, evita pérdidas por sobrestock o desabastecimiento y mejora la eficiencia operativa, impulsando así la rentabilidad y el crecimiento de las empresas.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
@@ -206,7 +214,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/Foto-María.jpeg"  width="520"></img>
+      <img src="assets/Chapter-I/maria-hernandez.jpeg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -220,12 +228,12 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/Chapter-I/dayro.jpg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
           <p align="justify">
-            ...
+            Mi nombre es Dayro Ríos, tengo 19 años, estoy cursando el sexto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en los lenguajes de programación c++, python, html y css, además gestores de base de datos como mssql. Cuando trabajo en equipo soy comunicativo, responsable y trato de realizar el trabajo lo mejor posible. 
           </p>
     </td>
   </tr>
@@ -234,7 +242,7 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/Chapter-I/fabiola.jpeg"  width="520"></img>
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -399,6 +407,30 @@ Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día d
 
 ## 1.3. Segmentos objetivo
 
+Esta sección expone los segmentos vinculados al contexto del problema, integrando características demográficas y datos estadísticos que respaldan el análisis. En este sentido, y con el propósito de desarrollar un producto que se ajuste de manera efectiva a las necesidades de los clientes, **StockTrack** enfocará sus esfuerzos en los siguientes segmentos de la población.
+
+**1. Dueños de bodegas:** Estos usuarios tienen como puesto de trabajo su bodega. Ellos buscan una solución práctica que los ayude a realizar la logística de manera más eficiente y sin errores
+
+- Edad: 20 a 60 años
+- Ocupación: Dueños de bodegas.
+- País: Perú.
+- Dominio: Nivel intermedio o básico en tecnología, pero familiarizados con apps móviles.
+- Beneficios buscados:
+    - Rápidez de cálculos logísticos.
+    - Orden y administración sencilla de los productos.
+
+**2. Startups y emprendedores en expansión con necesidades logísticas:** Estos usuarios se encuentran en una etapa de crecimiento de su negocio y requieren herramientas que les permitan profesionalizar la gestión de sus operaciones. Buscan soluciones accesibles y escalables que faciliten el control del inventario sin necesidad de invertir en sistemas costosos o complejos.
+
+- Edad: 22 a 45 años
+- Ocupación: Fundadores de startups, emprendedores y  pequeños empresarios.
+- País: Perú (con potencial de expansión a otros países de Latinoamérica).
+- Dominio: Nivel intermedio en el uso de herramientas digitales y aplicaciones móviles.
+- Beneficios buscados:
+    - Escalabilidad en el control del inventario.
+    - Reducción de costos y optimización de recursos.
+    - Mayor visibilidad y control en tiempo real sobre el stock.
+    - Herramientas que acompañen el crecimiento del negocio sin requerir infraestructura adicional.
+
 <br>
 <br>
 
@@ -471,7 +503,6 @@ Cuando el 50% de los usuarios accedan a la plataforma al menos una vez al día d
 
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines
-
 
 *4.1.1.1 Branding*
 
