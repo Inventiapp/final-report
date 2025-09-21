@@ -171,6 +171,58 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
 
 # Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 3**
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. 
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+<table>
+  <tr>
+    <th>Criterio Específico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
+    <td>Choy Robles, Vanessa May Lang: <br><b>TB1:</b> Durante el proyecto participé activamente en reuniones de coordinación, compartiendo ideas claras y bien estructuradas que contribuyeron a la mejora continua. Ajusté mi forma de comunicar según el contexto y reforcé la comprensión de los objetivos del equipo, brindando retroalimentación que fortaleció la motivación grupal.</td>
+    <td rowspan="5"><b>TB1:</b> En conjunto, los estudiantes evidenciaron competencias sólidas en comunicación oral, adaptando sus mensajes a distintos públicos y situaciones. Su claridad y asertividad permitieron agilizar decisiones, mejorar la colaboración y reforzar la cohesión del equipo, siendo un factor clave para cumplir los objetivos del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Hernández Uchuya, María Patricia: <br><b>TB1:</b> Me comuniqué de manera activa y constante con el grupo, realizando seguimientos periódicos para asegurar el cumplimiento de las tareas y anticipar posibles riesgos. Además, motivé al equipo en momentos críticos con un lenguaje positivo y enfocado en resultados, ayudando a mantener la moral alta.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br><b>TB1:</b> Durante las sesiones transmití observaciones y sugerencias de mejora de manera clara, asegurando que fueran entendidas e implementadas. También impulsé un espacio de diálogo abierto que permitió la participación de todos, enriqueciendo la calidad del trabajo realizado.</td>
+  </tr>
+  <tr>
+    <td>Saldaña Ayala, Fabiola Del Rocio: <br><b>TB1:</b> En las reuniones grupales, me enfoqué en recordar los objetivos establecidos y reforzar los aspectos que necesitaban mejora. Implementé estrategias comunicativas para alinear las expectativas y mantener el enfoque en entregar valor de manera constante.</td>
+  </tr>
+  <tr>
+    <td>Sulca Sanchez, Piero Angel: <br><b>TB1:</b> Participé activamente en las discusiones, expresando mis puntos de vista y observaciones con respeto y fundamentos. Esto facilitó la resolución colaborativa de retos, mejoró la claridad de las tareas y reforzó el compromiso del equipo hacia los objetivos.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
+    <td>Choy Robles, Vanessa May Lang: <br><b>TB1:</b> Elaboré reportes de avance de forma periódica, presentando la información de manera ordenada y clara. Empleé tablas, esquemas y resúmenes ejecutivos para facilitar la revisión por parte del equipo y los stakeholders, contribuyendo a mantener la documentación organizada y trazable.</td>
+    <td rowspan="5"><b>TB1:</b> Los participantes demostraron un manejo eficaz de la comunicación escrita, adaptando el estilo según el público y el contexto. La elaboración de informes, actas y reportes claros favoreció la transparencia, la coordinación interna y la toma de decisiones informadas, impulsando directamente el éxito del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Hernández Uchuya, María Patricia: <br><b>TB1:</b> Me responsabilicé de elaborar minutas y resúmenes de cada reunión, dejando constancia de acuerdos, decisiones y tareas asignadas. Este registro detallado permitió que todos tuvieran claridad sobre los próximos pasos y sirvió como guía para evaluar el progreso alcanzado.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br><b>TB1:</b> Redacté documentos con observaciones y recomendaciones de mejora, utilizando un lenguaje técnico pero fácil de entender. Consolidé la información en reportes periódicos que facilitaron la toma de decisiones basadas en datos y mejoraron la gestión de ajustes en el proyecto.</td>
+  </tr>
+  <tr>
+    <td>Saldaña Ayala, Fabiola Del Rocio: <br><b>TB1:</b> Me encargué de generar actas detalladas de las reuniones, donde registré compromisos, plazos y dependencias entre tareas. Esta práctica permitió mantener la transparencia, asegurar responsabilidades y garantizar la continuidad de las acciones planificadas.</td>
+  </tr>
+  <tr>
+    <td>Sulca Sanchez, Piero Angel: <br><b>TB1:</b> Documenté los hallazgos obtenidos en entrevistas y sesiones de trabajo grupal en informes bien estructurados y fáciles de leer. Esta información facilitó la comprensión de los requerimientos y apoyó la toma de decisiones estratégicas del equipo.</td>
+  </tr>
+</table>
+
+
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo I: Presentación
@@ -2208,6 +2260,8 @@ No disponemos de documentación como evidencia, ya que en el primer sprint nuest
 <div style="page-break-after: always;"></div>
 
 # Bibliografía
+
+GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Investigación 2024_. <https://fmguy.org/web-2024/indice-faltantes.html>
 
 <div style="page-break-after: always;"></div>
 
