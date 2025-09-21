@@ -2200,13 +2200,104 @@ Convenciones generales
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
+
+En esta sección se detalla y demuestra el proceso llevado a cabo para la implementación, pruebas, documentación y despliegue de la Landing Page, los Servicios Web y las Aplicaciones Web Frontend.
+
 ### 5.2.1. Sprint 1
+
+En esta sección, documentaremos y explicaremos el desarrollo del Sprint 1 en términos de desarrollo del producto y el trabajo colaborativo del equipo. Se abordará varias secciones, incluyendo el Sprint Backlog, Development Evidence for Sprint Review, Sprint Planning.
+
 #### 5.2.1.1. Sprint Planning 1.
+
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 1.
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Sprint #</strong></td>
+			<td>Sprint 1</td>
+		</tr>
+		<tr>
+			<td colspan="2"><strong>Spring Planing Background</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Date</strong></td>
+			<td>2025-09-08</td>
+		</tr>
+		<tr>
+			<td><strong>Time</strong></td>
+			<td>4:50 PM</td>
+		</tr>
+		<tr>
+			<td><strong>Location</strong></td>
+			<td>Remote mode through Whatsapp</td>
+		</tr>
+		<tr>
+			<td colspan="2"><strong>Prepared by</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Attends (to planinning meeting)</strong></td>
+			<td>All members of Inventiapp</td>
+		</tr>
+		<tr>
+			<td><strong>Sprint 0 Review Summary</strong></td>
+			<td>As this was our first development sprint, we have not yet prepared a sprint summary.</td>
+		</tr>
+		<tr>
+			<td><strong>Sprint 0 Retrospective Summary</strong></td>
+			<td>As this marks our first development sprint, the sprint summary has not been prepared yet.</td>
+		</tr>
+		<tr>
+			<td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Spritn 1 Goal</strong></td>
+			<td>We're focusing on creating our landing page. We believe this will enhance the product’s long-term viability within our organization. This will be confirmed when we register a significant rise in user</td>
+		</tr>
+		<tr>
+			<td><strong>Sprint 1 Velocity</strong></td>
+			<td>--</td>
+		</tr>
+		<tr>
+			<td><strong>Sum of Story points</strong></td>
+			<td>--</td>
+		</tr>
+	</tbody>
+</table>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing page |
+| ------------------------------------|-----------------|-------------------------------------------|
+| Rios Piñan, Dayro Richard | Addicted2u | C | 
+| Hernández Uchuya, María Patricia | Bal2220 | C |
+| Saldaña Ayala, Fabiola Del Rocio | fabs-in-space | C | 
+| Sulca Sanchez, Piero Angel  |psulca | L | 
+| Choy Robles Vanessa May Lang  | VMLCR | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
+
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-1.png)
+
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-2.png)
+
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-3.png)
+
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-4.png)
+
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/footer.png)
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+No disponemos de documentación como evidencia, ya que en el primer sprint nuestro enfoque se centró en la elaboración de la landing page.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
