@@ -787,6 +787,54 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-07</td>
     </tr>
     <tr>
+      <td>US09</td>
+      <td>Filtrado de métricas</td>
+      <td>Como usuario, quiero filtrar las métricas del dashboard por rango de fechas y categorías de productos, para analizar información más específica y relevante.</td>
+      <td>
+        <strong>Escenario 01: Filtrar por rango de fechas</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<br>
+        <strong>Cuando</strong> selecciona un rango de fechas específico,<br>
+        <strong>Entonces</strong> las métricas y gráficos se actualizan mostrando solo la información de ese periodo.<br><br>
+        <strong>Escenario 02: Filtrar por categoría de producto</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<em>Draft</em>,<br>
+        <strong>Cuando</strong> selecciona una categoría de productos,<br>
+        <strong>Entonces</strong> el dashboard muestra únicamente métricas relacionadas con esa categoría.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Exportación de métricas</td>
+      <td>Como usuario, quiero exportar los datos del dashboard, para compartirlos fácilmente con mi equipo o realizar reportes externos.</td>
+      <td>
+        <strong>Escenario 01: Exportar en formato PDF</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<br>
+        <strong>Cuando</strong> hace clic en el botón de exportar y selecciona PDF,<br>
+        <strong>Entonces</strong> el sistema genera y descarga un archivo PDF con las métricas actuales aplicando los filtros seleccionados.<br><br>
+        <strong>Escenario 02: Exportar en formato Excel</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<em>Draft</em>,<br>
+        <strong>Cuando</strong> hace clic en el botón de exportar y selecciona Excel,<br>
+        <strong>Entonces</strong> el sistema genera y descarga un archivo Excel con los datos de métricas actuales aplicando los filtros seleccionados.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Notificaciones en el dashboard</td>
+      <td>Como usuario, quiero visualizar en el dashboard notificaciones destacadas de bajo stock y próximos vencimientos, para priorizar las acciones más urgentes.</td>
+      <td>
+        <strong>Escenario 01: Mostrar notificaciones de bajo stock</strong><br>
+        <strong>Dado</strong> que el usuario accede al dashboard, <br>
+        <strong>Cuando</strong> hay productos con stock menor al umbral definido,<br>
+        <strong>Entonces</strong> el sistema muestra una notificación resaltada en la sección de alertas del dashboard.<br><br>
+        <strong>Escenario 02: Mostrar notificaciones de próximos vencimientos</strong><br>
+        <strong>Dado</strong> que el usuario accede al dashboard, <em>Draft</em>,<br>
+        <strong>Cuando</strong> existen productos que vencen en los próximos 30 días,<br>
+        <strong>Entonces</strong> el sistema muestra una notificación resaltada indicando los productos en riesgo de vencimiento.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
       <td>US12</td>
       <td>Crear producto en catálogo</td>
       <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
@@ -814,7 +862,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Campo bloqueado</strong><br>
         <strong>Dado</strong> que intento modificar el identificador único,<br>
         <strong>Cuando</strong> guardo los cambios,<br>
-        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.<br><br>
+        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.
       </td>
       <td>EP-01</td>
     </tr>
@@ -830,7 +878,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Consulta histórica</strong><br>
         <strong>Dado</strong> que un producto está inactivo,<br>
         <strong>Cuando</strong> consulto un historial o reporte,<br>
-        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
+        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.
       <td>EP-01</td>
     </tr>
     <tr>
@@ -845,7 +893,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Filtrado por categoría</strong><br>
         <strong>Dado</strong> que existen varios productos en distintas categorías,<br>
         <strong>Cuando</strong> aplico un filtro por categoría,<br>
-        <strong>Entonces</strong> el sistema muestra solo los productos correspondientes.<br><br>
+        <strong>Entonces</strong> el sistema muestra solo los productos correspondientes.
       </td>
       <td>EP-01</td>
     </tr>
@@ -861,7 +909,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Búsqueda combinada</strong><br>
         <strong>Dado</strong> que aplico filtros por categoría y estado,<br>
         <strong>Cuando</strong> ejecuto la búsqueda,<br>
-        <strong>Entonces</strong> el sistema muestra los productos que cumplen todas las condiciones.<br><br>
+        <strong>Entonces</strong> el sistema muestra los productos que cumplen todas las condiciones.
       </td>
       <td>EP-01</td>
     </tr>
@@ -877,7 +925,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Consulta de historial</strong><br>
         <strong>Dado</strong> que accedo al detalle de un producto,<br>
         <strong>Cuando</strong> selecciono la opción de historial,<br>
-        <strong>Entonces</strong> el sistema muestra la lista completa de modificaciones.<br><br>
+        <strong>Entonces</strong> el sistema muestra la lista completa de modificaciones.
       </td>
       <td>EP-01</td>
     </tr>
@@ -893,7 +941,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Enlace de más información</strong><br>
         <strong>Dado</strong> que visualizo una funcionalidad,<em>Draft</em>,<br>
         <strong>Cuando</strong> hago clic en “ver más”,<br>
-        <strong>Entonces</strong> el sistema me dirige a una página con detalles ampliados.<br><br>
+        <strong>Entonces</strong> el sistema me dirige a una página con detalles ampliados.
       </td>
       <td>EP-09 </td>
     </tr>
@@ -940,7 +988,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Adaptación en tablet</strong><br>
         <strong>Dado</strong> que accedo desde una tablet,<br>
         <strong>Cuando</strong> cargo la landing,<br>
-        <strong>Entonces</strong> las secciones mantienen legibilidad y proporciones correctas.<br><br>
+        <strong>Entonces</strong> las secciones mantienen legibilidad y proporciones correctas.
       </td>
       <td>EP-09</td>
     </tr>  
@@ -956,7 +1004,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Rotación automática</strong><br>
         <strong>Dado</strong> que estoy en la sección de testimonios,<br>
         <strong>Cuando</strong> pasan 5 segundos,<br>
-        <strong>Entonces</strong> el sistema muestra automáticamente el siguiente testimonio.<br><br>
+        <strong>Entonces</strong> el sistema muestra automáticamente el siguiente testimonio.
       </td>
       <td>EP-09</td>
     </tr>
@@ -972,7 +1020,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Escenario 02: Redirección correcta</strong><br>
         <strong>Dado</strong> que hago clic en el boton,<br>
         <strong>Cuando</strong> lo presiono,<br>
-        <strong>Entonces</strong> el sistema me lleva directamente al formulario correcto.<br><br>
+        <strong>Entonces</strong> el sistema me lleva directamente al formulario correcto.
       </td>
       <td>EP-09</td>
     </tr>
@@ -1597,7 +1645,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-03</td>
       <td>Dashboard</td>
       <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
-      <td>US27, US28</td>
+      <td>US09, US10, US11, US27, US28</td>
     </tr>
     <tr>
       <td>EP-04</td>
