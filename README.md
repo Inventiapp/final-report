@@ -326,19 +326,20 @@ Preguntas complementarias:
 ### 2.2.2. Registro de entrevistas
 
 **Segmento #1: Bodegas especializadas por rubro**
-Entrevista x:
 
-<img src="" alt="Entrevista - segmento 1" width="500"/>
+Entrevista 1:
 
-[XX:XX - XX:XX]
+<img src="assets/Chapter-II/lucas-interview.png" alt="Entrevista 1- segmento 1" width="500"/>
 
-Duración: 
+[00:00 - 02:53]
 
-Nombre: 
+Duración: 2:53 min
 
-Edad: 
+Nombre: Lucarelly Sanchez Heredia
 
-Resumen:
+Edad: 21 años
+
+Resumen: Lucarelly es dueño de una bodega y la gestiona junto a su abuelo. La administra usando excel pero no siempre está actualizado, además de usar una libreta. Uno de los mayores desafíos que enfrenta es la mezcla de lotes y fechas de vencimiento, lo que le genera pérdidas. No tiene un control en tiempo real del stock y no ha considerado usar una plataforma digital para gestionar su inventario, pero le gustaría tener un mejor control de sus productos. Actualmente no emplea alguna herramienta digital para la gestión de su bodega además de excel. Repone los productos de manera reactiva, es decir, cuando se le acaba o está por vencer un producto. Usa una laptop Windows y un celular Android, y como browser usa Chrome. Vende sus productos principalmente de forma presencial, pero también usa Whatsapp, Facebook e Instagram.
 
 
 <br>
@@ -396,7 +397,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
 | Resolver errores de inventario (sobrestock, productos vencidos)  | Alta           | Alta             |
 
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> 
 
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
