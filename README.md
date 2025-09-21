@@ -45,11 +45,13 @@
     </table>
 </div>
 
+<br>
+
 <p align="center">
     <strong>Septiembre, 2025</strong>
 </p>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 <div style="text-align:center;">
     <h1 align="center">Registro de versiones del Informe</h1>
@@ -70,24 +72,20 @@
     </table>
 <div>
 
-<br>
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
-Link del repositorio del reporte: https://github.com/Inventiapp/workstation-markdown
+Link del repositorio del reporte: https://github.com/Inventiapp/workstation-markdown <br>
 
-## TB1
-
-<br>
+<div style="page-break-after: always;"></div>
 
 # Contenido
 [Student Outcome](#student-outcome)
 
 - [Project Report](#project-report)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [TB1](#tb1)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -113,16 +111,16 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language.](#25-ubiquitous-language)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
@@ -154,39 +152,25 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-      - [5.2.X.1. Sprint Planning n.](#52x1-sprint-planning-n)
-      - [5.2.X.2. Aspect Leaders and Collaborators.](#52x2-aspect-leaders-and-collaborators)
-      - [5.2.X.3. Sprint Backlog n.](#52x3-sprint-backlog-n)
-      - [5.2.X.4. Development Evidence for Sprint Review.](#52x4-development-evidence-for-sprint-review)
-      - [5.2.X.5. Execution Evidence for Sprint Review.](#52x5-execution-evidence-for-sprint-review)
-      - [5.2.X.6. Services Documentation Evidence for Sprint Review.](#52x6-services-documentation-evidence-for-sprint-review)
-      - [5.2.X.7. Software Deployment Evidence for Sprint Review.](#52x7-software-deployment-evidence-for-sprint-review)
-      - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team.](#video-about-the-team)
-- [Conclusiones](#conclusiones-1)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
-  
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Student Outcome
 
-<br>
-<br>
-
-# Objetivos SMART
-
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Presentación
 
@@ -197,10 +181,10 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/imgs/FotoChoy.jpeg" alt="FotoChoy" width="520"></img>
+      <img src="assets/imgs/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -210,11 +194,11 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/maria-hernandez.jpeg"  width="520"></img>
+      <img src="assets/Chapter-I/maria-hernandez.jpeg" alt="Foto de María Hernández" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -224,11 +208,11 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/dayro.jpg"  width="520"></img>
+      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
@@ -238,11 +222,11 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
     </td>
   </tr>
 </table>
-
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/fabiola.jpeg"  width="520"></img>
+      <img src="assets/Chapter-I/fabiola.jpeg" alt="Foto de Fabiola Saldaña" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -252,19 +236,21 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
     </td>
   </tr>
 </table>
-<table align="center" border="1" cellspacing="0" cellpadding="8" style="width: 90%; border-collapse: collapse;">
+<br>
+<table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src=""  width="520"></img>
+      <img src="assets/imgs/profile-piero.png" alt="Foto de Piero Sulca" width="160" height="160" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
           <p align="justify">
-             ...
+             Curso la carrera de Ingeniería de Software y tengo experiencia en desarrollo web, trabajando con equipos pequeños. Me gusta el Front End, en especial el diseño de interfaces 3D y productos creativos. Tengo conocimientos que pueden ayudar al equipo como levantamiento de requerimientos, diseño de interfaces, desarrollo web (React, Typescript), diseño de bases de datos y las habilidades de organización y colaboración en equipos pequeños.
           </p>
     </td>
   </tr>
 </table>
+<br>
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -430,9 +416,8 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
     - Reducción de costos y optimización de recursos.
     - Mayor visibilidad y control en tiempo real sobre el stock.
     - Herramientas que acompañen el crecimiento del negocio sin requerir infraestructura adicional.
-
-<br>
-<br>
+  
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -445,7 +430,8 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-*Estrategias*
+**Estrategias**
+  
 <p align="justify">
     1. Diferenciación por simplicidad y usabilidad: La solución estará enfocada en bodegas y pequeñas empresas que requieren una interfaz intuitiva y un flujo de trabajo sencillo, reduciendo la curva de aprendizaje.
 </p>
@@ -459,7 +445,8 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
     4. Posicionamiento digital: Focalización en marketing digital dirigido a bodegueros y pymes mediante redes sociales, asociaciones de comerciantes y programas de referidos.
 </p>
 
-*Tácticas*
+**Tácticas**
+  
 <p align="justify">
     1. Frente a las fortalezas de competidores: Ofrecer un onboarding rápido y gratuito que simplifique la transición a nuestro sistema. Mantener integraciones básicas con e-commerce.
 </p>
@@ -474,37 +461,198 @@ Esta sección expone los segmentos vinculados al contexto del problema, integran
 </p>
 
 ## 2.2. Entrevistas
+
+En esta sección se lleva a cabo la investigación y recopilación de información mediante entrevistas a los usuarios de cada segmento objetivo, con el propósito de comprenderlos de manera más profunda.
+
 ### 2.2.1. Diseño de entrevistas
+
+En esta sección se plantean preguntas principales y complementarias destinadas a entrevistas con cada uno de nuestros segmentos objetivos, con el propósito de recopilar la mayor cantidad posible de información relevante. Tras un análisis detallado, se definieron las siguientes preguntas para aplicar en las entrevistas a dichos segmentos.
+
+**Segmento #1: Bodegas especializadas por rubro**
+
+Preguntas principales:
+1. ¿Podrías describirme cómo gestionas actualmente el inventario de tu bodega?
+2. ¿Cuáles consideras que son los principales desafíos al momento de organizar tus productos?
+3. ¿Has enfrentado pérdidas o inconvenientes por errores en el inventario? ¿Cómo los solucionaste?
+4. ¿Qué tan relevante es para ti contar con un control del stock en tiempo real?
+5. ¿Empleas algún sistema o herramienta digital para la gestión? Si es así, ¿cuál utilizas y cómo ha sido tu experiencia?
+6. ¿De qué manera detectas cuando un producto está por agotarse o próximo a vencer?
+
+Preguntas complementarias:
+- ¿Qué tipo de reportes o información te gustaría obtener acerca de tu inventario?
+- ¿Qué navegador y sistema operativo utilizas más? ¿Qué dispositivos utilizas con mayor frecuencia en tu trabajo (laptop, celular, tablet)?
+- ¿Cómo imaginas que una plataforma digital podría ayudarte a optimizar tu operación diaria?
+- ¿Qué redes sociales o canales digitales empleas para vender tus productos?
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+Preguntas principales:
+1. ¿Cómo gestionas actualmente el inventario de tu negocio?
+2. ¿En qué situaciones sientes que el control del stock te limita o te hace perder tiempo?
+3. ¿De qué forma registras las entradas y salidas de productos?
+4. ¿Qué aspectos te gustaría mejorar en tu proceso logístico actual?
+5. ¿Has evaluado implementar una plataforma para gestionar tu inventario? ¿Por qué tomarías o no esa decisión?
+
+Preguntas complementarias:
+
+- ¿Qué herramientas digitales utilizas actualmente en tu negocio?
+- ¿Dónde se encuentran almacenados tus productos?
+- ¿Con qué frecuencia necesitas revisar tu stock?
+- ¿Qué redes sociales o canales digitales empleas para vender tus productos?
+- ¿Qué navegador y sistema operativo utilizas más? ¿Qué dispositivos utilizas con mayor frecuencia en tu trabajo (laptop, celular, tablet)?
+
+
 ### 2.2.2. Registro de entrevistas
+
+Entrevista x:
+
+[video]
+
+[XX:XX - XX:XX]
+
+Duración: 
+
+Link de la entrevista: (link acortado en algun shortener)
+
+Nombre: 
+
+Apellidos: 
+
+Edad: 
+
+Distrito:
+
+Resumen:
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
 ### 2.3.1. User Personas
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/segmento1.png" alt="User persona - segmento 1" width="700"/>
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/segmento2.png" alt="User persona - segmento 2" width="700"/>
+
 ### 2.3.2. User Task Matrix
+
+**Segmento 1: Dueños de bodegas**
+
+| **Task Matrix**                                                     | **Frecuencia** | **Importancia** |
+|----------------------------------------------------------------------|----------------|------------------|
+| Supervisar el stock y revisar niveles de inventario                 | Alta           | Alta             |
+| Realizar conteos físicos o auditorías manuales                      | Media          | Alta             |
+| Negociar precios y coordinar con proveedores                        | Alta           | Alta             |
+| Revisar reportes de ventas, rotación y márgenes                     | Media          | Alta             |
+| Ingresar datos en Excel o sistemas básicos de control               | Media          | Media            |
+| Delegar tareas a sus asistentes o empleados                         | Media          | Alta             |
+| Atender clientes en tienda                                          | Alta           | Alta             |
+| Coordinar pedidos con mayoristas o distribuidores                   | Alta           | Alta             |
+| Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
+| Resolver errores de inventario (sobrestock, productos vencidos)  | Alta           | Alta             |
+
+<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| **Task Matrix**                                                                | **Frecuencia** | **Importancia** |
+| ------------------------------------------------------------------------------ | -------------- | --------------- |
+| Gestionar el envío y distribución de productos                                 | Alta           | Alta            |
+| Coordinar con operadores logísticos y transportistas                           | Alta           | Alta            |
+| Monitorear tiempos de entrega y resolver incidencias                           | Alta           | Alta            |
+| Optimizar costos de transporte y almacenamiento                                | Media          | Alta            |
+| Evaluar y contratar proveedores logísticos externos                            | Media          | Alta            |
+| Implementar herramientas digitales para el control de logística                | Media          | Alta            |
+| Revisar métricas de satisfacción del cliente respecto a entregas               | Media          | Alta            |
+| Escalar la capacidad de operaciones en función de la demanda                   | Media          | Alta            |
+
 ### 2.3.3. User Journey Mapping
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/journeymap1.png" alt="Journey map - segmento 1" width="700"/>
+
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/journeymap2.png" alt="Journey map - segmento 2" width="700"/>
+
+
 ### 2.3.4. Empathy Mapping
+**Segmento 1: Dueños de bodegas**
+<img src="assets/Chapter-II/empathymap1.png" alt="Empathy map - segmento 1" width="700"/>
 
-## 2.4. Big Picture Event Storming.
-## 2.5. Ubiquitous Language.
 
-<br>
-<br>
+**Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
+<img src="assets/Chapter-II/empathymap2.png" alt="Empathy map - segmento 2" width="700"/>
+
+## 2.4. Big Picture Event Storming
+
+<img src="assets/Chapter-II/event-storming1.png" alt="Big Picture Event Storming" width="700"/>
+
+<img src="assets/Chapter-II/event-storming2.png" alt="Big Picture Event Storming" width="700"/>
+<img src="assets/Chapter-II/event-storming3.png" alt="Big Picture Event Storming" width="700"/>
+
+
+
+
+## 2.5. Ubiquitous Language
+El siguiente glosario presenta los términos clave utilizados en el desarrollo del proyecto StockTrack. Este lenguaje común asegura que todos los miembros del equipo (técnicos y no técnicos) compartan una comprensión unificada de los conceptos centrales, facilitando la comunicación y el diseño colaborativo del sistema.
+
+1. **Landing Page**: Página inicial de StockTrack que presenta la propuesta de valor y permite a los usuarios registrarse o iniciar sesión.
+
+2. **Inventario**: Conjunto organizado de productos gestionados dentro de la plataforma, que incluye información como cantidades disponibles, ubicación en la bodega, lotes y fechas de vencimiento.
+
+3. **Producto**: Unidad básica registrada en el sistema. Cada producto posee atributos como nombre, descripción, categoría, unidades de medida, stock mínimo y fecha de vencimiento.
+
+4. **Stock**: Cantidad disponible de un producto específico dentro del inventario.
+
+5. **Stock mínimo**: Nivel definido por el usuario que representa la cantidad mínima aceptable de un producto antes de requerir reposición.
+
+6. **Stock bajo**: Estado de un producto cuyo nivel de stock ha alcanzado o está por debajo del stock mínimo definido.
+
+7. **Panel de Control**: Interfaz principal de la plataforma que centraliza la visualización de métricas clave (inventario disponible, alertas de stock bajo, movimientos recientes y reportes).
+
+8. **Movimiento de Inventario**: Registro de cualquier variación en las existencias de productos, incluyendo entradas (compras o reposiciones), salidas (ventas, pérdidas o devoluciones) y ajustes manuales.
+
+9. **Reporte**: Representación visual o estadística generada por el sistema que resume información relevante del inventario (rotación de productos, quiebres de stock, productos próximos a vencer, etc.).
+
+10. **Bodega**: Pequeño negocio de venta de productos de consumo diario, principalmente alimentos, bebidas y artículos de primera necesidad.
+
+11. **Dueña/o de bodega**: Usuario que gestiona directamente la operación de su bodega y utiliza StockTrack para optimizar el control de inventario, evitar pérdidas y mejorar la eficiencia.
+
+12. **Emprendedor/a**: Usuario en etapa de crecimiento que gestiona uno o más puntos de venta y requiere profesionalizar su gestión logística con herramientas digitales.
+
+13. **Proveedor**: Persona o empresa que abastece a las bodegas o emprendedores con productos que serán registrados y gestionados en StockTrack.
+
+14. **Pedido**: Solicitud de reposición o compra de productos hecha a un proveedor, ya sea de forma manual o asistida por las recomendaciones del sistema.
+
+15. **Alerta**: Notificación generada automáticamente por el sistema cuando ocurre un evento relevante (stock bajo, productos próximos a vencer, quiebre de stock, etc.).
+
+
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
 ## 3.2. Impact Mapping
+
+
+
+
+
+
+
 ## 3.3. Product Backlog
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines
 
-*4.1.1.1 Branding*
+**Branding**
 
 <p align="justify">
 Para nuestro logo, hemos implementado símbolos que reflejan el propósito central de StockTrack: la gestión eficiente y confiable del inventario. El logo de StockTrack proyecta una identidad sólida y práctica, alineada con su misión de brindar una solución tecnológica sencilla pero poderosa para la gestión de inventarios.
@@ -526,7 +674,7 @@ La paleta de colores combina tonos cálidos (naranja/amarillo) que evocan dinami
   <img src="assets/Chapter-IV/logoStockTrack.png" alt="Logo" width="550">
 </p>
 
-*4.1.1.2 Typografía*
+**Tipografía**
 
 <p align="justify">
 - Fuente principal:
@@ -550,10 +698,10 @@ Tamaño variable según jerarquía de texto (H1: títulos principales (32px, bol
 </p>
 
 <p align="center">
-  <img src="assets/Chapter-IV/typografiaStockTrack.png" alt="Tipografía" width="550">
+  <img src="assets/Chapter-IV/typografiaStockTrack.pn" alt="Tipografía" width="550">
 </p>
 
-*4.1.1.3 Colores*
+**Colores**
  
 <p align="justify">
 La paleta de colores de StockTrack fue diseñada para transmitir energía, confianza y control en la gestión de inventarios.
@@ -571,7 +719,7 @@ La paleta de colores de StockTrack fue diseñada para transmitir energía, confi
   <img src="assets/Chapter-IV/coloresStockTrack.png" alt="Colores" width="550">
 </p>
 
-*4.1.1.4 Spacing*
+**Spacing**
 
 <p align="justify">
 El espaciado juega un rol fundamental en la experiencia de usuario, asegurando legibilidad, orden y consistencia visual en todas las interfaces de StockTrack. Hemos definido un sistema de espaciado que será utilizado en la aplicación web.
@@ -585,7 +733,7 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 | **Body text (texto principal)** | Regular 400   | 16px – 18px     | 150% – 160% | Legible y cómodo para párrafos largos.                   |
 | **Botones / CTAs**              | Semi-Bold 600 | 16px            | 120%        | Uso de mayúsculas opcionales para dar fuerza visual.     |
 
-*4.1.1.5 Tono de comunicación*
+**Tono de comunicación**
 
 <p align="justify">
 - Lenguaje: Claro, cercano y profesional.    
@@ -603,11 +751,37 @@ El espaciado juega un rol fundamental en la experiencia de usuario, asegurando l
 - Entusiasta/Sereno: Entusiasta, motivando a los usuarios a participar en debates y predicciones.
 </p>
 
+<p align="center">
+  <img src="assets/imgs/coloresStockTrack.png" alt="Colores" width="550">
+</p>
+
 ### 4.1.2. Web Style Guidelines
 
 <p align="justify">
-Figma: 
-https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH1SOxvblAFqkd-1
+DISEÑO RESPONSIVE:
+</p>
+<p align="justify">
+- El diseño se adaptará automáticamente al tamaño de la pantalla.
+</p>
+<p align="justify">
+COMPONENTES VISUALES: 
+</p>
+<p align="justify">
+- Botones: Redondeados con 10px de radio. Cambian de color y tienen un efecto de sombra al usarse.
+</p>
+<p align="justify">
+- Formularios: Cajas de texto con bordes suaves y sombreados ligeros, 40px. de alto.
+</p>
+<p align="justify">
+- Links: En azul (#0000FF), subrayado. Subrayado, con color de cambio a azul oscuro  (#00008E).
+</p>
+<p align="justify">
+- Navegación: Menú superior: Con enlaces a las principales secciones.
+</p>
+
+
+<p align="center">
+  <img src="assets/imgs/webStyleStockTrack.png" alt="Colores" width="550">    
 </p>
 
 ## 4.2. Information Architecture.
@@ -641,55 +815,95 @@ https://www.figma.com/design/gNpryNO38gRsGj9sMRVnXx/Web-style?node-id=0-1&t=G8FH
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
 
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
+
+| Producto         | Propósito en el proyecto                                | Categoría                   | Ruta de descarga/acceso                                                          | Descripción                                                                                                        |
+| ---------------- | ------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **OpenJDK**      | Ejecución y compilación de aplicaciones Java            | Software Development        | [https://jdk.java.net/](https://jdk.java.net/)                                   | Implementación de código abierto del JDK, necesaria para compilar y ejecutar aplicaciones backend con Spring Boot. |
+| **Maven**        | Automatización de compilación y gestión de dependencias | Software Development        | [https://maven.apache.org/](https://maven.apache.org/)                           | Herramienta para gestionar dependencias y construir proyectos Java, ampliamente utilizada con Spring Boot.         |
+| **Spring Boot**  | Desarrollo simplificado de microservicios y APIs REST   | Software Development        | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) | Framework que acelera el desarrollo de servicios backend y APIs con configuración mínima.                          |
+| **VS Code**      | Edición y desarrollo rápido de frontend                 | Software Development        | [https://code.visualstudio.com/](https://code.visualstudio.com/)                 | Editor ligero con extensiones para Angular, TypeScript, HTML y CSS, útil para desarrollo ágil.                     |
+| **Angular CLI**  | Gestión del ciclo de vida de aplicaciones Angular       | Software Development        | [https://angular.io/cli](https://angular.io/cli)                                 | Interfaz de línea de comandos para generar y administrar componentes, servicios y módulos en Angular.              |
+| **Postman**      | Pruebas y validación de APIs REST                       | Software Development        | [https://www.postman.com/](https://www.postman.com/)                             | Herramienta para probar endpoints y documentar APIs de forma colaborativa.                                         |
+| **Figma**        | Diseño UI/UX y prototipado de interfaces                | Product UX/UI Design        | [https://figma.com/](https://figma.com/)                                         | Plataforma colaborativa para diseño de interfaces, integración de prototipos y handoff a desarrollo.               |
+| **Lucidchart**   | Modelado de procesos y diagramas de arquitectura        | Product UX/UI Design        | [https://www.lucidchart.com/](https://www.lucidchart.com/)                       | Herramienta de diagramación para flujos de procesos, arquitecturas y casos de uso.                                 |
+| **Firebase**     | Servicios de backend en la nube                         | Software Development        | [https://firebase.google.com/](https://firebase.google.com/)                     | Plataforma de Google que ofrece autenticación, base de datos NoSQL y hosting para el proyecto.                     |
+| **GitHub**       | Control de versiones y repositorios del proyecto        | Project Management / DevOps | [https://github.com/](https://github.com/)                                       | Plataforma para almacenar el código fuente, gestionar ramas y colaborar en equipo.                                 |
+| **Google Drive** | Gestión de documentación colaborativa                   | Documentation               | [https://drive.google.com/](https://drive.google.com/)                           | Almacenamiento y edición colaborativa de documentos, reportes y manuales del sistema.                              |
+
+
 ### 5.1.2. Source Code Management.
+
+El proyecto StockTrack aplica GitHub como plataforma de control de versiones bajo el modelo GitFlow, lo que garantiza la trazabilidad del código, colaboración organizada y estabilidad en cada release.
+
+GitHub: https://github.com/Inventiapp 
+
+Ramas principales:
+- main: Contiene la versión estable y en producción.
+- develop: Rama de integración de nuevas funcionalidades.
+
+Ramas secundarias:
+- feature/<nombre> → Ramas temporales para funciones especificas 
+
+Versionado: Se emplea Semantic Versioning (SemVer 2.0.0) en el formato MAJOR.MINOR.PATCH.
+
+Todas las integraciones hacia develop o main requieren Pull Requests revisados por al menos un miembro del equipo.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+El proyecto mantiene una guía de estilo de código uniforme para mejorar la legibilidad, mantenibilidad y colaboración en equipo.
+
+Lenguaje: Todos los identificadores, comentarios y documentación estarán en inglés.
+
+Backend (Java con Spring Boot)
+- Nombres de clases → PascalCase (ej: StockService)
+- Métodos y variables → camelCase (ej: calculateTotalStock)
+- Constantes → UPPER_SNAKE_CASE (ej: MAX_STOCK_LIMIT)
+- Paquetes organizados por funcionalidad (controller, service, repository, model).
+
+Frontend (Angular con TypeScript, HTML, CSS)
+- Estándares: Angular Style Guide
+- Componentes y clases → PascalCase (ej: InventoryComponent)
+- Archivos → kebab-case (ej: inventory-list.component.ts)
+- Variables y métodos → camelCase
+- Uso de programación reactiva con RxJS y principios SOLID en componentes.
+
+HTML / CSS
+- Archivos → kebab-case (ej: main-layout.css)
+- Clases CSS → en inglés y descriptivas (ej: .inventory-card)
+- Uso de etiquetas semánticas
+  
+Convenciones generales
+- Commits claros y cortos bajo Conventional Commits.
+
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.X. Sprint n
-#### 5.2.X.1. Sprint Planning n.
-#### 5.2.X.2. Aspect Leaders and Collaborators.
-#### 5.2.X.3. Sprint Backlog n.
-#### 5.2.X.4. Development Evidence for Sprint Review.
-#### 5.2.X.5. Execution Evidence for Sprint Review.
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.X.8. Team Collaboration Insights during Sprint
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
-
-## 5.4. Video About-the-Product.
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Conclusiones
-## Conclusiones y recomendaciones.
-## Video About-the-Team.
-
-# Conclusiones
-
 ## Conclusiones y recomendaciones
 
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
-
-<br>
-<br>
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
