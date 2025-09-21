@@ -1572,7 +1572,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US51</td>
       <td>Editar permisos personalizados</td>
       <td>Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.</td>
       <td>
@@ -1588,7 +1588,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US51</td>
+      <td>US52</td>
       <td>Bloquear usuarios</td>
       <td>Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.</td>
       <td>
@@ -1604,7 +1604,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US53</td>
       <td>Ver lista de usuarios</td>
       <td>Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.</td>
       <td>
@@ -1620,7 +1620,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US53</td>
+      <td>US54</td>
       <td>Cambiar rol de un usuario</td>
       <td>Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.</td>
       <td>
@@ -1636,7 +1636,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US54</td>
+      <td>US55</td>
       <td>Auditoría de accesos</td>
       <td>Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.</td>
       <td>
@@ -1652,7 +1652,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US55</td>
+      <td>US56</td>
       <td>Roles predefinidos</td>
       <td>Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.</td>
       <td>
@@ -1727,7 +1727,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
       <td>Usuarios, Roles y Permisos</td>
       <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
-      <td>US49, US50, US51, US52, US53, US54, US55</td>
+      <td>US49, US50, US51, US52, US53, US54, US55, US56</td>
     </tr>
     <tr>
       <td>EP-09</td>
@@ -1757,8 +1757,8 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 
 | # Orden |  User Story Id  | Título                                            | Descripción                                                                                                                     |  Story Points (1/2/3/5/8) |
 | :------ | :-------------- | :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------|
-|    01   | US-01           | Registro con validación universitaria             | Como estudiante quiero registrarme usando mi documento y correo universitario para que mi afiliación sea validada rápidamente.  |  5                        |
-|    02   | US-02           | Inicio de sesión seguro                           | Como usuario quiero iniciar sesión de forma segura para acceder a mi panel.                                                     |  3                        |
+|    01   | US-01           | Iniciar borrador de salida             | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.  |  5                        |
+|    02   | US-02           | Gestionar ítems del borrador                           | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                     |  3                        |
 |    03   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
 |    04   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
 |    05   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
@@ -1771,20 +1771,20 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 |    12   | US-12           | Simulador de devolución (cliente)                 | Como usuario quiero simular cuánto recibiría en caso de reclamo para tomar decisiones.                                          |  3                        |
 |    13   | US-13           | Panel de prevenciones y recordatorios             | Como usuario quiero recibir alertas de prevención y recordatorios para reducir riesgos.                                         |  3                        |
 |    14   | US-14           | Teleconsulta on-demand                            | Como usuario quiero solicitar una teleconsulta rápida para atención médica menor.                                               |  5                        |
-|    24   | US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                         |  3                        |
-|    25   | US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                                |  5                        |
-|    26   | US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                 |  3                        |
-|    27   | US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                        |  2                        |
-|    28   | US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                           |  2                        |
-|    01   | US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                 |  3                        |
-|    02   | US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                     |  2                        |
-|    03   | US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                         |  3                        |
-|    04   | US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                                |  2                        |
-|    05   | US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                              |  3                        |
-|    06   | US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                               |  2                        |
-|    07   | US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                    |  8                        |
-|    08   | US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                               |  1                        |
-|    09   | US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                 |  3                        |
+|    15   | US-15           | Agenda y registro de teleconsultas                | Como usuario quiero ver mis citas y registro de consultas para historial médico básico.                                         |  3                        |
+|    16   | US-16           | Cobertura de viaje corto (activar/confirmar)      | Como usuario quiero activar protección para viajes interurbanos antes de partir.                                                |  5                        |
+|    17   | US-17           | Reporte rápido de pérdida en traslado             | Como usuario quiero reportar pérdida de equipaje en traslado con prueba y ubicación aproximada.                                 |  3                        |
+|    18   | US-18           | Notificaciones push y correo                      | Como usuario quiero recibir notificaciones sobre estados de reclamos, pagos y consultas.                                        |  2                        |
+|    19   | US-19           | Compartir póliza con padres/tutores               | Como usuario quiero compartir mi póliza con mi padre/tutor para que estén informados.                                           |  2                        |
+|    20   | US-20           | Ver resumen de beneficios (Landing)               | Como visitante, quiero ver los beneficios que ofrece la app para entender cómo me puede ayudar.                                 |  3                        |
+|    21   | US-21           | Visualizar testimonios (Landing)                  | Como visitante, quiero leer testimonios de usuarios para confiar en la app.                                                     |  2                        |
+|    22   | US-22           | Acceder desde distintos dispositivos (responsive) | Como visitante, quiero que la landing se vea bien en cualquier dispositivo para explorarla cómodamente.                         |  3                        |
+|    23   | US-23           | Conocer la propuesta de valor (Hero)              | Como visitante, quiero entender rápidamente qué hace la app y cómo me beneficia.                                                |  2                        |
+|    24   | US-24           | Navegar por beneficios (scroll y accesibilidad)   | Como visitante, quiero navegar por la sección de beneficios para conocer ventajas.                                              |  3                        |
+|    25   | US-25           | Barra de navegación con anclas                    | Como visitante, quiero usar la barra superior para moverme a secciones de la landing rápidamente.                               |  2                        |
+|    26   | US-26           | Acceder al registro o inicio desde landing        | Como visitante, quiero iniciar sesión o registrarme desde la barra superior.                                                    |  8                        |
+|    27   | US-27           | Navegar desde el footer                           | Como visitante, quiero que los enlaces del pie de página funcionen para acceder a info adicional.                               |  1                        |
+|    28   | US-28           | Selector de idioma en landing                     | Como visitante internacional, quiero cambiar idioma de la landing para entender la información.                                 |  3                        |
 |    29   | US-29           | FAQ y centro de ayuda                             | Como usuario quiero acceso rápido a preguntas frecuentes y tutoriales para usar la app.                                         |  2                        |
 |    30   | US-30           | Descargar certificado de cobertura                | Como usuario quiero descargar un certificado de cobertura para trámites o acreditación.                                         |  2                        |
 |    31   | US-31           | Compartir evidencia múltiple                      | Como usuario quiero subir varias fotos o archivos en un reclamo para respaldar mi caso.                                         |  3                        |
@@ -1800,7 +1800,18 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 |    41   | TS-08           | Sistema de notificaciones básico                  | Implementar servicio para push/email con templates que se conecte a eventos de la app.                                          |  5                        |
 |    42   | TS-09           | Pagos: integración simple y seguras (webhooks)    | Integrar pasarela de pagos con tokenización y manejo de webhooks básicos.                                                       |  5                        |
 |    43   | TS-10           | Logs y monitoreo accesible                        | Implementar logging estructurado y métricas básicas (errores, latencia) con dashboard simple.                                   |  3                        |
-
+|    44   | US-01           | Iniciar borrador de salida             | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.  |  5                        |
+|    45   | US-02           | Gestionar ítems del borrador                           | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                     |  3                        |
+|    46   | US-03           | Recuperación de contraseña                        | Como usuario quiero recuperar mi contraseña vía correo/OTP para restaurar acceso.                                               |  2                        |
+|    47   | US-04           | Ver y descargar póliza                            | Como usuario quiero ver y descargar mi póliza en PDF para compartirla o archivarla.                                             |  3                        |
+|    48   | US-05           | Selección y compra de plan                        | Como estudiante quiero elegir entre plan Básico y Premium y pagar en línea para activar cobertura.                              |  5                        |
+|    49   | US-06           | Upgrade/downgrade de plan                         | Como usuario quiero cambiar entre planes para ajustar mi cobertura.                                                             |  2                        |
+|    50   | US-07           | Contratación digital con documentos               | Como usuario quiero subir mi DNI y constancia universitaria para validar afiliación automáticamente.                            |  2                        |
+|    51   | US-08           | Bloquear usuarios          | Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.                                    |  5                        |
+|    52   | US-09           | Ver lista de usuarios        | Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.                                |  5                        |
+|    53   | US-10           | Cambiar rol de un usuario         | Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.                                |  3                        |
+|    54   | US-11           | Auditoría de accesos                    | Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.                                                 |  3                        |
+|    55   | US-55           | Roles predefinidos                 | Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.                                         |  3                        |
 
 
 # Capítulo IV: Product Design
