@@ -123,11 +123,11 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-  - [4.2. Information Architecture.](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
+  - [4.2.4 Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
@@ -135,8 +135,12 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
   - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [User Goal: “Crear cuenta e ingresar a la aplicación”](#user-goal-crear-cuenta-e-ingresar-a-la-aplicación)
+    - [User Goal: “Crear un nuevo rol para el personal”](#user-goal-crear-un-nuevo-rol-para-el-personal)
     - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [User Goal: “Registrar salida de productos (venta/consumo/merma)”](#user-goal-registrar-salida-de-productos-ventaconsumomerma)
+    - [User Goal: “Gestionar inventario (ingresar reposición y crear producto)”](#user-goal-gestionar-inventario-ingresar-reposición-y-crear-producto)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Design-Level Event Storming.](#461-design-level-event-storming)
@@ -675,8 +679,6 @@ Cada reporte individual dentro de la plataforma contará con un potente sistema 
 
 ### 4.2.5. Navigation Systems.
 
-### 4.2.5. Navigation Systems
-
 En esta sección, el equipo explica las acciones y técnicas que guiarán a los usuarios a través del Landing Page y la aplicación web de StockTrack. El objetivo de estos sistemas es permitirles a los usuarios cumplir sus metas e interactuar de forma satisfactoria con el producto, detallando las maneras en que podrán recorrer el contenido y las funcionalidades.
 
 Para lograr una experiencia de usuario fluida e intuitiva, se han diseñado sistemas de navegación distintos pero coherentes para el sitio público (Landing Page) y la aplicación privada (post-login).
@@ -743,7 +745,52 @@ Una vez que el usuario inicia sesión, el sistema de navegación cambia para cen
 ![](./assets/Chapter-IV/Administración%20del%20personal%20-%20Creación%20rol.jpg)
 ![](./assets/Chapter-IV/Salida%20producto.jpg)
 
+<br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+![](./assets/Chapter-IV/flow1.png)
+
+### User Goal: “Crear cuenta e ingresar a la aplicación”
+
+**User persona:** Empresa — Administrador
+Happy path
+
+1. En **Regístrate**, completa **Nombre**, **Email** y **Contraseña** → pulsa **Registrarse**.
+2. El sistema valida y **crea la cuenta** (opcional: confirma email).
+3. En **Iniciar sesión**, ingresa **Email** y **Contraseña** → **Entrar**.
+4. Accede al **Dashboard** (métricas y notificaciones cargadas).
+
+Unhappy paths
+
+* **Email ya registrado** o **formato inválido** → mensaje y bloqueo.
+* **Contraseña débil/incorrecta** → mensaje y reintento.
+* **Cuenta inactiva/no verificada** → aviso con instrucciones.
+* **Falla de red/sesión** → error; el formulario conserva los datos.
+
+<br>
+
+![](./assets/Chapter-IV/flow2.png)
+
+### User Goal: “Crear un nuevo rol para el personal”
+
+**User persona:** Empresa — Administrador
+
+Happy path
+
+1. Desde el **Dashboard**, abre **Administración del personal**.
+2. Pulsa **Nuevo Rol**.
+3. En el modal, indica **Nombre del rol** y **Permisos** (p. ej., Inventario, Compras, Estadísticas, Cuentas).
+4. **Guardar** → el **rol se crea** y queda disponible para asignarlo a usuarios.
+
+Unhappy paths
+
+* **Cancelar** → no se guarda nada.
+* **Nombre de rol vacío/duplicado** → mensaje y bloqueo.
+* **Sin permisos seleccionados** (si es obligatorio) → aviso para completar.
+* **Falla de red/sesión** → error y preservación del formulario para reintentar.
+<br>
+
 ### 4.4.2. Web Applications Mock-ups.
 
 ![](./assets/Chapter-IV/login-2.jpg)
@@ -761,7 +808,81 @@ Una vez que el usuario inicia sesión, el sistema de navegación cambia para cen
 ![](./assets/Chapter-IV/Administración%20del%20personal%20-%20Creación%20roles.jpg)
 ![](./assets/Chapter-IV/Salida%20producto-1.jpg)
 
+<br>
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+![](./assets/Chapter-IV/flowdiagram1.png)
+
+### User Goal: “Registrar salida de productos (venta/consumo/merma)”
+
+**User persona:** Tienda/Almacén — Operador(a)
+Happy path
+
+1. Desde **Inicio**, abre **Salida de productos** (barra lateral).
+2. En **Salida de productos**:
+
+   * **Busca/filtra** por nombre o código (ej. “Bolsa Papitas”).
+   * **Selecciona** uno o varios productos (ve **Precio unitario** y **Stock actual**).
+   * *(Opcional)* agrega un **Kit** desde **Kits** (p. ej., “Combo Película”).
+3. En el panel **Borrador salida de productos** (derecha):
+
+   * Ajusta la **Cantidad** por ítem.
+   * Se calcula **Precio por línea** y **Total** automáticamente.
+   * *(Opcional)* **elimina** líneas.
+4. **Guardar**:
+
+   * Se **valida stock**, se **registra el movimiento** y se **descuenta inventario** (los **kits** se desglosan en componentes).
+
+
+
+Unhappy paths
+
+* **Cancelar** → se descarta el borrador; no se registra ningún movimiento.
+* **Cantidad > stock** → alerta y bloqueo hasta corregir.
+
+
+<br>
+
+![](./assets/Chapter-IV/flowdiagram2.png)
+![](./assets/Chapter-IV/flowdiagram3.png)
+![](./assets/Chapter-IV/flowdiagram4.png)
+
+### User Goal: “Gestionar inventario (ingresar reposición y crear producto)”
+
+**User persona:** Tienda/Almacén — Operador(a)
+
+A) Ingresar reposición
+
+Happy path
+
+1. Desde **Inicio**, abre **Inventario** (barra lateral).
+2. Revisa **Productos** y **Kits**; pulsa **Ingresar reposición**.
+3. En el modal, completa **Lote**, **Fecha de recepción** y **Fecha de vencimiento**.
+4. Define **Cantidad ingresando** por producto; se calcula el **Total**.
+5. **Guardar** → se **registra la reposición**, **aumenta el stock** y se actualizan alertas/métricas.
+
+Unhappy paths
+
+* **Cancelar** → se descarta el formulario, no se registra nada.
+* **Fechas inválidas** (vencimiento < recepción) → error y bloqueo.
+* **Cantidades inválidas** (0, negativas o vacías) → validación en línea.
+* **Falla de red/sesión** → error y preservación del formulario para reintentar.
+
+
+B) Crear nuevo producto
+
+Happy path
+
+1. En **Inventario**, pulsa **+ Producto**.
+2. Completa **Nombre**, **Categoría**, **Proveedor**, **Stock mínimo** y **Precio unitario**.
+3. **Guardar** → se **crea el producto**, aparece en la lista y queda disponible para reposiciones/kits.
+
+Unhappy paths
+
+* **Cancelar** → no se crea el producto.
+* **Campos obligatorios vacíos** o **nombre duplicado** → mensaje y bloqueo.
+* **Valores inválidos** (precio ≤ 0, stock mínimo < 0) → validación en línea.
+* **Falla de red/sesión** → error y preservación del formulario.
 
 ## 4.5. Web Applications Prototyping.
 
