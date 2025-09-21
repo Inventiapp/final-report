@@ -836,53 +836,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     </tr>
     <tr>
       <td>US12</td>
-      <td>Crear producto en catálogo</td>
-      <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
-      <td>
-        <strong>Escenario 01: Registro exitoso</strong><br>
-        <strong>Dado</strong> que ingreso un producto con todos los campos obligatorios,<br>
-        <strong>Cuando</strong> confirmo el registro,<br>
-        <strong>Entonces</strong> el sistema guarda el producto y lo hace disponible en el catálogo.<br><br>
-        <strong>Escenario 02: Producto duplicado</strong><br>
-        <strong>Dado</strong>que ya existe un producto con el mismo nombre y categoría, <em>Draft</em>,<br>
-        <strong>Cuando</strong> intento registrarlo,<br>
-        <strong>Entonces</strong> el sistema bloquea el registro y muestra un mensaje de duplicado.
-      </td>
-      <td>EP-03</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Edición de producto</td>
-      <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
-      <td>
-        <strong>Escenario 01: Edición exitosa</strong><br>
-        <strong>Dado</strong> que selecciono un producto existente,<br>
-        <strong>Cuando</strong> edito sus datos válidos,<br>
-        <strong>Entonces</strong> el sistema actualiza la información inmediatamente.<br><br>
-        <strong>Escenario 02: Campo bloqueado</strong><br>
-        <strong>Dado</strong> que intento modificar el identificador único,<br>
-        <strong>Cuando</strong> guardo los cambios,<br>
-        <strong>Entonces</strong> el sistema rechaza la acción y mantiene el valor original.<br><br>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Eliminación e inhabilitacion de productos</td>
-      <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
-      <td>
-        <strong>Escenario 01: Desactivación exitosa</strong><br>
-        <strong>Dado</strong> que selecciono un producto activo,<br>
-        <strong>Cuando</strong> ejecuto la acción de desactivar,<br>
-        <strong>Entonces</strong> el sistema cambia el estado a inactivo y lo oculta de búsquedas activas.<br><br>
-        <strong>Escenario 02: Consulta histórica</strong><br>
-        <strong>Dado</strong> que un producto está inactivo,<br>
-        <strong>Cuando</strong> consulto un historial o reporte,<br>
-        <strong>Entonces</strong> el producto sigue apareciendo con sus registros asociados.<br><br>
-      <td>EP-01</td>
-    </tr>
-    <tr>
-      <td>US12</td>
       <td>Clasificación de productos por categoría</td>
       <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
       <td>
