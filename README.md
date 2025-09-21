@@ -679,7 +679,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US12</td>
+      <td>US09</td>
       <td>Crear producto en catálogo</td>
       <td>Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente</td>
       <td>
@@ -695,7 +695,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US13</td>
+      <td>US10</td>
       <td>Edición de producto</td>
       <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
       <td>
@@ -711,7 +711,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US14</td>
+      <td>US11</td>
       <td>Eliminación e inhabilitacion de productos</td>
       <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
       <td>
@@ -726,7 +726,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US15</td>
+      <td>US12</td>
       <td>Clasificación de productos por categoría</td>
       <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
       <td>
@@ -742,7 +742,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US16</td>
+      <td>US13</td>
       <td>Búsqueda y filtrado de productos</td>
       <td>Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información</td>
       <td>
@@ -758,7 +758,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US17</td>
+      <td>US14</td>
       <td>Historial de cambios de producto</td>
       <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
       <td>
@@ -788,7 +788,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>  
   <tbody>
     <tr>
-      <td>US18</td>
+      <td>US15</td>
       <td>Sección de funcionalidades</td>
       <td>Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma</td>
       <td>
@@ -804,7 +804,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09 </td>
     </tr>
     <tr>
-      <td>US19</td>
+      <td>US16</td>
       <td>Formulario de registro</td>
       <td>Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente</td>
       <td>
@@ -820,7 +820,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US20</td>
+      <td>US17</td>
       <td>Formulario de contacto</td>
       <td>Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack</td>
       <td>
@@ -835,7 +835,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US21</td>
+      <td>US18</td>
       <td>Diseño responsive</td>
       <td>Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo</td>
       <td>
@@ -851,7 +851,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>  
     <tr>
-      <td>US22</td>
+      <td>US19</td>
       <td>Sección de testimonios</td>
       <td>Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma</td>
       <td>
@@ -867,7 +867,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US23</td>
+      <td>US20</td>
       <td>Botones claros</td>
       <td>Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación</td>
       <td>
@@ -899,7 +899,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US24</td>
+      <td>US21</td>
       <td>Crear proveedor</td>
       <td>Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores.</td>
       <td>
@@ -915,7 +915,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-10</td>
     </tr>
     <tr>
-      <td>US25</td>
+      <td>US22</td>
       <td>Consultar y editar proveedores</td>
       <td>Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados.</td>
       <td>
@@ -931,7 +931,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-10</td>
     </tr>
     <tr>
-      <td>US26</td>
+      <td>US23</td>
       <td>Asociar productos a proveedor</td>
       <td>Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes.</td>
       <td>
@@ -961,7 +961,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US27</td>
+      <td>US24</td>
       <td>Visualizar KPIs principales</td>
       <td>Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio.</td>
       <td>
@@ -977,7 +977,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-03</td>
     </tr>
     <tr>
-    <td>US28</td>
+    <td>US25</td>
     <td>Ver alertas críticas</td>
     <td>Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas.</td>
     <td>
@@ -1007,7 +1007,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US29</td>
+      <td>US26</td>
       <td>Definir composición de un kit</td>
       <td>Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes.</td>
       <td>
@@ -1023,7 +1023,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     <td>EP-05</td>
     </tr>
     <tr>
-    <td>US30</td>
+    <td>US27</td>
     <td>Ensamblar kits y ajustar stock</td>
     <td>Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final.</td>
     <td>
@@ -1053,7 +1053,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US30</td>
+      <td>US28</td>
       <td>Configurar umbrales de stock</td>
       <td>Como jefe de compras, quiero definir umbrales mínimos de stock por producto para que el sistema pueda generar alertas automáticas.</td>
       <td>
@@ -1068,7 +1068,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <td>EP-06</td> 
     </tr>
     <tr>
-      <td>US31</td>
+      <td>US29</td>
       <td>Generar alerta de bajo stock</td>
       <td>Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado.</td>
       <td>
@@ -1084,7 +1084,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td>
     </tr>
     <tr>
-      <td>US32</td>
+      <td>US30</td>
       <td>Generar alerta de vencimiento</td>
       <td>Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada.</td>
       <td>
@@ -1100,7 +1100,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td> 
     </tr>
     <tr>
-      <td>US33</td>
+      <td>US31</td>
       <td>Listar alertas pendientes</td>
       <td>Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones.</td>
       <td> 
@@ -1116,7 +1116,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td> 
     </tr> 
     <tr>
-      <td>US34</td>
+      <td>US32</td>
       <td>Notificación externa de alertas</td>
       <td>Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas.</td> <td>
         <strong>Escenario 01: Envío de correo</strong><br>
@@ -1131,7 +1131,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td>
     </tr>
     <tr>
-      <td>US35</td>
+      <td>US33</td>
       <td>Gestionar estado de alertas</td>
       <td>Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento.</td>
       <td>
@@ -1161,7 +1161,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US36</td>
+      <td>US34</td>
       <td>Iniciar borrador de ingreso</td>
       <td>Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos.</td>
       <td>
@@ -1177,7 +1177,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US37</td>
+      <td>US35</td>
       <td>Registrar ítems del ingreso</td>
       <td>Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock.</td>
       <td>
@@ -1197,7 +1197,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US38</td>
+      <td>US36</td>
       <td>Registrar costo y proveedor</td>
       <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
       <td>
@@ -1213,7 +1213,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US39</td>
+      <td>US37</td>
       <td>Confirmar ingreso y actualizar stock</td>
       <td>Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand.</td>
       <td>
@@ -1229,7 +1229,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US40</td>
+      <td>US38</td>
       <td>Adjuntar documento de respaldo</td>
       <td>Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental.</td>
       <td>
@@ -1245,7 +1245,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td> 
     </tr>
     <tr>
-      <td>US41</td>
+      <td>US39</td>
       <td>Disparar alertas por ingreso</td>
       <td>Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso.</td>
       <td>
@@ -1276,7 +1276,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US42</td>
+      <td>US40</td>
       <td>Verificar compra de lotes</td>
       <td>Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.</td>
       <td>
@@ -1292,7 +1292,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US43</td>
+      <td>US41</td>
       <td>Ver fecha de vencimiento de los lotes</td>
       <td>Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.</td>
       <td>
@@ -1308,7 +1308,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US44</td>
+      <td>US42</td>
       <td>Registrar costo y proveedor</td>
       <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
       <td>
@@ -1324,7 +1324,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US45</td>
+      <td>US43</td>
       <td>Alertar vencimiento próximo</td>
       <td>Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.</td>
       <td>
@@ -1340,7 +1340,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US46</td>
+      <td>US44</td>
       <td>Buscar lotes por proveedor</td>
       <td>Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.</td>
       <td>
@@ -1356,7 +1356,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US47</td>
+      <td>US45</td>
       <td>Editar información de un lote</td>
       <td>Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.</td>
       <td>
@@ -1372,7 +1372,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-02</td>
     </tr>
     <tr>
-      <td>US48</td>
+      <td>US46</td>
       <td>Ver historial de movimientos de un lote</td>
       <td>Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.</td>
       <td>
@@ -1403,7 +1403,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US49</td>
+      <td>US47</td>
       <td>Crear usuarios nuevos</td>
       <td>Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma.</td>
       <td>
@@ -1419,7 +1419,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US50</td>
+      <td>US48</td>
       <td>Asignar roles</td>
       <td>Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación.</td>
       <td>
@@ -1435,7 +1435,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US49</td>
       <td>Editar permisos personalizados</td>
       <td>Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.</td>
       <td>
@@ -1451,7 +1451,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US51</td>
+      <td>US50</td>
       <td>Bloquear usuarios</td>
       <td>Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.</td>
       <td>
@@ -1467,7 +1467,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US51</td>
       <td>Ver lista de usuarios</td>
       <td>Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.</td>
       <td>
@@ -1483,7 +1483,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US53</td>
+      <td>US52</td>
       <td>Cambiar rol de un usuario</td>
       <td>Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.</td>
       <td>
@@ -1499,7 +1499,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US54</td>
+      <td>US53</td>
       <td>Auditoría de accesos</td>
       <td>Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.</td>
       <td>
@@ -1515,7 +1515,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US55</td>
+      <td>US54</td>
       <td>Roles predefinidos</td>
       <td>Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.</td>
       <td>
