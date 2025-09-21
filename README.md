@@ -116,8 +116,8 @@ Link del repositorio del reporte: https://github.com/Inventiapp/workstation-mark
     - [User Stories](#user-stories)
     - [Epics](#epics)
     - [Technical stories](#technical-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -685,21 +685,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Entonces</strong> el sistema genera la alerta de bajo stock (y la deja disponible para notificación externa).
       </td>
       <td>EP-04</td>
-  </tbody>
-</table>  
-    </tr>
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
-    <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+   </tr> 
+   <tr>
       <td>US05</td>
       <td>Reporte de stock a fecha (valorizado)</td>
       <td>
@@ -799,22 +786,54 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-07</td>
     </tr>
-  </tbody>
-</table>
-
-
-<!-- Catálogo de Productos -->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
     <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
+      <td>US09</td>
+      <td>Filtrado de métricas</td>
+      <td>Como usuario, quiero filtrar las métricas del dashboard por rango de fechas y categorías de productos, para analizar información más específica y relevante.</td>
+      <td>
+        <strong>Escenario 01: Filtrar por rango de fechas</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<br>
+        <strong>Cuando</strong> selecciona un rango de fechas específico,<br>
+        <strong>Entonces</strong> las métricas y gráficos se actualizan mostrando solo la información de ese periodo.<br><br>
+        <strong>Escenario 02: Filtrar por categoría de producto</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<em>Draft</em>,<br>
+        <strong>Cuando</strong> selecciona una categoría de productos,<br>
+        <strong>Entonces</strong> el dashboard muestra únicamente métricas relacionadas con esa categoría.
+      </td>
+      <td>EP-03</td>
     </tr>
-  </thead>
-  <tbody>
+    <tr>
+      <td>US10</td>
+      <td>Exportación de métricas</td>
+      <td>Como usuario, quiero exportar los datos del dashboard, para compartirlos fácilmente con mi equipo o realizar reportes externos.</td>
+      <td>
+        <strong>Escenario 01: Exportar en formato PDF</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<br>
+        <strong>Cuando</strong> hace clic en el botón de exportar y selecciona PDF,<br>
+        <strong>Entonces</strong> el sistema genera y descarga un archivo PDF con las métricas actuales aplicando los filtros seleccionados.<br><br>
+        <strong>Escenario 02: Exportar en formato Excel</strong><br>
+        <strong>Dado</strong> que el usuario está en el dashboard,<em>Draft</em>,<br>
+        <strong>Cuando</strong> hace clic en el botón de exportar y selecciona Excel,<br>
+        <strong>Entonces</strong> el sistema genera y descarga un archivo Excel con los datos de métricas actuales aplicando los filtros seleccionados.
+      </td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Notificaciones en el dashboard</td>
+      <td>Como usuario, quiero visualizar en el dashboard notificaciones destacadas de bajo stock y próximos vencimientos, para priorizar las acciones más urgentes.</td>
+      <td>
+        <strong>Escenario 01: Mostrar notificaciones de bajo stock</strong><br>
+        <strong>Dado</strong> que el usuario accede al dashboard, <br>
+        <strong>Cuando</strong> hay productos con stock menor al umbral definido,<br>
+        <strong>Entonces</strong> el sistema muestra una notificación resaltada en la sección de alertas del dashboard.<br><br>
+        <strong>Escenario 02: Mostrar notificaciones de próximos vencimientos</strong><br>
+        <strong>Dado</strong> que el usuario accede al dashboard, <em>Draft</em>,<br>
+        <strong>Cuando</strong> existen productos que vencen en los próximos 30 días,<br>
+        <strong>Entonces</strong> el sistema muestra una notificación resaltada indicando los productos en riesgo de vencimiento.
+      </td>
+      <td>EP-01</td>
+    </tr>
     <tr>
       <td>US12</td>
       <td>Crear producto en catálogo</td>
@@ -829,10 +848,10 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <strong>Cuando</strong> intento registrarlo,<br>
         <strong>Entonces</strong> el sistema bloquea el registro y muestra un mensaje de duplicado.
       </td>
-      <td>EP-01</td>
+      <td>EP-03</td>
     </tr>
     <tr>
-      <td>US13</td>
+      <td>US10</td>
       <td>Edición de producto</td>
       <td>Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo</td>
       <td>
@@ -848,7 +867,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US14</td>
+      <td>US11</td>
       <td>Eliminación e inhabilitacion de productos</td>
       <td>Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema</td>
       <td>
@@ -863,7 +882,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US15</td>
+      <td>US12</td>
       <td>Clasificación de productos por categoría</td>
       <td>Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas</td>
       <td>
@@ -879,7 +898,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US16</td>
+      <td>US13</td>
       <td>Búsqueda y filtrado de productos</td>
       <td>Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información</td>
       <td>
@@ -895,7 +914,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-01</td>
     </tr>
     <tr>
-      <td>US17</td>
+      <td>US14</td>
       <td>Historial de cambios de producto</td>
       <td>Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente</td>
       <td>
@@ -910,22 +929,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-01</td>
     </tr>
-  </tbody>
-</table>
-<!-- Landing -->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
     <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>  
-  <tbody>
-    <tr>
-      <td>US18</td>
+      <td>US15</td>
       <td>Sección de funcionalidades</td>
       <td>Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma</td>
       <td>
@@ -941,7 +946,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09 </td>
     </tr>
     <tr>
-      <td>US19</td>
+      <td>US16</td>
       <td>Formulario de registro</td>
       <td>Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente</td>
       <td>
@@ -957,7 +962,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US20</td>
+      <td>US17</td>
       <td>Formulario de contacto</td>
       <td>Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack</td>
       <td>
@@ -972,7 +977,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US21</td>
+      <td>US18</td>
       <td>Diseño responsive</td>
       <td>Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo</td>
       <td>
@@ -988,7 +993,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>  
     <tr>
-      <td>US22</td>
+      <td>US19</td>
       <td>Sección de testimonios</td>
       <td>Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma</td>
       <td>
@@ -1004,7 +1009,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-09</td>
     </tr>
     <tr>
-      <td>US23</td>
+      <td>US20</td>
       <td>Botones claros</td>
       <td>Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación</td>
       <td>
@@ -1036,7 +1041,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US24</td>
+      <td>US21</td>
       <td>Crear proveedor</td>
       <td>Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores.</td>
       <td>
@@ -1052,7 +1057,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-10</td>
     </tr>
     <tr>
-      <td>US25</td>
+      <td>US22</td>
       <td>Consultar y editar proveedores</td>
       <td>Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados.</td>
       <td>
@@ -1068,7 +1073,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-10</td>
     </tr>
     <tr>
-      <td>US26</td>
+      <td>US23</td>
       <td>Asociar productos a proveedor</td>
       <td>Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes.</td>
       <td>
@@ -1098,7 +1103,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US27</td>
+      <td>US24</td>
       <td>Visualizar KPIs principales</td>
       <td>Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio.</td>
       <td>
@@ -1114,7 +1119,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-03</td>
     </tr>
     <tr>
-    <td>US28</td>
+    <td>US25</td>
     <td>Ver alertas críticas</td>
     <td>Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas.</td>
     <td>
@@ -1144,7 +1149,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </thead>
   <tbody>
     <tr>
-      <td>US29</td>
+      <td>US26</td>
       <td>Definir composición de un kit</td>
       <td>Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes.</td>
       <td>
@@ -1160,7 +1165,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     <td>EP-05</td>
     </tr>
     <tr>
-    <td>US30</td>
+    <td>US27</td>
     <td>Ensamblar kits y ajustar stock</td>
     <td>Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final.</td>
     <td>
@@ -1175,22 +1180,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
     </td>
     <td>EP-05</td>
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
     <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US30</td>
+      <td>US28</td>
       <td>Configurar umbrales de stock</td>
       <td>Como jefe de compras, quiero definir umbrales mínimos de stock por producto para que el sistema pueda generar alertas automáticas.</td>
       <td>
@@ -1205,7 +1196,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
         <td>EP-06</td> 
     </tr>
     <tr>
-      <td>US31</td>
+      <td>US29</td>
       <td>Generar alerta de bajo stock</td>
       <td>Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado.</td>
       <td>
@@ -1221,7 +1212,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td>
     </tr>
     <tr>
-      <td>US32</td>
+      <td>US30</td>
       <td>Generar alerta de vencimiento</td>
       <td>Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada.</td>
       <td>
@@ -1237,7 +1228,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td> 
     </tr>
     <tr>
-      <td>US33</td>
+      <td>US31</td>
       <td>Listar alertas pendientes</td>
       <td>Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones.</td>
       <td> 
@@ -1253,7 +1244,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td> 
     </tr> 
     <tr>
-      <td>US34</td>
+      <td>US32</td>
       <td>Notificación externa de alertas</td>
       <td>Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas.</td> <td>
         <strong>Escenario 01: Envío de correo</strong><br>
@@ -1268,7 +1259,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-06</td>
     </tr>
     <tr>
-      <td>US35</td>
+      <td>US33</td>
       <td>Gestionar estado de alertas</td>
       <td>Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento.</td>
       <td>
@@ -1283,22 +1274,8 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-06</td> 
     </tr>
-  </tbody>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
     <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción técnica</th>
-      <th style="width:40%;">Criterios de Aceptación</th>
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US36</td>
+      <td>US34</td>
       <td>Iniciar borrador de ingreso</td>
       <td>Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos.</td>
       <td>
@@ -1314,7 +1291,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US37</td>
+      <td>US35</td>
       <td>Registrar ítems del ingreso</td>
       <td>Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock.</td>
       <td>
@@ -1334,7 +1311,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US38</td>
+      <td>US36</td>
       <td>Registrar costo y proveedor</td>
       <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
       <td>
@@ -1350,7 +1327,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US39</td>
+      <td>US37</td>
       <td>Confirmar ingreso y actualizar stock</td>
       <td>Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand.</td>
       <td>
@@ -1366,7 +1343,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td>
     </tr>
     <tr>
-      <td>US40</td>
+      <td>US38</td>
       <td>Adjuntar documento de respaldo</td>
       <td>Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental.</td>
       <td>
@@ -1382,7 +1359,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-04</td> 
     </tr>
     <tr>
-      <td>US41</td>
+      <td>US39</td>
       <td>Disparar alertas por ingreso</td>
       <td>Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso.</td>
       <td>
@@ -1397,277 +1374,120 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       </td>
       <td>EP-04</td>
     </tr>
-  </tbody>
-</table>
-
- 
-<!--Lotes y vencimiento-->
-
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-
-  <thead>
-
     <tr>
-
-      <th style="width:8%;">Story ID</th>
-
-      <th style="width:18%;">Título</th>
-
-      <th style="width:24%;">Descripción técnica</th>
-
-      <th style="width:40%;">Criterios de Aceptación</th>
-
-      <th style="width:10%;">Relacionado con (Epic ID)</th>
-
-    </tr>
-
-  </thead>
-
-  <tbody>
-
-    <tr>
-
-      <td>US42</td>
-
+      <td>US40</td>
       <td>Verificar compra de lotes</td>
-
       <td>Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.</td>
-
       <td>
-
         <strong>Escenario 01: Añadir nuevo lote sin registrar</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega entra a la aplicación<br>
-
         <strong>Cuando</strong> recibe un nuevo lote de productos no registrados previamente,<br>
-
         <strong>Entonces</strong> registra el lote recibido con los datos respectivos dentro de la aplicación <br><br>
-
         <strong>Escenario 02: Añadir lote registrado</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega entra a la aplicación,<br>
-
         <strong>Cuando</strong> recibe un nuevo lote de productos registrados previamente,<br>
-
         <strong>Entonces</strong> añade la cantidad de lotes recibidos registrados previamente.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
-      <td>US43</td>
-
+      <td>US41</td>
       <td>Ver fecha de vencimiento de los lotes</td>
-
       <td>Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.</td>
-
       <td>
-
         <strong>Escenario 01: Verificar fecha de vencimiento de los lotes</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y tengo lotes registrados,<br>
-
         <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos <br>
-
         <strong>Entonces</strong> el sistema muestra la información del lote junto con fecha de vencimiento de los mismos .<br><br>
-
         <strong>Escenario 02: No hay lotes registrados</strong><br>
-
         <strong>Dado</strong> que el dueño de bodega está dentro de la aplicación y no tiene lotes registrados,<br>
-
         <strong>Cuando</strong> quiere ver la fecha de vencimiento de sus productos,<br>
-
         <strong>Entonces</strong> no se muestra información de los productos y el sistema muestra que se deben registrar lotes primero.<br><br>
-        
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
-      <td>US44</td>
-
+      <td>US42</td>
       <td>Registrar costo y proveedor</td>
-
       <td>Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.</td>
-
       <td>
-
         <strong>Escenario 01: Costo y proveedor válidos</strong><br>
-
         <strong>Dado</strong> un borrador de ingreso,<br>
-
         <strong>Cuando</strong> ingreso costo y proveedor,<br>
-
         <strong>Entonces</strong> se guarda la información por producto/lote.<br><br>
-
         <strong>Escenario 02: Datos incompletos</strong><br>
-
         <strong>Dado</strong> un ítem sin costo o proveedor,<br>
-
         <strong>Cuando</strong> intento confirmar,<br>
-
         <strong>Entonces</strong> el sistema muestra error indicando campos obligatorios.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
-      <td>US45</td>
-
+      <td>US43</td>
       <td>Alertar vencimiento próximo</td>
-
       <td>Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.</td>
-
       <td>
-
         <strong>Escenario 01: Confirmación exitosa</strong><br>
-
         <strong>Dado</strong> que hay un lote registrado con fecha de vencimiento en menos de 15 días<br>
-
         <strong>Cuando</strong> confirmo,<br>
-
         <strong>Entonces</strong> el sistema muestra una alerta visual indicando producto, lote y fecha próxima a vencer.<br><br>
-
         <strong>Escenario 02: Sin lotes próximos a vencer</strong><br>
-
         <strong>Dado</strong> que todos los lotes registrados vencen en más de 15 días,<br>
-
         <strong>Cuando</strong> ingreso a la aplicación,<br>
-
         <strong>Entonces</strong> no se muestra ninguna alerta
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
-      <td>US46</td>
-
+      <td>US44</td>
       <td>Buscar lotes por proveedor</td>
-
       <td>Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.</td>
-
       <td>
-
         <strong>Escenario 01: Proveedor con lotes registrados</strong><br>
-
         <strong>Dado</strong> que existen lotes con proveedor “Distribuidora XYZ”,<br>
-
         <strong>Cuando</strong> filtro por ese proveedor,<br>
-
         <strong>Entonces</strong> el sistema lista los lotes asociados a él con sus fechas de vencimiento.<br><br>
-
         <strong>Escenario 02: Proveedor sin lotes registrados</strong><br>
-
         <strong>Dado</strong> que “Proveedor ABC” no tiene lotes en el sistema,<br>
-
         <strong>Cuando</strong> aplico el filtro,<br>
-
         <strong>Entonces</strong> el sistema muestra “No hay lotes asociados a este proveedor”.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-
     <tr>
-
-      <td>US47</td>
-
+      <td>US45</td>
       <td>Editar información de un lote</td>
-
       <td>Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.</td>
-
       <td>
-
         <strong>Escenario 01: Edición exitosa</strong><br>
-
         <strong>Dado</strong> que un lote está registrado,<br>
-
         <strong>Cuando</strong> modifico su fecha de vencimiento o cantidad,<br>
-
         <strong>Entonces</strong> el sistema guarda los cambios y muestra un mensaje de confirmación.<br><br>
-
         <strong>Escenario 02: Intento de edición con datos inválidos</strong><br>
-
         <strong>Dado</strong> que ingreso una fecha de vencimiento en el pasado,<br>
-
         <strong>Cuando</strong> intento guardar,<br>
-
         <strong>Entonces</strong> el sistema rechaza el cambio y muestra un error.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
     <tr>
-
-      <td>US48</td>
-
+      <td>US46</td>
       <td>Ver historial de movimientos de un lote</td>
-
       <td>Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.</td>
-
       <td>
-
         <strong>Escenario 01: Historial disponible</strong><br>
-
         <strong>Dado</strong> que un lote tiene registros de ingreso y salida,<br>
-
         <strong>Cuando</strong> consulto su historial,<br>
-
         <strong>Entonces</strong> el sistema muestra una lista con fecha, tipo de movimiento, cantidad y usuario que lo realizó.<br><br>
-
         <strong>Escenario 02: Sin historial</strong><br>
-
         <strong>Dado</strong> que un lote recién se registró y no tiene movimientos,<br>
-
         <strong>Cuando</strong> consulto el historial,<br>
-
         <strong>Entonces</strong> el sistema indica “Este lote no tiene movimientos registrados”.
-
       </td>
-
       <td>EP-02</td>
-
     </tr>
-  </tbody>
-
-</table>
-
-
-
-
-<!--- Usuarios, permisos y roles --->
-<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-  <thead>
     <tr>
-      <th style="width:8%;">Story ID</th>
-      <th style="width:18%;">Título</th>
-      <th style="width:24%;">Descripción</th>
-      <th style="width:40%;">Escenarios</th>
-      <th style="width:10%;">Épica</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US49</td>
+      <td>US47</td>
       <td>Crear usuarios nuevos</td>
       <td>Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma.</td>
       <td>
@@ -1683,7 +1503,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US50</td>
+      <td>US48</td>
       <td>Asignar roles</td>
       <td>Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación.</td>
       <td>
@@ -1699,7 +1519,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US49</td>
       <td>Editar permisos personalizados</td>
       <td>Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.</td>
       <td>
@@ -1715,7 +1535,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US51</td>
+      <td>US50</td>
       <td>Bloquear usuarios</td>
       <td>Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.</td>
       <td>
@@ -1731,7 +1551,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US52</td>
+      <td>US51</td>
       <td>Ver lista de usuarios</td>
       <td>Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.</td>
       <td>
@@ -1747,7 +1567,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US53</td>
+      <td>US52</td>
       <td>Cambiar rol de un usuario</td>
       <td>Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.</td>
       <td>
@@ -1763,7 +1583,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US54</td>
+      <td>US53</td>
       <td>Auditoría de accesos</td>
       <td>Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.</td>
       <td>
@@ -1779,7 +1599,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
       <td>EP-08</td>
     </tr>
     <tr>
-      <td>US55</td>
+      <td>US54</td>
       <td>Roles predefinidos</td>
       <td>Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.</td>
       <td>
@@ -1797,168 +1617,247 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
   </tbody>
 </table>
 
-
 ### Epics
 
 <table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
-
   <thead>
-
     <tr>
-
       <th style="width:10%;">Epic ID</th>
-
       <th style="width:20%;">Título</th>
-
       <th style="width:55%;">Descripción</th>
-
       <th style="width:15%;">HUs asociadas</th>
-
     </tr>
-
   </thead>
-
-  <tbody>
-
+  <tbody>   
     <tr>
-
       <td>EP-01</td>
-
       <td>Catálogo de Productos</td>
-
       <td>Como jefe de compras, quiero crear y mantener el maestro de productos (nombre, UM, categoría, estado) y configurar umbrales de bajo stock, para asegurar datos consistentes y habilitar alertas útiles.</td>
-
       <td>US018, US19, US20, US21, US22, US23</td>
-
     </tr>
-
     <tr>
-
       <td>EP-02</td>
-
       <td>Lotes y Vencimientos</td>
-
       <td>Como encargado de bodega, quiero gestionar lotes y asignar fechas de vencimiento aplicando políticas como FEFO, para garantizar trazabilidad y reducir mermas por caducidad.</td>
-
       <td>US43, US44, US45, US46, US47, US48</td>
-
     </tr>
-
     <tr>
-
       <td>EP-03</td>
-
       <td>Dashboard</td>
-
       <td>Como usuario, quiero acceder a un panel de control con métricas clave (productos próximos a vencer, stock bajo, rotación, alertas recientes), para tener una visión general y tomar decisiones rápidas..</td>
-
-      <td>US27, US28</td>
-
+      <td>US24, US25</td>
     </tr>
-
     <tr>
-
       <td>EP-04</td>
-
       <td>Movimientos de Inventario</td>
-
       <td>Como cajero, quiero registrar de forma precisa todas las entradas (compras, ajustes) y salidas de productos, para mantener la exactitud del stock en tiempo real y tener una trazabilidad completa de cada movimiento.</td>
-
       <td>US01, US02, US03, US04, US05, US06, US36, US37, US38, US39, US40, US41</td>
-
     </tr>
-
     <tr>
-
       <td>EP-05</td>
-
       <td>Kits</td>
-
       <td>Como usuario del negocio, quiero definir kits (combos) y agregarlos a la venta con desglose automático de componentes, para impactar correctamente el stock y el costo real.</td>
-
-      <td>US29, US30</td>
-
+      <td>US26, US27</td>
     </tr>
-
     <tr>
-
       <td>EP-06</td>
-
       <td>Alertas y Notificaciones</td>
-
       <td>Como dueño o jefe de compras, quiero recibir alertas de bajo stock y próximos a vencer por canales externos simples (email, Telegram/Slack, push), para reponer a tiempo y evitar pérdidas.</td>
-
-      <td>US30, US31, US32, US33, US34, US35</td>
-
+      <td>US28, US29, US30, US31, US32, US33</td>
     </tr>
-
     <tr>
-
       <td>EP-07</td>
-
       <td>Reportes Operativos</td>
-
       <td>Como gerente, quiero emitir reportes de stock a fecha (valorizado), rotación/ventas con utilidad, mermas/ajustes, con exportación a CSV/PDF/Sheets, para tomar decisiones y auditar.</td>
-
-      <td>US07, US08, US09, US10, US11</td>
-
+      <td>US05, US06, US07, US08</td>
     </tr>
-
     <tr>
-
       <td>EP-08</td>
-
       <td>Usuarios, Roles y Permisos</td>
-
       <td>Como dueño, quiero crear usuarios y asignar roles y permisos mínimos (dueño, encargado, cajero/supervisor), para controlar el acceso y resguardar operaciones clave.</td>
-
-      <td>US49, US50, US51, US52, US53, US54, US55</td>
-
+      <td>US47, US48, US49, US50, US51, US52, US53, US54</td>
     </tr>
-
     <tr>
-
       <td>EP-09</td>
-
       <td>Landing</td>
-
       <td>Como visitante, quiero visualizar una landing con propuesta de valor, funcionalidades y registro/contacto, para conocer StockTrack y convertirme en usuario.</td>
-
       <td>US012, US13, US14, US15, US16, US17</td>
-
     </tr>
-
     <tr>
-
       <td>EP-10</td>
-
       <td>Proveedores</td>
-
       <td>Como encargado de compras, quiero registrar, consultar, editar y eliminar proveedores, asociarlos a productos y gestionar datos de contacto, para asegurar un abastecimiento confiable y trazable.</td>
-
-      <td>US24, US25, US26</td>
-
+      <td>US21, US22, US23</td>
     </tr>
-
   </tbody>
-
 </table>
 
 
 ### Technical stories
+<!-- Technical Stories – Formato "Como... quiero... para..." + Criterios (Dado/Cuando/Entonces) -->
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%;">
+  <thead>
+    <tr>
+      <th style="width:8%;">Story ID</th>
+      <th style="width:18%;">Título</th>
+      <th style="width:24%;">Descripción</th>
+      <th style="width:40%;">Criterios de Aceptación</th>
+      <th style="width:10%;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Bloqueo optimista en stock</td>
+      <td>Como administrador del sistema, quiero usar control de versión en inventario para evitar sobreventas cuando dos usuarios confirman salidas a la vez.</td>
+      <td>
+        <strong>Escenario 01: Actualización con versión válida</strong><br>
+        <strong>Dado</strong> un registro con versión <em>v</em>,<br>
+        <strong>Cuando</strong> confirmo la salida enviando <em>v</em>,<br>
+        <strong>Entonces</strong> se descuenta el stock y la versión cambia a <em>v+1</em>.<br><br>
+        <strong>Escenario 02: Conflicto de concurrencia</strong><br>
+        <strong>Dado</strong> dos confirmaciones sobre el mismo producto/lote,<br>
+        <strong>Cuando</strong> la segunda llega con versión desactualizada,<br>
+        <strong>Entonces</strong> el sistema responde <em>409 Conflict</em> y pide recargar.<br><br>
+        <strong>Escenario 03: Transacción de un solo agregado</strong><br>
+        <strong>Dado</strong> una confirmación de salida,<br>
+        <strong>Cuando</strong> se persiste,<br>
+        <strong>Entonces</strong> todo ocurre en una única transacción del agregado de inventario.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Outbox + eventos de dominio</td>
+      <td>Como desarrollador, quiero registrar eventos en una Outbox para enviarlos de forma segura a los consumidores y mantener consistencia.</td>
+      <td>
+        <strong>Escenario 01: Escritura transaccional</strong><br>
+        <strong>Dado</strong> una salida/ingreso confirmado,<br>
+        <strong>Cuando</strong> se guarda el movimiento,<br>
+        <strong>Entonces</strong> se guarda también un evento en Outbox con <em>status=Pending</em>.<br><br>
+        <strong>Escenario 02: Despacho resiliente</strong><br>
+        <strong>Dado</strong> eventos pendientes,<br>
+        <strong>Cuando</strong> corre el despachador,<br>
+        <strong>Entonces</strong> publica con reintentos y marca <em>Processed</em>.<br><br>
+        <strong>Escenario 03: Idempotencia</strong><br>
+        <strong>Dado</strong> que un evento llega duplicado al consumidor,<br>
+        <strong>Cuando</strong> intenta procesarlo,<br>
+        <strong>Entonces</strong> no duplica efectos (se deduplica por <em>event_id</em>).
+      </td>
+      <td>EP-04, EP-06, EP-07</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Motor de kits (receta y costo)</td>
+      <td>Como encargado, quiero que el sistema desglose los kits en componentes al vender o ensamblar para descontar stock y calcular costo correcto.</td>
+      <td>
+        <strong>Escenario 01: Desglose al confirmar</strong><br>
+        <strong>Dado</strong> una salida con kits,<br>
+        <strong>Cuando</strong> confirmo,<br>
+        <strong>Entonces</strong> se crean movimientos por cada componente y se descuenta su stock.<br><br>
+        <strong>Escenario 02: Cálculo de costo del kit</strong><br>
+        <strong>Dado</strong> una receta válida,<br>
+        <strong>Cuando</strong> se calcula la utilidad,<br>
+        <strong>Entonces</strong> el costo del kit = Σ(costos × cantidades) de componentes.<br><br>
+        <strong>Escenario 03: Validaciones</strong><br>
+        <strong>Dado</strong> falta de stock o receta con errores (ciclos/componente inexistente),<br>
+        <strong>Cuando</strong> intento confirmar,<br>
+        <strong>Entonces</strong> el sistema bloquea y muestra el error.
+      </td>
+      <td>EP-05, EP-04</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Read models para KPIs/Reportes</td>
+      <td>Como analista, quiero modelos de lectura actualizados por eventos para consultar KPIs y reportes rápidos sin afectar la base transaccional.</td>
+      <td>
+        <strong>Escenario 01: Proyección consistente</strong><br>
+        <strong>Dado</strong> eventos de ingreso/salida/ajuste,<br>
+        <strong>Cuando</strong> se procesan,<br>
+        <strong>Entonces</strong> los modelos de lectura reflejan saldos y KPIs correctos.<br><br>
+        <strong>Escenario 02: Desempeño</strong><br>
+        <strong>Dado</strong> volúmenes altos,<br>
+        <strong>Cuando</strong> consulto KPIs,<br>
+        <strong>Entonces</strong> la API responde &lt; 200&nbsp;ms en consultas comunes.<br><br>
+        <strong>Escenario 03: Consistencia eventual</strong><br>
+        <strong>Dado</strong> carga elevada,<br>
+        <strong>Cuando</strong> ocurre la proyección,<br>
+        <strong>Entonces</strong> la latencia es &le; 5&nbsp;s y se muestra “actualizado hace X s”.
+      </td>
+      <td>EP-03, EP-07</td>
+    </tr>
+  </tbody>
+</table>
 
 
-## 3.2. Impact Mapping
-
-.
-
+### 3.3. Impact Mapping
+A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, donde se muestra la relación entre el *Business Goal* definido, los **User Personas** identificados, los **Impactos** esperados en su comportamiento, los **Deliverables** que como negocio digital podemos ofrecer y las **User Stories** asociadas que permitirán implementar las funcionalidades necesarias en la aplicación web y la landing page. Este mapa busca asegurar la alineación entre los objetivos estratégicos y el desarrollo de la solución digital.
 
 
+<p align="center">
+  <img src="./assets/Chapter-III/impactMap.png" alt="Impact Map" width="700">
+</p>
 
+### 3.4. Product Backlog
 
-## 3.3. Product Backlog
-
-<div style="page-break-after: always;"></div>
+| # Orden |  User Story Id  | Título                                    | Descripción                                                                                                                                                                  |  Story Points (1/2/3/5/8) |
+| :------ | :-------------- | :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------|
+|    01   | US-01           | Iniciar borrador de salida                | Como cajero, quiero iniciar un borrador de salida para agrupar ítems de una venta antes de confirmarla.                                                                      |  3                        |
+|    02   | US-02           | Gestionar ítems del borrador              | Como cajero, quiero buscar productos y agregar/editar/retirar ítems con cantidades válidas sin impactar el stock aún.                                                        |  3                        |
+|    03   | US-03           | Calcular total y utilidad de la salida    | Como dueño, quiero que el sistema calcule en tiempo real el total y la utilidad por ítem/kit y global, usando el costo vigente.                                              |  5                        |
+|    04   | US-04           | Confirmar salida y descontar inventario   | Como cajero, quiero confirmar la salida para registrar los movimientos de inventario (productos y componentes de kits) y actualizar el on-hand.                              |  2                        |
+|    05   | US-05           | Reporte de stock a fecha (valorizado)     | Como gerente, quiero emitir un reporte de stock a una fecha de corte, con cantidades on-hand, costo vigente y valorizado por producto/lote.                                  |  8                        |
+|    06   | US-06           | Reporte de rotación y ventas (utilidad)   | Como gerente, quiero un reporte por periodo con unidades vendidas, ingreso, costo y utilidad por producto/categoría, para identificar top/slow movers.                       |  5                        |
+|    07   | US-07           | Reporte de mermas y ajustes               | Como dueño, quiero un reporte de ajustes (±) y mermas por periodo, con motivo, usuario y valorizado, para auditar pérdidas.                                                  |  3                        |
+|    08   | US-08           | Reporte de bajo stock y próximos a vencer | Como jefe de compras, quiero un listado de productos bajo umbral y lotes próximos a vencer, con días de cobertura y acciones sugeridas.                                      |  5                        |
+|    09   | US-09           | Filtrado de métricas                      | Como usuario, quiero filtrar las métricas del dashboard por rango de fechas y categorías de productos, para analizar información más específica y relevante.                 |  3                        |
+|    10   | US-10           | Exportación de métricas                   | Como usuario, quiero exportar los datos del dashboard, para compartirlos fácilmente con mi equipo o realizar reportes externos.                                              |  3                        |
+|    11   | US-11           | Notificaciones en el dashboard            | Como usuario, quiero visualizar en el dashboard notificaciones destacadas de bajo stock y próximos vencimientos, para priorizar las acciones más urgentes.                   |  3                        |
+|    12   | US-12           | Crear producto en catálogo                | Como jefe de compras quiero registrar un nuevo producto para asegurar una gestion productos consistente                                                                      |  3                        |
+|    13   | US-13           | Edición de producto                       | Como jefe de compras quiero editar los datos de un producto existente para mantener actualizada la información en el catálogo                                                |  2                        |
+|    14   | US-14           | Eliminación e inhabilitacion de productos | Como jefe de compras quiero poder desactivar o eliminar un producto para mantener un control y no saturar el sistema                                                         |  3                        |
+|    15   | US-15           | Clasificación de productos por categoría  | Como jefe de compras quiero asignar categorías a los productos para organizar el catálogo y facilitar búsquedas                                                              |  2                        |
+|    16   | US-16           | Búsqueda y filtrado de productos          | Como jefe de compras quiero buscar y filtrar productos por nombre, categoría o estado para acceder rápidamente a la información                                              |  3                        |
+|    17   | US-17           | Historial de cambios de producto          | Como jefe de compras quiero consultar el historial de cambios de cada producto para corroborar precios y poder planificar estrategicamente                                   |  3                        |
+|    18   | US-18           | Sección de funcionalidades                | Como visitante quiero visualizar las principales funcionalidades de stocktrack en la landing para conocer qué ofrece la plataforma                                           |  3                        |
+|    19   | US-19           | Formulario de registro                    | Como visitante quiero acceder a un formulario de registro en la landing para crear una cuenta rápidamente                                                                    |  3                        |
+|    20   | US-20           | Formulario de contacto                    | Como visitante quiero llenar un formulario de contacto en la landing para solicitar información adicional sobre stocktrack                                                   |  3                        |
+|    21   | US-21           | Diseño responsive                         | Como visitante quiero que la landing sea responsive para navegar de manera cómoda desde cualquier dispositivo                                                                |  2                        |
+|    22   | US-22           | Sección de testimonios                    | Como visitante quiero ver testimonios de otros usuarios en la landing para confiar más en la plataforma                                                                      |  3                        |
+|    23   | US-23           | Botones claros                            | Como visitante quiero ver botones claros y visibles para que sea intuitivo durante la navegación                                                                             |  3                        |
+|    24   | US-24           | Crear proveedor                           | Como jefe de compras, quiero registrar nuevos proveedores con su información clave (nombre, contacto, RUC) para centralizar los datos de mis abastecedores.                  |  3                        |
+|    25   | US-25           | Consultar y editar proveedores            | Como encargado, quiero poder ver la lista de proveedores, buscar uno específico y editar su información para mantener los datos actualizados.                                |  3                        |
+|    26   | US-26           | Asociar productos a proveedor             | Como jefe de compras, quiero asociar productos a un proveedor para saber a quién comprar cada artículo y facilitar los reportes.                                             |  5                        |
+|    27   | US-27           | 	Visualizar KPIs principales              | Como dueño, quiero ver en el dashboard tarjetas con KPIs clave (valor de inventario, productos con stock bajo) para un resumen rápido del negocio.                           |  2                        |
+|    28   | US-28           | Ver alertas críticas                      | Como encargado, quiero que el dashboard me muestre una lista de alertas urgentes (lotes próximos a vencer) para tomar acciones preventivas.                                  |  3                        |
+|    29   | US-29           | Definir composición de un kit             | Como encargado, quiero crear la "receta" de un kit, asociando productos existentes y sus cantidades, para estandarizar el contenido de los paquetes.                         |  3                        |
+|    30   | US-30           | Ensamblar kits y ajustar stock            | Como encargado de bodega, quiero registrar el "ensamblaje" de kits para que el sistema descuente el stock de los componentes y aumente el stock del kit como producto final. |  5                        |
+|    31   | US-31           | Generar alerta de bajo stock              | Como sistema, quiero generar una alerta cuando el stock de un producto caiga por debajo del umbral configurado.                                                              |  5                        |
+|    32   | US-32           | Generar alerta de vencimiento             | Como sistema, quiero generar una alerta cuando un lote esté próximo a vencer dentro de la ventana configurada.                                                               |  3                        |
+|    33   | US-33           | Listar alertas pendientes                 | Como usuario, quiero ver un listado de todas las alertas activas (bajo stock, próximos a vencer, vencidos) para tomar decisiones.                                            |  3                        |
+|    34   | TS-34           | Notificación externa de alertas           | Como usuario, quiero recibir notificaciones por correo o push cuando se generen alertas críticas.                                                                            |  8                        |
+|    35   | TS-35           | Gestionar estado de alertas               | Como jefe de compras, quiero marcar las alertas como atendidas o descartadas para mantener control del seguimiento.                                                          |  3                        |
+|    36   | TS-36           | Iniciar borrador de ingreso               | Como asistente de almacén, quiero iniciar un borrador de ingreso para registrar productos recibidos antes de confirmarlos.                                                   |  3                        |
+|    37   | TS-37           | Registrar ítems del ingreso               | Como asistente de almacén, quiero agregar productos, lotes y cantidades recibidas al borrador sin impactar aún el stock.                                                     |  3                        |
+|    38   | TS-38           | Registrar costo y proveedor               | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.                                                         |  3                        |
+|    39   | TS-39           | Confirmar ingreso y actualizar stock      | Como asistente de almacén, quiero confirmar el ingreso para registrar movimientos positivos y actualizar el on-hand.                                                         |  5                        |
+|    40   | TS-40           | Adjuntar documento de respaldo            | Como asistente de almacén, quiero adjuntar la factura o guía de remisión al ingreso para evidencia documental.                                                               |  2                        |
+|    41   | TS-41           | Disparar alertas por ingreso              | Como sistema, quiero recalcular coberturas y eliminar alertas de bajo stock cuando se confirme un ingreso.                                                                   |  5                        |
+|    42   | TS-42           | Verificar compra de lotes                 | Como dueño de bodega, quiero gestionar y verificar la cantidad de los lotes recibidos para tener un mejor control del inventario.                                            |  3                        |
+|    43   | TS-43           | Ver fecha de vencimiento de los lotes     | Como asistente de almacén, quiero verificar la fecha de vencimiento de mis productos para estar pendiente de cuando reponerlos.                                              |  2                        |
+|    44   | US-44           | Registrar costo y proveedor               | Como asistente de almacén, quiero asociar cada ingreso a un costo unitario y proveedor para trazabilidad de compras.                                                         |  1                        |
+|    45   | US-45           | Alertar vencimiento próximo               | Como dueño de bodega, quiero recibir una alerta cuando un lote esté próximo a vencer para poder tomar decisiones a tiempo.                                                   |  2                        |
+|    46   | US-46           | Buscar lotes por proveedor                | Como dueño de bodega, quiero filtrar los lotes por proveedor para identificar rápidamente qué productos corresponden a cada socio comercial.                                 |  2                        |
+|    47   | US-47           | Editar información de un lote             | Como asistente de almacén, quiero poder editar la información de un lote (fecha de vencimiento, cantidad o proveedor) para corregir errores en el registro.                  |  2                        |
+|    48   | US-48           | Ver historial de movimientos de un lote   | Como dueño de bodega, quiero consultar el historial de movimientos de cada lote para tener trazabilidad de ingresos y salidas.                                               |  3                        |
+|    49   | US-49           | Crear usuarios nuevos                     | Como dueño de un startup, quiero crear cuentas de usuario para que cada miembro del equipo tenga acceso individual a la plataforma.                                          |  3                        |
+|    50   | US-50           | Asignar roles                             | Como administrador, quiero asignar un rol a cada usuario para definir qué puede y qué no puede hacer dentro de la aplicación.                                                |  3                        |
+|    51   | US-51           | Editar permisos personalizados            | Como administrador, quiero ajustar permisos específicos en un usuario para dar accesos excepcionales.                                                                        |  3                        |
+|    52   | US-52           | Bloquear usuarios                         | Como administrador, quiero poder desactivar usuarios para evitar accesos no autorizados.                                                                                     |  2                        |
+|    53   | US-53           | Ver lista de usuarios                     | Como administrador, quiero ver un listado con todos los usuarios, roles y estado de cuenta para gestionar mejor el equipo.                                                   |  2                        |
+|    54   | US-54           | Cambiar rol de un usuario                 | Como administrador, quiero poder cambiar el rol de un usuario para ajustar sus responsabilidades dentro de la bodega/startup.                                                |  3                        |
+|    55   | US-55           | Auditoría de accesos                      | Como administrador, quiero consultar un historial de accesos de los usuarios para detectar intentos fallidos o acciones sospechosas.                                         |  2                        |
+|    56   | US-55           | Roles predefinidos                        | Como administrador, quiero contar con roles predefinidos (Administrador, Supervisor, Asistente) para acelerar la configuración inicial.                                      |  5                        |
 
 # Capítulo IV: Product Design
 
