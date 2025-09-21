@@ -1795,7 +1795,7 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 
 
 <p align="center">
-  <img src="./assets/impactMap.png" alt="Impact Map" width="700">
+  <img src="./assets/Chapter-III/impactMap.png" alt="Impact Map" width="700">
 </p>
 
 ### 3.4. Product Backlog
