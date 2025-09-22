@@ -343,6 +343,11 @@ Preguntas complementarias:
 | 2  | - **Nombre:** Alicia Navarro Chang <br> - **Edad:** 20 años | Alicia Navarro Chang tiene un negocio dedicado a la venta de queques. Actualmente gestiona su inventario utilizando principalmente Notion y Excel, donde registra compras y salidas de productos, aunque reconoce que el proceso es propenso a errores humanos, especialmente en los cálculos y conteos manuales. Le gustaría contar con un sistema más automático que reduzca esas fallas. Ha evaluado implementar plataformas digitales de inventario, pero aún no encuentra una que le ofrezca todas las herramientas que necesita ni planes de suscripción adecuados. Sus productos los almacena en un cuarto de su casa y revisa los insumos interdiario o casi a diario. Para ventas y promoción emplea TikTok e Instagram, y para contacto con clientes utiliza Instagram y WhatsApp. Desarrolla su trabajo principalmente desde su laptop y también con su celular. | ![Entrevista 2 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/entrevista-alicia-navarro.png) <br> **Duración:** 3:32 min |
 <br>
 
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 3  | - **Nombre:** Macpier Condezo <br> - **Edad:** 29 años |Macpier Condezo tiene un negocio e-commerce. Actualmente gestiona su inventario utilizando principalmente Excel, donde registra compras y salidas de productos, aunque reconoce que el proceso es manual y puede presentar errores, especialmente en los cálculos y conteos manuales. Le gustaría contar con un sistema más automático que reduzca esas fallas. Ha evaluado implementar plataformas digitales de inventario, pero aún no encuentra una que le parezca adecuada. Sus productos los almacena en su casa y revisa el stock a diario. Para publicitarse y manejar las ventas en su negocio usa facebook. Desarrolla su trabajo principalmente desde su PC y ocacionalmente desde su celular. | ![Entrevista 3 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/entrevista-macpier-condezo.png) <br> **Duración:** 3:41 min |
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
