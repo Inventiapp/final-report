@@ -64,10 +64,40 @@
             <th>Descripción de modificaciones</th>
         </tr>
         <tr>
-            <td>0</td>
+            <td>1.0</td>
             <td>3/09/2025</td>
             <td>María Hernández</td>
             <td>Creación del reporte.</td>
+        </tr>
+        <tr>
+            <td>1.1</td>
+            <td>3/09/2025</td>
+            <td>Dayro Rios</td>
+            <td>Organización del informe.</td>
+        </tr>
+        <tr>
+            <td>1.2</td>
+            <td>10/09/2025</td>
+            <td>Fabiola Saldaña</td>
+            <td>Cambios realizados en los capitulos 1 y 2 subidos a develop</td>
+        </tr>
+        <tr>
+            <td>1.3</td>
+            <td>13/09/2025</td>
+            <td>Piero Sulca</td>
+            <td>Cambios realizados en el capítulo 3 subidos a develop</td>
+        </tr>
+        <tr>
+            <td>1.4</td>
+            <td>15/09/2025</td>
+            <td>Vanessa Choy</td>
+            <td>Cambios realizados en el capítulo 4 subidos a develop y realización de correciones</td>
+        </tr>
+        <tr>
+            <td>1.5</td>
+            <td>15/09/2025</td>
+            <td>Dayro Rios</td>
+            <td>Cambios y correciones subidas de todos los capitulos a develop</td>
         </tr>
     </table>
 <div>
@@ -76,6 +106,14 @@
 
 # Project Report Collaboration Insights
 Link del repositorio del reporte: https://github.com/Inventiapp/workstation-markdown <br>
+
+## Reporte de colaboración para el TB1:
+
+En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma GitHub, además de la landing page. A continuación, se detallan las contribuciones de cada miembro del equipo:
+
+![insights](assets/Chapter-I/insights-sprint-1.png)
+
+![contributors](assets/Chapter-I/contributors.png)
 
 <div style="page-break-after: always;"></div>
 
