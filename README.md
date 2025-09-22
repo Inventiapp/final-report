@@ -2275,11 +2275,11 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 		</tr>
 		<tr>
 			<td><strong>Sprint 1 Velocity</strong></td>
-			<td>--</td>
+			<td>10</td>
 		</tr>
 		<tr>
 			<td><strong>Sum of Story points</strong></td>
-			<td>--</td>
+			<td>33</td>
 		</tr>
 	</tbody>
 </table>
@@ -2314,12 +2314,17 @@ El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page q
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
+A continuación, se mostrarán los commits registrados en el repositorio correspondiente a nuestra Aplicación Web, para el desarrollo del sprint 1, el cual se ha implementado el frontend, previamente habiendo hecho el diseño en Figma. Se desarrollaron los features correspondientes.
 
-
+| Repository                      | Branch                                   | Commit Id | Commit Messaage                       | Commit Message Body | Commited on |
+| ------------------------------- | ---------------------------------------- | --------- | ------------------------------------- | ------------------- | ----------- |
+|  |  |    | chore: initial commit | -                   | 2025-09-20   |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
+
+Link del video: https://tinyurl.com/4hejw8zy
 
 ![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-1.png)
 
@@ -2366,10 +2371,15 @@ De esta manera, se obtiene la landing page desplegada y accesible públicamente.
 
 En esta vista se refleja el trabajo colaborativo del equipo para concretar la entrega de este sprint. Se presentan las métricas relacionadas con la creación de la landing page, desarrollada con HTML, CSS y JavaScript, junto con los commits correspondientes.
 
+![contributors](assets/Chapter-V/sprint-1/contributors.png)
+
+![Team Collaboration Insights](assets/Chapter-V/sprint-1/insights-sprint-1.png)
+
 
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
+
 ## Conclusiones y recomendaciones
 
 <div style="page-break-after: always;"></div>
