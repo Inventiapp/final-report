@@ -600,26 +600,42 @@ Preguntas complementarias:
 
 ### 2.2.2. Registro de entrevistas
 
-Entrevista x:
+**Segmento #1: Bodegas especializadas por rubro**
 
-[video]
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 1  | - **Nombre:** Lucarelly Sanchez Heredia <br> - **Edad:** 21 años | Lucarelly es dueño de una bodega y la gestiona junto a su abuelo. La administra usando excel pero no siempre está actualizado, además de usar una libreta. Uno de los mayores desafíos que enfrenta es la mezcla de lotes y fechas de vencimiento, lo que le genera pérdidas. No tiene un control en tiempo real del stock y no ha considerado usar una plataforma digital para gestionar su inventario, pero le gustaría tener un mejor control de sus productos. Actualmente no emplea alguna herramienta digital para la gestión de su bodega además de excel. Repone los productos de manera reactiva, es decir, cuando se le acaba o está por vencer un producto. Usa una laptop Windows y un celular Android, y como browser usa Chrome. Vende sus productos principalmente de forma presencial, pero también usa Whatsapp, Facebook e Instagram. | ![Entrevista 1 - Segmento Dueños de Bodegas](./assets/Chapter-II/lucas-interview.png) <br> **Duración:** 2:53 min |
+| 2  | - **Nombre:** Rubi Vega <br> - **Edad:** 19 años | Actualmente, la bodega no cuenta con un sistema formal de gestión de inventario, pues al ser un negocio familiar las tareas se realizan de manera manual, aunque se considera contratar personal externo. El principal desafío es controlar las fechas de vencimiento, ya que con la llegada de nuevos productos se pierde seguimiento de los que están por caducar. No utilizan herramientas digitales, aunque reconocen la importancia de contar con un control en tiempo real para crecer y organizar pedidos. Detectan faltantes o vencimientos al limpiar estantes o por intuición. Usan celular y computadora, y gestionan pedidos principalmente por WhatsApp. | ![Entrevista 2 - Segmento Dueños de Bodegas](./assets/Chapter-II/Interview-Rubi.png) <br> **Duración:** 4:02 min |
 
-[XX:XX - XX:XX]
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
 
-Duración: 
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 1  | - **Nombre:** Alexander Miranda Vivanco <br> - **Edad:** 27 años | Alexander Miranda tiene un emprendimiento dedicado a venta de productos para mascotas. Actualmente, gestiona su inventario revisando su almacén presencialmente y lo hace interdiario, dependiendo de las ventas. Se siente limitado por lo tardado que es revisar el stock disponible. Registra su inventario únicamente en Excel y se guía por las boletas que emite. Le gustaría mejorar las entradas y salidas de productos e inventariado para así llevar un mejor control y saber cuando es necesario reponer ciertos ítems. Aún no ha considerado implementar una página, pero lo considera una oportunidad para digitalizar el negcio y agilizar el proceso de venta e inventario. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/Entrevista-Alexander-Miranda.png) <br> **Duración:** 3:30 min |
 
-Link de la entrevista: (link acortado en algun shortener)
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 2  | - **Nombre:** Alicia Navarro Chang <br> - **Edad:** 20 años | Alicia Navarro Chang tiene un negocio dedicado a la venta de queques. Actualmente gestiona su inventario utilizando principalmente Notion y Excel, donde registra compras y salidas de productos, aunque reconoce que el proceso es propenso a errores humanos, especialmente en los cálculos y conteos manuales. Le gustaría contar con un sistema más automático que reduzca esas fallas. Ha evaluado implementar plataformas digitales de inventario, pero aún no encuentra una que le ofrezca todas las herramientas que necesita ni planes de suscripción adecuados. Sus productos los almacena en un cuarto de su casa y revisa los insumos interdiario o casi a diario. Para ventas y promoción emplea TikTok e Instagram, y para contacto con clientes utiliza Instagram y WhatsApp. Desarrolla su trabajo principalmente desde su laptop y también con su celular. | ![Entrevista 2 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/entrevista-alicia-navarro.png) <br> **Duración:** 3:32 min |
+<br>
 
-Nombre: 
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 3  | - **Nombre:** Macpier Condezo <br> - **Edad:** 29 años |Macpier Condezo tiene un negocio e-commerce. Actualmente gestiona su inventario utilizando principalmente Excel, donde registra compras y salidas de productos, aunque reconoce que el proceso es manual y puede presentar errores, especialmente en los cálculos y conteos manuales. Le gustaría contar con un sistema más automático que reduzca esas fallas. Ha evaluado implementar plataformas digitales de inventario, pero aún no encuentra una que le parezca adecuada. Sus productos los almacena en su casa y revisa el stock a diario. Para publicitarse y manejar las ventas en su negocio usa facebook. Desarrolla su trabajo principalmente desde su PC y ocacionalmente desde su celular. | ![Entrevista 3 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/entrevista-macpier-condezo.png) <br> **Duración:** 3:41 min |
+<br>
 
-Apellidos: 
-
-Edad: 
-
-Distrito:
-
-Resumen:
 ### 2.2.3. Análisis de entrevistas
+
+
+En este apartado se documenta de manera estructurada cada una de las entrevistas realizadas a los diferentes segmentos objetivo. Para cada entrevista, se incluye información relevante como el perfil del entrevistado, el registro de sus respuestas, observaciones contextuales, y un resumen de los principales hallazgos obtenidos.
+
+Esta sistematización permite asegurar la trazabilidad de los datos recolectados, facilitando su posterior análisis y su utilización en la construcción de artefactos de usuario, tales como User Personas, Empathy Maps y User Task Matrices.
+
+Características objetivas y subjetivas más comunes de cada segmento:
+
+| Segmento | Características Objetivas Comunes | Características Subjetivas Comunes |
+|----------|-----------------------------------|------------------------------------| 
+| Segmento 1: Dueños de bodegas | - Sexo: Femenino.<br>- Edad: 19-21 años.<br>- Gestión actual: Excel + libreta, no actualizados.<br>- Problema recurrente: mezcla de lotes, fechas de vencimiento descontroladas → pérdidas.<br>- No usan ninguna herramienta digital especializada.<br>- Reposición reactiva, cuando ya falta el producto.<br>- Usan WhatsApp y Facebook para clientes.<br>- Interés: plataforma simple, que no sea compleja como un ERP.| - Digitalizar inventario para dejar papel/Excel.<br>- Evitar pérdidas por vencimiento.<br>- Planificar reposiciones en vez de reaccionar tarde.|
+| Segmento 2: Startups / Emprendedores | - Sexo: Masculino/Femenino.<br>- Edad: 20-29 años.<br>- Gestión actual: Excel, Notion, boletas.<br>- Problema recurrente: procesos manuales → errores en conteo y cálculos.<br>- Limitante: tardar mucho en revisar stock físicamente.<br>- Interés: automatización del inventario para reducir errores y ganar tiempo.<br>- Buscan: Escalabilidad y planes accesibles y flexibles.<br>- Usan redes sociales (TikTok, Instagram, Facebook) para ventas y marketing. | - Reducir errores humanos.<br> - Control en tiempo real del stock.<br>- Crecer sin necesidad de sistemas caros. |
 
 ## 2.3. Needfinding
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
@@ -649,7 +665,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 | Capacitarse en nuevas herramientas tecnológicas                     | Baja           | Media            |
 | Resolver errores de inventario (sobrestock, productos vencidos)  | Alta           | Alta             |
 
-<br> <!-- Esto agrega espacio visual en algunas plataformas -->
+<br> 
 
 
 **Segmento 2: Startups y emprendedores en expansión con necesidades logísticas**
