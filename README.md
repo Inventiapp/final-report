@@ -360,7 +360,6 @@ Características objetivas y subjetivas más comunes de cada segmento:
 | Segmento | Características Objetivas Comunes | Características Subjetivas Comunes |
 |----------|-----------------------------------|------------------------------------| 
 | Segmento 1: Dueños de bodegas | - Sexo: Femenino.<br>- Edad: 19-21 años.<br>- Gestión actual: Excel + libreta, no actualizados.<br>- Problema recurrente: mezcla de lotes, fechas de vencimiento descontroladas → pérdidas.<br>- No usan ninguna herramienta digital especializada.<br>- Reposición reactiva, cuando ya falta el producto.<br>- Usan WhatsApp y Facebook para clientes.<br>- Interés: plataforma simple, que no sea compleja como un ERP.| - Digitalizar inventario para dejar papel/Excel.<br>- Evitar pérdidas por vencimiento.<br>- Planificar reposiciones en vez de reaccionar tarde.|
-<br>
 | Segmento 2: Startups / Emprendedores | - Sexo: Masculino/Femenino.<br>- Edad: 20-29 años.<br>- Gestión actual: Excel, Notion, boletas.<br>- Problema recurrente: procesos manuales → errores en conteo y cálculos.<br>- Limitante: tardar mucho en revisar stock físicamente.<br>- Interés: automatización del inventario para reducir errores y ganar tiempo.<br>- Buscan: Escalabilidad y planes accesibles y flexibles.<br>- Usan redes sociales (TikTok, Instagram, Facebook) para ventas y marketing. | - Reducir errores humanos.<br> - Control en tiempo real del stock.<br>- Crecer sin necesidad de sistemas caros. |
 <br>
 
