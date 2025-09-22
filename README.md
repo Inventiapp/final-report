@@ -338,6 +338,11 @@ Preguntas complementarias:
 |----|------------------------|------------------------------------------| ----------------------- |
 | 1  | - **Nombre:** Alexander Miranda Vivanco <br> - **Edad:** 27 años | Alexander Miranda tiene un emprendimiento dedicado a venta de productos para mascotas. Actualmente, gestiona su inventario revisando su almacén presencialmente y lo hace interdiario, dependiendo de las ventas. Se siente limitado por lo tardado que es revisar el stock disponible. Registra su inventario únicamente en Excel y se guía por las boletas que emite. Le gustaría mejorar las entradas y salidas de productos e inventariado para así llevar un mejor control y saber cuando es necesario reponer ciertos ítems. Aún no ha considerado implementar una página, pero lo considera una oportunidad para digitalizar el negcio y agilizar el proceso de venta e inventario. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/Entrevista-Alexander-Miranda.png) <br> **Duración:** 3:30 min |
 
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 2  | - **Nombre:** Alicia Navarro Chang <br> - **Edad:** 20 años | Alicia Navarro Chang tiene un negocio dedicado a la venta de queques. Actualmente gestiona su inventario utilizando principalmente Notion y Excel, donde registra compras y salidas de productos, aunque reconoce que el proceso es propenso a errores humanos, especialmente en los cálculos y conteos manuales. Le gustaría contar con un sistema más automático que reduzca esas fallas. Ha evaluado implementar plataformas digitales de inventario, pero aún no encuentra una que le ofrezca todas las herramientas que necesita ni planes de suscripción adecuados. Sus productos los almacena en un cuarto de su casa y revisa los insumos interdiario o casi a diario. Para ventas y promoción emplea TikTok e Instagram, y para contacto con clientes utiliza Instagram y WhatsApp. Desarrolla su trabajo principalmente desde su laptop y también con su celular. | ![Entrevista 2 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/entrevista-alicia-navarro.png) <br> **Duración:** 3:32 min |
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
