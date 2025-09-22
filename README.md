@@ -930,6 +930,7 @@ El prototipo web de StockTrack ha sido concebido aplicando principios de arquite
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams
+![Database Diagram](./assets/Chapter-IV/Database-Diagram.png)
 
 <br>
 <br>
