@@ -327,45 +327,16 @@ Preguntas complementarias:
 
 **Segmento #1: Bodegas especializadas por rubro**
 
-Entrevista 1:
-
-<img src="assets/Chapter-II/lucas-interview.png" alt="Entrevista 1- segmento 1" width="500"/>
-
-[00:00 - 02:53]
-
-Duración: 2:53 min
-
-Nombre: Lucarelly Sanchez Heredia
-
-Edad: 21 años
-
-Resumen: Lucarelly es dueño de una bodega y la gestiona junto a su abuelo. La administra usando excel pero no siempre está actualizado, además de usar una libreta. Uno de los mayores desafíos que enfrenta es la mezcla de lotes y fechas de vencimiento, lo que le genera pérdidas. No tiene un control en tiempo real del stock y no ha considerado usar una plataforma digital para gestionar su inventario, pero le gustaría tener un mejor control de sus productos. Actualmente no emplea alguna herramienta digital para la gestión de su bodega además de excel. Repone los productos de manera reactiva, es decir, cuando se le acaba o está por vencer un producto. Usa una laptop Windows y un celular Android, y como browser usa Chrome. Vende sus productos principalmente de forma presencial, pero también usa Whatsapp, Facebook e Instagram.
-
-
-<br>
-
-
-<br>
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 1  | - **Nombre:** Lucarelly Sanchez Heredia <br> - **Edad:** 21 años | Lucarelly es dueño de una bodega y la gestiona junto a su abuelo. La administra usando excel pero no siempre está actualizado, además de usar una libreta. Uno de los mayores desafíos que enfrenta es la mezcla de lotes y fechas de vencimiento, lo que le genera pérdidas. No tiene un control en tiempo real del stock y no ha considerado usar una plataforma digital para gestionar su inventario, pero le gustaría tener un mejor control de sus productos. Actualmente no emplea alguna herramienta digital para la gestión de su bodega además de excel. Repone los productos de manera reactiva, es decir, cuando se le acaba o está por vencer un producto. Usa una laptop Windows y un celular Android, y como browser usa Chrome. Vende sus productos principalmente de forma presencial, pero también usa Whatsapp, Facebook e Instagram. | ![Entrevista 1 - Segmento Dueños de Bodegas](./assets/Chapter-II/lucas-interview.png) <br> **Duración:** 2:53 min |
+| 2  | - **Nombre:** Rubi Vega <br> - **Edad:** 19 años |  | ![Entrevista 2 - Segmento Dueños de Bodegas]() |
 
 **Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
 
-Entrevista 4:
-<br>
-
-<img src="assets/Chapter-II/Entrevista-Alexander-Miranda.png" alt="Entrevista - segmento 2" width="500"/>
-
-[XX:XX - XX:XX]
-
-Duración: 3:30 min
-
-Nombre: Alexander Miranda Vivanco
-
-Edad: 27 años
- 
-Resumen: Alexander Miranda tiene un emprendimiento dedicado a venta de productos para mascotas. Actualmente, gestiona su inventario revisando su almacén presencialmente y lo hace interdiario, dependiendo de las ventas. Se siente limitado por lo tardado que es revisar el stock disponible. Registra su inventario únicamente en Excel y se guía por las boletas que emite. Le gustaría mejorar las entradas y salidas de productos e inventariado para así llevar un mejor control y saber cuando es necesario reponer ciertos ítems. Aún no ha considerado implementar una página, pero lo considera una oportunidad para digitalizar el negcio y agilizar el proceso de venta e inventario.
-
-<br>
-
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 1  | - **Nombre:** Alexander Miranda Vivanco <br> - **Edad:** 27 años | Alexander Miranda tiene un emprendimiento dedicado a venta de productos para mascotas. Actualmente, gestiona su inventario revisando su almacén presencialmente y lo hace interdiario, dependiendo de las ventas. Se siente limitado por lo tardado que es revisar el stock disponible. Registra su inventario únicamente en Excel y se guía por las boletas que emite. Le gustaría mejorar las entradas y salidas de productos e inventariado para así llevar un mejor control y saber cuando es necesario reponer ciertos ítems. Aún no ha considerado implementar una página, pero lo considera una oportunidad para digitalizar el negcio y agilizar el proceso de venta e inventario. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-II/Entrevista-Alexander-Miranda.png) <br> **Duración:** 3:30 min |
 
 ### 2.2.3. Análisis de entrevistas
 
