@@ -892,6 +892,17 @@ El prototipo web de StockTrack ha sido concebido aplicando principios de arquite
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+![Context Diagram](./assets/Chapter-IV/event-storming1.png)
+![Context Diagram](./assets/Chapter-IV/event-storming2.png)
+![Context Diagram](./assets/Chapter-IV/event-storming3.png)
+![Context Diagram](./assets/Chapter-IV/event-storming4.png)
+![Context Diagram](./assets/Chapter-IV/event-storming5.png)
+![Context Diagram](./assets/Chapter-IV/event-storming6.png)
+![Context Diagram](./assets/Chapter-IV/event-storming7.png)
+![Context Diagram](./assets/Chapter-IV/event-storming8.png)
+![Context Diagram](./assets/Chapter-IV/event-storming9.png)
+
+
 ### 4.6.2. Software Architecture Context Diagram.
 ![Context Diagram](./assets/Chapter-IV/structurizr-106230-SystemContext-001.png)
 
