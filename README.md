@@ -205,8 +205,9 @@ En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -2752,10 +2753,19 @@ El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page q
 
 A continuación, se mostrarán los commits registrados en el repositorio correspondiente a nuestra Aplicación Web, para el desarrollo del sprint 1, el cual se ha implementado el frontend, previamente habiendo hecho el diseño en Figma. Se desarrollaron los features correspondientes.
 
-| Repository                      | Branch                                   | Commit Id | Commit Messaage                       | Commit Message Body | Commited on |
-| ------------------------------- | ---------------------------------------- | --------- | ------------------------------------- | ------------------- | ----------- |
-|  |  |    | chore: initial commit | -                   | 2025-09-20   |
-
+| Repository                | Branch  | Commit Id | Commit Messaage                                                                 | Commit Message Body                                                               | Commited on |
+| ------------------------- | ------- | --------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------- |
+| psulca/vehix-landing-page | develop | 7b3d783   | style: improve layout and styling in HeroSection and FAQSection components      | Mejoras en diseño y estilos de HeroSection y FAQSection.                          | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 36c5871   | refactor: clean up comments and improve code readability in multiple files      | Se eliminaron comentarios innecesarios y se mejoró la legibilidad del código.     | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 0186fa7   | feat: replace logos in Footer and TopNavigation components, update styles       | Se reemplazaron logos en Footer y TopNavigation, además de ajustes de estilo.     | 20/09/2025  |
+| psulca/vehix-landing-page | develop | a675a47   | feat: update CTASection background gradient for improved design consistency     | Se actualizó el degradado del fondo en CTASection para mayor consistencia visual. | 20/09/2025  |
+| psulca/vehix-landing-page | develop | ca27f06   | feat: add FAQSection and Footer components with responsive design (#5)          | Se añadieron FAQSection y Footer con diseño responsive.                           | 20/09/2025  |
+| psulca/vehix-landing-page | develop | a6f0948   | feat(pricing): add PricingSection component with responsive design and features | Se agregó PricingSection con diseño adaptativo y funcionalidades iniciales.       | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 0614c85   | feat: uncomment HeroSection component in index.astro                            | HeroSection habilitado en index.astro.                                            | 20/09/2025  |
+| psulca/vehix-landing-page | develop | ba8d070   | feat: add HeroSection component (#3)                                            | Se implementó HeroSection como componente principal.                              | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 505776b   | feat(features): añadir sección "Características y Beneficios" (#2)              | Se añadió sección de características y beneficios al landing.                     | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 3e4c301   | feat: implement TopNavigation component and update layout structure (#1)        | Implementación de TopNavigation y ajustes en la estructura del layout.            | 20/09/2025  |
+| psulca/vehix-landing-page | develop | 3e4c301   | chore: configure Tailwind CSS with Vite in Astro setup                          | Configuración inicial de Tailwind CSS con Vite en Astro.                          | 20/09/2025  |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
@@ -2862,6 +2872,9 @@ GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Invest
 
 # Anexos
 
-Link del Repositorio del Informe: https://github.com/Inventiapp/workstation-markdown <br>
+Link del Repositorio del Informe: https://github.com/Inventiapp/final-report <br>
+Link del Repositorio de Landing Page: https://github.com/Inventiapp/landing-page <br>
+Link de Landing Page: https://landing-page-two-iota-z65h50d6ix.vercel.app/ <br>
 Link del Repositorio del Proyecto: <br>
 Link del Repositorio del Backend: <br>
+Link multimedia: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315283_upc_edu_pe/Ev2pLCRvs-9OtS7H5soHCQkBFOvYJBrk-Q7qTYoRN2MqYg?e=eLIzuG <br>
