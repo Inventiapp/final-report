@@ -2814,9 +2814,43 @@ En esta vista se refleja el trabajo colaborativo del equipo para concretar la en
 
 <div style="page-break-after: always;"></div>
 
-# Conclusiones
+# Conclusiones y Recomendaciones
 
-## Conclusiones y recomendaciones
+En esta sección se presentan las conclusiones alcanzadas a lo largo del proyecto StockTrack y se delinean recomendaciones estratégicas para los siguientes pasos de desarrollo.
+
+## Conclusiones
+
+El proyecto logró abordar de manera efectiva el Problem Statement inicial. Se desarrolló un prototipo funcional que demuestra la viabilidad de una plataforma digital centralizada para automatizar el control de inventarios en bodegas y negocios en expansión. Esto responde directamente a la pregunta central de cómo lograr que los usuarios adopten un sistema que reduzca la dependencia de procesos manuales, identificados como la principal causa de errores, pérdidas y sobrecostos.
+
+**Validación de Supuestos (Assumptions)**
+
+Las entrevistas y validaciones confirmaron los supuestos iniciales: los usuarios valoran principalmente la capacidad de evitar pérdidas y desabastecimientos mediante un control en tiempo real. Se identificó, además, que el problema trasciende lo económico: los errores de inventario generan estrés y afectan la confianza de los dueños en la gestión de sus negocios. Esta dimensión emocional no había sido plenamente considerada en los supuestos iniciales.
+
+**Evaluación de Hipótesis (Hypotheses Statements)**
+
+La hipótesis sobre el valor de las alertas personalizables fue la más validada: los usuarios reconocieron que esta funcionalidad es clave para anticipar problemas y tomar decisiones rápidas. Aunque no fue posible medir la reducción del 30 % en productos vencidos en el marco del curso, la percepción cualitativa sugiere que esta métrica es realista y alcanzable.
+
+**Criterios de Éxito**
+
+Los criterios definidos en Lean UX (reducción de pérdidas, adopción temprana, uso recurrente del módulo de reportes) se mantienen válidos. La evidencia recolectada sugiere que, con un enfoque en simplicidad y automatización, StockTrack tiene alta probabilidad de alcanzarlos en versiones posteriores.
+
+## Recomendaciones
+
+**Optimizar el Onboarding Inicial**
+
+Diseñar un asistente de configuración guiada (wizard) que simplifique el registro de productos, umbrales y lotes. Esto reducirá la fricción en la primera experiencia y asegurará que las alertas críticas estén habilitadas desde el inicio.
+
+**Incorporar Carga Masiva y Escaneo Móvil**
+
+Priorizar la implementación de la lectura de códigos de barras vía cámara para carga masiva desde celular. Esto responde a la necesidad de bodegas con catálogos grandes y baja tolerancia al ingreso manual.
+
+**Dashboard Personalizable por Segmento**
+
+Implementar la personalización de widgets en el dashboard, de modo que los dueños de bodegas puedan priorizar vencimientos y stock bajo, mientras que startups en crecimiento enfoquen métricas de rotación y rentabilidad.
+
+**Validación Continua y Roadmap Iterativo**
+
+Realizar pruebas piloto en entornos reales con bodegas y startups para validar métricas de reducción de pérdidas y frecuencia de uso.
 
 <div style="page-break-after: always;"></div>
 
