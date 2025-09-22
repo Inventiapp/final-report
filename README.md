@@ -161,9 +161,9 @@ En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-  - [4.2. Information Architecture.](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
   - [4.2.4 Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
@@ -1956,9 +1956,76 @@ A continuación se visualiza el **Impact Map** del proyecto **Inventiapp**, dond
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
 ### 4.1.2. Web Style Guidelines.
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
+## 4.2. Information Architecture
+En esta sección se detallará parte importante de la estructura y etiquetado de la aplicación web.
+### 4.2.1. Organization Systems
+**Jerarquía del sistema de organización de la aplicación web**
+<img src="assets/Chapter-IV/organization-system-herarchy-web-app.jpg" alt="Jerarquía del sistema de organización de la aplicación web" width="700"/>
+
+**Jerarquía del sistema de organización de la landing page**
+<img src="assets/Chapter-IV/organization-system-herarchy-landing-page.jpg" alt="Jerarquía del sistema de organización de la landing page" width="700"/>
+
+### 4.2.2. Labeling Systems
+En esta sección se especifica el conjunto de etiquetas que se utilizarán para representar la información y las acciones dentro de la plataforma StockTrack. El objetivo de este sistema de etiquetado es garantizar la simplicidad, evitar la confusión y presentar los datos de manera consistente para nuestros usuarios.
+
+Para lograrlo, hemos definido un sistema de etiquetas con el mínimo número de palabras posible, asegurando que cada etiqueta comunique de forma clara y directa el conjunto de información que representa. A continuación, se detallan las etiquetas agrupadas por su función dentro de la aplicación.
+
+**1. Etiquetas de Navegación Principal**
+
+Representan las secciones principales de la aplicación y se ubicarán en el menú de navegación principal. Su propósito es permitir al usuario identificar y acceder a las funcionalidades clave de StockTrack de forma inmediata.
+
+| Etiqueta | Uso / Contexto | Propósito / Justificación |
+| :--- | :--- | :--- |
+| **Dashboard** | Enlace en el menú principal. | Accede al panel de control principal. Se mantiene en inglés por ser un término estándar y universalmente reconocido en software. |
+| **Productos** | Enlace en el menú principal. | Dirige a la sección de gestión del catálogo de productos. Es un término claro y directo. |
+| **Inventario** | Enlace en el menú principal. | Accede a las funciones de movimientos de stock (entradas, salidas, ajustes). Representa el conjunto de acciones sobre el stock físico. |
+| **Proveedores**| Enlace en el menú principal. | Dirige a la gestión de la lista de proveedores. Etiqueta inequívoca. |
+| **Reportes** | Enlace en el menú principal. | Accede a la sección de análisis y visualización de datos. Término estándar y claro. |
+| **Configuración**| Enlace en el menú principal. | Dirige a los ajustes de la cuenta, usuarios y alertas. Representa el conjunto de opciones de personalización del sistema. |
+
+**2. Etiquetas de Acciones (Botones y Enlaces)**
+
+Estas etiquetas indican acciones que el usuario puede realizar. Son verbos o frases cortas que comunican un resultado claro, diseñadas para ser intuitivas y guiar al usuario a completar sus tareas.
+
+| Etiqueta | Uso / Contexto | Propósito / Justificación |
+| :--- | :--- | :--- |
+| **Añadir Nuevo**| Botón principal en secciones como Productos y Proveedores. | Inicia el proceso de creación de un nuevo elemento. "Añadir" es más amigable que "Crear". |
+| **Guardar** | Botón para confirmar cambios en un formulario. | Acción estándar para persistir datos. Universalmente entendido. |
+| **Cancelar** | Botón o enlace para descartar una acción o cerrar una ventana. | Acción estándar para anular un proceso sin guardar cambios. |
+| **Editar** | Botón o ícono en listas y páginas de detalle. | Permite modificar la información de un elemento existente. |
+| **Eliminar** | Botón o ícono para borrar un elemento. | Acción destructiva, claramente etiquetada. Siempre irá acompañada de una confirmación. |
+| **Exportar** | Botón en la sección de Reportes y listas. | Permite al usuario descargar los datos (ej. a Excel o PDF). Comunica la función de forma precisa. |
+| **Registrar Entrada**| Botón en la sección de Inventario. | Inicia el flujo para añadir stock de un producto. Describe la acción exacta. |
+| **Registrar Salida**| Botón en la sección de Inventario. | Inicia el flujo para reducir stock por una venta u otro motivo. |
+
+**3. Etiquetas de Estatus y Alertas**
+
+Estas etiquetas comunican el estado actual de un producto o un proceso. A menudo estarán acompañadas de un color para reforzar visualmente el significado y permitir un escaneo rápido de la información.
+
+| Etiqueta | Uso / Contexto | Propósito / Justificación |
+| :--- | :--- | :--- |
+| **En Stock** | Indicador de estado en la lista de productos. (Color: Verde) | Comunica que el nivel de stock está por encima del mínimo definido. |
+| **Stock Bajo** | Indicador de estado en la lista de productos y Dashboard. (Color: Naranja) | Alerta visual de que un producto ha alcanzado su nivel mínimo y requiere atención. |
+| **Agotado** | Indicador de estado en la lista de productos. (Color: Rojo) | Informa claramente que no hay unidades disponibles de un producto. |
+| **Próximo a Vencer**| Etiqueta en reportes y Dashboard. (Color: Naranja/Rojo) | Alerta sobre productos cuya fecha de vencimiento está cerca, para prevenir pérdidas. |
+| **Vencido** | Etiqueta en reportes y listas de lotes. (Color: Rojo Oscuro) | Indica que un lote de producto ya ha superado su fecha de vencimiento. |
+
+**4. Etiquetas de Campos de Datos y Tablas**
+
+Son los nombres de los campos en formularios y las cabeceras de las columnas en las tablas. La consistencia en estas etiquetas es crucial para que el usuario entienda qué información debe ingresar o qué dato está viendo.
+
+| Etiqueta | Uso / Contexto | Propósito / Justificación |
+| :--- | :--- | :--- |
+| **Nombre del Producto** | Campo en formulario de creación/edición y cabecera de tabla. | Etiqueta clara y estándar para el nombre del ítem. |
+| **SKU / Código** | Campo y cabecera de tabla. | Abarca tanto el SKU interno como el código de barras, usando términos comunes en el rubro. |
+| **Stock Actual** | Cabecera de tabla y dato en el Dashboard. | Representa la cantidad de unidades disponibles en el momento. |
+| **Stock Mínimo** | Campo en el formulario de producto. | Define el umbral para las alertas de "Stock Bajo". |
+| **Fecha de Vencimiento** | Campo en el registro de entrada de lotes y cabecera de tabla. | Etiqueta inequívoca para el control de productos perecederos. |
+| **Precio de Costo** | Campo en el formulario de producto y registro de entrada. | Claro y directo, se refiere al costo de adquisición. |
+| **Precio de Venta**| Campo en el formulario de producto. | Claro y directo, se refiere al precio para el cliente final. |
+
+Este sistema de etiquetado unificado asegura que la experiencia del usuario en StockTrack sea predecible, eficiente y libre de ambigüedades, cumpliendo con el objetivo de representar la información de la forma más simple posible.
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 En esta sección se definen los principales meta tags y etiquetas SEO que se implementarán en las páginas clave de la solución StockTrack. El objetivo es optimizar la visibilidad de nuestra plataforma en los motores de búsqueda (como Google) para atraer a nuestros segmentos objetivo, y asegurar que el contenido se presente de manera clara y relevante en los resultados de búsqueda.
