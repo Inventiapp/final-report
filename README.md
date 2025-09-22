@@ -2296,8 +2296,21 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page que permita mostrar los aspectos clave del proyecto a los usuarios, garantizando una experiencia de navegación básica y funcionalidades esenciales como la visualización de beneficios, planes de suscripción y reseñas. Para este sprint, el equipo se ha organizado en tareas detalladas, siguiendo las historias de usuario, y se ha asignado el trabajo de forma equitativa para cumplir con los tiempos estimados.
 
+| **User Story** | **Work-Item / Task**       |        |                                   |                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | -------------------------- | ------ | --------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                  | **Id** | **Title**                         | **Description**                                                            |                        |                 |            |
+| US-18          | Sección de funcionalidades | W-01   | Diseñar sección de beneficios     | Definir la estructura y jerarquía visual de la sección de funcionalidades. | 2                      | Vanessa         | Done       |
+| US-19          | Formulario de registro     | W-02   | Implementar contenido y CTAs      | Codificar formulario con validaciones básicas en frontend                  | 3                      | María           | Done       |
+| US-20          | Formulario de contacto     | W-03   | Diseñar cards de testimonios      | Maquetar la sección y aplicar estilos consistentes con la landing.         | 2.5                    | Dayro           | Done       |
+| US-21          | Diseño responsive          | W-04   | Integrar testimonios              | Adaptar layout de secciones a cada breakpoint definido.                    | 3                      | Fabiola         | Done       |
+| US-22          | Sección de testimonios     | W-05   | Maquetar responsive (breakpoints) | Implementar los testimonios en el HTML con estilos.                        | 2.5                    | Piero           | Done       |
+| US-23          | Botones claros             | W-06   | Diseñar hero principal            | Crear botones con colores y contraste adecuados.                           | 1.5                    | Dayro           | Done       |
 
+<p align="center">
+  <img src="./assets/Chapter-V/sprintBacklog.png" alt="Sprint Backlog" width="800">
+</p>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
