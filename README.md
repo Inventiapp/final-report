@@ -2419,6 +2419,25 @@ Convenciones generales
 
 ### 5.1.4. Software Deployment Configuration.
 
+En esta sección se detallan las herramientas y procesos utilizados para el despliegue de la landing page, frontend y backend de nuestra solución.
+
+Landing page: Vercel
+
+Para el despliegue de la landing page, utilizamos Vercel, una plataforma que permite desplegar aplicaciones web de manera sencilla y eficiente. Vercel se integra perfectamente con GitHub, lo que facilita el despliegue automático cada vez que se realiza un push a la rama principal del repositorio.
+
+Paso 1: Conectar el repositorio de GitHub a Vercel.
+
+![Vercel Connection Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
+
+Paso 2: Configurar las opciones de despliegue, como la rama a desplegar y las variables de entorno necesarias.
+
+![Vercel Configuration Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
+
+Paso 3: Desplegar la aplicación y obtener la URL pública.
+
+![Vercel Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 En esta sección se detalla y demuestra el proceso llevado a cabo para la implementación, pruebas, documentación y despliegue de la Landing Page, los Servicios Web y las Aplicaciones Web Frontend.
@@ -2476,11 +2495,11 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 		</tr>
 		<tr>
 			<td><strong>Sprint 1 Velocity</strong></td>
-			<td>--</td>
+			<td>10</td>
 		</tr>
 		<tr>
 			<td><strong>Sum of Story points</strong></td>
-			<td>--</td>
+			<td>33</td>
 		</tr>
 	</tbody>
 </table>
@@ -2497,33 +2516,90 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 #### 5.2.1.3. Sprint Backlog 1.
 
+El objetivo principal del Sprint 1 es desarrollar y desplegar una landing page que permita mostrar los aspectos clave del proyecto a los usuarios, garantizando una experiencia de navegación básica y funcionalidades esenciales como la visualización de beneficios, planes de suscripción y reseñas. Para este sprint, el equipo se ha organizado en tareas detalladas, siguiendo las historias de usuario, y se ha asignado el trabajo de forma equitativa para cumplir con los tiempos estimados.
+
+| **User Story** | **Work-Item / Task**       |        |                                   |                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | -------------------------- | ------ | --------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                  | **Id** | **Title**                         | **Description**                                                            |                        |                 |            |
+| US-18          | Sección de funcionalidades | W-01   | Diseñar sección de beneficios     | Definir la estructura y jerarquía visual de la sección de funcionalidades. | 2                      | Vanessa         | Done       |
+| US-19          | Formulario de registro     | W-02   | Implementar contenido y CTAs      | Codificar formulario con validaciones básicas en frontend                  | 3                      | María           | Done       |
+| US-20          | Formulario de contacto     | W-03   | Diseñar cards de testimonios      | Maquetar la sección y aplicar estilos consistentes con la landing.         | 2.5                    | Dayro           | Done       |
+| US-21          | Diseño responsive          | W-04   | Integrar testimonios              | Adaptar layout de secciones a cada breakpoint definido.                    | 3                      | Fabiola         | Done       |
+| US-22          | Sección de testimonios     | W-05   | Maquetar responsive (breakpoints) | Implementar los testimonios en el HTML con estilos.                        | 2.5                    | Piero           | Done       |
+| US-23          | Botones claros             | W-06   | Diseñar hero principal            | Crear botones con colores y contraste adecuados.                           | 1.5                    | Dayro           | Done       |
+
+<p align="center">
+  <img src="./assets/Chapter-V/sprintBacklog.png" alt="Sprint Backlog" width="800">
+</p>
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+A continuación, se mostrarán los commits registrados en el repositorio correspondiente a nuestra Aplicación Web, para el desarrollo del sprint 1, el cual se ha implementado el frontend, previamente habiendo hecho el diseño en Figma. Se desarrollaron los features correspondientes.
+
+| Repository                      | Branch                                   | Commit Id | Commit Messaage                       | Commit Message Body | Commited on |
+| ------------------------------- | ---------------------------------------- | --------- | ------------------------------------- | ------------------- | ----------- |
+|  |  |    | chore: initial commit | -                   | 2025-09-20   |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-1.png)
+Link del video: https://tinyurl.com/4hejw8zy
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-2.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-1.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-3.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-2.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/landing-section-4.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-3.png)
 
-![Landing Page Screenshot](assets/Chapter-V/sprint-1/footer.png)
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-4.png)
 
+![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/footer.png)
 
-
-#### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 No disponemos de documentación como evidencia, ya que en el primer sprint nuestro enfoque se centró en la elaboración de la landing page.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se detallan los procesos ejecutados durante el Sprint 1. Para este desarrollo se empleó Vercel, una herramienta que se integró de manera sencilla en nuestro flujo de trabajo y permitió desplegar la Landing Page desde un repositorio. 
+
+Página de Vercel: https://vercel.com/
+
+Link de la landing page: https://landing-page-two-iota-z65h50d6ix.vercel.app
+
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
+
+
+Escogemos el repositorio de GitHub donde se encuentra el código de la Landing Page.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
+
+
+Seguidamente, se configura el proyecto y se despliega.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
+De esta manera, se obtiene la landing page desplegada y accesible públicamente.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/deployment-stocktrack.png)
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+En esta vista se refleja el trabajo colaborativo del equipo para concretar la entrega de este sprint. Se presentan las métricas relacionadas con la creación de la landing page, desarrollada con HTML, CSS y JavaScript, junto con los commits correspondientes.
+
+![contributors](assets/Chapter-V/sprint-1/contributors.png)
+
+![Team Collaboration Insights](assets/Chapter-V/sprint-1/insights-sprint-1.png)
+
 
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
+
 ## Conclusiones y recomendaciones
 
 <div style="page-break-after: always;"></div>
