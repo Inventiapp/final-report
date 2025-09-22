@@ -350,6 +350,20 @@ Preguntas complementarias:
 
 ### 2.2.3. Análisis de entrevistas
 
+
+En este apartado se documenta de manera estructurada cada una de las entrevistas realizadas a los diferentes segmentos objetivo. Para cada entrevista, se incluye información relevante como el perfil del entrevistado, el registro de sus respuestas, observaciones contextuales, y un resumen de los principales hallazgos obtenidos.
+
+Esta sistematización permite asegurar la trazabilidad de los datos recolectados, facilitando su posterior análisis y su utilización en la construcción de artefactos de usuario, tales como User Personas, Empathy Maps y User Task Matrices.
+
+Características objetivas y subjetivas más comunes de cada segmento:
+
+| Segmento | Características Objetivas Comunes | Características Subjetivas Comunes |
+|----------|-----------------------------------|------------------------------------| 
+| Segmento 1: Dueños de bodegas | - Sexo: Femenino.<br>- Edad: 19-21 años.<br>- Gestión actual: Excel + libreta, no actualizados.<br>- Problema recurrente: mezcla de lotes, fechas de vencimiento descontroladas → pérdidas.<br>- No usan ninguna herramienta digital especializada.<br>- Reposición reactiva, cuando ya falta el producto.<br>- Usan WhatsApp y Facebook para clientes.<br>- Interés: plataforma simple, que no sea compleja como un ERP.| - Digitalizar inventario para dejar papel/Excel.<br>- Evitar pérdidas por vencimiento.<br>- Planificar reposiciones en vez de reaccionar tarde.|
+<br>
+| Segmento 2: Startups / Emprendedores | - Sexo: Masculino/Femenino.<br>- Edad: 20-29 años.<br>- Gestión actual: Excel, Notion, boletas.<br>- Problema recurrente: procesos manuales → errores en conteo y cálculos.<br>- Limitante: tardar mucho en revisar stock físicamente.<br>- Interés: automatización del inventario para reducir errores y ganar tiempo.<br>- Buscan: Escalabilidad y planes accesibles y flexibles.<br>- Usan redes sociales (TikTok, Instagram, Facebook) para ventas y marketing. | - Reducir errores humanos.<br> - Control en tiempo real del stock.<br>- Crecer sin necesidad de sistemas caros. |
+<br>
+
 ## 2.3. Needfinding
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
