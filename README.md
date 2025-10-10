@@ -2824,6 +2824,207 @@ En esta vista se refleja el trabajo colaborativo del equipo para concretar la en
 
 <div style="page-break-after: always;"></div>
 
+
+### 5.2.1. Sprint 2
+
+En esta sección se documenta y explica el desarrollo del Sprint 2, enfocado en la implementación del Frontend del sistema web (módulos, vistas, componentes, estilos, navegación y pruebas básicas de interacción). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
+
+#### 5.2.1.1. Sprint Planning 2.
+
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 2.
+
+| Sprint #                            | Sprint 2                                                                                                                                            |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-10-01                                                                                                                                          |
+| **Time**                            | 10:00 PM                                                                                                                                             |
+| **Location**                        | Remote  (Discord / Whatsapp)                                                                                                                     |
+| **Prepared by** |
+| **Attendees**                       | All members of Inventiapp                                                                                        |
+| **Sprint 1 Review Summary**         | The landing page and its deployment in Vercel were successfully completed, meeting the visual and structural objectives. |
+| **Sprint 1 Retrospective Summary**  | The need to improve the integration of the frontend with the component structure and implement a modular system for scalability was identified. |
+| **Sprint Goal & User Stories** |
+| **Spritn 2 Goal**  | Develop the complete web system interface, including navigation, core modules (Personal Administration, Dashboard, Claims, etc.), and apply unified styles in Angular. |
+| **Sprint 2 Velocity**  | 14 |
+| **Sum of Story points**  | 42 |
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member                      | GitHub Username | Frontend and Develop                                 |
+| -------------------------------- | --------------- | ----------------------------------------------- |
+| Ríos Piñan, Dayro Richard        | Addicted2u      | C            |
+| Hernández Uchuya, María Patricia | Bal2220         | C |
+| Saldaña Ayala, Fabiola Del Rocío | fabs-in-space   | L              |
+| Sulca Sánchez, Piero Ángel       | psulca          | L            |
+| Choy Robles, Vanessa May Lang    | VMLCR           | C      |
+
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+El objetivo principal del Sprint 2 es desarrollar y desplegar el Frontend del sistema Inventiapp, implementando los módulos principales en Angular, el diseño responsive y la conexión entre vistas mediante enrutamiento.
+
+| **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | ------------------------------------ | ------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                            | **Id** | **Title**                                            | **Description**                                                                                            |                        |                 |            |
+| **US-28**      | Login de usuarios                    | W-01   | Implementar pantalla de inicio de sesión             | Desarrollar formulario de autenticación con validaciones reactivas y conexión con el servicio de usuarios. | 4.5                    | Piero           | Done       |
+| **US-29**      | Registro de usuarios                 | W-02   | Crear vista de registro y validación de credenciales | Implementar vista de registro con campos obligatorios, manejo de errores y confirmación de contraseña.     | 4                      | Piero           | Done       |
+| **US-30**      | Dashboard principal                  | W-03   | Diseñar e integrar dashboard con navegación          | Crear layout principal con navegación lateral, toolbar, enrutamiento dinámico y vista de bienvenida.       | 5                      | Piero           | Done       |
+| **US-24**      | Módulo de proveedores                | W-04   | Implementar vista de gestión de proveedores          | Desarrollar formulario para registrar, editar y eliminar proveedores, con tabla dinámica de registros.     | 4.5                    | Dayro           | Done       |
+| **US-25**      | Listado de proveedores               | W-05   | Crear tabla interactiva de proveedores               | Mostrar listado con opciones de búsqueda, paginación y edición en línea.                                   | 3.5                    | Dayro           | Done       |
+| **US-26**      | Salida de producto                   | W-06   | Implementar formulario de salida de productos        | Desarrollar flujo de salida con validación de stock y conexión con inventario.                             | 4.5                    | Dayro           | Done       |
+| **US-27**      | Integración de salida con inventario | W-07   | Actualizar stock tras salida                         | Conectar módulo de salida con inventario para actualizar cantidades en tiempo real.                        | 4                      | Dayro           | Done       |
+| **US-31**      | Administración de personal           | W-08   | Implementar estructura de vistas y rutas             | Configurar rutas, vistas y componentes para la gestión de personal dentro del dashboard.                   | 4                      | Vanessa         | Done       |
+| **US-32**      | CRUD de personal                     | W-09   | Desarrollar formulario y tabla de usuarios           | Implementar CRUD completo (crear, editar, eliminar) para usuarios del sistema.                             | 4.5                    | Vanessa         | Done       |
+| **US-33**      | Integración con dashboard            | W-10   | Enlazar módulo de personal con el layout principal   | Conectar el módulo de administración con la navegación principal del sistema.                              | 3.5                    | Vanessa         | Done       |
+| **US-34**      | Módulo de inventario                 | W-11   | Crear vista de productos en inventario               | Desarrollar interfaz con tabla de productos, buscador y filtros.                                           | 4.5                    | María & Fabiola | Done       |
+| **US-35**      | Actualización de stock               | W-12   | Implementar función de actualización de cantidades   | Permitir modificar stock de productos directamente desde la vista de inventario.                           | 4                      | María & Fabiola | Done       |
+| **US-36**      | Visualización de movimientos         | W-13   | Mostrar historial de entradas y salidas              | Implementar tabla con historial de movimientos enlazada al módulo de salida y proveedores.                 | 4                      | María & Fabiola | Done       |
+| **US-37**      | Integración inventario–proveedores   | W-14   | Conectar inventario con módulo de proveedores        | Permitir visualizar relación producto-proveedor desde el detalle de producto.                              | 4.5                    | María & Fabiola | Done       |
+
+<p align="center">
+  <img src="./assets/Chapter-V/sprintBacklog2.png" alt="Sprint Backlog 2" width="800">
+</p>
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+Durante este sprint se desarrolló la estructura del Frontend del sistema web Inventiapp en Angular.
+Los commits reflejan la creación de componentes, módulos, servicios y el sistema de navegación.
+
+| Repository                | Branch  | Commit Id | Commit Message                                    | Commit Body                                                    | Committed on |
+| ------------------------- | ------- | --------- | ------------------------------------------------- | -------------------------------------------------------------- | ------------ |
+| VMLCR/inventiapp-frontend | develop | 2a7b1f2   | feat: create main layout and navigation module    | Se implementó la estructura base con layout principal y rutas. | 04/10/2025   |
+| VMLCR/inventiapp-frontend | develop | 39fefb1   | feat: add Personal Administration module and form | Módulo con CRUD básico de usuarios.                            | 05/10/2025   |
+| VMLCR/inventiapp-frontend | develop | 82de421   | style: update CSS and add responsive design rules | Ajustes de diseño y breakpoints.                               | 06/10/2025   |
+| VMLCR/inventiapp-frontend | develop | 1ffb2cd   | fix: improve route linking and button actions     | Corrección de navegación y botones de acceso.                  | 07/10/2025   |
+| VMLCR/inventiapp-frontend | develop | 9b4de12   | deploy: setup for Vercel deployment               | Configuración de build y despliegue.                           | 08/10/2025   |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+El equipo completó exitosamente la implementación del frontend y su despliegue en Vercel.
+Se integraron vistas funcionales para los módulos principales.
+
+- Link del video de evidencia: 
+
+| Integrante                            | Módulos / Pantallas Asignadas        | Descripción de Avances Presentados                                                                                                                                                                                                  |
+| ------------------------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Piero                       | **Login + Register + Dashboard**     | Desarrollo de las pantallas de autenticación de usuarios (inicio de sesión y registro), así como del panel principal (dashboard) con su respectiva navegación y estructura base de la aplicación.                                   |
+| Dayro                       | **Proveedores + Salida de producto** | Implementación del módulo de gestión de proveedores, incluyendo el registro, edición y listado. Además, desarrollo de la sección para la gestión de salida de productos, con validación de datos y conexión con el inventario.      |
+| Vanessa                               | **Administración personal**          | Creación del módulo de Administración de Personal, que incluye las vistas, enrutamiento, componentes y estructura para la gestión del personal, integrando la navegación con el dashboard principal.                                |
+| María y Fabiola  | **Inventario**                       | Desarrollo conjunto del módulo de Inventario, incluyendo el control de productos, actualización de stock, y visualización de movimientos. Se trabajó también en la integración con los módulos de proveedores y salida de producto. |
+
+<p align="center">
+  <img src="./assets/Chapter-V/screens/registro.png" alt="Registro" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/proveedores.png" alt="Proveedores" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/personalAdministration1.png" alt="Personal" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/personalAdministration2.png" alt="Personal" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/personalAdministration3.png" alt="Personal" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/personalAdministration4.png" alt="Personal" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/screens/inventario.png" alt="Inventario" width="800">
+</p>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Durante el presente Sprint, no se desarrollaron servicios backend ni endpoints funcionales, debido a que el enfoque principal estuvo orientado al diseño e implementación de las interfaces principales del sistema dentro del framework Angular, así como la organización de la arquitectura base del proyecto (ruteo, estructura de carpetas y componentes).
+En esta fase, el trabajo del equipo se centró en la construcción de la capa de presentación (frontend), permitiendo sentar las bases visuales y de navegación necesarias para los próximos sprints.
+
+**Estado actual:**
+
+No se han implementado controladores (controllers) ni servicios de aplicación (application services).
+
+No se han definido endpoints HTTP ni documentación técnica Swagger u OpenAPI.
+
+No se han activado aún módulos de integración backend, ni lógica de negocio conectada a bases de datos.
+
+El sistema cuenta con pantallas funcionales a nivel de UI para módulos clave:
+
+- Login y Register
+- Dashboard
+- Gestión de Proveedores
+- Inventario y Movimientos de Productos
+- Administración de Personal (Usuarios, Roles y Permisos)
+
+**Justificación:**
+
+El enfoque del Sprint se alineó con las siguientes épicas de frontend pertenecientes al backlog del proyecto StockTrack:
+
+- EP-03 – Dashboard: Creación del panel de control con métricas visuales y navegación principal.
+- EP-04 – Movimientos de Inventario: Implementación de la interfaz para registrar entradas y salidas de productos.
+- EP-08 – Usuarios, Roles y Permisos: Desarrollo de la vista de administración de personal con estructura de roles y accesos.
+- EP-09 – Landing: Diseño inicial de la página de presentación del sistema.
+- EP-10 – Proveedores: Creación de la sección para registro, edición y eliminación de proveedores.
+
+Estas épicas priorizan el desarrollo de la capa visual (UI/UX) y la navegación entre componentes, lo que no requiere aún integración con servicios o lógica de negocio.
+La documentación técnica de servicios REST y endpoints se implementará en el siguiente Sprint.
+
+**Próximos pasos:**
+
+A partir del siguiente Sprint, se documentarán y desarrollarán los siguientes elementos técnicos:
+
+- Definición de interfaces REST y contratos de servicios (InventoryService, SupplierService, UserService, AuthService, entre otros).
+- Diseño de endpoints HTTP bajo las convenciones RESTful, documentados con OpenAPI/Swagger.
+- Implementación de servicios en Angular para el consumo de datos desde la API backend.
+- Creación del Diagrama de Componentes (C4 - Nivel 3) para representar las interacciones entre frontend, backend y base de datos.
+- Ejecución de pruebas funcionales e integración mediante herramientas como Postman o Thunder Client.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue del frontend se realizó en Vercel, conectado al repositorio GitHub del proyecto.
+
+| Paso | Descripción                                                              |
+| ---- | ------------------------------------------------------------------------ |
+| 1  | Se seleccionó el repositorio `inventiapp-frontend`.                      |
+| 2  | Se configuró el proyecto Angular con build automático (`npm run build`). |
+| 3  | Se verificó el correcto despliegue del módulo principal.                 |
+| 4  | La aplicación quedó disponible públicamente.                             |
+
+
+- Link en Vercel: 
+
+- Capturas de despliegue:
+
+Configuración del proyecto en Vercel.
+
+Log de build exitoso.
+
+Preview del sitio desplegado.
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo de desarrollo de StockTrack mantuvo una comunicación y colaboración constante, enfocada en la implementación del Frontend del sistema. Este sprint tuvo como objetivo principal construir las interfaces base de los módulos principales del sistema de gestión de inventario, priorizando la estructura visual, la navegación, y la modularidad del código bajo el framework Angular.
+
+**Diseño y Navegación General**
+Se trabajó en la arquitectura visual de la aplicación, implementando un sidebar de navegación con rutas dinámicas para los distintos módulos del sistema. Se configuraron layouts reutilizables, encabezados fijos y componentes compartidos para mejorar la experiencia de usuario y la mantenibilidad del proyecto.
+Además, se implementó el sistema de enrutamiento base, definiendo vistas maestras (app-routing.module.ts) y rutas hijas por módulo, asegurando una navegación fluida entre las pantallas de login, dashboard, inventario, proveedores y administración de personal.
+
+**Distribución de Responsabilidades**
+El trabajo se distribuyó equitativamente entre los integrantes del equipo, asignando a cada miembro la implementación de módulos funcionales de acuerdo con sus fortalezas técnicas y los objetivos de las épicas del backlog:
+
+- **Piero Sulca** → Login, Register y Dashboard
+Desarrolló las pantallas de autenticación y panel de control. Implementó la estructura del módulo auth, con componentes para el inicio de sesión y registro de usuarios, además del diseño del dashboard principal. También configuró la navegación inicial y los servicios mock para simular datos en la UI.
+
+- **Dayro Ríos** → Proveedores y Salida de Producto
+Construyó los módulos relacionados con la gestión de proveedores, incluyendo la creación, edición y eliminación de registros. Implementó formularios reactivos con validaciones, y componentes para listar y filtrar proveedores. En la sección de salida de producto, diseñó la interfaz para registrar movimientos de inventario saliente.
+
+- **Vanessa Choy** → Administración de Personal
+Desarrolló la vista de administración de usuarios, roles y permisos. Implementó la estructura HTML, CSS y TypeScript del módulo personal-administration, integrando el diseño responsivo y los elementos de tabla dinámica para la gestión del personal. Se configuraron también botones de acción (editar, eliminar, agregar) y el enrutamiento interno hacia esta vista.
+
+- **María Hernández y Fabiola Saldaña** → Inventario y Movimientos Internos
+Trabajaron en la interfaz del módulo de inventario, desarrollando componentes para mostrar listados de productos y formularios para registrar entradas o ajustes de stock. Además, se abordó el manejo visual de lotes y la preparación de secciones para futuras integraciones con backend.
+
 # Conclusiones y Recomendaciones
 
 En esta sección se presentan las conclusiones alcanzadas a lo largo del proyecto StockTrack y se delinean recomendaciones estratégicas para los siguientes pasos de desarrollo.
