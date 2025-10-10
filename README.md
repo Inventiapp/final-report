@@ -48,7 +48,7 @@
 <br>
 
 <p align="center">
-    <strong>Septiembre, 2025</strong>
+    <strong>Octubre, 2025</strong>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -99,6 +99,12 @@
             <td>Dayro Rios</td>
             <td>Cambios y correciones subidas de todos los capitulos a develop</td>
         </tr>
+         <tr>
+            <td>2.0</td>
+            <td>10/10/2025</td>
+            <td>Dayro Rios</td>
+            <td>Sprint 2 agregado, capitulo 5 actualizado.</td>
+        </tr>
     </table>
 <div>
 
@@ -114,6 +120,14 @@ En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma
 ![insights](assets/Chapter-I/insights-sprint-1.png)
 
 ![contributors](assets/Chapter-I/contributors.png)
+
+## Reporte de colaboración para el TP:
+
+En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspondiente al Sprint 2. Además se realizó el primer avance del frontend, incluyendo la implementación de la navegación y el diseño de la interfaz de usuario. También se actualizó la landing page. A continuación, se detallan las contribuciones de cada miembro del equipo mediante los insights de GitHub:
+
+![insights-tp](assets/Chapter-I/insights-tp.png)
+
+![contributors-tp](assets/Chapter-I/contributors-tp.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -205,8 +219,8 @@ En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.1. Sprint 2](#521-sprint-2)
-      - [5.2.1.1. Sprint Planning 2.](#5211-sprint-planning-2)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
       - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
@@ -237,39 +251,86 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <th>Acciones Realizadas</th>
     <th>Conclusiones</th>
   </tr>
+
   <tr>
-    <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia</td>
-    <td>Choy Robles, Vanessa May Lang: <br><b>TB1:</b> Durante el proyecto participé activamente en reuniones de coordinación, compartiendo ideas claras y bien estructuradas que contribuyeron a la mejora continua. Ajusté mi forma de comunicar según el contexto y reforcé la comprensión de los objetivos del equipo, brindando retroalimentación que fortaleció la motivación grupal.</td>
-    <td rowspan="5"><b>TB1:</b> En conjunto, los estudiantes evidenciaron competencias sólidas en comunicación oral, adaptando sus mensajes a distintos públicos y situaciones. Su claridad y asertividad permitieron agilizar decisiones, mejorar la colaboración y reforzar la cohesión del equipo, siendo un factor clave para cumplir los objetivos del proyecto.</td>
+    <td rowspan="5"><b>Comunica oralmente con efectividad a diferentes rangos de audiencia</b></td>
+    <td>
+      <b>Choy Robles, Vanessa May Lang:</b><br>
+      <b>TB1:</b> Durante el proyecto participé activamente en reuniones de coordinación, compartiendo ideas claras y bien estructuradas que contribuyeron a la mejora continua. Ajusté mi forma de comunicar según el contexto y reforcé la comprensión de los objetivos del equipo, brindando retroalimentación que fortaleció la motivación grupal.<br><br>
+      <b>TP:</b> Durante el Sprint 2, participé en las reuniones de revisión y planificación, explicando los avances logrados y proponiendo mejoras para optimizar la integración de los componentes. Mantuve una comunicación fluida con el equipo para asegurar la coherencia entre las tareas y los objetivos generales del proyecto, promoviendo un ambiente colaborativo y participativo.
+    </td>
+    <td rowspan="5">
+      <b>TB1:</b> En conjunto, los estudiantes evidenciaron competencias sólidas en comunicación oral, adaptando sus mensajes a distintos públicos y situaciones. Su claridad y asertividad permitieron agilizar decisiones, mejorar la colaboración y reforzar la cohesión del equipo, siendo un factor clave para cumplir los objetivos del proyecto.<br><br>
+      <b>TP:</b> Durante el Sprint 2, el equipo demostró un progreso notable en su comunicación oral, enfocándose en la precisión técnica, la colaboración efectiva y la resolución de problemas. Esta evolución fortaleció la coordinación interdisciplinaria y permitió que las reuniones fueran más productivas, consolidando una comunicación orientada a resultados.
+    </td>
   </tr>
   <tr>
-    <td>Hernández Uchuya, María Patricia: <br><b>TB1:</b> Me comuniqué de manera activa y constante con el grupo, realizando seguimientos periódicos para asegurar el cumplimiento de las tareas y anticipar posibles riesgos. Además, motivé al equipo en momentos críticos con un lenguaje positivo y enfocado en resultados, ayudando a mantener la moral alta.</td>
+    <td>
+      <b>Hernández Uchuya, María Patricia:</b><br>
+      <b>TB1:</b> Me comuniqué de manera activa y constante con el grupo, realizando seguimientos periódicos para asegurar el cumplimiento de las tareas y anticipar posibles riesgos. Además, motivé al equipo en momentos críticos con un lenguaje positivo y enfocado en resultados, ayudando a mantener la moral alta.<br><br>
+      <b>TP:</b> Mantuve una comunicación continua con los responsables de cada área para verificar el progreso del Sprint. Propuse reuniones cortas de seguimiento para revisar bloqueos y avances, facilitando una comunicación efectiva que ayudó a mantener la alineación del grupo con los objetivos del entregable.
+    </td>
   </tr>
   <tr>
-    <td>Rios Piñan, Dayro Richard: <br><b>TB1:</b> Durante las sesiones transmití observaciones y sugerencias de mejora de manera clara, asegurando que fueran entendidas e implementadas. También impulsé un espacio de diálogo abierto que permitió la participación de todos, enriqueciendo la calidad del trabajo realizado.</td>
+    <td>
+      <b>Rios Piñan, Dayro Richard:</b><br>
+      <b>TB1:</b> Durante las sesiones transmití observaciones y sugerencias de mejora de manera clara, asegurando que fueran entendidas e implementadas. También impulsé un espacio de diálogo abierto que permitió la participación de todos, enriqueciendo la calidad del trabajo realizado.<br><br>
+      <b>TP:</b> Presenté avances y observaciones durante las revisiones del Sprint 2, explicando los criterios técnicos detrás de cada mejora implementada. Fomenté la discusión abierta para integrar aportes del equipo, lo que permitió decisiones más consensuadas y una mejor comprensión del progreso del proyecto.
+    </td>
   </tr>
   <tr>
-    <td>Saldaña Ayala, Fabiola Del Rocio: <br><b>TB1:</b> En las reuniones grupales, me enfoqué en recordar los objetivos establecidos y reforzar los aspectos que necesitaban mejora. Implementé estrategias comunicativas para alinear las expectativas y mantener el enfoque en entregar valor de manera constante.</td>
+    <td>
+      <b>Saldaña Ayala, Fabiola Del Rocio:</b><br>
+      <b>TB1:</b> En las reuniones grupales, me enfoqué en recordar los objetivos establecidos y reforzar los aspectos que necesitaban mejora. Implementé estrategias comunicativas para alinear las expectativas y mantener el enfoque en entregar valor de manera constante.<br><br>
+      <b>TP:</b> Durante las reuniones de coordinación, reforcé la comunicación sobre las tareas críticas del Sprint, aclarando dependencias y fechas de entrega. A través de una comunicación clara y empática, ayudé a mantener el ritmo del equipo y a garantizar que todos comprendieran las prioridades del ciclo de desarrollo.
+    </td>
   </tr>
   <tr>
-    <td>Sulca Sanchez, Piero Angel: <br><b>TB1:</b> Participé activamente en las discusiones, expresando mis puntos de vista y observaciones con respeto y fundamentos. Esto facilitó la resolución colaborativa de retos, mejoró la claridad de las tareas y reforzó el compromiso del equipo hacia los objetivos.</td>
+    <td>
+      <b>Sulca Sanchez, Piero Angel:</b><br>
+      <b>TB1:</b> Participé activamente en las discusiones, expresando mis puntos de vista y observaciones con respeto y fundamentos. Esto facilitó la resolución colaborativa de retos, mejoró la claridad de las tareas y reforzó el compromiso del equipo hacia los objetivos.<br><br>
+      <b>TP:</b> Expliqué los avances alcanzados en el área asignada y participé en la revisión técnica de entregables. Mi comunicación se centró en la claridad de los resultados obtenidos y en la búsqueda conjunta de soluciones a los desafíos presentados, fortaleciendo la coordinación general del equipo.
+    </td>
   </tr>
   <tr>
-    <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
-    <td>Choy Robles, Vanessa May Lang: <br><b>TB1:</b> Elaboré reportes de avance de forma periódica, presentando la información de manera ordenada y clara. Empleé tablas, esquemas y resúmenes ejecutivos para facilitar la revisión por parte del equipo y los stakeholders, contribuyendo a mantener la documentación organizada y trazable.</td>
-    <td rowspan="5"><b>TB1:</b> Los participantes demostraron un manejo eficaz de la comunicación escrita, adaptando el estilo según el público y el contexto. La elaboración de informes, actas y reportes claros favoreció la transparencia, la coordinación interna y la toma de decisiones informadas, impulsando directamente el éxito del proyecto.</td>
+    <td rowspan="5"><b>Comunica por escrito con efectividad a diferentes rangos de audiencia</b></td>
+    <td>
+      <b>Choy Robles, Vanessa May Lang:</b><br>
+      <b>TB1:</b> Elaboré reportes de avance de forma periódica, presentando la información de manera ordenada y clara. Empleé tablas, esquemas y resúmenes ejecutivos para facilitar la revisión por parte del equipo y los stakeholders, contribuyendo a mantener la documentación organizada y trazable.<br><br>
+      <b>TP:</b> Documenté los avances del Sprint 2 mediante reportes con capturas y explicaciones detalladas de las mejoras implementadas. Incorporé esquemas visuales para facilitar la comprensión de los resultados, asegurando la trazabilidad y coherencia de la información presentada.
+    </td>
+    <td rowspan="5">
+      <b>TB1:</b> Los participantes demostraron un manejo eficaz de la comunicación escrita, adaptando el estilo según el público y el contexto. La elaboración de informes, actas y reportes claros favoreció la transparencia, la coordinación interna y la toma de decisiones informadas, impulsando directamente el éxito del proyecto.<br><br>
+      <b>TP:</b> En el Sprint 2, los estudiantes consolidaron sus habilidades de comunicación escrita mediante reportes técnicos más completos y estructurados. La claridad y precisión en la documentación mejoraron la gestión del conocimiento del equipo y facilitaron el seguimiento de los avances del proyecto.
+    </td>
   </tr>
   <tr>
-    <td>Hernández Uchuya, María Patricia: <br><b>TB1:</b> Me responsabilicé de elaborar minutas y resúmenes de cada reunión, dejando constancia de acuerdos, decisiones y tareas asignadas. Este registro detallado permitió que todos tuvieran claridad sobre los próximos pasos y sirvió como guía para evaluar el progreso alcanzado.</td>
+    <td>
+      <b>Hernández Uchuya, María Patricia:</b><br>
+      <b>TB1:</b> Me responsabilicé de elaborar minutas y resúmenes de cada reunión, dejando constancia de acuerdos, decisiones y tareas asignadas. Este registro detallado permitió que todos tuvieran claridad sobre los próximos pasos y sirvió como guía para evaluar el progreso alcanzado.<br><br>
+      <b>TP:</b> Redacté los documentos de planificación y revisión del Sprint 2, registrando los acuerdos tomados y las observaciones sobre las entregas. Aseguré la consistencia de la información y facilité la comunicación de los resultados al resto del equipo.
+    </td>
   </tr>
   <tr>
-    <td>Rios Piñan, Dayro Richard: <br><b>TB1:</b> Redacté documentos con observaciones y recomendaciones de mejora, utilizando un lenguaje técnico pero fácil de entender. Consolidé la información en reportes periódicos que facilitaron la toma de decisiones basadas en datos y mejoraron la gestión de ajustes en el proyecto.</td>
+    <td>
+      <b>Rios Piñan, Dayro Richard:</b><br>
+      <b>TB1:</b> Redacté documentos con observaciones y recomendaciones de mejora, utilizando un lenguaje técnico pero fácil de entender. Consolidé la información en reportes periódicos que facilitaron la toma de decisiones basadas en datos y mejoraron la gestión de ajustes en el proyecto.<br><br>
+      <b>TP:</b> Elaboré reportes técnicos sobre la implementación de las mejoras visuales, integrando descripciones funcionales y técnicas. La documentación se adaptó al nivel de conocimiento del lector, garantizando claridad en las revisiones y comentarios de avance.
+    </td>
   </tr>
   <tr>
-    <td>Saldaña Ayala, Fabiola Del Rocio: <br><b>TB1:</b> Me encargué de generar actas detalladas de las reuniones, donde registré compromisos, plazos y dependencias entre tareas. Esta práctica permitió mantener la transparencia, asegurar responsabilidades y garantizar la continuidad de las acciones planificadas.</td>
+    <td>
+      <b>Saldaña Ayala, Fabiola Del Rocio:</b><br>
+      <b>TB1:</b> Me encargué de generar actas detalladas de las reuniones, donde registré compromisos, plazos y dependencias entre tareas. Esta práctica permitió mantener la transparencia, asegurar responsabilidades y garantizar la continuidad de las acciones planificadas.<br><br>
+      <b>TP:</b> Actualicé las actas del Sprint 2, documentando los cambios en las tareas y las dependencias técnicas. Además, consolidé la información del progreso semanal, mejorando la trazabilidad de los compromisos y resultados alcanzados.
+    </td>
   </tr>
   <tr>
-    <td>Sulca Sanchez, Piero Angel: <br><b>TB1:</b> Documenté los hallazgos obtenidos en entrevistas y sesiones de trabajo grupal en informes bien estructurados y fáciles de leer. Esta información facilitó la comprensión de los requerimientos y apoyó la toma de decisiones estratégicas del equipo.</td>
+    <td>
+      <b>Sulca Sanchez, Piero Angel:</b><br>
+      <b>TB1:</b> Documenté los hallazgos obtenidos en entrevistas y sesiones de trabajo grupal en informes bien estructurados y fáciles de leer. Esta información facilitó la comprensión de los requerimientos y apoyó la toma de decisiones estratégicas del equipo.<br><br>
+      <b>TP:</b> Apoyé en la redacción del informe de resultados del Sprint 2, integrando evidencias gráficas y descripciones de las tareas completadas. La redacción se centró en la claridad y en la presentación de datos verificables que reflejaron los avances reales del proyecto.
+    </td>
   </tr>
 </table>
 
@@ -2838,7 +2899,7 @@ En esta vista se refleja el trabajo colaborativo del equipo para concretar la en
 
 En esta sección se documenta y explica el desarrollo del Sprint 2, enfocado en la implementación del Frontend del sistema web (módulos, vistas, componentes, estilos, navegación y pruebas básicas de interacción). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
 
-#### 5.2.1.1. Sprint Planning 2.
+#### 5.2.2.1. Sprint Planning 2.
 
 En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 2.
 
@@ -2852,7 +2913,7 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 | **Sprint 1 Review Summary**         | The landing page and its deployment in Vercel were successfully completed, meeting the visual and structural objectives. |
 | **Sprint 1 Retrospective Summary**  | The need to improve the integration of the frontend with the component structure and implement a modular system for scalability was identified. |
 | **Sprint Goal & User Stories** |
-| **Spritn 2 Goal**  | Develop the complete web system interface, including navigation, core modules (Personal Administration, Dashboard, Claims, etc.), and apply unified styles in Angular. |
+| **Sprint 2 Goal**  | Our focus is on developing the complete web system interface, including navigation, core modules (Personal Administration, Dashboard, Claims, etc.), and apply unified styles in Angular. We believe it delivers a seamless user experience and enhances the overall usability of the application. This will be confirmed when users are able to navigate the system intuitively and efficiently. |
 | **Sprint 2 Velocity**  | 14 |
 | **Sum of Story points**  | 42 |
 
