@@ -205,6 +205,15 @@ En esta entrega, se desarrolló el informe del proyecto utilizando la plataforma
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.1. Sprint 2](#521-sprint-2)
+      - [5.2.1.1. Sprint Planning 2.](#5211-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
@@ -599,6 +608,8 @@ Preguntas complementarias:
 
 
 ### 2.2.2. Registro de entrevistas
+Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> <br>
+
 
 **Segmento #1: Bodegas especializadas por rubro**
 
@@ -2593,7 +2604,7 @@ Seguidamente, se mostrará un repositorio centralizado y estructurado que funcio
 
 El proyecto StockTrack aplica GitHub como plataforma de control de versiones bajo el modelo GitFlow, lo que garantiza la trazabilidad del código, colaboración organizada y estabilidad en cada release.
 
-GitHub: https://github.com/Inventiapp 
+GitHub: <a href="https://github.com/Inventiapp">https://github.com/Inventiapp</a> 
 
 Ramas principales:
 - main: Contiene la versión estable y en producción.
@@ -2768,8 +2779,8 @@ A continuación, se mostrarán los commits registrados en el repositorio corresp
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Nuestro equipo de desarrollo completó el Sprint 1, que incluyó la implementación y el despliegue de la landing page de Vehix. A continuación, se presentan las evidencias.
-
-Link del video: https://tinyurl.com/4hejw8zy
+<br>
+Link del video: <a href="https://tinyurl.com/4hejw8zy">https://tinyurl.com/4hejw8zy</a> 
 
 ![Landing Page Screenshot](assets/Chapter-V/sprint-1/execution-evidence/landing-section-1.png)
 
@@ -2788,10 +2799,9 @@ No disponemos de documentación como evidencia, ya que en el primer sprint nuest
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 En esta sección se detallan los procesos ejecutados durante el Sprint 1. Para este desarrollo se empleó Vercel, una herramienta que se integró de manera sencilla en nuestro flujo de trabajo y permitió desplegar la Landing Page desde un repositorio. 
+<br>Página de Vercel:<a href="https://vercel.com/">https://vercel.com/</a> <br>
 
-Página de Vercel: https://vercel.com/
-
-Link de la landing page: https://landing-page-two-iota-z65h50d6ix.vercel.app
+Link de la landing page:<a href="https://landing-page-two-iota-z65h50d6ix.vercel.app">https://landing-page-two-iota-z65h50d6ix.vercel.app</a>   
 
 
 ![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
@@ -3072,9 +3082,11 @@ GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Invest
 
 # Anexos
 
-Link del Repositorio del Informe: https://github.com/Inventiapp/final-report <br>
-Link del Repositorio de Landing Page: https://github.com/Inventiapp/landing-page <br>
-Link de Landing Page: https://landing-page-two-iota-z65h50d6ix.vercel.app/ <br>
-Link del Repositorio del Proyecto: <br>
+Link del Repositorio del Informe: <a href="https://github.com/Inventiapp/final-report">https://github.com/Inventiapp/final-report</a>  <br>
+Link del Repositorio de Landing Page:  <a href="https://github.com/Inventiapp/landing-page">https://github.com/Inventiapp/landing-page</a><br>
+Link de Landing Page Desplegado: <a href="https://landing-page-two-iota-z65h50d6ix.vercel.app/">https://landing-page-two-iota-z65h50d6ix.vercel.app/</a>  <br>
+Link del Repositorio del Frontend: <a href="https://github.com/Inventiapp/StockTrack-Frontend">https://github.com/Inventiapp/StockTrack-Frontend</a><br> 
 Link del Repositorio del Backend: <br>
-Link multimedia: https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315283_upc_edu_pe/Ev2pLCRvs-9OtS7H5soHCQkBFOvYJBrk-Q7qTYoRN2MqYg?e=eLIzuG <br>
+Link Frontend Desplegado: <a href=""></a> <br>
+Link Exposición: <a href=""></a> <br>
+Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> 
