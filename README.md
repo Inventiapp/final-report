@@ -135,6 +135,7 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
 - [Project Report](#project-report)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Reporte de colaboración para el TB1:](#reporte-de-colaboración-para-el-tb1)
+  - [Reporte de colaboración para el TP:](#reporte-de-colaboración-para-el-tp)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
@@ -219,7 +220,7 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
+    - [5.2.1. Sprint 2](#521-sprint-2)
       - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
@@ -251,7 +252,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     <th>Acciones Realizadas</th>
     <th>Conclusiones</th>
   </tr>
-
   <tr>
     <td rowspan="5"><b>Comunica oralmente con efectividad a diferentes rangos de audiencia</b></td>
     <td>
@@ -350,7 +350,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="500" height="500" style="object-fit: cover;">
+      <img src="assets/Chapter-I/FotoChoy.jpeg" alt="Foto de Vanessa Choy" width="150" height="150" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Vanessa May Lang Choy Robles - U202317450</strong></p>
@@ -364,7 +364,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/maria-hernandez.jpeg " alt="Foto de María Hernández" width="500" height="500" style="object-fit: cover;">
+      <img src="assets/Chapter-I/maria-hernandez.jpeg " alt="Foto de María Hernández" width="150" height="150" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>María Patricia Hernández Uchuya - U202311258</strong></p>
@@ -378,12 +378,12 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="500" height="500" style="object-fit: cover;">
+      <img src="assets/Chapter-I/dayro.jpg" alt="Foto de Dayro Rios" width="150" height="150" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Dayro Richard Rios Piñan - U202315283</strong></p>
           <p align="justify">
-            Mi nombre es Dayro Ríos, tengo 19 años, estoy cursando el sexto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en los lenguajes de programación c++, python, html y css, además gestores de base de datos como mssql. Cuando trabajo en equipo soy comunicativo, responsable y trato de realizar el trabajo lo mejor posible. 
+            Mi nombre es Dayro Ríos, tengo 19 años, estoy cursando el sexto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Tengo conocimientos en los lenguajes de programación c++, python, html y css, además gestores de base de datos como mssql. Cuando trabajo en equipo soy comunicativo, responsable y trato de realizar el trabajo lo mejor posible. 
           </p>
     </td>
   </tr>
@@ -392,7 +392,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/fabiola.jpeg " alt="Foto de Fabiola Saldaña" width="500" height="500" style="object-fit: cover;">
+      <img src="assets/Chapter-I/fabiola.jpeg " alt="Foto de Fabiola Saldaña" width="150" height="150" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Fabiola Del Rocio Saldaña Ayala - U202313773</strong></p>
@@ -406,7 +406,7 @@ StockTrack es una aplicación innovadora que busca optimizar la gestión de inve
 <table align="center" border="1" cellspacing="0" cellpadding="8" style="page-break-inside: avoid; width: 90%; border-collapse: collapse;">
   <tr>
     <td style="width: 150px; text-align: center;">
-      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="500" height="500" style="object-fit: cover;">
+      <img src="assets/Chapter-I/profile-piero.png" alt="Foto de Piero Sulca" width="150" height="150" style="object-fit: cover;">
     </td>
       <td>
           <p align="center"><strong>Piero Angel Sulca Sanchez - U202423711</strong></p>
