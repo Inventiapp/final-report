@@ -245,7 +245,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   <tr>
     <td>Sulca Sanchez, Piero Angel: <br><b>TB1:</b> Participé activamente en las discusiones, expresando mis puntos de vista y observaciones con respeto y fundamentos. Esto facilitó la resolución colaborativa de retos, mejoró la claridad de las tareas y reforzó el compromiso del equipo hacia los objetivos.</td>
   </tr>
-
   <tr>
     <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia</td>
     <td>Choy Robles, Vanessa May Lang: <br><b>TB1:</b> Elaboré reportes de avance de forma periódica, presentando la información de manera ordenada y clara. Empleé tablas, esquemas y resúmenes ejecutivos para facilitar la revisión por parte del equipo y los stakeholders, contribuyendo a mantener la documentación organizada y trazable.</td>
