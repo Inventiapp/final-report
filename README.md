@@ -2895,7 +2895,7 @@ En esta vista se refleja el trabajo colaborativo del equipo para concretar la en
 <div style="page-break-after: always;"></div>
 
 
-### 5.2.1. Sprint 2
+### 5.2.2. Sprint 2
 
 En esta sección se documenta y explica el desarrollo del Sprint 2, enfocado en la implementación del Frontend del sistema web (módulos, vistas, componentes, estilos, navegación y pruebas básicas de interacción). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
 
@@ -3103,11 +3103,13 @@ El objetivo principal de este sprint fue construir los servicios REST, controlad
 
 #### 5.2.3.1. Sprint Planning 3
 
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 3.
+
 | Sprint #                            | Sprint 3                                                                                                                                                                                                                                            |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sprint Planning Background Date** | 2025-10-18                                                                                                                                                                                                                                          |
+| **Sprint Planning Background Date** | 2025-11-04                                                                                                                                                                                                                                          |
 | **Time**                            | 9:00 PM                                                                                                                                                                                                                                             |
-| **Location**                        | Remote (Discord)                                                                                                                                                                                                        |
+| **Location**                        | Remote (Discord / Whatsapp)                                                                                                                                                                                                      |
 | **Prepared by**                     | Team Inventiapp                                                                                                                                                                                                                                     |
 | **Attendees**                       | All members of Inventiapp                                                                                                                                                                                                                           |
 | **Sprint 2 Review Summary**         | The frontend modules and navigation were successfully completed, with all main UI components integrated and deployed in Vercel.                                                                                                                     |
@@ -3131,8 +3133,9 @@ El objetivo principal de este sprint fue construir los servicios REST, controlad
 
 #### 5.2.3.3. Sprint Backlog 3
 
-| **User Story** | **Work-Item / Task**               | **Id** | **Title**                                   | **Description**                                                                    | **Estimation (Hours)** | **Assigned to** | **Status** |
-| -------------- | ---------------------------------- | ------ | ------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | ------------------------------------ | ------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                            | **Id** | **Title**                                            | **Description**                                                                                            |                        |                 |            |
 | **US-38**      | Backend setup                      | W-15   | Initialize NestJS Backend                   | Crear estructura base del backend con NestJS, configurando módulos y dependencias. | 4                      | Piero           | Done       |
 | **US-39**      | Configuración de conexión a BD     | W-16   | Configurar PostgreSQL y ORM                 | Implementar conexión a PostgreSQL mediante TypeORM y crear entidades base.         | 4                      | Fabiola         | Done       |
 | **US-40**      | Contexto de Usuarios y Permisos    | W-17   | Crear módulo `users`                        | Implementar CRUD de usuarios, roles y permisos, con controladores y servicios.     | 6                      | Vanessa & Piero | Done       |
