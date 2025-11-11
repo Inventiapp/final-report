@@ -238,8 +238,12 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [**Preguntas sobre la Aplicación (StockTrack)**](#preguntas-sobre-la-aplicación-stocktrack)
+      - [Para Dueños de Bodegas](#para-dueños-de-bodegas)
+      - [Para Startups / Emprendedores](#para-startups--emprendedores)
+    - [**Cierre de Entrevista**](#cierre-de-entrevista)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product.](#54-video-about-the-product)
@@ -3163,8 +3167,62 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
+## 5.3. Validation Interviews  
+Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
+
+### 5.3.1. Diseño de Entrevistas  
+Durante estas entrevistas se mostrará el prototipo funcional con los principales flujos:  
+- Registro e inicio de sesión  
+- Dashboard principal con métricas y alertas  
+- Registro de ingreso y salida de productos  
+- Reposición de inventario  
+- Administración de personal y roles  
+
+
+### **Preguntas sobre la Aplicación (StockTrack)**  
+
+#### Para Dueños de Bodegas
+Se considerarán los siguientes userflows:  
+* Registro e inicio de sesión  
+* Visualización del dashboard principal  
+* Registrar salida e ingreso de productos  
+* Reposición del stock  
+
+1. ¿Qué tan fácil fue crear tu cuenta e iniciar sesión en la aplicación?  
+2. ¿Te parece clara la información que se muestra en el dashboard (productos, ingresos, alertas)?  
+3. ¿Te resulta útil recibir alertas sobre productos próximos a vencer o con bajo stock?  
+4. ¿El flujo para registrar una salida de producto te pareció intuitivo y rápido?  
+5. ¿El proceso de reposición es claro y te ayudaría a mantener tu inventario al día?  
+6. ¿Qué parte del sistema sientes que podrías usar a diario sin dificultad?  
+7. ¿Hay alguna función o mensaje que te haya resultado confuso o innecesario?  
+8. ¿Crees que esta herramienta podría reemplazar tu uso actual de Excel o libreta? ¿Por qué?  
+9. ¿Qué mejorarías para que el uso de la app sea más fácil en tu día a día?  
+
+
+#### Para Startups / Emprendedores
+Se considerarán los siguientes userflows:  
+* Registro e inicio de sesión  
+* Dashboard principal  
+* Gestión de productos e inventario  
+* Administración del personal y roles  
+
+1. ¿El diseño general de la aplicación transmite profesionalismo y confianza?  
+2. ¿Te resultó fácil ubicar las secciones principales del menú lateral?  
+3. ¿Te parece útil tener métricas rápidas como “productos con alertas” o “ingresos del mes”?  
+4. ¿Fue intuitivo agregar un nuevo producto, kit o proveedor dentro del inventario?  
+5. ¿La gestión del personal (roles, usuarios) es clara y te permite distribuir tareas fácilmente?  
+6. ¿Crees que las alertas inteligentes (por vencimiento o bajo stock) te ayudarían a reducir errores?  
+7. ¿Consideras que el flujo de registro de reposiciones está bien estructurado?  
+8. ¿Qué tan útil encuentras los gráficos y reportes del dashboard para tu toma de decisiones?  
+9. ¿Qué funcionalidad crees que le falta para adaptarse completamente a tu negocio?  
+
+
+### **Cierre de Entrevista**
+- En general, ¿qué fue lo que más te gustó de StockTrack?  
+- ¿Hay algo que cambiarías para hacerlo más fácil o más visual?  
+- Si tuvieras que recomendar esta app a alguien, ¿qué dirías que es su mayor ventaja?  
+
+
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
 
