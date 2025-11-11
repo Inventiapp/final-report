@@ -220,7 +220,7 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.1. Sprint 2](#521-sprint-2)
+    - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
@@ -229,6 +229,20 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning n.](#5231-sprint-planning-n)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog n.](#5233-sprint-backlog-n)
+      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
@@ -2895,7 +2909,7 @@ En esta vista se refleja el trabajo colaborativo del equipo para concretar la en
 <div style="page-break-after: always;"></div>
 
 
-### 5.2.1. Sprint 2
+### 5.2.2. Sprint 2
 
 En esta sección se documenta y explica el desarrollo del Sprint 2, enfocado en la implementación del Frontend del sistema web (módulos, vistas, componentes, estilos, navegación y pruebas básicas de interacción). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
 
@@ -3051,26 +3065,67 @@ A partir del siguiente Sprint, se documentarán y desarrollarán los siguientes 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+**Despliegue del Fake API en Railway:**
+
+El despliegue del Fake API se realizó en Railway, conectado al repositorio GitHub del proyecto.
+
+| Paso | Descripción                                                              |
+| ---- | ------------------------------------------------------------------------ |
+| 1  | Desde el dashboard de Railway, se seleccionó "Deploy Repository" y se conectó con GitHub para acceder al repositorio `stocktrack-fake-api`.                      |
+| 2  | Railway detectó automáticamente la configuración del proyecto y generó el entorno de producción. |
+| 3  | El deployment se completó exitosamente, mostrando el estado "ACTIVE" con el mensaje "Deployment successful".                 |
+| 4  | La API quedó disponible públicamente en el dominio `stocktrack-fake-api-production.up.railway.app`.                             |
+
+- Link del Fake Apis: 
+<a href="https://stocktrack-fake-api-production.up.railway.app/">https://stocktrack-fake-api-production.up.railway.app/</a> <br>
+- Capturas de despliegue:
+  
+![fakeapi1](./assets/Chapter-V/deployfakeapi1.jpg)
+*Imagen 1: Selección del repositorio stocktrack-fake-api en Railway*
+
+![fakeapi2](./assets/Chapter-V/deployfakeapi2.jpg)
+*Imagen 2: Panel de deployments mostrando el deployment activo y exitoso*
+
+<br><br>
+
+**Despliegue del Frontend en Vercel:**
+
 El despliegue del frontend se realizó en Vercel, conectado al repositorio GitHub del proyecto.
 
 | Paso | Descripción                                                              |
 | ---- | ------------------------------------------------------------------------ |
-| 1  | Se seleccionó el repositorio `inventiapp-frontend`.                      |
-| 2  | Se configuró el proyecto Angular con build automático (`npm run build`). |
-| 3  | Se verificó el correcto despliegue del módulo principal.                 |
-| 4  | La aplicación quedó disponible públicamente.                             |
-
+| 1  | Desde Vercel, se accedió a "Import Git Repository" donde se visualizaron los repositorios disponibles. Se seleccionó el repositorio `StockTrack-Frontend` del branch `develop`.                      |
+| 2  | Se configuró el proyecto seleccionando Angular como Framework Preset, con el directorio raíz `./` y se mantuvieron las configuraciones de Build y Output Settings por defecto. |
+| 3  | Se inició el proceso de deployment haciendo clic en "Deploy". Vercel ejecutó automáticamente `npm install` para instalar las dependencias y luego `vercel build` para compilar el proyecto.                 |
+| 4  | El deployment se completó exitosamente en 33 segundos, generando automáticamente tres dominios: uno principal (`stocktrack-frontend.vercel.app`) y dos adicionales basados en el branch y commit.                             |
+| 5  | Se verificó el Deployment Summary mostrando la versión de Angular (20.3.4), los assets estáticos generados y la configuración del dominio personalizado. La aplicación quedó lista en producción.                             |
 
 - Link en Vercel: 
+<a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
 
 - Capturas de despliegue:
+![front1](./assets/Chapter-V/deployfront1.jpg)
+*Imagen 1: Pantalla de importación de repositorio en Vercel*
 
-Configuración del proyecto en Vercel.
+![front2](./assets/Chapter-V/deployfront2.jpg)
+*Imagen 2: Configuración del proyecto con Framework Angular y directorio raíz*
 
-Log de build exitoso.
+![front3](./assets/Chapter-V/deployfront3.jpg)
+*Imagen 3: Proceso de deployment mostrando la instalación de dependencias*
 
-Preview del sitio desplegado.
+![front4](./assets/Chapter-V/deployfront4.jpg)
+*Imagen 4: Deployment completado con los dominios asignados y detalles del build*
 
+![front5](./assets/Chapter-V/deployfront5.jpg)
+*Imagen 5: Resumen del deployment con assets estáticos y configuración de dominio*
+
+
+Preview del sitio desplegado
+![front6](./assets/Chapter-V/deployfront6.png)
+*Imagen 6: Vista previa de la página de inicio de sesión*
+
+![front7](./assets/Chapter-V/deployfront7.png)
+*Imagen 7: Vista previa de la página principal de la aplicación*
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -3094,6 +3149,27 @@ Desarrolló la vista de administración de usuarios, roles y permisos. Implement
 
 - **María Hernández y Fabiola Saldaña** → Inventario y Movimientos Internos
 Trabajaron en la interfaz del módulo de inventario, desarrollando componentes para mostrar listados de productos y formularios para registrar entradas o ajustes de stock. Además, se abordó el manejo visual de lotes y la preparación de secciones para futuras integraciones con backend.
+![Insight1](./assets/Chapter-V/insight1.png)
+![Insight2](./assets/Chapter-V/insight2.png)
+
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning n.
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+#### 5.2.3.3. Sprint Backlog n.
+#### 5.2.3.4. Development Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
+### 5.3.3. Evaluaciones según heurísticas.
+
+## 5.4. Video About-the-Product.
+
 
 # Conclusiones y Recomendaciones
 
@@ -3147,7 +3223,5 @@ Link del Repositorio del Informe: <a href="https://github.com/Inventiapp/final-r
 Link del Repositorio de Landing Page:  <a href="https://github.com/Inventiapp/landing-page">https://github.com/Inventiapp/landing-page</a><br>
 Link de Landing Page Desplegado: <a href="https://landing-page-two-iota-z65h50d6ix.vercel.app/">https://landing-page-two-iota-z65h50d6ix.vercel.app/</a>  <br>
 Link del Repositorio del Frontend: <a href="https://github.com/Inventiapp/StockTrack-Frontend">https://github.com/Inventiapp/StockTrack-Frontend</a><br> 
-Link del Repositorio del Backend: <br>
-Link Frontend Desplegado: <a href=""></a> <br>
-Link Exposición: <a href=""></a> <br>
+Link Frontend Desplegado: <a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
 Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> 
