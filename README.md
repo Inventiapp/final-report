@@ -3158,9 +3158,23 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 
 
 ### 5.2.3. Sprint 3
-#### 5.2.3.1. Sprint Planning n.
+
+#### 5.2.3.1. Sprint Planning 3.
+
+En esta sección se documenta y explica el desarrollo del Sprint 3, enfocado en la implementación del Backend de nuestro sistema web (servicios, endpoints, integración con frontend y pruebas básicas de funcionalidad). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
+
 #### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3. Sprint Backlog n.
+
+| Team Member                      | GitHub Username |      IAM           |     Sales         |     Inventory     | Alerts and Reports |Frontend Integration|
+| -------------------------------- | --------------- | ------------------ |------------------ |------------------ |------------------- |------------------- |
+| Ríos Piñan, Dayro Richard        | Addicted2u      | C                  |L                  |C                  |C                   |C                   |
+| Hernández Uchuya, María Patricia | Bal2220         | C                  |C                  |L                  |C                   |C                   |
+| Saldaña Ayala, Fabiola Del Rocío | fabs-in-space   | C                  |C                  |C                  |C                   |L                   |
+| Sulca Sánchez, Piero Ángel       | psulca          | C                  |C                  |C                  |L                   |C                   |
+| Choy Robles, Vanessa May Lang    | VMLCR           | L                  |C                  |C                  |C                   |C                   |
+
+
+#### 5.2.3.3. Sprint Backlog 3.
 #### 5.2.3.4. Development Evidence for Sprint Review.
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
