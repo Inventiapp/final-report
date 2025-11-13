@@ -3159,9 +3159,29 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 
 ### 5.2.3. Sprint 3
 
+En esta sección se documenta y explica el desarrollo del Sprint 3, enfocado en la implementación del Backend de nuestro sistema web (servicios, endpoints, integración con frontend y pruebas básicas de funcionalidad). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
+
 #### 5.2.3.1. Sprint Planning 3.
 
-En esta sección se documenta y explica el desarrollo del Sprint 3, enfocado en la implementación del Backend de nuestro sistema web (servicios, endpoints, integración con frontend y pruebas básicas de funcionalidad). Se incluyen los detalles de planificación, backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
+
+
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 2.
+
+| Sprint #                            |                   Sprint 3                                                    |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-11-01                                                                                                                                          |
+| **Time**                            | 22:00 PM                                                                                                                                             |
+| **Location**                        | Remote  (Discord / Whatsapp)                                                                                                                     |
+| **Prepared by** | Fabiola Saldaña
+| **Attendees**                       | All members of Inventiapp                                                                                        |
+| **Sprint 2 Review Summary**         | The integration of a fake api service and the deployment of the frontend were succesful |
+| **Sprint 2 Retrospective Summary**  | We need to improve the integration of our services and add new features to the web application |
+| **Sprint Goal & User Stories** |
+| **Sprint 3 Goal**  | Our focus is on creating our backend and integrate it with the frontend so we can use it with real data . We believe it delivers a seamless user experience and enhances the overall usability of the application. This will be confirmed when users are able to use the app with their real information. |
+| **Sprint 3 Velocity**  | ... |
+| **Sum of Story points**  | ... |
+
+
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
