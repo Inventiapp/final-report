@@ -3165,7 +3165,7 @@ En esta sección se documenta y explica el desarrollo del Sprint 3, enfocado en 
 
 
 
-En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 2.
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 3.
 
 | Sprint #                            |                   Sprint 3                                                    |
 | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -3196,7 +3196,12 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 #### 5.2.3.3. Sprint Backlog 3.
 #### 5.2.3.4. Development Evidence for Sprint Review.
+
 #### 5.2.3.5. Execution Evidence for Sprint Review.
+
+El equipo completó exitosamente la implementación del backend y su despliegue en Vercel.
+Se integraron servicios funcionales para los módulos principales.
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8. Team Collaboration Insights during Sprint
