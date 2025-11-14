@@ -3263,6 +3263,16 @@ Se considerarán los siguientes userflows:
 
 
 ### 5.3.2. Registro de Entrevistas.
+
+**Segmento #2: Startups y emprendedores en expansión con necesidades logísticas**
+
+| Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
+|----|------------------------|------------------------------------------| ----------------------- |
+| 1  | - **Nombre:** Natalia Valverde Portuguez <br> - **Edad:** 23 años | Natalia Valverde tiene un pequeño negocio de venta de ropa y necesita una herramienta que le ayude a gestionar el inventario y las ventas, ya que su principal preocupación es evitar la falta de stock y las pérdidas que esto genera. Valora mucho el diseño profesional y organizado de la aplicación, destacando la facilidad de uso del menú lateral y los formularios de registro. Considera muy útiles las métricas rápidas (alertas por bajo stock e ingresos del mes) y la funcionalidad para gestionar roles de personal. Su principal necesidad no cubierta es la integración con redes sociales para que el stock se actualice automáticamente al recibir consultas de compra. Sugiere añadir colores/etiquetas para diferenciar tipos de productos. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-V/entrevista-Natalia-Valverde.png) <br> **Duración:** 5:37 min |
+
+
+
+
 ### 5.3.3. Evaluaciones según heurísticas.
 
 ## 5.4. Video About-the-Product.
