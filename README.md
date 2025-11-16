@@ -230,9 +230,9 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning n.](#5231-sprint-planning-n)
+      - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog n.](#5233-sprint-backlog-n)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
@@ -3268,7 +3268,8 @@ Se considerarán los siguientes userflows:
 
 | Nº | Datos del entrevistado | Resumen de la entrevista | Evidencia de entrevista |
 |----|------------------------|------------------------------------------| ----------------------- |
-| 1  | - **Nombre:** Natalia Valverde Portuguez <br> - **Edad:** 23 años | Natalia Valverde tiene un pequeño negocio de venta de ropa y necesita una herramienta que le ayude a gestionar el inventario y las ventas, ya que su principal preocupación es evitar la falta de stock y las pérdidas que esto genera. Valora mucho el diseño profesional y organizado de la aplicación, destacando la facilidad de uso del menú lateral y los formularios de registro. Considera muy útiles las métricas rápidas (alertas por bajo stock e ingresos del mes) y la funcionalidad para gestionar roles de personal. Su principal necesidad no cubierta es la integración con redes sociales para que el stock se actualice automáticamente al recibir consultas de compra. Sugiere añadir colores/etiquetas para diferenciar tipos de productos. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-V/entrevista-Natalia-Valverde.png) <br> **Duración:** 5:37 min |
+| 1  | - **Nombre:** Natalia Valverde Portuguez <br> - **Edad:** 23 años | Natalia Valverde tiene un pequeño negocio de venta de ropa y necesita una herramienta que le ayude a gestionar el inventario y las ventas, ya que su principal preocupación es evitar la falta de stock y las pérdidas que esto genera. Valora mucho el diseño profesional y organizado de la aplicación, destacando la facilidad de uso del menú lateral y los formularios de registro. Considera muy útiles las métricas rápidas (alertas por bajo stock e ingresos del mes) y la funcionalidad para gestionar roles de personal. Su principal necesidad no cubierta es la integración con redes sociales para que el stock se actualice automáticamente al recibir consultas de compra. Sugiere añadir colores/etiquetas para diferenciar tipos de productos. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-V/entrevista-Natalia-Valverde.png) <br> **Duración:** 5:37 min | 
+| 2  | - **Nombre:** Alexander Miranda Vivanco <br> - **Edad:** 27 años | Alexander posee un emprendimiento de venta de artículos para mascotas. Durante la entrevista reconoció que StockTrack le sería de mucha ayuda por la logística del inventario. Las métricas del dashboard le parecieron idóneas. Sugirió facilitar el flujo de cuando se crea un producto y se agrega una reposición. Asimismo, comentó que le sería de mucha utlidad generar reportes acerca de aquellos productos que se hayan vencido. También especificó que poder agregar etiquetas personalizables sería adecuado y recomendó implementar una mejor lógica respecto a la reposición del stock. | ![Entrevista 1 - Startups y emprendedores en expansión con necesidades logísticas](./assets/Chapter-V/entrevista-Alexander-Miranda.png)<br> |
 
 
 
