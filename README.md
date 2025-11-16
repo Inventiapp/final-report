@@ -3153,24 +3153,6 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 ![Insight2](./assets/Chapter-V/insight2.png)
 
 
-### 5.2.3. Sprint 3
-#### 5.2.3.1. Sprint Planning n.
-#### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3. Sprint Backlog n.
-#### 5.2.3.4. Development Evidence for Sprint Review.
-#### 5.2.3.5. Execution Evidence for Sprint Review.
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
-
-## 5.4. Video About-the-Product.
-
-
 
 ### 5.2.3. Sprint 3
 
@@ -3212,19 +3194,24 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 | **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
 | -------------- | ------------------------------------ | ------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
 | **ID**         | **Title**                            | **Id** | **Title**                                            | **Description**                                                                                            |                        |                 |            |
-| **US-38**      | Backend setup                      | W-15   | Initialize NestJS Backend                   | Crear estructura base del backend con NestJS, configurando módulos y dependencias. | 4                      | Piero           | Done       |
-| **US-39**      | Configuración de conexión a BD     | W-16   | Configurar PostgreSQL y ORM                 | Implementar conexión a PostgreSQL mediante TypeORM y crear entidades base.         | 4                      | Fabiola         | Done       |
-| **US-40**      | Contexto de Usuarios y Permisos    | W-17   | Crear módulo `users`                        | Implementar CRUD de usuarios, roles y permisos, con controladores y servicios.     | 6                      | Vanessa & Piero | Done       |
-| **US-41**      | Autenticación y autorización       | W-18   | Implementar AuthService (JWT)               | Crear endpoints para login/register y protección con guardas JWT.                  | 5                      | Piero           | Done       |
-| **US-42**      | Contexto de Inventario             | W-19   | Crear módulo `inventory`                    | Desarrollar endpoints para productos, stock, y movimientos de inventario.          | 6                      | Fabiola & María | Done       |
-| **US-43**      | Integración Inventario–Proveedores | W-20   | Endpoint de relación producto-proveedor     | Crear servicio que relacione productos con proveedores registrados.                | 4                      | María           | Done       |
-| **US-44**      | Contexto de Ventas                 | W-21   | Crear módulo `sales`                        | Implementar endpoints para registrar ventas, asociar productos e inventario.       | 5                      | Dayro           | Done       |
-| **US-45**      | Generación de reportes automáticos | W-22   | Crear módulo `reports`                      | Endpoint que genere reportes de ventas, stock bajo y alertas automáticas.          | 5                      | Piero & Dayro   | Done       |
-| **US-46**      | Alertas del sistema                | W-23   | Implementar AlertService                    | Crear servicio que notifique sobre niveles críticos de stock o incidencias.        | 4.5                    | Piero & Dayro   | Done       |
-| **US-47**      | Documentación de API               | W-24   | Implementar Swagger y documentación técnica | Documentar endpoints con Swagger/OpenAPI en `/api/docs`.                           | 3                      | Vanessa         | Done       |
-| **US-48**      | Despliegue Backend                 | W-25   | Deploy del backend en Render                | Subir la API a Render, configurar variables de entorno y testeo de endpoints.      | 4                      | Piero           | Done       |
-| **US-49**      | Pruebas de endpoints               | W-26   | Test con Postman                            | Ejecutar colección de pruebas CRUD y validaciones JWT.                             | 3                      | Todo el equipo  | Done       |
+| **US-28**      | Login de usuarios                    | W-01   | Implementar endpoint de autenticación JWT             | Crear endpoint /auth/login, validar credenciales, generar token JWT y configurar middleware de acceso. | 6                    | Piero           | Done       |
+| **US-29**      | Registro de usuarios                 | W-02   | Crear endpoint de registro de usuarios | Crear endpoint /auth/register, validar duplicados, encriptar contraseña y almacenar nuevo usuario.     | 5                      | Piero           | Done       |
+| **US-30**      | Dashboard principal                  | W-03   | Generar métricas e indicadores del sistema         | Implementar servicio y endpoint para enviar métricas al dashboard (totales de stock, productos, usuarios).      | 5                      | Piero           | Done       |
+| **US-24**      | Módulo de proveedores                | W-04   | Implementar CRUD de proveedores         | Crear endpoints para listar, crear, actualizar y eliminar proveedores con validaciones.     | 6                    | Dayro           | Done       |
+| **US-25**      | Listado de proveedores               | W-05   | Implementar paginación y filtros de proveedores               | Agregar filtros, búsqueda dinámica y paginación desde backend.                                   | 4                    | Dayro           | Done       |
+| **US-26**      | Salida de producto                   | W-06   | Implementar endpoint de salida de inventario        | Crear endpoint /inventory/out que valide stock y registre movimiento saliente.                             | 6                    | Dayro           | Done       |
+| **US-27**      | Integración de salida con inventario | W-07   | Actualizar stock tras salida                         | Implementar servicio que descuente cantidades y registre historial.                        | 4.5                      | Dayro           | Done       |
+| **US-31**      | Administración de personal           | W-08   | Configurar endpoints de administración de usuarios            | Crear rutas protegidas y controladores para gestionar usuarios, roles y permisos.                   | 5                      | Vanessa         | Done       |
+| **US-32**      | CRUD de personal                     | W-09   | Implementar CRUD de usuarios          | Crear endpoints para crear, editar, eliminar y listar usuarios internos.                            | 6                    | Vanessa         | Done       |
+| **US-33**      | Integración con dashboard            | W-10   | Asociar roles/permisos al acceso de módulos   | Implementar lógica de autorización para controlar qué módulos puede ver cada rol.                             | 4                    | Vanessa         | Done       |
+| **US-34**      | Módulo de inventario                 | W-11   | Implementar CRUD de productos              | Crear endpoints para registrar productos, listar, editar y eliminar con campos obligatorios.                                          | 6                   | María & Fabiola | Done       |
+| **US-35**      | Actualización de stock               | W-12   | Implementar entradas y ajustes de stock   | Crear endpoint /inventory/in y servicio para actualizar stock e historial correspondiente.                          | 4                      | María & Fabiola | Done       |
+| **US-36**      | Visualización de movimientos         | W-13   | Listar historial de movimientos del inventario              | Crear endpoint para mostrar entradas, salidas y transferencias con fecha, usuario y tipo.                 | 4                      | María & Fabiola | Done       |
+| **US-37**      | Integración inventario–proveedores   | W-14   | Relacionar productos con proveedores        | Implementar consulta relacional para devolver proveedor asociado a cada producto.                             | 4.5                    | María & Fabiola | Done       |
 
+<p align="center">
+  <img src="./assets/Chapter-V/sprintBacklog3.png" alt="Sprint Backlog 3" width="800">
+</p>
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -3291,6 +3278,17 @@ Principales logros técnicos:
 - Documentación Swagger accesible públicamente.
 - Integración con PostgreSQL.
 - Despliegue continuo en Render.
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
+### 5.3.3. Evaluaciones según heurísticas.
+
+## 5.4. Video About-the-Product.
+
 
 
 # Conclusiones y Recomendaciones
