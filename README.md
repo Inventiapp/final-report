@@ -2963,7 +2963,7 @@ En esta sección, especificáremos los principales aspectos del Sprint Planning 
 
 
 #### 5.2.2.3. Sprint Backlog 2.
-
+|
 El objetivo principal del Sprint 2 es desarrollar y desplegar el Frontend del sistema Inventiapp, implementando los módulos principales en Angular, el diseño responsive y la conexión entre vistas mediante enrutamiento.
 
 | **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
@@ -3172,14 +3172,133 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 ![Insight2](./assets/Chapter-V/insight2.png)
 
 
+
 ### 5.2.3. Sprint 3
-#### 5.2.3.1. Sprint Planning n.
-#### 5.2.3.2. Aspect Leaders and Collaborators.
-#### 5.2.3.3. Sprint Backlog n.
-#### 5.2.3.4. Development Evidence for Sprint Review.
-#### 5.2.3.5. Execution Evidence for Sprint Review.
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+En esta sección se documenta y explica el desarrollo del Sprint 3, enfocado en la implementación del Backend del sistema StockTrack, aplicando principios de Domain-Driven Design (DDD) mediante la distribución del sistema en Bounded Contexts.
+El objetivo principal de este sprint fue construir los servicios REST, controladores, repositorios y entidades principales que soportan la lógica de negocio para los módulos del sistema: Usuarios y Permisos, Inventario, Ventas y Alertas y Reportes.
+
+#### 5.2.3.1. Sprint Planning 3
+
+En esta sección, especificáremos los principales aspectos del Sprint Planning Meeting 3.
+
+| Sprint #                            | Sprint 3                                                                                                                                                                                                                                            |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-11-04                                                                                                                                                                                                                                          |
+| **Time**                            | 9:00 PM                                                                                                                                                                                                                                             |
+| **Location**                        | Remote (Discord / Whatsapp)                                                                                                                                                                                                      |
+| **Prepared by**                     | Team Inventiapp                                                                                                                                                                                                                                     |
+| **Attendees**                       | All members of Inventiapp                                                                                                                                                                                                                           |
+| **Sprint 2 Review Summary**         | The frontend modules and navigation were successfully completed, with all main UI components integrated and deployed in Vercel.                                                                                                                     |
+| **Sprint 2 Retrospective Summary**  | The team identified the need to integrate backend services and structure the API using Bounded Contexts for scalability and modularity.                                                                                                             |
+| **Sprint 3 Goal & User Stories**    |                                                                                                                                                                                                                                                     |
+| **Sprint 3 Goal**                   | Build and integrate the backend architecture of StockTrack under the DDD (Domain-Driven Design) approach. Each Bounded Context will expose RESTful APIs documented with Swagger, including logic for Users, Inventory, Sales, and Alerts & Reports. |
+| **Sprint 3 Velocity**               | 16                                                                                                                                                                                                                                                  |
+| **Sum of Story points**             | 48                                                                                                                                                                                                                                                  |
+
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Team Member                          | GitHub Username | Backend Context / Role                   |
+| ------------------------------------ | --------------- | ---------------------------------------- |
+| **Ríos Piñan, Dayro Richard**        | Addicted2u      | *Alerts & Reports (C)* / *Sales (L)*     |
+| **Hernández Uchuya, María Patricia** | Bal2220         | *Inventory (C)*                          |
+| **Saldaña Ayala, Fabiola Del Rocío** | fabs-in-space   | *Inventory (L)*                          |
+| **Sulca Sánchez, Piero Ángel**       | psulca          | *Users & Permissions (L)* / *Alerts (L)* |
+| **Choy Robles, Vanessa May Lang**    | VMLCR           | *Users & Permissions (C)*                |
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+| **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | ------------------------------------ | ------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                            | **Id** | **Title**                                            | **Description**                                                                                            |                        |                 |            |
+| **US-28**      | Login de usuarios                    | W-01   | Implementar endpoint de autenticación JWT             | Crear endpoint /auth/login, validar credenciales, generar token JWT y configurar middleware de acceso. | 6                    | Piero           | Done       |
+| **US-29**      | Registro de usuarios                 | W-02   | Crear endpoint de registro de usuarios | Crear endpoint /auth/register, validar duplicados, encriptar contraseña y almacenar nuevo usuario.     | 5                      | Piero           | Done       |
+| **US-30**      | Dashboard principal                  | W-03   | Generar métricas e indicadores del sistema         | Implementar servicio y endpoint para enviar métricas al dashboard (totales de stock, productos, usuarios).      | 5                      | Piero           | Done       |
+| **US-24**      | Módulo de proveedores                | W-04   | Implementar CRUD de proveedores         | Crear endpoints para listar, crear, actualizar y eliminar proveedores con validaciones.     | 6                    | Dayro           | Done       |
+| **US-25**      | Listado de proveedores               | W-05   | Implementar paginación y filtros de proveedores               | Agregar filtros, búsqueda dinámica y paginación desde backend.                                   | 4                    | Dayro           | Done       |
+| **US-26**      | Salida de producto                   | W-06   | Implementar endpoint de salida de inventario        | Crear endpoint /inventory/out que valide stock y registre movimiento saliente.                             | 6                    | Dayro           | Done       |
+| **US-27**      | Integración de salida con inventario | W-07   | Actualizar stock tras salida                         | Implementar servicio que descuente cantidades y registre historial.                        | 4.5                      | Dayro           | Done       |
+| **US-31**      | Administración de personal           | W-08   | Configurar endpoints de administración de usuarios            | Crear rutas protegidas y controladores para gestionar usuarios, roles y permisos.                   | 5                      | Vanessa         | Done       |
+| **US-32**      | CRUD de personal                     | W-09   | Implementar CRUD de usuarios          | Crear endpoints para crear, editar, eliminar y listar usuarios internos.                            | 6                    | Vanessa         | Done       |
+| **US-33**      | Integración con dashboard            | W-10   | Asociar roles/permisos al acceso de módulos   | Implementar lógica de autorización para controlar qué módulos puede ver cada rol.                             | 4                    | Vanessa         | Done       |
+| **US-34**      | Módulo de inventario                 | W-11   | Implementar CRUD de productos              | Crear endpoints para registrar productos, listar, editar y eliminar con campos obligatorios.                                          | 6                   | María & Fabiola | Done       |
+| **US-35**      | Actualización de stock               | W-12   | Implementar entradas y ajustes de stock   | Crear endpoint /inventory/in y servicio para actualizar stock e historial correspondiente.                          | 4                      | María & Fabiola | Done       |
+| **US-36**      | Visualización de movimientos         | W-13   | Listar historial de movimientos del inventario              | Crear endpoint para mostrar entradas, salidas y transferencias con fecha, usuario y tipo.                 | 4                      | María & Fabiola | Done       |
+| **US-37**      | Integración inventario–proveedores   | W-14   | Relacionar productos con proveedores        | Implementar consulta relacional para devolver proveedor asociado a cada producto.                             | 4.5                    | María & Fabiola | Done       |
+
+<p align="center">
+  <img src="./assets/Chapter-V/sprintBacklog3.png" alt="Sprint Backlog 3" width="800">
+</p>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante este sprint se desarrolló la arquitectura backend del sistema bajo NestJS y PostgreSQL, aplicando principios de DDD (Domain-Driven Design).
+Cada módulo se implementó como un Bounded Context independiente con su propio servicio, controlador y entidad.
+
+| Repository         | Branch  | Commit Id | Commit Message                                    | Commit Body                                                       | Committed on |
+| ------------------ | ------- | --------- | ------------------------------------------------- | ----------------------------------------------------------------- | ------------ |
+| inventiapp-backend | develop | 5df321a   | feat: initialize NestJS project structure         | Configuración inicial del backend con NestJS y TypeORM.           | 18/10/2025   |
+| inventiapp-backend | develop | 8bf442d   | feat: add users and auth modules                  | Implementación del módulo de usuarios, roles y autenticación JWT. | 19/10/2025   |
+| inventiapp-backend | develop | 3cc81c2   | feat: add inventory module with product endpoints | Módulo de inventario con productos y movimientos.                 | 20/10/2025   |
+| inventiapp-backend | develop | fdf7769   | feat: add reports and alerts modules              | Generación de alertas automáticas y reportes JSON/CSV.            | 21/10/2025   |
+| inventiapp-backend | develop | 72a91ce   | docs: add Swagger documentation                   | Documentación completa de endpoints con Swagger.                  | 22/10/2025   |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Swagger API URL: https://inventiapp-backend.onrender.com/api/docs
+
+Base API URL: https://inventiapp-backend.onrender.com/api/v1
+
+Ejemplos de endpoints:
+
+POST /auth/login
+
+GET /users
+
+POST /inventory/products
+
+GET /sales/report
+
+GET /alerts/stock
+
+Colección de pruebas en Postman:
+Incluye casos de éxito y error para CRUD de usuarios, inventario y ventas.
+Todas las pruebas respondieron con códigos 200, 201, 401, 404, y 500 según los escenarios definidos.
+
+
+#### 5.2.3.6. Software Deployment Evidence for Sprint Review
+
+| Paso | Descripción                                                              |
+| ---- | ------------------------------------------------------------------------ |
+| 1    | Configuración de servidor en Render con base en NestJS y PostgreSQL.     |
+| 2    | Definición de variables de entorno (`DATABASE_URL`, `JWT_SECRET`, etc.). |
+| 3    | Ejecución de `npm run build` y `npm start:prod`.                         |
+| 4    | Verificación de endpoints y documentación Swagger.                       |
+
+
+#### 5.2.3.7. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo trabajó en la construcción de la capa de servicios (backend), definiendo responsabilidades claras por contexto. Se promovió la modularidad y separación de dominios según el modelo DDD.
+
+Distribución de trabajo:
+
+- Piero Sulca → Lideró la estructura principal del backend (NestJS), Auth y módulo de Alertas.
+- Dayro Ríos → Implementó módulos de Reportes y Ventas, asegurando consistencia con el Inventario.
+- Vanessa Choy → Colaboró en el módulo de Usuarios y Permisos, participando en la documentación Swagger.
+- María Hernández y Fabiola Saldaña → Desarrollaron el módulo de Inventario, productos y relación con proveedores.
+
+Principales logros técnicos:
+
+- API modular basada en Bounded Contexts.
+- Autenticación JWT funcional.
+- Documentación Swagger accesible públicamente.
+- Integración con PostgreSQL.
+- Despliegue continuo en Render.
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews.
@@ -3188,6 +3307,7 @@ Trabajaron en la interfaz del módulo de inventario, desarrollando componentes p
 ### 5.3.3. Evaluaciones según heurísticas.
 
 ## 5.4. Video About-the-Product.
+
 
 
 # Conclusiones y Recomendaciones
