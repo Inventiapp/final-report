@@ -230,13 +230,13 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning n.](#5231-sprint-planning-n)
-      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog n.](#5233-sprint-backlog-n)
-      - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Software Deployment Evidence for Sprint Review](#5236-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.7. Team Collaboration Insights during Sprint](#5237-team-collaboration-insights-during-sprint)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
@@ -276,11 +276,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </td>
     <td rowspan="5">
       <b>TB1:</b> En conjunto, los estudiantes evidenciaron competencias sólidas en comunicación oral, adaptando sus mensajes a distintos públicos y situaciones. Su claridad y asertividad permitieron agilizar decisiones, mejorar la colaboración y reforzar la cohesión del equipo, siendo un factor clave para cumplir los objetivos del proyecto.<br><br>
-      <b>TP:</b> Durante el Sprint 2, el equipo demostró un progreso notable en su comunicación oral, enfocándose en la precisión técnica, la colaboración efectiva y la resolución de problemas. Esta evolución fortaleció la coordinación interdisciplinaria y permitió que las reuniones fueran más productivas, consolidando una comunicación orientada a resultados.
+      <b>TP:</b> Durante el Sprint 2, el equipo demostró un progreso notable en su comunicación oral, enfocándose en la precisión técnica, la colaboración efectiva y la resolución de problemas. Esta evolución fortaleció la coordinación interdisciplinaria y permitió que las reuniones fueran más productivas, consolidando una comunicación orientada a resultados.<br><br>
       <b>TB2:</b>En el Sprint 3, el grupo demostró una comunicación efectiva la cual se evidenció en coordinaciones, avances y
       en resultados durante este entregable. Asimismo, hubo una mayor productividad y organización debido al reforzamiento en la
       colaboración del equipo de Inventiapp.
-
     </td>
   </tr>
   <tr>
@@ -289,7 +288,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>TB1:</b> Me comuniqué de manera activa y constante con el grupo, realizando seguimientos periódicos para asegurar el cumplimiento de las tareas y anticipar posibles riesgos. Además, motivé al equipo en momentos críticos con un lenguaje positivo y enfocado en resultados, ayudando a mantener la moral alta.<br><br>
       <b>TP:</b> Mantuve una comunicación continua con los responsables de cada área para verificar el progreso del Sprint. Propuse reuniones cortas de seguimiento para revisar bloqueos y avances, facilitando una comunicación efectiva que ayudó a mantener la alineación del grupo con los objetivos del entregable.<br><br>
       <b>TB2:</b> Durante el Sprint 3 me comuniqué de manera clara con mis compañeros para coordinar en tareas compartidas y de esta forma garantizar los mejores resultados para el equipo.
-
     </td>
   </tr>
   <tr>
