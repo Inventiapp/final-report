@@ -3299,6 +3299,47 @@ Principales logros técnicos:
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 3, el equipo de desarrollo de StockTrack centró sus esfuerzos en la implementación del backend, asegurando que todos los módulos construidos en el frontend durante el sprint anterior pudieran conectarse con servicios funcionales, persistentes y desplegados en un entorno en la nube.
+Este sprint se orientó a construir la API REST completa, integrar la base de datos MySQL, definir los modelos y controladores, y habilitar la documentación interactiva mediante Swagger para garantizar una correcta comunicación con el frontend.
+
+
+El trabajo fue distribuido en función de la experiencia técnica de cada integrante, enfocándose en funcionalidades clave del backend:
+
+- Piero Sulca → Autenticación, Seguridad y Configuración General del Backend
+
+Configuró el proyecto base en Node.js, Express y Prisma.
+
+Implementó los middlewares globales, manejo de errores y el sistema de autenticación inicial.
+
+Documentó los endpoints base en Swagger y organizó la estructura modular del backend.
+
+- Dayro Ríos → Módulo de Proveedores y Lotes (Providers & Batches)
+
+Implementó los endpoints REST completos para la gestión de proveedores (GET, POST, PUT, DELETE).
+
+Desarrolló las rutas y controladores del módulo de batches, permitiendo registrar, editar y consultar lotes de productos.
+
+Integró la lógica para enlazar proveedores con productos y lotes dentro de la base de datos.
+
+- Vanessa Choy → Categorías y Validaciones del Inventario
+
+Implementó el módulo de categorías, con endpoints para registrar y listar categorías.
+
+Colaboró en la validación de datos entre productos y categorías.
+
+Se encargó de estructurar los esquemas de Prisma relacionados con la jerarquía del inventario.
+
+- María Hernández y Fabiola Saldaña → Products, Sales y Conexión Base de Datos
+
+Desarrollaron el módulo de productos con operaciones CRUD completas.
+
+Implementaron la lógica para actualizar precios, stock y atributos del producto.
+
+Construyeron el módulo de ventas, permitiendo registrar operaciones y consultar su historial.
+
+Configuraron la integración final con MySQL en Railway, asegurando persistencia y migraciones exitosas.
+
+
 ## 5.3. Validation Interviews  
 Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
 
