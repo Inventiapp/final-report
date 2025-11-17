@@ -246,6 +246,26 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
     - [**Cierre de Entrevista**](#cierre-de-entrevista)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [PROBLEMA #1: No se puede completar el registro de un hospital/clínica al elegir “Continuar sin un plan”](#problema-1-no-se-puede-completar-el-registro-de-un-hospitalclínica-al-elegir-continuar-sin-un-plan)
+    - [PROBLEMA #2: “Agregar Medicamento” y “Agregar medicamento rápido” hacen lo mismo](#problema-2-agregar-medicamento-y-agregar-medicamento-rápido-hacen-lo-mismo)
+    - [PROBLEMA #3: Fondo rojo en la pantalla de registro que no respeta la paleta visual](#problema-3-fondo-rojo-en-la-pantalla-de-registro-que-no-respeta-la-paleta-visual)
+    - [PROBLEMA #4: Duplicación de “Ver mi historial” donde solo un control funciona](#problema-4-duplicación-de-ver-mi-historial-donde-solo-un-control-funciona)
+    - [PROBLEMA #5: Botón azul parcialmente oculto que no ejecuta ninguna acción](#problema-5-botón-azul-parcialmente-oculto-que-no-ejecuta-ninguna-acción)
+    - [PROBLEMA #6: Error genérico al registrar un medicamento como tomado](#problema-6-error-genérico-al-registrar-un-medicamento-como-tomado)
+    - [PROBLEMA #7: Botón “Registrar síntoma” no sigue la estética de la interfaz](#problema-7-botón-registrar-síntoma-no-sigue-la-estética-de-la-interfaz)
+  - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
+  - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+  - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
+  - [TABLA RESUMEN:](#tabla-resumen)
+  - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+    - [PROBLEMA #1: El menú lateral del dashboard siempre muestra “Inicio” como activo, incluso cuando el usuario está en otra sección](#problema-1-el-menú-lateral-del-dashboard-siempre-muestra-inicio-como-activo-incluso-cuando-el-usuario-está-en-otra-sección)
+    - [PROBLEMA #2: Al crear un Kit de productos, el sistema permite agregar ítems que superan el stock disponible sin mostrar advertencia](#problema-2-al-crear-un-kit-de-productos-el-sistema-permite-agregar-ítems-que-superan-el-stock-disponible-sin-mostrar-advertencia)
+    - [PROBLEMA #3: El botón “Filtrar” en la sección de Proveedores no funciona; no aplica ningún filtro al hacer clic](#problema-3-el-botón-filtrar-en-la-sección-de-proveedores-no-funciona-no-aplica-ningún-filtro-al-hacer-clic)
+    - [PROBLEMA #4: La búsqueda por nombre en la sección de Proveedores no filtra resultados](#problema-4-la-búsqueda-por-nombre-en-la-sección-de-proveedores-no-filtra-resultados)
+    - [PROBLEMA #5: En la sección de Planes, al cambiar de Mensual a Anual, el texto del botón “Probar 14 días gratis” no se actualiza](#problema-5-en-la-sección-de-planes-al-cambiar-de-mensual-a-anual-el-texto-del-botón-probar-14-días-gratis-no-se-actualiza)
+    - [PROBLEMA #6: El texto “Más popular” en el Plan Emprendedor no explica por qué es popular](#problema-6-el-texto-más-popular-en-el-plan-emprendedor-no-explica-por-qué-es-popular)
+    - [PROBLEMA #7: En la sección de “Gestiona lotes, vencimientos y kits”, no hay ejemplo visual o demostración](#problema-7-en-la-sección-de-gestiona-lotes-vencimientos-y-kits-no-hay-ejemplo-visual-o-demostración)
+    - [PROBLEMA #8: Al hacer clic en “+ Nuevo Usuario”, no hay validación de campos ni retroalimentación](#problema-8-al-hacer-clic-en--nuevo-usuario-no-hay-validación-de-campos-ni-retroalimentación)
   - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
@@ -3273,6 +3293,7 @@ Se considerarán los siguientes userflows:
 
 
 
+<div style="page-break-after: always;"></div>
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -3282,9 +3303,9 @@ Se considerarán los siguientes userflows:
 **CARRERA**   : Ingeniería de Software  
 **CURSO**     : Desarrollo de Aplicaciones Open Source  
 **SECCIÓN**   : 7391  
-**PROFESOR**: Hugo Mori 
-**AUDITOR**   : Grupo 1 
-**CLIENTE(S)**: Grupo 3
+**PROFESOR**: Hugo Mori <br>
+**AUDITOR**   : Grupo 1 - Inventiapp - StockTrack <br>
+**CLIENTE(S)**: Grupo 3 <br>
 
 ---
 
@@ -3299,14 +3320,15 @@ Nombre de App: ChroniCare
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
 1. Registro de un paciente nuevo  
-2. Dashboard para cliente 
-3. Registro de medicamentos  
-4. Registro de síntomas  
-5. Envío de mensajes  
-6. Gestión de doctores  
+2. Registro de una clínica nueva  
+3. Dashboard para cliente 
+4. Registro de medicamentos  
+5. Registro de síntomas  
+6. Envío de mensajes  
+7. Gestión de doctores  
 
 
-No están incluidas en esta versión de la evaluación las funcionalidades desde usuario clínica/hospital  
+No están incluidas en esta versión de la evaluación las funcionalidades desde usuario clínica/hospital ni desde administrador. 
 
 ---
 
@@ -3327,29 +3349,287 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | # | Problema | Escala de severidad | Heurística/Principio violado(a) |
 |---|----------|---------------------|---------------------------------|
-| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3 | Usability: Libertad y control del usuario |
-| 2 | Se repiten constantemente algunas opciones | 1 | Usability: Consistencia y estándares |
-| 3 | Imágenes sin atributo “alt” | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 4 | Incluye un botón “Ver más” pero no existe contenido al que dirigirse | 3 | Information Architecture: Is it usable? |
-| 5 | No incluye información de los planes de servicio | 2 | Information Architecture: Is it findable? |
-| … | Etc. |   |   |
+| 1 | No se puede completar el registro de un hospital/clínica al elegir “Continuar sin un plan” | 3 | Usability: Libertad y control del usuario |
+| 2 | El botón “Agregar Medicamento” y el panel de “Agregar medicamento rápido” realizan exactamente la misma acción | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 3 | El fondo rojo de la pantalla de registro de paciente rompe la paleta de colores y distrae al usuario | 1 | Inclusive Design: Confort visual y accesibilidad |
+| 4 | El enlace “Ver mi historial” aparece dos veces y solo uno es funcional | 2 | Usability: Consistencia y estándares |
+| 5 | Botón azul parcialmente oculto que parece interactivo pero no ejecuta ninguna acción | 2 | Usability: Visibilidad del estado del sistema |
+| 6 | Al marcar un medicamento como tomado aparece un mensaje genérico de “Error al registrar medicamento” | 3 | Usability: Manejo y prevención de errores |
+| 7 | El botón “Registrar síntoma” no sigue la estética ni el estilo de los demás botones de la interfaz | 1 | Usability: Consistencia y estándares |
 
 ---
 
 **DESCRIPCIÓN DE PROBLEMAS:**
 
- PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
+### PROBLEMA #1: No se puede completar el registro de un hospital/clínica al elegir “Continuar sin un plan”
 
-Severidad: 3  
-Heurística violada: Usabilidad – Libertad y control del usuario  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Libertad y control del usuario  
 
+![Boton para continuar sin plan en el registro de una clinica](./assets/Chapter-V/heuristicas/boton_registro_clinica.png)
 **Problema:**  
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo deseemos. Una vez el cliente pasa el trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envíe al inicio de la web, lo cual nos obliga a efectuar el trámite y, al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.  
-
-*(Incluir además una captura de pantalla ilustrando el problema).*  
+En la pantalla de registro de hospital/clínica se muestra la opción “Continuar sin un plan”. Sin embargo, cuando el usuario la selecciona, el botón “Completar Registro” queda bloqueado y no permite avanzar. Esto genera la sensación de estar atrapado en el flujo y obliga al usuario a escoger un plan aunque no lo desee, reduciendo su sensación de control sobre el proceso de registro.
 
 **Recomendación:**  
-(Describir la recomendación correspondiente.)
+Asegurar que, al seleccionar “Continuar sin un plan”, el botón “Completar Registro” se mantenga habilitado y permita finalizar el registro. De ser necesario mostrar restricciones (por ejemplo, menos funcionalidades sin plan), informar de forma clara mediante un mensaje o etiqueta, pero sin bloquear el avance.
+
+---
+
+### PROBLEMA #2: “Agregar Medicamento” y “Agregar medicamento rápido” hacen lo mismo
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Flexibilidad y eficiencia de uso  
+![“Agregar Medicamento” y “Agregar medicamento rápido”](./assets/Chapter-V/heuristicas/pantalla_mis_medicamentos.jpg)
+
+**Problema:**  
+En la pantalla Mis Medicamentos, el botón superior “Agregar Medicamento” y el panel lateral de “Agregar medicamento rápido” desencadenan exactamente el mismo flujo. El usuario espera que la opción “rápido” reduzca pasos o tiempo, pero en la práctica no supone ninguna ventaja. Esto añade elementos redundantes a la interfaz y no mejora la eficiencia del usuario.
+
+**Recomendación:**  
+Definir un comportamiento diferenciado para “Agregar medicamento rápido” (por ejemplo, formulario simplificado con menos campos obligatorios) o unificar ambas acciones en un solo punto de entrada más claro. Reducir elementos duplicados para simplificar la pantalla.
+
+---
+
+### PROBLEMA #3: Fondo rojo en la pantalla de registro que no respeta la paleta visual
+
+**Severidad:** 1  
+**Heurística violada:** Inclusive Design – Confort visual y accesibilidad  
+![Fondo rojo en la pantalla de registro](./assets/Chapter-V/heuristicas/pantalla_registro_paciente.jpg)
+
+**Problema:**  
+En la pantalla de **Registro de Paciente**, el fondo rojo intenso no coincide con la paleta de colores usada en el resto de la app (fondos claros con gradientes morados/azules). Este contraste tan fuerte puede resultar visualmente agresivo y generar fatiga, especialmente en sesiones prolongadas, además de afectar la consistencia de marca.
+
+**Recomendación:**  
+Ajustar el color de fondo para que sea coherente con la paleta principal de la aplicación (tonos claros, morados o azules suaves). Mantener buen contraste con el texto sin resultar estridente, siguiendo lineamientos de accesibilidad (WCAG).
+
+---
+
+### PROBLEMA #4: Duplicación de “Ver mi historial” donde solo un control funciona
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Consistencia y estándares  
+![Duplicación de “Ver mi historial”](./assets/Chapter-V/heuristicas/ver_mi_historial.jpg)
+
+**Problema:**  
+En la pantalla de confirmación de registro de síntomas aparece la opción “Ver mi historial” en dos lugares distintos, pero solo uno de ellos es realmente funcional. Esto genera duda sobre cuál es el botón correcto y puede hacer pensar al usuario que la aplicación está fallando cuando interactúa con el control que no responde.
+
+**Recomendación:**  
+Dejar visible solo un acceso claro a “Ver mi historial” o asegurarse de que ambos controles sean funcionales y coherentes entre sí. Mantener una única ruta principal por tarea para reducir ambigüedades.
+
+---
+
+### PROBLEMA #5: Botón azul parcialmente oculto que no ejecuta ninguna acción
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+![Botón azul parcialmente oculto](./assets/Chapter-V/heuristicas/boton_oculto.jpg)
+
+**Problema:**  
+En el dashboard principal se muestra un botón azul parcialmente tapado por otros elementos de la interfaz. Visualmente parece interactivo, pero al hacer clic no produce ninguna acción observable. El usuario no recibe feedback de si se registró la interacción, si hay un error o si el botón está deshabilitado.
+
+**Recomendación:**  
+Revisar el layout para que el botón no quede cubierto y definir claramente su funcionalidad. Si el botón está deshabilitado, mostrarlo con un estilo atenuado y, de ser posible, indicar la condición que debe cumplirse para habilitarlo.
+
+---
+
+### PROBLEMA #6: Error genérico al registrar un medicamento como tomado
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Manejo y prevención de errores  
+![Error al registrar un medicamento como tomado](./assets/Chapter-V/heuristicas/error_tomar_medicamento.jpg)
+
+**Problema:**  
+Cuando el usuario marca un medicamento como "Tomado", aparece un mensaje emergente “Error al registrar medicamento” sin explicar la causa ni qué puede hacer el usuario para solucionarlo. Esto genera desconfianza: el usuario no sabe si el medicamento quedó registrado, si debe repetir la acción o si hay un problema más grave con sus datos.
+
+**Recomendación:**  
+Proporcionar mensajes de error específicos (por ejemplo, “No se pudo conectar con el servidor. Intenta nuevamente.”) e indicar de forma clara si el estado del medicamento se registró o no. Cuando sea posible, ofrecer acciones de recuperación (reintentar, guardar localmente, contactar soporte, etc.).
+
+---
+
+### PROBLEMA #7: Botón “Registrar síntoma” no sigue la estética de la interfaz
+
+**Severidad:** 1  
+**Heurística violada:** Usabilidad – Consistencia y estándares  
+![Botón “Registrar síntoma”](./assets/Chapter-V/heuristicas/boton_sintomas_recientes.jpg)
+
+**Problema:**  
+En el bloque de Síntomas recientes, el botón “Registrar síntoma” tiene un estilo diferente al resto de botones de la app (forma, color, tipografía y relieve). Esta falta de consistencia visual hace que el botón parezca ajeno al sistema, afecta la percepción de calidad del diseño y puede generar dudas sobre si es un botón principal o secundario.
+
+**Recomendación:**  
+Unificar el diseño de este botón con el resto de la biblioteca de componentes (mismas esquinas redondeadas, color, tipografía y efectos hover/focus). Mantener un sistema de diseño común ayuda a que el usuario reconozca los patrones de interacción de forma inmediata.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**   : Ingeniería de Software  
+**CURSO**     : Desarrollo de Aplicaciones Open Source  
+**SECCIÓN**   : 7391  
+**PROFESOR**: Hugo Mori 
+**AUDITOR**   : Grupo 3 - ChroniCaree
+**CLIENTE(S)**: Grupo 1 -  StockTrack 
+
+---
+
+
+## SITE o APP A EVALUAR:
+**StockTrack**
+
+---
+
+## TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Navegación entre módulos del dashboard (Inicio, Inventario, Proveedores, etc.)
+2. Creación de un Kit de productos
+3. Búsqueda y filtrado en la sección de Proveedores
+4. Selección y cambio de planes (Mensual/Anual)
+5. Gestión de usuarios
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Registro de nuevo usuario
+2. Proceso de pago
+3. Generación de reportes avanzados
+4. Integraciones con APIs
+
+---
+
+## ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN:
+
+| # | Problema                                                                                             | Escala de severidad | Heurística/Principio violada(o)                            |
+|---|------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------------------|
+| 1 | El menú lateral del dashboard siempre muestra “Inicio” como activo, incluso cuando el usuario está en otra sección (Inventario, Proveedores, etc.) | 3                   | Usabilidad: Visibilidad del estado del sistema               |
+| 2 | Al crear un Kit de productos, el sistema permite agregar ítems que superan el stock disponible sin mostrar advertencia | 4                   | Usabilidad: Prevención de errores                            |
+| 3 | El botón “Filtrar” en la sección de Proveedores no funciona; no aplica ningún filtro al hacer clic | 3                   | Usabilidad: Retroalimentación del sistema                    |
+| 4 | La búsqueda por nombre en la sección de Proveedores no filtra resultados; se queda con la lista completa | 3                   | Arquitectura de la Información: ¿Es localizable? (Is it findable?) |
+| 5 | En la sección de Planes, al cambiar de Mensual a Anual, el texto del botón “Probar 14 días gratis” no se actualiza, generando confusión sobre qué plan se está probando | 3                   | Usabilidad: Consistencia y estándares                        |
+| 6 | El texto “Más popular” en el Plan Emprendedor no explica por qué es popular, dejando al usuario sin contexto | 2                   | Arquitectura de la Información: ¿Es comprensible? (Is it understandable?) |
+| 7 | En la sección de “Gestiona lotes, vencimientos y kits”, no hay ejemplo visual, GIF o demostración de cómo funciona realmente | 2                   | Usabilidad: Ayuda y documentación                            |
+| 8 | Al hacer clic en “+ Nuevo Usuario” en Administración de Personal, no hay validación de campos obligatorios ni mensaje de éxito/error | 3                   | Usabilidad: Prevención de errores / Retroalimentación        |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+---
+
+### PROBLEMA #1: El menú lateral del dashboard siempre muestra “Inicio” como activo, incluso cuando el usuario está en otra sección
+
+**Severidad**: 3  
+**Heurística violada**: Usabilidad - Visibilidad del estado del sistema
+
+**Problema**:  
+Cuando el usuario navega a “Inventario”, “Proveedores” o “Reportes”, el menú lateral sigue resaltando “Inicio” como la página activa. Esto genera confusión y desorientación, ya que el usuario no sabe en qué módulo realmente está trabajando.
+
+**Recomendación**:  
+Implementar un indicador visual dinámico que resalte el ítem activo en el menú lateral (cambio de color de fondo, borde, icono check). Además, mostrar el título de la sección actual en la parte superior de la página (ej. “Inventario > Productos”).
+
+---
+
+### PROBLEMA #2: Al crear un Kit de productos, el sistema permite agregar ítems que superan el stock disponible sin mostrar advertencia
+
+**Severidad**: 4  
+**Heurística violada**: Usabilidad - Prevención de errores
+
+**Problema**:  
+Al intentar crear un Kit, el usuario puede seleccionar cantidades de productos que exceden el stock actual (ej. stock = 24, pero agrega 50 unidades). El sistema no muestra advertencia, error ni bloquea la acción. Esto puede generar operaciones inválidas y pérdida de confianza.
+
+**Recomendación**:  
+Validar en tiempo real el stock disponible al agregar productos al kit. Mostrar un mensaje de advertencia si la cantidad supera el stock: “ Solo quedan 24 unidades disponibles”. Bloquear el botón “Crear Kit” hasta que se ajuste la cantidad.
+
+---
+
+### PROBLEMA #3: El botón “Filtrar” en la sección de Proveedores no funciona; no aplica ningún filtro al hacer clic
+
+**Severidad**: 3  
+**Heurística violada**: Usabilidad - Retroalimentación del sistema
+
+**Problema**:  
+El botón “Filtrar” en la sección de Proveedores parece interactivo, pero al hacer clic, no realiza ninguna acción ni muestra mensaje de error o carga. El usuario piensa que algo está roto o que el sistema no responde.
+
+**Recomendación**:  
+Implementar la funcionalidad de filtrado o, si aún no está desarrollada, deshabilitar el botón y mostrar un tooltip: “Funcionalidad en desarrollo”. Si el filtro está implementado, asegurar que se aplique correctamente y se muestre un feedback visual.
+
+---
+
+### PROBLEMA #4: La búsqueda por nombre en la sección de Proveedores no filtra resultados
+
+**Severidad**: 3  
+**Heurística violada**: Arquitectura de la Información - ¿Es localizable? (Is it findable?)
+
+**Problema**:  
+Al escribir un nombre en el campo de búsqueda de Proveedores (ej. “john”), la lista no se actualiza ni filtra. El usuario debe escanear manualmente toda la lista, lo que reduce la eficiencia y aumenta la frustración.
+
+**Recomendación**:  
+Implementar búsqueda en tiempo real que filtre la tabla mientras el usuario escribe. Si no es posible, añadir un botón “Buscar” que ejecute la búsqueda y muestre un mensaje si no hay resultados (“No se encontraron proveedores con ese nombre”).
+
+---
+
+### PROBLEMA #5: En la sección de Planes, al cambiar de Mensual a Anual, el texto del botón “Probar 14 días gratis” no se actualiza
+
+**Severidad**: 3  
+**Heurística violada**: Usabilidad - Consistencia y estándares
+
+**Problema**:  
+Al cambiar el toggle de “Mensual” a “Anual”, los precios se actualizan correctamente, pero el botón “Probar 14 días gratis” sigue mostrando el mismo texto, sin indicar que la prueba aplica al plan anual. Esto genera dudas: ¿la prueba es mensual? ¿se cobra después?
+
+**Recomendación**:  
+Actualizar el texto del botón según el plan seleccionado:  
+- Mensual: “Probar 14 días gratis (plan mensual)”  
+- Anual: “Probar 14 días gratis (plan anual)”  
+O agregar un subtítulo debajo del botón: “La prueba gratuita aplica a ambos planes”.
+
+---
+
+### PROBLEMA #6: El texto “Más popular” en el Plan Emprendedor no explica por qué es popular
+
+**Severidad**: 2  
+**Heurística violada**: Arquitectura de la Información - ¿Es comprensible? (Is it understandable?)
+
+**Problema**:  
+La etiqueta “Más popular” es un llamado a la acción, pero no explica por qué ese plan es el más elegido. El usuario puede quedarse con dudas: ¿es por precio? ¿por funcionalidades?
+
+**Recomendación**:  
+Agregar un tooltip o texto pequeño debajo: “Elegido por el 70% de nuestros clientes por su equilibrio entre funcionalidad y costo”.
+
+---
+
+### PROBLEMA #7: En la sección de “Gestiona lotes, vencimientos y kits”, no hay ejemplo visual o demostración
+
+**Severidad**: 2  
+**Heurística violada**: Usabilidad - Ayuda y documentación
+
+**Problema**:  
+La sección promete funcionalidades avanzadas, pero no muestra ejemplos visuales, pantallazos o un video demo. Esto deja al usuario sin contexto claro de cómo funciona realmente.
+
+**Recomendación**:  
+Agregar un pequeño GIF o un botón “Ver ejemplo” que abra un modal con una simulación del proceso.
+
+---
+
+### PROBLEMA #8: Al hacer clic en “+ Nuevo Usuario”, no hay validación de campos ni retroalimentación
+
+**Severidad**: 3  
+**Heurística violada**: Usabilidad - Prevención de errores / Retroalimentación del sistema
+
+**Problema**:  
+Al crear un nuevo usuario, el sistema no valida campos obligatorios (nombre, correo, rol). Si el usuario olvida completar un campo, no se muestra error ni mensaje de advertencia. Además, tras guardar, no hay confirmación de que el usuario fue creado.
+
+**Recomendación**:  
+Validar campos en tiempo real y mostrar mensajes de error si faltan datos. Tras guardar, mostrar un mensaje: “✅ Usuario creado correctamente” o “ Error: verifique los campos”.
 
 
 
@@ -3357,6 +3637,7 @@ Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso a
 
 ## 5.4. Video About-the-Product.
 
+<div style="page-break-after: always;"></div>
 
 # Conclusiones y Recomendaciones
 
