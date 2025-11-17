@@ -3377,6 +3377,9 @@ Construyeron el módulo de ventas, permitiendo registrar operaciones y consultar
 Configuraron la integración final con MySQL en Railway, asegurando persistencia y migraciones exitosas.
 
 
+![insights-tb2](assets/Chapter-V/insight3.jpg)
+![contributors-tb2](assets/Chapter-V/contributors3.jpg)
+
 ## 5.3. Validation Interviews  
 Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
 
@@ -3858,4 +3861,6 @@ Link del Repositorio de Landing Page:  <a href="https://github.com/Inventiapp/la
 Link de Landing Page Desplegado: <a href="https://landing-page-two-iota-z65h50d6ix.vercel.app/">https://landing-page-two-iota-z65h50d6ix.vercel.app/</a>  <br>
 Link del Repositorio del Frontend: <a href="https://github.com/Inventiapp/StockTrack-Frontend">https://github.com/Inventiapp/StockTrack-Frontend</a><br> 
 Link Frontend Desplegado: <a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
-Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> 
+Link Backend Desplegado: <a href="https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html">https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html</a> <br>
+Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> <br>
+Link de entrevistas de validación:<a href="https://youtu.be/PJvAeeIRJcw">https://youtu.be/PJvAeeIRJcw</a> 
