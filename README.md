@@ -3276,6 +3276,85 @@ Se considerarán los siguientes userflows:
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**   : Ingeniería de Software  
+**CURSO**     : Desarrollo de Aplicaciones Open Source  
+**SECCIÓN**   : 7391  
+**PROFESOR**: Hugo Mori 
+**AUDITOR**   : Grupo 1 
+**CLIENTE(S)**: Grupo 3
+
+---
+
+**SITE o APP A EVALUAR:**
+
+Nombre de App: ChroniCare
+
+---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un paciente nuevo  
+2. Dashboard para cliente 
+3. Registro de medicamentos  
+4. Registro de síntomas  
+5. Envío de mensajes  
+6. Gestión de doctores  
+
+
+No están incluidas en esta versión de la evaluación las funcionalidades desde usuario clínica/hospital  
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|---|----------|---------------------|---------------------------------|
+| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3 | Usability: Libertad y control del usuario |
+| 2 | Se repiten constantemente algunas opciones | 1 | Usability: Consistencia y estándares |
+| 3 | Imágenes sin atributo “alt” | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Incluye un botón “Ver más” pero no existe contenido al que dirigirse | 3 | Information Architecture: Is it usable? |
+| 5 | No incluye información de los planes de servicio | 2 | Information Architecture: Is it findable? |
+| … | Etc. |   |   |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+ PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
+
+Severidad: 3  
+Heurística violada: Usabilidad – Libertad y control del usuario  
+
+**Problema:**  
+Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo deseemos. Una vez el cliente pasa el trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envíe al inicio de la web, lo cual nos obliga a efectuar el trámite y, al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.  
+
+*(Incluir además una captura de pantalla ilustrando el problema).*  
+
+**Recomendación:**  
+(Describir la recomendación correspondiente.)
+
+
+
+
+
 ## 5.4. Video About-the-Product.
 
 
