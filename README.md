@@ -129,6 +129,15 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
 
 ![contributors-tp](assets/Chapter-I/contributors-tp.png)
 
+
+## Reporte de colaboración para el TB2:
+
+En esta entrega se hicieron correcciones y se añadió otras secciones del capítulo 5, correspondiente al Sprint 3. Además se realizó el primer avance del backend. A continuación, se detallan las contribuciones de cada miembro del equipo mediante los insights de GitHub:
+
+![insights-tb2](assets/Chapter-V/insight3.jpg)
+![contributors-tb2](assets/Chapter-V/contributors3.jpg)
+
+
 <div style="page-break-after: always;"></div>
 
 # Contenido
@@ -136,6 +145,7 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [Reporte de colaboración para el TB1:](#reporte-de-colaboración-para-el-tb1)
   - [Reporte de colaboración para el TP:](#reporte-de-colaboración-para-el-tp)
+  - [Reporte de colaboración para el TB2:](#reporte-de-colaboración-para-el-tb2)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
@@ -238,10 +248,34 @@ En esta entrega se hicieron correcciones y se añadió el capítulo 5, correspon
       - [5.2.3.6. Software Deployment Evidence for Sprint Review](#5236-software-deployment-evidence-for-sprint-review)
       - [5.2.3.7. Team Collaboration Insights during Sprint](#5237-team-collaboration-insights-during-sprint)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [**Preguntas sobre la Aplicación (StockTrack)**](#preguntas-sobre-la-aplicación-stocktrack)
+      - [Para Dueños de Bodegas](#para-dueños-de-bodegas)
+      - [Para Startups / Emprendedores](#para-startups--emprendedores)
+    - [**Cierre de Entrevista**](#cierre-de-entrevista)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [PROBLEMA #1: No se puede completar el registro de un hospital/clínica al elegir “Continuar sin un plan”](#problema-1-no-se-puede-completar-el-registro-de-un-hospitalclínica-al-elegir-continuar-sin-un-plan)
+    - [PROBLEMA #2: “Agregar Medicamento” y “Agregar medicamento rápido” hacen lo mismo](#problema-2-agregar-medicamento-y-agregar-medicamento-rápido-hacen-lo-mismo)
+    - [PROBLEMA #3: Fondo rojo en la pantalla de registro que no respeta la paleta visual](#problema-3-fondo-rojo-en-la-pantalla-de-registro-que-no-respeta-la-paleta-visual)
+    - [PROBLEMA #4: Duplicación de “Ver mi historial” donde solo un control funciona](#problema-4-duplicación-de-ver-mi-historial-donde-solo-un-control-funciona)
+    - [PROBLEMA #5: Botón azul parcialmente oculto que no ejecuta ninguna acción](#problema-5-botón-azul-parcialmente-oculto-que-no-ejecuta-ninguna-acción)
+    - [PROBLEMA #6: Error genérico al registrar un medicamento como tomado](#problema-6-error-genérico-al-registrar-un-medicamento-como-tomado)
+    - [PROBLEMA #7: Botón “Registrar síntoma” no sigue la estética de la interfaz](#problema-7-botón-registrar-síntoma-no-sigue-la-estética-de-la-interfaz)
+  - [SITE o APP A EVALUAR:](#site-o-app-a-evaluar)
+  - [TAREAS A EVALUAR:](#tareas-a-evaluar)
+  - [ESCALA DE SEVERIDAD:](#escala-de-severidad)
+  - [TABLA RESUMEN:](#tabla-resumen)
+  - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+    - [PROBLEMA #1: El menú lateral del dashboard siempre muestra “Inicio” como activo, incluso cuando el usuario está en otra sección](#problema-1-el-menú-lateral-del-dashboard-siempre-muestra-inicio-como-activo-incluso-cuando-el-usuario-está-en-otra-sección)
+    - [PROBLEMA #2: Al crear un Kit de productos, el sistema permite agregar ítems que superan el stock disponible sin mostrar advertencia](#problema-2-al-crear-un-kit-de-productos-el-sistema-permite-agregar-ítems-que-superan-el-stock-disponible-sin-mostrar-advertencia)
+    - [PROBLEMA #3: El botón “Filtrar” en la sección de Proveedores no funciona; no aplica ningún filtro al hacer clic](#problema-3-el-botón-filtrar-en-la-sección-de-proveedores-no-funciona-no-aplica-ningún-filtro-al-hacer-clic)
+    - [PROBLEMA #4: La búsqueda por nombre en la sección de Proveedores no filtra resultados](#problema-4-la-búsqueda-por-nombre-en-la-sección-de-proveedores-no-filtra-resultados)
+    - [PROBLEMA #5: En la sección de Planes, al cambiar de Mensual a Anual, el texto del botón “Probar 14 días gratis” no se actualiza](#problema-5-en-la-sección-de-planes-al-cambiar-de-mensual-a-anual-el-texto-del-botón-probar-14-días-gratis-no-se-actualiza)
+    - [PROBLEMA #6: El texto “Más popular” en el Plan Emprendedor no explica por qué es popular](#problema-6-el-texto-más-popular-en-el-plan-emprendedor-no-explica-por-qué-es-popular)
+    - [PROBLEMA #7: En la sección de “Gestiona lotes, vencimientos y kits”, no hay ejemplo visual o demostración](#problema-7-en-la-sección-de-gestiona-lotes-vencimientos-y-kits-no-hay-ejemplo-visual-o-demostración)
+    - [PROBLEMA #8: Al hacer clic en “+ Nuevo Usuario”, no hay validación de campos ni retroalimentación](#problema-8-al-hacer-clic-en--nuevo-usuario-no-hay-validación-de-campos-ni-retroalimentación)
   - [5.4. Video About-the-Product.](#54-video-about-the-product)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
@@ -3246,9 +3280,12 @@ Cada módulo se implementó como un Bounded Context independiente con su propio 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Swagger API URL: https://inventiapp-backend.onrender.com/api/docs
+[deploy backend ](./assets/Chapter-V/deployback1.jpg)
+[deploy backend 2](./assets/Chapter-V/deployback2.jpg)
 
-Base API URL: https://inventiapp-backend.onrender.com/api/v1
+Swagger API URL: [https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html](https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html)
+
+Base API URL: [http://stocktrack-backend-production.up.railway.app/api/v1](http://stocktrack-backend-production.up.railway.app/api/v1)
 
 Ejemplos de endpoints:
 
@@ -3759,6 +3796,10 @@ Validar campos en tiempo real y mostrar mensajes de error si faltan datos. Tras 
 
 
 ## 5.4. Video About-the-Product.
+
+![About the product](./assets/Chapter-V/about%20the%20product.png)
+[https://www.youtube.com/watch?v=F0ZaRulgdyE)](https://www.youtube.com/watch?v=F0ZaRulgdyE)
+
 
 <div style="page-break-after: always;"></div>
 
