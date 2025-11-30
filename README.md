@@ -48,7 +48,7 @@
 <br>
 
 <p align="center">
-    <strong>Octubre, 2025</strong>
+    <strong>Diciembre, 2025</strong>
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -248,6 +248,15 @@ En esta entrega se hicieron correcciones y se añadió otras secciones del capí
       - [5.2.3.6. Software Deployment Evidence for Sprint Review](#5236-software-deployment-evidence-for-sprint-review)
       - [5.2.3.7. Team Collaboration Insights during Sprint](#5237-team-collaboration-insights-during-sprint)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [**Preguntas sobre la Aplicación (StockTrack)**](#preguntas-sobre-la-aplicación-stocktrack)
@@ -3127,8 +3136,7 @@ El despliegue del Fake API se realizó en Railway, conectado al repositorio GitH
 | 3  | El deployment se completó exitosamente, mostrando el estado "ACTIVE" con el mensaje "Deployment successful".                 |
 | 4  | La API quedó disponible públicamente en el dominio `stocktrack-fake-api-production.up.railway.app`.                             |
 
-- Link del Fake Apis: 
-<a href="https://stocktrack-fake-api-production.up.railway.app/">https://stocktrack-fake-api-production.up.railway.app/</a> <br>
+
 - Capturas de despliegue:
   
 ![fakeapi1](./assets/Chapter-V/deployfakeapi1.jpg)
@@ -3379,6 +3387,16 @@ Configuraron la integración final con MySQL en Railway, asegurando persistencia
 
 ![insights-tb2](assets/Chapter-V/insight3.jpg)
 ![contributors-tb2](assets/Chapter-V/contributors3.jpg)
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4.
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.3. Sprint Backlog 4.
+#### 5.2.4.4. Development Evidence for Sprint Review.
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews  
 Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
@@ -3864,3 +3882,4 @@ Link Frontend Desplegado: <a href="https://stocktrack-frontend.vercel.app/">http
 Link Backend Desplegado: <a href="https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html">https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html</a> <br>
 Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> <br>
 Link de entrevistas de validación:<a href="https://youtu.be/PJvAeeIRJcw">https://youtu.be/PJvAeeIRJcw</a> 
+Link de Video About the Team:<a href="https://www.youtube.com/watch?v=NzCkqgksilE">https://www.youtube.com/watch?v=NzCkqgksilE</a> 
