@@ -3648,7 +3648,7 @@ En esta sección se especifican los principales aspectos del Sprint Planning Mee
 | **Sprint 4 Goal & User Stories**    |                                                                                                                                                                                                                                                     |
 | **Sprint 4 Goal**                   | Fully integrate the frontend with the backend, enabling the consumption of the REST API with JWT authentication, functional CRUDs, stock management, and real-time data in all modules of the StockTrack system. |
 | **Sprint 4 Velocity**               | 20                                                                                                                                                                                                                                                  |
-| **Sum of Story points**             | 60.5                                                                                                                                                                                                                                                  |
+| **Sum of Story points**             | 60                                                                                                                                                                                                                                                  |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
