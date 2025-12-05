@@ -160,8 +160,8 @@ En esta entrega se hicieron correcciones y se añadió otras secciones del capí
 
 En esta entrega se hicieron correcciones y se añadió otras secciones del capítulo 5, correspondiente al Sprint 4. Además se culminó el backend y se realizaron las conexiones de los endpoints con el frontend de la aplicación. A continuación, se detallan las contribuciones de cada miembro del equipo mediante los insights de GitHub:
 
-![insights-tf](assets/Chapter-V/)
-![contributors-tf](assets/Chapter-V/)
+![insights-tf](assets/Chapter-V/insight4.png)
+![contributors-tf](assets/Chapter-V/contributors4.png)
 
 
 <div style="page-break-after: always;"></div>
@@ -272,8 +272,8 @@ En esta entrega se hicieron correcciones y se añadió otras secciones del capí
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Software Deployment Evidence for Sprint Review](#5236-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.7. Team Collaboration Insights during Sprint](#5237-team-collaboration-insights-during-sprint)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
     - [5.2.4. Sprint 4](#524-sprint-4)
       - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
@@ -3689,17 +3689,24 @@ Movimientos registrados y consultados desde backend.
 Administración de personal completamente integrada.
 
 <p align="center">
-  <img src="./assets/Chapter-V/login-integration.jpg" alt="login-integration" width="800">
+  <img src="./assets/Chapter-V/login-integration.png" alt="login-integration" width="800">
 </p>
 <p align="center">
-  <img src="./assets/Chapter-V/providers-crud.jpg" alt="providers-crud" width="800">
+  <img src="./assets/Chapter-V/providers-crud.png" alt="providers-crud" width="800">
 </p>
 <p align="center">
-  <img src="./assets/Chapter-V/inventory-movements.jpg" alt="inventory-movements" width="800">
+  <img src="./assets/Chapter-V/inventory-movements.png" alt="inventory-movements" width="800">
 </p>
 <p align="center">
-  <img src="./assets/Chapter-V/users-management.jpg" alt="users-management" width="800">
+  <img src="./assets/Chapter-V/inventory-movements1.png" alt="inventory-movements" width="800">
 </p>
+<p align="center">
+  <img src="./assets/Chapter-V/users-management.png" alt="users-management" width="800">
+</p>
+
+<br>
+
+Link del video del alcance para el Sprint 4: <a href="https://youtu.be/AG-163mF9kA">https://youtu.be/AG-163mF9kA</a> <br>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -3918,10 +3925,10 @@ Flujo completo de inventario (entradas, salidas, movimientos).
 Sincronización total entre pantallas del frontend y datos reales en la base de datos.
 
 <p align="center">
-  <img src="./assets/Chapter-V/insight4.jpg" alt="insight4" width="800">
+  <img src="./assets/Chapter-V/insight4.png" alt="insight4" width="800">
 </p>
 <p align="center">
-  <img src="./assets/Chapter-V/contributors4.jpg" alt="contributors4" width="800">
+  <img src="./assets/Chapter-V/contributors4.png" alt="contributors4" width="800">
 </p>
 
 ## 5.3. Validation Interviews  
@@ -4434,5 +4441,6 @@ Link del Repositorio del Frontend: <a href="https://github.com/Inventiapp/StockT
 Link Frontend Desplegado: <a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
 Link Backend Desplegado: <a href="https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html">https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html</a> <br>
 Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> <br>
-Link de entrevistas de validación:<a href="https://youtu.be/PJvAeeIRJcw">https://youtu.be/PJvAeeIRJcw</a> 
-Link de Video About the Team:<a href="https://www.youtube.com/watch?v=NzCkqgksilE">https://www.youtube.com/watch?v=NzCkqgksilE</a> 
+Link de entrevistas de validación:<a href="https://youtu.be/PJvAeeIRJcw">https://youtu.be/PJvAeeIRJcw</a> <br>
+Link de Video About the Team:<a href="https://www.youtube.com/watch?v=NzCkqgksilE">https://www.youtube.com/watch?v=NzCkqgksilE</a><br>
+Link Video Alcance del Sprint 4: <a href="https://youtu.be/AG-163mF9kA">https://youtu.be/AG-163mF9kA</a>
