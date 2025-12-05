@@ -3288,14 +3288,13 @@ Cada módulo se implementó como un Bounded Context independiente con su propio 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-[deploy backend ](./assets/Chapter-V/deployback1.jpg)
+[deploy backend 1](./assets/Chapter-V/deployback1.jpg)
 [deploy backend 2](./assets/Chapter-V/deployback2.jpg)
 
 Swagger API URL: [https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html](https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html)
 
 Base API URL: [http://stocktrack-backend-production.up.railway.app/api/v1](http://stocktrack-backend-production.up.railway.app/api/v1)
 
-Ejemplos de endpoints:
 
 POST /auth/login
 
@@ -3389,14 +3388,173 @@ Configuraron la integración final con MySQL en Railway, asegurando persistencia
 ![contributors-tb2](assets/Chapter-V/contributors3.jpg)
 
 ### 5.2.4. Sprint 4
+En esta sección se documenta y explica el desarrollo del Sprint 4, enfocado en la integración completa del Frontend desarrollado en el Sprint 2 con la API Backend implementada en el Sprint 3. El objetivo principal del sprint fue lograr el flujo de datos real entre ambas capas del sistema StockTrack, conectando formularios, tablas, pantallas y validaciones del frontend con los endpoints REST seguros del backend.
+
 #### 5.2.4.1. Sprint Planning 4.
+En esta sección se especifican los principales aspectos del Sprint Planning Meeting 4.
+
+| Sprint #                            | Sprint 4                                                                                                                                                                                                                                            |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-11-24                                                                                                                                                                                                                                          |
+| **Time**                            | 9:00 PM                                                                                                                                                                                                                                             |
+| **Location**                        | Remote (Discord / Whatsapp)                                                                                                                                                                                                      |
+| **Prepared by**                     | Team Inventiapp                                                                                                                                                                                                                                     |
+| **Attendees**                       | All members of Inventiapp                                                                                                                                                                                                                           |
+| **Sprint 3 Review Summary**         | The backend was completed using a DDD architecture, with working REST endpoints documented with Swagger, ready to be consumed by the frontend.                                                                                                                     |
+| **Sprint 3 Retrospective Summary**  | The need to integrate security, validations, and endpoint consumption from Angular was identified, as well as ensuring compatibility in models and DTOs between the backend and frontend.                                                                                                             |
+| **Sprint 4 Goal & User Stories**    |                                                                                                                                                                                                                                                     |
+| **Sprint 4 Goal**                   | Fully integrate the frontend with the backend, enabling the consumption of the REST API with JWT authentication, functional CRUDs, stock management, and real-time data in all modules of the StockTrack system. |
+| **Sprint 4 Velocity**               | 20                                                                                                                                                                                                                                                  |
+| **Sum of Story points**             | 60.5                                                                                                                                                                                                                                                  |
+
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Team Member                          | GitHub Username | Backend Context / Role                   |
+| ------------------------------------ | --------------- | ---------------------------------------- |
+| **Ríos Piñan, Dayro Richard**        | Addicted2u      | *Alerts & Reports (C)* / *Sales (L)*     |
+| **Hernández Uchuya, María Patricia** | Bal2220         | *Inventory (C)*                          |
+| **Saldaña Ayala, Fabiola Del Rocío** | fabs-in-space   | *Inventory (L)*                          |
+| **Sulca Sánchez, Piero Ángel**       | psulca          | *Users & Permissions (L)* / *Alerts (L)* |
+| **Choy Robles, Vanessa May Lang**    | VMLCR           | *Users & Permissions (C)*                |
+
+
 #### 5.2.4.3. Sprint Backlog 4.
+| **User Story** | **Work-Item / Task**                 |        |                                                      |                                                                                                            | **Estimation (Hours)** | **Assigned to** | **Status** |
+| -------------- | ------------------------------------ | ------ | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------- | --------------- | ---------- |
+| **ID**         | **Title**                            | **Id** | **Title**                                            | **Description**                                                                                            |                        |                 |            |
+| **US-28**      | Login de usuarios                    | W-01   | Conectar login Angular con /auth/login             | Integrar formulario con el endpoint real. Manejo de errores, validación y guardado del token JWT. | 5                    | Piero           | Done       |
+| **US-28**      | Login de usuarios                    | W-02   | Implementar AuthGuard y redirección             | Proteger rutas del frontend usando el token JWT y redirigir al dashboard. | 3                    | Piero           | Done       |
+| **US-29**      | Registro de usuarios                 | W-03   | Integrar formulario Register con /auth/register | Conectar el registro del frontend al backend, validando duplicados y mostrando mensajes del servidor.     | 4                      | Piero           | Done       |
+| **US-30**      | Dashboard principal                  | W-04   | Conectar widgets del Dashboard con API         | Reemplazar datos mockeados con métricas reales: totales de stock, movimientos y usuarios.      | 4                      | Piero           | Done       |
+| **US-24**      | Módulo de proveedores                | W-05   | GET: Conectar listado de proveedores         | Integrar tabla del frontend con GET /proveedores con paginación real.    | 3                    | Dayro           | Done       |
+| **US-24**      | Módulo de proveedores                | W-06   | POST: Crear proveedor desde frontend          | Conectar el formulario de creación al backend y validar errores.    | 3                    | Dayro           | Done       |
+| **US-24**      | Módulo de proveedores                | W-07   | PUT: Editar proveedor          | Enlazar formulario de edición con API, actualizando datos en tiempo real.    | 3                    | Dayro           | Done       |
+| **US-24**      | Módulo de proveedores                | W-08   | DELETE: Eliminar proveedor         | Conectar botón de eliminar con backend y actualizar tabla automáticamente.    | 2                    | Dayro           | Done       |
+| **US-26**      | Salida de producto                   | W-09   | Conectar formulario de salida con /inventory/out        | Enviar datos del formulario al backend, validar stock y mostrar respuestas.                            | 4                    | Dayro           | Done       |
+| **US-27**      | Integración de salida con inventario | W-10   | Actualizar tabla del inventario tras salida                         | Consumir datos actualizados tras registrar una salida y refrescar la vista.                       | 2.5                      | Dayro           | Done       |
+| **US-31**      | Administración de personal           | W-11   | GET: Listar usuarios desde backend | Reemplazar datos mock por datos reales de /users. | 3                      | Vanessa         | Done       |
+| **US-32**      | CRUD de personal                     | W-12   | POST/PUT: Crear y editar usuarios         | Conectar formularios con el backend para registrar y editar personal.                          | 3                    | Vanessa         | Done       |
+| **US-32**      | CRUD de personal                     | W-13   | DELETE: Eliminar usuario          | Implementar eliminación real y refresco automático de la tabla.                             | 2                    | Vanessa         | Done       |
+| **US-33**      | Integración con dashboard            | W-14   | Asociar permisos con acceso en frontend   | Conectar roles del backend para mostrar/ocultar módulos en el sidebar.                             | 4                    | Vanessa         | Done       |
+| **US-34**      | Módulo de inventario                 | W-15   | GET: Listar productos desde API              | Conectar la tabla de inventario con /products.                                          | 3                   | María & Fabiola | Done       |
+| **US-35**      | Actualización de stock               | W-16   | POST: Registrar entrada de stock   | Enviar formulario de entrada al backend y actualizar gráficas.                          | 3                      | María & Fabiola | Done       |
+| **US-35**      | Actualización de stock               | W-17   | POST: Registrar ajustes   | Conectar ajustes de stock a la API y refrescar historial.                       | 3                      | María & Fabiola | Done       |
+| **US-36**      | Visualización de movimientos         | W-18   | GET: Listar movimientos              | Conectar historial de movimientos a /inventory/history.               | 3                      | María & Fabiola | Done       |
+| **US-37**      | Integración inventario–proveedores   | W-19   | Unir productos con proveedor en UI     | Mostrar proveedor asociado a cada producto usando endpoint relacional.                             | 3                    | María & Fabiola | Done       |
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+Durante este sprint se implementó la integración entre Angular y Spring Boot, conectando todos los módulos del frontend a los servicios REST del backend.
+
+Principales desarrollos:
+
+- Servicios de Angular conectados a la API
+
+auth.service.ts
+
+providers.service.ts
+
+users.service.ts
+
+products.service.ts
+
+inventory.service.ts
+
+- Interceptor de Autenticación
+
+Adjunta token JWT en todas las peticiones.
+
+Maneja expiración del token y redirecciones.
+
+- Guards para rutas privadas
+
+Controlan acceso según autenticación.
+
+- Formularios reactivos conectados a la API
+
+Envío de datos reales.
+
+Validaciones basadas en errores del servidor.
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+Evidencia en ejecución:
+
+Login funcionando con token JWT.
+
+CRUD de proveedores mostrando datos reales del backend.
+
+Inventario actualizando stock en tiempo real.
+
+Movimientos registrados y consultados desde backend.
+
+Administración de personal completamente integrada.
+
+<p align="center">
+  <img src="./assets/Chapter-V/login-integration.jpg" alt="login-integration" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/providers-crud.jpg" alt="providers-crud" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/inventory-movements.jpg" alt="inventory-movements" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/users-management.jpg" alt="users-management" width="800">
+</p>
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+| Paso | Descripción                                                                     |
+| ---- | ------------------------------------------------------------------------------- |
+| 1    | Configuración de variables de entorno en Angular (`API_BASE_URL`).              |
+| 2    | Ajustes en CORS y seguridad en Spring Boot para permitir requests desde Vercel. |
+| 3    | Vercel despliega el frontend con integración continua.                          |
+| 4    | Conexión final probada mediante llamadas desde el navegador y Postman.          |
+| 5    | Validación de endpoints con token real.                                         |
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 4, el equipo trabajó de forma coordinada para asegurar que todo el frontend interactúe correctamente con el backend, logrando un sistema completamente funcional y conectado.
+
+Distribución del trabajo:
+
+Piero Sulca → Autenticación, JWT, Interceptor, Guards.
+
+Dayro Ríos → Integración del módulo de proveedores.
+
+Vanessa Choy → Integración del módulo de personal, roles y permisos.
+
+María Hernández & Fabiola Saldaña → Integración del inventario, productos y movimientos.
+
+Principales logros:
+
+Conexión total del frontend y backend.
+
+Eliminación de datos mock: todo proviene del servidor.
+
+Autenticación segura con JWT funcionando.
+
+CRUDs completamente operativos.
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+Este sprint representó un hito, ya que permitió por primera vez que el sistema StockTrack funcionara de “extremo a extremo”.
+Los principales avances técnicos incluyeron:
+
+Consumo de la API REST desde Angular con HttpClient.
+
+Manejo de sesiones con token JWT.
+
+Validaciones en tiempo real provenientes del backend.
+
+Flujo completo de inventario (entradas, salidas, movimientos).
+
+Sincronización total entre pantallas del frontend y datos reales en la base de datos.
+
+<p align="center">
+  <img src="./assets/Chapter-V/insight4.jpg" alt="insight4" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/contributors4.jpg" alt="contributors4" width="800">
+</p>
 
 ## 5.3. Validation Interviews  
 Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
