@@ -3520,19 +3520,25 @@ Link del despliegue del backend en Railway: <a href="https://stocktrack-backend-
 
 Conectar Repositorio y Crear Proyecto: Inicia sesión en Railway, crea un nuevo proyecto y conéctalo directamente a tu repositorio de código (por ejemplo, GitHub).
 
-![repo deploy](/assets/Chapter-V/repo-deploy.png)
+<p align="center">
+  <img src="./assets/Chapter-V/repo-deploy2.png" alt="repo deploy 2" width="800">
+</p>
 
 Configurar Base de Datos: Dentro del mismo proyecto de Railway, añade un nuevo servicio de MySQL. Este servicio aprovisionará automáticamente la base de datos y generará las variables de entorno de conexión.
 
-![mysql service](/assets/Chapter-V/mysql-service.png)
+<p align="center">
+  <img src="./assets/Chapter-V/mysql-service2.png" alt="mysql service 2" width="800">
+</p>
 
 Definir Variables de Entorno: Navega a la pestaña Variables del servicio de tu aplicación y establece todas las variables necesarias. Esto incluye mapear la DATABASE_URL a la URL generada por el servicio de MySQL, y configurar claves secretas como JWT_SECRET y se conectará automáticamente con el servicio de la base de datos.
 
-![deploy backend](/assets/Chapter-V/deploy-back-railway.png)
+<p align="center">
+  <img src="./assets/Chapter-V/deploy-back-railway2.png" alt="deploy backend 2" width="800">
+</p>
 
-
-![deploy tables](/assets/Chapter-V/deploy-tables.png)
-
+<p align="center">
+  <img src="./assets/Chapter-V/deploy-tables2.png" alt="deploy tables 2" width="800">
+</p>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -3710,7 +3716,7 @@ Link del video del alcance para el Sprint 4: <a href="https://youtu.be/AG-163mF9
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-Durante el Spriint 4, se ha logrado la documentación exhaustiva de los Web Services (API REST) relacionados con:
+Durante el Sprint 4, se ha logrado la documentación exhaustiva de los Web Services (API REST) relacionados con:
 
 Productos
 
@@ -3896,19 +3902,25 @@ Link del despliegue del backend en Railway: <a href="https://stocktrack-backend-
 
 Conectar Repositorio y Crear Proyecto: Inicia sesión en Railway, crea un nuevo proyecto y conéctalo directamente a tu repositorio de código (por ejemplo, GitHub).
 
-![repo deploy](/assets/Chapter-V/repo-deploy.png)
+<p align="center">
+  <img src="./assets/Chapter-V/repo-deploy2.png" alt="repo deploy 2" width="800">
+</p>
 
 Configurar Base de Datos: Dentro del mismo proyecto de Railway, añade un nuevo servicio de MySQL. Este servicio aprovisionará automáticamente la base de datos y generará las variables de entorno de conexión.
 
-![mysql service](/assets/Chapter-V/mysql-service.png)
+<p align="center">
+  <img src="./assets/Chapter-V/mysql-service2.png" alt="mysql service 2" width="800">
+</p>
 
 Definir Variables de Entorno: Navega a la pestaña Variables del servicio de tu aplicación y establece todas las variables necesarias. Esto incluye mapear la DATABASE_URL a la URL generada por el servicio de MySQL, y configurar claves secretas como JWT_SECRET y se conectará automáticamente con el servicio de la base de datos.
 
-![deploy backend](/assets/Chapter-V/deploy-back-railway.png)
+<p align="center">
+  <img src="./assets/Chapter-V/deploy-back-railway2.png" alt="deploy backend 2" width="800">
+</p>
 
-
-![deploy tables](/assets/Chapter-V/deploy-tables.png)
-
+<p align="center">
+  <img src="./assets/Chapter-V/deploy-tables2.png" alt="deploy tables 2" width="800">
+</p>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Este sprint representó un hito, ya que permitió por primera vez que el sistema StockTrack funcionara de “extremo a extremo”.
@@ -4365,37 +4377,19 @@ En esta sección se presentan las conclusiones alcanzadas a lo largo del proyect
 
 ## Conclusiones
 
-El proyecto logró abordar de manera efectiva el Problem Statement inicial. Se desarrolló un prototipo funcional que demuestra la viabilidad de una plataforma digital centralizada para automatizar el control de inventarios en bodegas y negocios en expansión. Esto responde directamente a la pregunta central de cómo lograr que los usuarios adopten un sistema que reduzca la dependencia de procesos manuales, identificados como la principal causa de errores, pérdidas y sobrecostos.
+El proyecto logró implementar una arquitectura frontend–backend desacoplada, con un backend RESTful en Node.js/Express y un frontend en Angular desplegados en entornos separados. Esta decisión facilita la escalabilidad, la integración futura con otros servicios y la adopción de prácticas de despliegue continuo, mientras que la documentación mediante Swagger mejoró la trazabilidad entre endpoints y funcionalidades, asegurando coherencia entre la capa de presentación y la lógica de negocio.
 
-**Validación de Supuestos (Assumptions)**
+La base de datos se diseñó bajo un enfoque relacional normalizado, lo que permitió mantener la integridad referencial y reducir la redundancia en el manejo de productos, lotes y proveedores. No obstante, se identifican oportunidades de optimización a nivel de índices y consultas, especialmente en operaciones de lectura intensiva asociadas a reportes de inventario e historiales, que serán clave para sostener el rendimiento a medida que crezca el volumen de datos.
 
-Las entrevistas y validaciones confirmaron los supuestos iniciales: los usuarios valoran principalmente la capacidad de evitar pérdidas y desabastecimientos mediante un control en tiempo real. Se identificó, además, que el problema trasciende lo económico: los errores de inventario generan estrés y afectan la confianza de los dueños en la gestión de sus negocios. Esta dimensión emocional no había sido plenamente considerada en los supuestos iniciales.
+De forma complementaria, la incorporación sistemática de las opiniones de los usuarios durante el desarrollo fue determinante para ajustar tanto los requerimientos funcionales como los detalles de interacción de la página. La retroalimentación sobre pantallas confusas, prioridades de información y acciones más frecuentes permitió priorizar funcionalidades, simplificar flujos y corregir problemas de usabilidad que no eran evidentes desde una perspectiva exclusivamente técnica, alineando mejor la solución con las necesidades reales de quienes la utilizarán.
 
-**Evaluación de Hipótesis (Hypotheses Statements)**
-
-La hipótesis sobre el valor de las alertas personalizables fue la más validada: los usuarios reconocieron que esta funcionalidad es clave para anticipar problemas y tomar decisiones rápidas. Aunque no fue posible medir la reducción del 30 % en productos vencidos en el marco del curso, la percepción cualitativa sugiere que esta métrica es realista y alcanzable.
-
-**Criterios de Éxito**
-
-Los criterios definidos en Lean UX (reducción de pérdidas, adopción temprana, uso recurrente del módulo de reportes) se mantienen válidos. La evidencia recolectada sugiere que, con un enfoque en simplicidad y automatización, StockTrack tiene alta probabilidad de alcanzarlos en versiones posteriores.
+Como resultado de este ciclo iterativo, se logró construir una interfaz funcional que cumple con el objetivo principal del proyecto: permitir a los usuarios gestionar su información y completar sus tareas de manera clara y eficiente. La organización de la navegación, la disposición de los elementos en pantalla y el comportamiento del sistema frente a las acciones del usuario (mensajes, validaciones y estados de carga) hacen posible completar de inicio a fin los flujos críticos definidos, lo que demuestra que el prototipo alcanzó un nivel de usabilidad suficiente para ser utilizado en un contexto real o servir como base sólida para futuras mejoras.
 
 ## Recomendaciones
 
-**Optimizar el Onboarding Inicial**
+A partir de lo logrado, se recomienda institucionalizar la recolección de feedback de usuarios como parte del ciclo de desarrollo (por ejemplo, pruebas de usabilidad periódicas o encuestas dentro de la propia página). Esto permitiría seguir refinando la experiencia, detectar tempranamente nuevos problemas de uso y orientar las próximas mejoras en función de evidencia y no solo de supuestos del equipo.
 
-Diseñar un asistente de configuración guiada (wizard) que simplifique el registro de productos, umbrales y lotes. Esto reducirá la fricción en la primera experiencia y asegurará que las alertas críticas estén habilitadas desde el inicio.
-
-**Incorporar Carga Masiva y Escaneo Móvil**
-
-Priorizar la implementación de la lectura de códigos de barras vía cámara para carga masiva desde celular. Esto responde a la necesidad de bodegas con catálogos grandes y baja tolerancia al ingreso manual.
-
-**Dashboard Personalizable por Segmento**
-
-Implementar la personalización de widgets en el dashboard, de modo que los dueños de bodegas puedan priorizar vencimientos y stock bajo, mientras que startups en crecimiento enfoquen métricas de rotación y rentabilidad.
-
-**Validación Continua y Roadmap Iterativo**
-
-Realizar pruebas piloto en entornos reales con bodegas y startups para validar métricas de reducción de pérdidas y frecuencia de uso.
+También se recomienda evolucionar la interfaz hacia un diseño más consistente y escalable, adoptando un sistema de diseño (design system) o biblioteca de componentes reutilizables. Con ello se facilitaría mantener coherencia visual entre módulos, acelerar el desarrollo de nuevas pantallas y asegurar que, a medida que la página crezca en funcionalidades, se conserve la misma lógica de interacción que los usuarios ya aprendieron durante esta primera versión.
 
 <div style="page-break-after: always;"></div>
 
