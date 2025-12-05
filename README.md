@@ -4491,4 +4491,5 @@ Link Backend Desplegado: <a href="https://stocktrack-backend-production.up.railw
 Link de entrevistas:<a href="https://tinyurl.com/66etkfv8">https://tinyurl.com/66etkfv8</a> <br>
 Link de entrevistas de validación:<a href="https://youtu.be/PJvAeeIRJcw">https://youtu.be/PJvAeeIRJcw</a> <br>
 Link de Video About the Team:<a href="https://www.youtube.com/watch?v=NzCkqgksilE">https://www.youtube.com/watch?v=NzCkqgksilE</a><br>
+Link de Video About the Product:<a href="https://youtu.be/F0ZaRulgdyE?si=VpK2QIKX7g5WYUUe">https://youtu.be/F0ZaRulgdyE?si=VpK2QIKX7g5WYUUe</a><br>
 Link Video Alcance del Sprint 4: <a href="https://youtu.be/AG-163mF9kA">https://youtu.be/AG-163mF9kA</a>
