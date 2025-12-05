@@ -105,6 +105,12 @@
             <td>Dayro Rios</td>
             <td>Sprint 2 agregado, capitulo 5 actualizado.</td>
         </tr>
+            <tr>
+            <td>2.1</td>
+            <td>10/10/2025</td>
+            <td>Maria Hernandez</td>
+            <td>Correcciones capítulo 4.</td>
+        </tr>
         <tr>
             <td>3.0</td>
             <td>15/11/2025</td>
@@ -113,15 +119,52 @@
         </tr>
         <tr>
             <td>3.1</td>
-            <td>28/11/2025</td>
+            <td>26/11/2025</td>
             <td>Dayro Rios</td>
             <td>Sprint 3 corregido, capitulo 5 actualizado.</td>
         </tr>
+                <tr>
+            <td>3.2</td>
+            <td>27/11/2025</td>
+            <td>Fabiola Saldaña</td>
+            <td>Evaluación de heurísticas añadidas.</td>
+        </tr>
+        <tr>
+            <td>3.4</td>
+            <td>28/11/2025</td>
+            <td>Vanessa Choy</td>
+            <td>Sprint 3 evidencias agregadas.</td>
+        </tr>
         <tr>
             <td>4.0</td>
-            <td>5/12/2025</td>
+            <td>3/12/2025</td>
             <td>Dayro Rios</td>
             <td>Sprint 4 agregado, capitulo 5 actualizado.</td>
+        </tr>
+        </tr>
+                <tr>
+            <td>4.1</td>
+            <td>3/12/2025</td>
+            <td>Maria Hernandez</td>
+            <td>Recomendaciones y correciones subidas de todos los capitulos a develop</td>
+        <tr>
+            <td>4.2</td>
+            <td>4/12/2025</td>
+            <td>Piero Sulca</td>
+            <td>Evidencias Sprint 4 y correciones subidas de todos los capitulos a develop</td>
+        </tr>
+           <tr>
+            <td>4.3</td>
+            <td>5/12/2025</td>
+            <td>Vanessa Choy</td>
+            <td>Sprint 4, bibliografía y correciones subidas de todos los capitulos a develop</td>
+        </tr>
+        </tr>
+           <tr>
+            <td>4.4</td>
+            <td>5/12/2025</td>
+            <td>Fabiola Saldaña</td>
+            <td>Evidencias Sprint 4, conclusiones y correciones subidas de todos los capitulos a develop</td>
         </tr>
     </table>
 <div>
