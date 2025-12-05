@@ -99,11 +99,29 @@
             <td>Dayro Rios</td>
             <td>Cambios y correciones subidas de todos los capitulos a develop</td>
         </tr>
-         <tr>
+        <tr>
             <td>2.0</td>
             <td>10/10/2025</td>
             <td>Dayro Rios</td>
             <td>Sprint 2 agregado, capitulo 5 actualizado.</td>
+        </tr>
+        <tr>
+            <td>3.0</td>
+            <td>15/11/2025</td>
+            <td>Dayro Rios</td>
+            <td>Sprint 3 agregado, capitulo 5 actualizado.</td>
+        </tr>
+        <tr>
+            <td>3.1</td>
+            <td>28/11/2025</td>
+            <td>Dayro Rios</td>
+            <td>Sprint 3 corregido, capitulo 5 actualizado.</td>
+        </tr>
+        <tr>
+            <td>4.0</td>
+            <td>5/12/2025</td>
+            <td>Dayro Rios</td>
+            <td>Sprint 4 agregado, capitulo 5 actualizado.</td>
         </tr>
     </table>
 <div>
@@ -3310,8 +3328,8 @@ Cada módulo se implementó como un Bounded Context independiente con su propio 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-[deploy backend 1](./assets/Chapter-V/deployback1.jpg)
-[deploy backend 2](./assets/Chapter-V/deployback2.jpg)
+![deploy backend 1](./assets/Chapter-V/deployback1.jpg)
+![deploy backend 2](./assets/Chapter-V/deployback2.jpg)
 
 Swagger API URL: [https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html](https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html)
 
@@ -3335,12 +3353,98 @@ Todas las pruebas respondieron con códigos 200, 201, 401, 404, y 500 según los
 
 #### 5.2.3.6. Software Deployment Evidence for Sprint Review
 
-| Paso | Descripción                                                              |
-| ---- | ------------------------------------------------------------------------ |
-| 1    | Configuración de servidor en Render con base en NestJS y PostgreSQL.     |
-| 2    | Definición de variables de entorno (`DATABASE_URL`, `JWT_SECRET`, etc.). |
-| 3    | Ejecución de `npm run build` y `npm start:prod`.                         |
-| 4    | Verificación de endpoints y documentación Swagger.                       |
+
+**Despliegue de la landing page**:
+
+<br>Página de Vercel:<a href="https://vercel.com/">https://vercel.com/</a> <br>
+
+Link de la landing page:<a href="https://landing-page-two-iota-z65h50d6ix.vercel.app">https://landing-page-two-iota-z65h50d6ix.vercel.app</a>   
+
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
+
+
+Escogemos el repositorio de GitHub donde se encuentra el código de la Landing Page.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
+
+
+Seguidamente, se configura el proyecto y se despliega.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
+De esta manera, se obtiene la landing page desplegada y accesible públicamente.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/deployment-stocktrack.png)
+
+
+**Despliegue del Frontend en Vercel:**
+
+El despliegue del frontend se realizó en Vercel, conectado al repositorio GitHub del proyecto.
+
+Importación del Repositorio: Acceder a Vercel y seleccionar "Import Git Repository". Localizar y seleccionar el repositorio StockTrack-Frontend (específicamente, el branch develop).
+
+Configuración Inicial: Configurar los ajustes del proyecto:
+
+Seleccionar Angular como Framework Preset.
+
+Mantener el directorio raíz (./) y las configuraciones de Build y Output por defecto.
+
+Inicio del Despliegue: Hacer clic en "Deploy". Vercel inicia el proceso ejecutando automáticamente:
+
+npm install (instalación de dependencias).
+
+vercel build (compilación del proyecto).
+
+Generación de Dominios: Una vez completado el despliegue (ejemplo: en 33 segundos), se generan automáticamente los dominios: el principal (e.g., stocktrack-frontend.vercel.app) y los dominios de previsualización.
+
+Verificación en Producción: Verificar el Deployment Summary para confirmar detalles (ej. versión de Angular 20.3.4) y acceder al dominio principal para validar que la aplicación esté funcional en producción.
+
+Link del despliegue en vercel: 
+<a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
+
+- Capturas de despliegue:
+![front1](./assets/Chapter-V/deployfront1.jpg)
+*Imagen 1: Pantalla de importación de repositorio en Vercel*
+
+![front2](./assets/Chapter-V/deployfront2.jpg)
+*Imagen 2: Configuración del proyecto con Framework Angular y directorio raíz*
+
+![front3](./assets/Chapter-V/deployfront3.jpg)
+*Imagen 3: Proceso de deployment mostrando la instalación de dependencias*
+
+![front4](./assets/Chapter-V/deployfront4.jpg)
+*Imagen 4: Deployment completado con los dominios asignados y detalles del build*
+
+![front5](./assets/Chapter-V/deployfront5.jpg)
+*Imagen 5: Resumen del deployment con assets estáticos y configuración de dominio*
+
+
+Preview del sitio desplegado
+![front6](./assets/Chapter-V/deployfront6.png)
+*Imagen 6: Vista previa de la página de inicio de sesión*
+
+![front7](./assets/Chapter-V/deployfront7.png)
+*Imagen 7: Vista previa de la página principal de la aplicación*
+
+**Despliegue del Backend en Railway**:
+
+Conectar Repositorio y Crear Proyecto: Inicia sesión en Railway, crea un nuevo proyecto y conéctalo directamente a tu repositorio de código (por ejemplo, GitHub).
+
+![repo deploy](/assets/Chapter-V/repo-deploy.png)
+
+Configurar Base de Datos: Dentro del mismo proyecto de Railway, añade un nuevo servicio de MySQL. Este servicio aprovisionará automáticamente la base de datos y generará las variables de entorno de conexión.
+
+![mysql service](/assets/Chapter-V/mysql-service.png)
+
+Definir Variables de Entorno: Navega a la pestaña Variables del servicio de tu aplicación y establece todas las variables necesarias. Esto incluye mapear la DATABASE_URL a la URL generada por el servicio de MySQL, y configurar claves secretas como JWT_SECRET y se conectará automáticamente con el servicio de la base de datos.
+
+![deploy backend](/assets/Chapter-V/deploy-back-railway.png)
+
+
+![deploy tables](/assets/Chapter-V/deploy-tables.png)
+
 
 
 #### 5.2.3.7. Team Collaboration Insights during Sprint
@@ -4060,6 +4164,22 @@ Hinojosa Wong, H. S., & Perca Rivera, A. G. Nuevas tecnologías y su relación c
 <br>
 
 Cairo Casas, E. D., Lucio Cruz, J. J., Makiya Francia, R. G., Ramos Murazzo, J. P., & Palomino Padilla, I. H. (2021). Plataforma digital para la gestión del negocio de las bodegas" GOODSTOCK". <https://tesis.pucp.edu.pe/items/9d8d69cb-2688-4976-b004-cf9a630dd05e>
+<br>
+
+Angular Material. (s.f.). Angular Material. <https://material.angular.dev>
+<br>
+
+GitHub. (s.f.). GitHub. <https://github.com>
+<br>
+
+Swagger. (s.f.). Swagger. <https://swagger.io>
+<br>
+
+Railway. (s.f.). Railway: Deploy your code, instantly. <https://railway.app>
+<br>
+
+Vercel. (s.f.). Vercel: Develop. Preview. Ship. <https://vercel.com>
+<br>
 
 <div style="page-break-after: always;"></div>
 
