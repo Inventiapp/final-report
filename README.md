@@ -4431,7 +4431,7 @@ En esta sección se presentan las conclusiones alcanzadas a lo largo del proyect
 
 ## Conclusiones
 
-El proyecto logró implementar una arquitectura frontend–backend desacoplada, con un backend RESTful en Node.js/Express y un frontend en Angular desplegados en entornos separados. Esta decisión facilita la escalabilidad, la integración futura con otros servicios y la adopción de prácticas de despliegue continuo, mientras que la documentación mediante Swagger mejoró la trazabilidad entre endpoints y funcionalidades, asegurando coherencia entre la capa de presentación y la lógica de negocio.
+El proyecto logró implementar una arquitectura frontend–backend desacoplada, con un backend RESTful en Java y un frontend en Angular desplegados en entornos separados. Esta decisión facilita la escalabilidad, la integración futura con otros servicios y la adopción de prácticas de despliegue continuo, mientras que la documentación mediante Swagger mejoró la trazabilidad entre endpoints y funcionalidades, asegurando coherencia entre la capa de presentación y la lógica de negocio.
 
 La base de datos se diseñó bajo un enfoque relacional normalizado, lo que permitió mantener la integridad referencial y reducir la redundancia en el manejo de productos, lotes y proveedores. No obstante, se identifican oportunidades de optimización a nivel de índices y consultas, especialmente en operaciones de lectura intensiva asociadas a reportes de inventario e historiales, que serán clave para sostener el rendimiento a medida que crezca el volumen de datos.
 
