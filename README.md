@@ -3675,6 +3675,16 @@ Envío de datos reales.
 Validaciones basadas en errores del servidor.
 
 
+
+| Repository         | Branch  | Commit Id | Commit Message                                    | Commit Body                                                       | Committed on |
+| ------------------ | ------- | --------- | ------------------------------------------------- | ----------------------------------------------------------------- | ------------ |
+| inventiapp-backend | develop | 5df321a   | feat: initialize NestJS project structure         | Configuración inicial del backend con NestJS y TypeORM.           | 18/10/2025   |
+| inventiapp-backend | develop | 8bf442d   | feat: add users and auth modules                  | Implementación del módulo de usuarios, roles y autenticación JWT. | 19/10/2025   |
+| inventiapp-backend | develop | 3cc81c2   | feat: add inventory module with product endpoints | Módulo de inventario con productos y movimientos.                 | 20/10/2025   |
+| inventiapp-backend | develop | fdf7769   | feat: add reports and alerts modules              | Generación de alertas automáticas y reportes JSON/CSV.            | 21/10/2025   |
+| inventiapp-backend | develop | 72a91ce   | docs: add Swagger documentation                   | Documentación completa de endpoints con Swagger.                  | 22/10/2025   |
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 Evidencia en ejecución:
 
