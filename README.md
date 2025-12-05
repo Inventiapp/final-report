@@ -3724,8 +3724,23 @@ Envío de datos reales.
 Validaciones basadas en errores del servidor.
 
 
+
+| Repository         | Branch  | Commit Id | Commit Message                                             | Commit Body                                                                                                                                 | Committed on |
+| ------------------ | ------- | --------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| inventiapp-backend | develop | a8f12cd   | feat: enable CORS configuration for frontend integration   | Configuración de CORS para permitir solicitudes desde el dominio del frontend; ajustes por entorno (dev/prod).                              | 02/12/2025   |
+| inventiapp-backend | develop | b2c45ef   | fix: update user-permission rules for UI access control    | Correcciones en roles y permisos para que el frontend pueda mostrar/ocultar componentes según el usuario autenticado.                       | 03/12/2025   |
+| inventiapp-backend | develop | c93aa10   | fix: update batches retrieval and product endpoints        | Ajustes y estandarización de endpoints usados por el frontend; corrección de métodos GET por productId.                                     | 02/12/2025   |
+| inventiapp-backend | develop | d44b991   | refactor: streamline API responses for frontend parsing    | Homologación del formato de respuesta para evitar errores del frontend al consumir listas, objetos anidados y recursos relacionados. | 04/12/2025   |
+| inventiapp-backend | develop | e21d77a   | feat: add OpenAPI adjustments for final integration        | Actualización de documentación Swagger según los endpoints finales usados por el frontend para ventas, kits y lotes.                        | 02/12/2025   |
+| inventiapp-backend | develop | f81bd03   | fix: sales and kits endpoints sync                         | Corrección en endpoints de ventas y kits para alinear DTO, campos numéricos y validaciones requeridas por la UI.                            | 02/12/2025   |
+| inventiapp-backend | develop | 1cc0a19   | feat: add audit fields required by frontend UI actions     | Agregado campo auditTrail y createdAt en ventas y productos para visualización en tablas del frontend.                                      | 02/12/2025   |
+| inventiapp-backend | develop | 9fbb550   | merge: integrate develop into feature/frontend-sync        | Fusión del trabajo previo de backend con la rama dedicada a la integración del frontend; resolución de conflictos.                          | 02/12/2025   |
+| inventiapp-backend | develop | 4ab332d   | fix: update database facade and service naming consistency | Ajustes de nomenclaturas y servicios para que coincidan con los llamados del frontend, especialmente en inventory y sales.                  | 02/12/2025   |
+| inventiapp-backend | develop | 7d99e4f   | chore: cleanup deprecated endpoints                        | Eliminación de métodos antiguos no usados por el frontend para evitar documentación duplicada y confusión en el consumo API.                | 01/12/2025   |
+
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
-Evidencia en ejecución:
 
 Login funcionando con token JWT.
 
@@ -3738,66 +3753,21 @@ Movimientos registrados y consultados desde backend.
 Administración de personal completamente integrada.
 
 <p align="center">
-  <img src="./assets/Chapter-V/login-integration.png" alt="login-integration" width="800">
+ <img src="./assets/Chapter-V/deployfront7.png" alt="login-integration" width="800">
 </p>
-<p align="center">
-  <img src="./assets/Chapter-V/providers-crud.png" alt="providers-crud" width="800">
-</p>
-<p align="center">
-  <img src="./assets/Chapter-V/inventory-movements.png" alt="inventory-movements" width="800">
-</p>
-<p align="center">
-  <img src="./assets/Chapter-V/inventory-movements1.png" alt="inventory-movements" width="800">
-</p>
-<p align="center">
-  <img src="./assets/Chapter-V/users-management.png" alt="users-management" width="800">
-</p>
-
-<br>
-
-Link del video del alcance para el Sprint 4: <a href="https://youtu.be/AG-163mF9kA">https://youtu.be/AG-163mF9kA</a> <br>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 4, se ha logrado la documentación exhaustiva de los Web Services (API REST) relacionados con:
 
-Productos
-
-Lotes (Batches)
-
-Ventas (Sales)
-
-Proveedores (Providers)
-
-Permisos (Permissions)
-
-Categorías (Categories)
-
-Kits
-
-Autenticación (Authentication)
-
-Dashboard
-
-Usuarios (Users)
-
-Roles
-
-Permisos (Permissions)
-
+Productos, Lotes (Batches), Ventas (Sales), Proveedores (Providers), Permisos (Permissions), Categorías (Categories)
 
 A comparación con el sprint anterior, se añadieron endpoints de autenticación, dashboard, usuarios, roles y permisos. 
 
 Se ha utilizado la especificación OpenAPI (Swagger) para garantizar una documentación clara, interactiva y estandarizada.
 Este esfuerzo asegura que tanto los desarrolladores frontend como otros consumidores de la API puedan comprender y utilizar correctamente cada endpoint, incluyendo:
 
-Verbo HTTP
-
-Sintaxis de llamada
-
-Parámetros requeridos
-
-Estructura del response
+Verbo HTTP, Sintaxis de llamada, Parámetros requeridos, Estructura del response
 
 Los logros alcanzados facilitan la integración y el mantenimiento del sistema en general.
 
