@@ -3336,23 +3336,107 @@ Swagger API URL: [https://stocktrack-backend-production.up.railway.app/swagger-u
 Base API URL: [http://stocktrack-backend-production.up.railway.app/api/v1](http://stocktrack-backend-production.up.railway.app/api/v1)
 
 
-POST /auth/login
-
-GET /users
-
-POST /inventory/products
-
-GET /sales/report
-
-GET /alerts/stock
-
 Colección de pruebas en Postman:
 Incluye casos de éxito y error para CRUD de usuarios, inventario y ventas.
 Todas las pruebas respondieron con códigos 200, 201, 401, 404, y 500 según los escenarios definidos.
 
 
-#### 5.2.3.6. Software Deployment Evidence for Sprint Review
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+
+Durante el sprint 3, se ha logrado la documentación exhaustiva de los Web Services (API REST) relacionados con:
+
+Productos
+
+Lotes (Batches)
+
+Ventas (Sales)
+
+Proveedores (Providers)
+
+Permisos (Permissions)
+
+Categorías (Categories)
+
+Kits
+
+Se ha utilizado la especificación OpenAPI (Swagger) para garantizar una documentación clara, interactiva y estandarizada.
+Este esfuerzo asegura que tanto los desarrolladores frontend como otros consumidores de la API puedan comprender y utilizar correctamente cada endpoint, incluyendo:
+
+Verbo HTTP
+
+Sintaxis de llamada
+
+Parámetros requeridos
+
+Estructura del response
+
+Los logros alcanzados facilitan la integración y el mantenimiento del sistema en general.
+
+Endpoints Documentados y Acciones Implementadas
+
+La siguiente tabla resume los endpoints documentados, sus acciones y los enlaces correspondientes a la documentación:
+
+
+| Módulo               | Endpoint                                | Verbo HTTP  | Descripción                                |
+| -------------------- | --------------------------------------- | ----------- | ------------------------------------------ |
+| **Productos**        | `/api/v1/products`                      | GET         | Obtener lista de todos los productos       |
+| Productos            | `/api/v1/products`                      | POST        | Crear un nuevo producto                    |
+| Productos            | `/api/v1/products/{id}`                 | GET         | Obtener un producto por ID                 |
+| Productos            | `/api/v1/products/{id}`                 | PUT         | Actualizar un producto existente           |
+| Productos            | `/api/v1/products/{id}`                 | DELETE      | Eliminar un producto por ID                |
+| Productos            | `/api/v1/products/{productId}/batches`  | GET         | Obtener los lotes asociados a un producto  |
+| **Ventas**           | `/api/v1/sales`                         | GET         | Obtener lista de todas las ventas          |
+| Ventas               | `/api/v1/sales`                         | POST        | Crear una nueva venta                      |
+| Ventas               | `/api/v1/sales/{id}`                    | GET         | Obtener una venta por su ID                |
+| **Proveedores**      | `/api/v1/providers`                     | GET         | Obtener lista de proveedores               |
+| Proveedores          | `/api/v1/providers`                     | POST        | Crear un nuevo proveedor                   |
+| Proveedores          | `/api/v1/providers/{id}`                | GET         | Obtener un proveedor por ID                |
+| Proveedores          | `/api/v1/providers/{id}`                | PUT         | Actualizar proveedor                       |
+| Proveedores          | `/api/v1/providers/{id}`                | DELETE      | Eliminar proveedor                         |
+| **Lotes (Batches)**  | `/api/v1/batches`                       | GET         | Obtener lista de lotes                     |
+| Lotes                | `/api/v1/batches`                       | POST        | Crear lote                                 |
+| Lotes                | `/api/v1/batches/{id}`                  | GET         | Obtener lote por ID                        |
+| Lotes                | `/api/v1/batches/{id}`                  | PUT         | Actualizar lote                            |
+| Lotes                | `/api/v1/batches/{id}`                  | DELETE      | Eliminar lote                              |
+| **Categorías**       | `/api/v1/categories`                    | GET         | Obtener lista de categorías                |
+| Categorías           | `/api/v1/categories`                    | POST        | Crear nueva categoría                      |
+
+
+Detalle de Acciones Soportadas (Ejemplo: Productos)
+
+1. Obtener un Producto por ID
+
+Verbo HTTP: GET
+
+Endpoint: /api/v1/products/{id}
+
+Parámetros:
+
+id (Path, requerido) — integer
+
+Ejemplo de Response (200 OK)
+
+```json
+{
+	"id": 1,
+  "name": "leche gloria",
+  "description": "leche",
+  "categoryId": "1",
+  "providerId": "1",
+  "minStock": 1,
+  "unitPrice": 4.5,
+  "isActive": true
+}
+```
+
+Explicación:
+Retorna los detalles completos del producto solicitado.
+Si no existe: 404 Not Found.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se documentan los despliegues realizados durante el Sprint 3, incluyendo la landing page, el frontend y el backend del sistema StockTrack.
 
 **Despliegue de la landing page**:
 
@@ -3430,6 +3514,10 @@ Preview del sitio desplegado
 
 **Despliegue del Backend en Railway**:
 
+Link de Railway: <a href="https://railway.app/">https://railway.app/</a> <br>
+
+Link del despliegue del backend en Railway: <a href="https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html">https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html</a> <br>
+
 Conectar Repositorio y Crear Proyecto: Inicia sesión en Railway, crea un nuevo proyecto y conéctalo directamente a tu repositorio de código (por ejemplo, GitHub).
 
 ![repo deploy](/assets/Chapter-V/repo-deploy.png)
@@ -3444,27 +3532,6 @@ Definir Variables de Entorno: Navega a la pestaña Variables del servicio de tu 
 
 
 ![deploy tables](/assets/Chapter-V/deploy-tables.png)
-
-
-
-#### 5.2.3.7. Team Collaboration Insights during Sprint
-
-Durante el Sprint 3, el equipo trabajó en la construcción de la capa de servicios (backend), definiendo responsabilidades claras por contexto. Se promovió la modularidad y separación de dominios según el modelo DDD.
-
-Distribución de trabajo:
-
-- Piero Sulca → Lideró la estructura principal del backend (NestJS), Auth y módulo de Alertas.
-- Dayro Ríos → Implementó módulos de Reportes y Ventas, asegurando consistencia con el Inventario.
-- Vanessa Choy → Colaboró en el módulo de Usuarios y Permisos, participando en la documentación Swagger.
-- María Hernández y Fabiola Saldaña → Desarrollaron el módulo de Inventario, productos y relación con proveedores.
-
-Principales logros técnicos:
-
-- API modular basada en Bounded Contexts.
-- Autenticación JWT funcional.
-- Documentación Swagger accesible públicamente.
-- Integración con PostgreSQL.
-- Despliegue continuo en Render.
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -3514,6 +3581,7 @@ Configuraron la integración final con MySQL en Railway, asegurando persistencia
 ![contributors-tb2](assets/Chapter-V/contributors3.jpg)
 
 ### 5.2.4. Sprint 4
+
 En esta sección se documenta y explica el desarrollo del Sprint 4, enfocado en la integración completa del Frontend desarrollado en el Sprint 2 con la API Backend implementada en el Sprint 3. El objetivo principal del sprint fue lograr el flujo de datos real entre ambas capas del sistema StockTrack, conectando formularios, tablas, pantallas y validaciones del frontend con los endpoints REST seguros del backend.
 
 #### 5.2.4.1. Sprint Planning 4.
@@ -3630,36 +3698,206 @@ Administración de personal completamente integrada.
 </p>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
-| Paso | Descripción                                                                     |
-| ---- | ------------------------------------------------------------------------------- |
-| 1    | Configuración de variables de entorno en Angular (`API_BASE_URL`).              |
-| 2    | Ajustes en CORS y seguridad en Spring Boot para permitir requests desde Vercel. |
-| 3    | Vercel despliega el frontend con integración continua.                          |
-| 4    | Conexión final probada mediante llamadas desde el navegador y Postman.          |
-| 5    | Validación de endpoints con token real.                                         |
+
+Durante el Spriint 4, se ha logrado la documentación exhaustiva de los Web Services (API REST) relacionados con:
+
+Productos
+
+Lotes (Batches)
+
+Ventas (Sales)
+
+Proveedores (Providers)
+
+Permisos (Permissions)
+
+Categorías (Categories)
+
+Kits
+
+A comparación con el sprint anterior, no se añadieron nuevos endpoints, pero se actualizaron y ampliaron las descripciones y ejemplos en la documentación existente para reflejar mejor su uso en el frontend.
+
+Se ha utilizado la especificación OpenAPI (Swagger) para garantizar una documentación clara, interactiva y estandarizada.
+Este esfuerzo asegura que tanto los desarrolladores frontend como otros consumidores de la API puedan comprender y utilizar correctamente cada endpoint, incluyendo:
+
+Verbo HTTP
+
+Sintaxis de llamada
+
+Parámetros requeridos
+
+Estructura del response
+
+Los logros alcanzados facilitan la integración y el mantenimiento del sistema en general.
+
+Endpoints Documentados y Acciones Implementadas
+
+La siguiente tabla resume los endpoints documentados, sus acciones y los enlaces correspondientes a la documentación:
+
+
+| Módulo               | Endpoint                                | Verbo HTTP  | Descripción                                |
+| -------------------- | --------------------------------------- | ----------- | ------------------------------------------ |
+| **Productos**        | `/api/v1/products`                      | GET         | Obtener lista de todos los productos       |
+| Productos            | `/api/v1/products`                      | POST        | Crear un nuevo producto                    |
+| Productos            | `/api/v1/products/{id}`                 | GET         | Obtener un producto por ID                 |
+| Productos            | `/api/v1/products/{id}`                 | PUT         | Actualizar un producto existente           |
+| Productos            | `/api/v1/products/{id}`                 | DELETE      | Eliminar un producto por ID                |
+| Productos            | `/api/v1/products/{productId}/batches`  | GET         | Obtener los lotes asociados a un producto  |
+| **Ventas**           | `/api/v1/sales`                         | GET         | Obtener lista de todas las ventas          |
+| Ventas               | `/api/v1/sales`                         | POST        | Crear una nueva venta                      |
+| Ventas               | `/api/v1/sales/{id}`                    | GET         | Obtener una venta por su ID                |
+| **Proveedores**      | `/api/v1/providers`                     | GET         | Obtener lista de proveedores               |
+| Proveedores          | `/api/v1/providers`                     | POST        | Crear un nuevo proveedor                   |
+| Proveedores          | `/api/v1/providers/{id}`                | GET         | Obtener un proveedor por ID                |
+| Proveedores          | `/api/v1/providers/{id}`                | PUT         | Actualizar proveedor                       |
+| Proveedores          | `/api/v1/providers/{id}`                | DELETE      | Eliminar proveedor                         |
+| **Lotes (Batches)**  | `/api/v1/batches`                       | GET         | Obtener lista de lotes                     |
+| Lotes                | `/api/v1/batches`                       | POST        | Crear lote                                 |
+| Lotes                | `/api/v1/batches/{id}`                  | GET         | Obtener lote por ID                        |
+| Lotes                | `/api/v1/batches/{id}`                  | PUT         | Actualizar lote                            |
+| Lotes                | `/api/v1/batches/{id}`                  | DELETE      | Eliminar lote                              |
+| **Permisos**         | `/api/v1/permissions`                   | GET         | Obtener lista de permisos                  |
+| Permisos             | `/api/v1/permissions`                   | POST        | Crear un permiso                           |
+| Permisos             | `/api/v1/permissions/{id}`              | GET         | Obtener permiso por ID                     |
+| **Categorías**       | `/api/v1/categories`                    | GET         | Obtener lista de categorías                |
+| Categorías           | `/api/v1/categories`                    | POST        | Crear nueva categoría                      |
+| **Kits**             | `/api/v1/kits`                          | GET         | Obtener lista de kits                      |
+| Kits                 | `/api/v1/kits`                          | POST        | Crear kit                                  |
+| Kits                 | `/api/v1/kits/{id}`                     | GET         | Obtener kit por ID                         |
+| Kits                 | `/api/v1/kits/{id}`                     | DELETE      | Eliminar kit                               |
+
+
+Detalle de Acciones Soportadas (Ejemplo: Productos)
+
+1. Obtener un Producto por ID
+
+Verbo HTTP: GET
+
+Endpoint: /api/v1/products/{id}
+
+Parámetros:
+
+id (Path, requerido) — integer
+
+Ejemplo de Response (200 OK)
+
+```json
+{
+	"id": 1,
+  "name": "leche gloria",
+  "description": "leche",
+  "categoryId": "1",
+  "providerId": "1",
+  "minStock": 1,
+  "unitPrice": 4.5,
+  "isActive": true
+}
+```
+
+Explicación:
+Retorna los detalles completos del producto solicitado.
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
 Durante el Sprint 4, el equipo trabajó de forma coordinada para asegurar que todo el frontend interactúe correctamente con el backend, logrando un sistema completamente funcional y conectado.
 
-Distribución del trabajo:
 
-Piero Sulca → Autenticación, JWT, Interceptor, Guards.
+**Despliegue de la landing page**:
 
-Dayro Ríos → Integración del módulo de proveedores.
+<br>Página de Vercel:<a href="https://vercel.com/">https://vercel.com/</a> <br>
 
-Vanessa Choy → Integración del módulo de personal, roles y permisos.
+Link de la landing page:<a href="https://landing-page-two-iota-z65h50d6ix.vercel.app">https://landing-page-two-iota-z65h50d6ix.vercel.app</a>   
 
-María Hernández & Fabiola Saldaña → Integración del inventario, productos y movimientos.
 
-Principales logros:
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-1.png)
 
-Conexión total del frontend y backend.
 
-Eliminación de datos mock: todo proviene del servidor.
+Escogemos el repositorio de GitHub donde se encuentra el código de la Landing Page.
 
-Autenticación segura con JWT funcionando.
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-2.png)
 
-CRUDs completamente operativos.
+
+Seguidamente, se configura el proyecto y se despliega.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/vercel-deploy-landing.png)
+
+
+De esta manera, se obtiene la landing page desplegada y accesible públicamente.
+
+![Deployment Screenshot](assets/Chapter-V/sprint-1/deployment-evidence/deployment-stocktrack.png)
+
+
+**Despliegue del Frontend en Vercel:**
+
+El despliegue del frontend se realizó en Vercel, conectado al repositorio GitHub del proyecto.
+
+Importación del Repositorio: Acceder a Vercel y seleccionar "Import Git Repository". Localizar y seleccionar el repositorio StockTrack-Frontend (específicamente, el branch develop).
+
+Configuración Inicial: Configurar los ajustes del proyecto:
+
+Seleccionar Angular como Framework Preset.
+
+Mantener el directorio raíz (./) y las configuraciones de Build y Output por defecto.
+
+Inicio del Despliegue: Hacer clic en "Deploy". Vercel inicia el proceso ejecutando automáticamente:
+
+npm install (instalación de dependencias).
+
+vercel build (compilación del proyecto).
+
+Generación de Dominios: Una vez completado el despliegue (ejemplo: en 33 segundos), se generan automáticamente los dominios: el principal (e.g., stocktrack-frontend.vercel.app) y los dominios de previsualización.
+
+Verificación en Producción: Verificar el Deployment Summary para confirmar detalles (ej. versión de Angular 20.3.4) y acceder al dominio principal para validar que la aplicación esté funcional en producción.
+
+Link del despliegue en vercel: 
+<a href="https://stocktrack-frontend.vercel.app/">https://stocktrack-frontend.vercel.app/</a> <br>
+
+- Capturas de despliegue:
+![front1](./assets/Chapter-V/deployfront1.jpg)
+*Imagen 1: Pantalla de importación de repositorio en Vercel*
+
+![front2](./assets/Chapter-V/deployfront2.jpg)
+*Imagen 2: Configuración del proyecto con Framework Angular y directorio raíz*
+
+![front3](./assets/Chapter-V/deployfront3.jpg)
+*Imagen 3: Proceso de deployment mostrando la instalación de dependencias*
+
+![front4](./assets/Chapter-V/deployfront4.jpg)
+*Imagen 4: Deployment completado con los dominios asignados y detalles del build*
+
+![front5](./assets/Chapter-V/deployfront5.jpg)
+*Imagen 5: Resumen del deployment con assets estáticos y configuración de dominio*
+
+
+Preview del sitio desplegado
+![front6](./assets/Chapter-V/deployfront6.png)
+*Imagen 6: Vista previa de la página de inicio de sesión*
+
+![front7](./assets/Chapter-V/deployfront7.png)
+*Imagen 7: Vista previa de la página principal de la aplicación*
+
+**Despliegue del Backend en Railway**:
+
+Link de Railway: <a href="https://railway.app/">https://railway.app/</a> <br>
+
+Link del despliegue del backend en Railway: <a href="https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html">https://stocktrack-backend-production.up.railway.app/swagger-ui/index.html</a> <br>
+
+Conectar Repositorio y Crear Proyecto: Inicia sesión en Railway, crea un nuevo proyecto y conéctalo directamente a tu repositorio de código (por ejemplo, GitHub).
+
+![repo deploy](/assets/Chapter-V/repo-deploy.png)
+
+Configurar Base de Datos: Dentro del mismo proyecto de Railway, añade un nuevo servicio de MySQL. Este servicio aprovisionará automáticamente la base de datos y generará las variables de entorno de conexión.
+
+![mysql service](/assets/Chapter-V/mysql-service.png)
+
+Definir Variables de Entorno: Navega a la pestaña Variables del servicio de tu aplicación y establece todas las variables necesarias. Esto incluye mapear la DATABASE_URL a la URL generada por el servicio de MySQL, y configurar claves secretas como JWT_SECRET y se conectará automáticamente con el servicio de la base de datos.
+
+![deploy backend](/assets/Chapter-V/deploy-back-railway.png)
+
+
+![deploy tables](/assets/Chapter-V/deploy-tables.png)
+
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Este sprint representó un hito, ya que permitió por primera vez que el sistema StockTrack funcionara de “extremo a extremo”.
