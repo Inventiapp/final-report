@@ -3637,6 +3637,10 @@ En esta sección se especifican los principales aspectos del Sprint Planning Mee
 | **US-36**      | Visualización de movimientos         | W-18   | GET: Listar movimientos              | Conectar historial de movimientos a /inventory/history.               | 3                      | María & Fabiola | Done       |
 | **US-37**      | Integración inventario–proveedores   | W-19   | Unir productos con proveedor en UI     | Mostrar proveedor asociado a cada producto usando endpoint relacional.                             | 3                    | María & Fabiola | Done       |
 
+<p align="center">
+  <img src="./assets/Chapter-V/sprint4.png" alt="sprint4" width="800">
+</p>
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
 Durante este sprint se implementó la integración entre Angular y Spring Boot, conectando todos los módulos del frontend a los servicios REST del backend.
 
