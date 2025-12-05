@@ -3775,7 +3775,18 @@ Categorías (Categories)
 
 Kits
 
-A comparación con el sprint anterior, no se añadieron nuevos endpoints, pero se actualizaron y ampliaron las descripciones y ejemplos en la documentación existente para reflejar mejor su uso en el frontend.
+Autenticación (Authentication)
+
+Dashboard
+
+Usuarios (Users)
+
+Roles
+
+Permisos (Permissions)
+
+
+A comparación con el sprint anterior, se añadieron endpoints de autenticación, dashboard, usuarios, roles y permisos. 
 
 Se ha utilizado la especificación OpenAPI (Swagger) para garantizar una documentación clara, interactiva y estandarizada.
 Este esfuerzo asegura que tanto los desarrolladores frontend como otros consumidores de la API puedan comprender y utilizar correctamente cada endpoint, incluyendo:
@@ -3795,36 +3806,46 @@ Endpoints Documentados y Acciones Implementadas
 La siguiente tabla resume los endpoints documentados, sus acciones y los enlaces correspondientes a la documentación:
 
 
-| Módulo               | Endpoint                                | Verbo HTTP  | Descripción                                |
-| -------------------- | --------------------------------------- | ----------- | ------------------------------------------ |
-| **Productos**        | `/api/v1/products`                      | GET         | Obtener lista de todos los productos       |
-| Productos            | `/api/v1/products`                      | POST        | Crear un nuevo producto                    |
-| Productos            | `/api/v1/products/{id}`                 | GET         | Obtener un producto por ID                 |
-| Productos            | `/api/v1/products/{id}`                 | PUT         | Actualizar un producto existente           |
-| Productos            | `/api/v1/products/{id}`                 | DELETE      | Eliminar un producto por ID                |
-| Productos            | `/api/v1/products/{productId}/batches`  | GET         | Obtener los lotes asociados a un producto  |
-| **Ventas**           | `/api/v1/sales`                         | GET         | Obtener lista de todas las ventas          |
-| Ventas               | `/api/v1/sales`                         | POST        | Crear una nueva venta                      |
-| Ventas               | `/api/v1/sales/{id}`                    | GET         | Obtener una venta por su ID                |
-| **Proveedores**      | `/api/v1/providers`                     | GET         | Obtener lista de proveedores               |
-| Proveedores          | `/api/v1/providers`                     | POST        | Crear un nuevo proveedor                   |
-| Proveedores          | `/api/v1/providers/{id}`                | GET         | Obtener un proveedor por ID                |
-| Proveedores          | `/api/v1/providers/{id}`                | PUT         | Actualizar proveedor                       |
-| Proveedores          | `/api/v1/providers/{id}`                | DELETE      | Eliminar proveedor                         |
-| **Lotes (Batches)**  | `/api/v1/batches`                       | GET         | Obtener lista de lotes                     |
-| Lotes                | `/api/v1/batches`                       | POST        | Crear lote                                 |
-| Lotes                | `/api/v1/batches/{id}`                  | GET         | Obtener lote por ID                        |
-| Lotes                | `/api/v1/batches/{id}`                  | PUT         | Actualizar lote                            |
-| Lotes                | `/api/v1/batches/{id}`                  | DELETE      | Eliminar lote                              |
-| **Permisos**         | `/api/v1/permissions`                   | GET         | Obtener lista de permisos                  |
-| Permisos             | `/api/v1/permissions`                   | POST        | Crear un permiso                           |
-| Permisos             | `/api/v1/permissions/{id}`              | GET         | Obtener permiso por ID                     |
-| **Categorías**       | `/api/v1/categories`                    | GET         | Obtener lista de categorías                |
-| Categorías           | `/api/v1/categories`                    | POST        | Crear nueva categoría                      |
-| **Kits**             | `/api/v1/kits`                          | GET         | Obtener lista de kits                      |
-| Kits                 | `/api/v1/kits`                          | POST        | Crear kit                                  |
-| Kits                 | `/api/v1/kits/{id}`                     | GET         | Obtener kit por ID                         |
-| Kits                 | `/api/v1/kits/{id}`                     | DELETE      | Eliminar kit                               |
+| Módulo                      | Endpoint                               | Verbo HTTP | Descripción                             |
+| --------------------------- | -------------------------------------- | ---------- | --------------------------------------- |
+| **Productos**               | `/api/v1/products`                     | GET        | Obtener lista de todos los productos    |
+| Productos                   | `/api/v1/products`                     | POST       | Crear un nuevo producto                 |
+| Productos                   | `/api/v1/products/{id}`                | GET        | Obtener un producto por ID              |
+| Productos                   | `/api/v1/products/{id}`                | PUT        | Actualizar un producto                  |
+| Productos                   | `/api/v1/products/{id}`                | DELETE     | Eliminar un producto                    |
+| Productos                   | `/api/v1/products/{productId}/batches` | GET        | Obtener lotes asociados a un producto   |
+| **Lotes por Producto**      | `/api/v1/products/{productId}/batches` | GET        | Obtener los lotes asociados al producto |
+| **Autenticación**           | `/api/v1/authentication/sign-up`       | POST       | Registrar un nuevo usuario              |
+| Autenticación               | `/api/v1/authentication/sign-in`       | POST       | Iniciar sesión                          |
+| **Dashboard**               | `/api/v1/dashboard`                    | GET        | Obtener datos agregados del dashboard   |
+| **Ventas (Sales)**          | `/api/v1/sales`                        | GET        | Obtener lista de ventas                 |
+| Ventas                      | `/api/v1/sales`                        | POST       | Crear una venta                         |
+| Ventas                      | `/api/v1/sales/{id}`                   | GET        | Obtener una venta por ID                |
+| **Proveedores (Providers)** | `/api/v1/providers`                    | GET        | Obtener lista de proveedores            |
+| Proveedores                 | `/api/v1/providers`                    | POST       | Crear un proveedor                      |
+| Proveedores                 | `/api/v1/providers/{id}`               | GET        | Obtener un proveedor por ID             |
+| Proveedores                 | `/api/v1/providers/{id}`               | PUT        | Actualizar un proveedor                 |
+| Proveedores                 | `/api/v1/providers/{id}`               | DELETE     | Eliminar un proveedor                   |
+| **Lotes (Batches)**         | `/api/v1/batches`                      | GET        | Obtener lista de lotes                  |
+| Lotes                       | `/api/v1/batches`                      | POST       | Crear un lote                           |
+| Lotes                       | `/api/v1/batches/{id}`                 | GET        | Obtener lote por ID                     |
+| Lotes                       | `/api/v1/batches/{id}`                 | PUT        | Actualizar un lote                      |
+| Lotes                       | `/api/v1/batches/{id}`                 | DELETE     | Eliminar un lote                        |
+| **Permisos (Permissions)**  | `/api/v1/permissions`                  | GET        | Obtener lista de permisos               |
+| Permisos                    | `/api/v1/permissions`                  | POST       | Crear un permiso                        |
+| Permisos                    | `/api/v1/permissions/{id}`             | GET        | Obtener un permiso por ID               |
+| **Roles**                   | `/api/v1/roles`                        | GET        | Obtener lista de roles                  |
+| **Usuarios (Users)**        | `/api/v1/users`                        | GET        | Obtener lista de usuarios               |
+| Usuarios                    | `/api/v1/users`                        | POST       | Crear usuario                           |
+| Usuarios                    | `/api/v1/users/{userId}`               | GET        | Obtener usuario por ID                  |
+| Usuarios                    | `/api/v1/users/{userId}`               | PUT        | Actualizar usuario                      |
+| Usuarios                    | `/api/v1/users/{userId}`               | DELETE     | Eliminar usuario                        |
+| **Categorías (Categories)** | `/api/v1/categories`                   | GET        | Obtener lista de categorías             |
+| Categorías                  | `/api/v1/categories`                   | POST       | Crear una nueva categoría               |
+| **Kits**                    | `/api/v1/kits`                         | GET        | Obtener lista de kits                   |
+| Kits                        | `/api/v1/kits`                         | POST       | Crear un kit                            |
+| Kits                        | `/api/v1/kits/{id}`                    | GET        | Obtener un kit por ID                   |
+| Kits                        | `/api/v1/kits/{id}`                    | DELETE     | Eliminar un kit                         |
 
 
 Detalle de Acciones Soportadas (Ejemplo: Productos)
@@ -3979,12 +4000,32 @@ Flujo completo de inventario (entradas, salidas, movimientos).
 
 Sincronización total entre pantallas del frontend y datos reales en la base de datos.
 
+Repositorio Backend:
+
+<p align="center">
+  <img src="./assets/Chapter-V/backend-insight4.png" alt="insight4" width="800">
+</p>
+<p align="center">
+  <img src="./assets/Chapter-V/contributors-backend.png" alt="contributors4" width="800">
+</p>
+
+Repositorio Frontend:
+
 <p align="center">
   <img src="./assets/Chapter-V/insight4.png" alt="insight4" width="800">
 </p>
 <p align="center">
   <img src="./assets/Chapter-V/contributors4.png" alt="contributors4" width="800">
 </p>
+
+Repositorio Landing Page:
+
+Ya que no se realizaron cambios en la landing page durante este sprint, no se generaron nuevos insights o contribuciones en este repositorio.
+
+<p align="center">
+  <img src="./assets/Chapter-V/insights-landing.png" alt="insight4" width="800">
+</p>
+
 
 ## 5.3. Validation Interviews  
 Se realizarán entrevistas con usuarios finales de los segmentos definidos (dueños de bodegas y emprendedores/startups) con el objetivo de validar la usabilidad, claridad y utilidad de la aplicación web StockTrack.  
