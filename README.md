@@ -138,6 +138,14 @@ En esta entrega se hicieron correcciones y se añadió otras secciones del capí
 ![contributors-tb2](assets/Chapter-V/contributors3.jpg)
 
 
+## Reporte de colaboración para el TF:
+
+En esta entrega se hicieron correcciones y se añadió otras secciones del capítulo 5, correspondiente al Sprint 4. Además se culminó el backend y se realizaron las conexiones de los endpoints con el frontend de la aplicación. A continuación, se detallan las contribuciones de cada miembro del equipo mediante los insights de GitHub:
+
+![insights-tf](assets/Chapter-V/)
+![contributors-tf](assets/Chapter-V/)
+
+
 <div style="page-break-after: always;"></div>
 
 # Contenido
@@ -146,6 +154,7 @@ En esta entrega se hicieron correcciones y se añadió otras secciones del capí
   - [Reporte de colaboración para el TB1:](#reporte-de-colaboración-para-el-tb1)
   - [Reporte de colaboración para el TP:](#reporte-de-colaboración-para-el-tp)
   - [Reporte de colaboración para el TB2:](#reporte-de-colaboración-para-el-tb2)
+  - [Reporte de colaboración para el TF:](#reporte-de-colaboración-para-el-tf)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
@@ -315,14 +324,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Choy Robles, Vanessa May Lang:</b><br>
       <b>TB1:</b> Durante el proyecto participé activamente en reuniones de coordinación, compartiendo ideas claras y bien estructuradas que contribuyeron a la mejora continua. Ajusté mi forma de comunicar según el contexto y reforcé la comprensión de los objetivos del equipo, brindando retroalimentación que fortaleció la motivación grupal.<br><br>
       <b>TP:</b> Durante el Sprint 2, participé en las reuniones de revisión y planificación, explicando los avances logrados y proponiendo mejoras para optimizar la integración de los componentes. Mantuve una comunicación fluida con el equipo para asegurar la coherencia entre las tareas y los objetivos generales del proyecto, promoviendo un ambiente colaborativo y participativo.<br><br>
-      <b>TB2:</b> Para el Sprint 3, participé en reuniones, expresaba mi disposición para apoyar al equipo y notificaba acerca de mis avances. Mantuve esta comunicación efectiva con mis compañeros durante toda la entrega.
+      <b>TB2:</b> Para el Sprint 3, participé en reuniones, expresaba mi disposición para apoyar al equipo y notificaba acerca de mis avances. Mantuve esta comunicación efectiva con mis compañeros durante toda la entrega.<br><br>
+      <b>TF:</b> En esta entrega, aporté con el Sprint 4 en el cual tuve que cooridnar con mis compañeros para asignarnos tareas 
+      y comunicar nuestros avances. <br><br>
     </td>
     <td rowspan="5">
       <b>TB1:</b> En conjunto, los estudiantes evidenciaron competencias sólidas en comunicación oral, adaptando sus mensajes a distintos públicos y situaciones. Su claridad y asertividad permitieron agilizar decisiones, mejorar la colaboración y reforzar la cohesión del equipo, siendo un factor clave para cumplir los objetivos del proyecto.<br><br>
       <b>TP:</b> Durante el Sprint 2, el equipo demostró un progreso notable en su comunicación oral, enfocándose en la precisión técnica, la colaboración efectiva y la resolución de problemas. Esta evolución fortaleció la coordinación interdisciplinaria y permitió que las reuniones fueran más productivas, consolidando una comunicación orientada a resultados.<br><br>
       <b>TB2:</b>En el Sprint 3, el grupo demostró una comunicación efectiva la cual se evidenció en coordinaciones, avances y
       en resultados durante este entregable. Asimismo, hubo una mayor productividad y organización debido al reforzamiento en la
-      colaboración del equipo de Inventiapp.
+      colaboración del equipo de Inventiapp.<br><br>
+      <b>TF:</b>Para la entrega final el grupo estuvo en comunicación constante para estar al día respecto a las contribuciones y cambios que se realizaban en el backend, frontend y reporte. También hubo bastante colaboración por parte de cada miembro. <br><br>
     </td>
   </tr>
   <tr>
@@ -330,7 +342,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Hernández Uchuya, María Patricia:</b><br>
       <b>TB1:</b> Me comuniqué de manera activa y constante con el grupo, realizando seguimientos periódicos para asegurar el cumplimiento de las tareas y anticipar posibles riesgos. Además, motivé al equipo en momentos críticos con un lenguaje positivo y enfocado en resultados, ayudando a mantener la moral alta.<br><br>
       <b>TP:</b> Mantuve una comunicación continua con los responsables de cada área para verificar el progreso del Sprint. Propuse reuniones cortas de seguimiento para revisar bloqueos y avances, facilitando una comunicación efectiva que ayudó a mantener la alineación del grupo con los objetivos del entregable.<br><br>
-      <b>TB2:</b> Durante el Sprint 3 me comuniqué de manera clara con mis compañeros para coordinar en tareas compartidas y de esta forma garantizar los mejores resultados para el equipo.
+      <b>TB2:</b> Durante el Sprint 3 me comuniqué de manera clara con mis compañeros para coordinar en tareas compartidas y de esta forma garantizar los mejores resultados para el equipo.<br><br>
+      <b>TF:</b> Avisé durante esta entrega acerca de mis avances y consultaba si faltaban puntos por cubrir, de esta manera ayudaba a mis compañeros. También coordinaba por interno en caso fuera necesario aclarar dudas respecto a la implementación del código.<br><br>
     </td>
   </tr>
   <tr>
@@ -338,7 +351,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Rios Piñan, Dayro Richard:</b><br>
       <b>TB1:</b> Durante las sesiones transmití observaciones y sugerencias de mejora de manera clara, asegurando que fueran entendidas e implementadas. También impulsé un espacio de diálogo abierto que permitió la participación de todos, enriqueciendo la calidad del trabajo realizado.<br><br>
       <b>TP:</b> Presenté avances y observaciones durante las revisiones del Sprint 2, explicando los criterios técnicos detrás de cada mejora implementada. Fomenté la discusión abierta para integrar aportes del equipo, lo que permitió decisiones más consensuadas y una mejor comprensión del progreso del proyecto.<br><br>
-      <b>TB2:</b> Aporté en el Sprint 3 proponiendo mejoras y avanzando de forma constante, comunicando con claridad el progreso del equipo y planteando soluciones ante los pequeños conflictos y dudas que iban surgiendo.
+      <b>TB2:</b> Aporté en el Sprint 3 proponiendo mejoras y avanzando de forma constante, comunicando con claridad el progreso del equipo y planteando soluciones ante los pequeños conflictos y dudas que iban surgiendo.<br><br>
+      <b>TF:</b> Estuve constantemente proponiendo la colaboración de los participantes y avancé código relacionado a las ventas. También estuve pendiente de la entrega por si habían contratiempos.<br><br>
     </td>
   </tr>
   <tr>
@@ -346,7 +360,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Saldaña Ayala, Fabiola Del Rocio:</b><br>
       <b>TB1:</b> En las reuniones grupales, me enfoqué en recordar los objetivos establecidos y reforzar los aspectos que necesitaban mejora. Implementé estrategias comunicativas para alinear las expectativas y mantener el enfoque en entregar valor de manera constante.<br><br>
       <b>TP:</b> Durante las reuniones de coordinación, reforcé la comunicación sobre las tareas críticas del Sprint, aclarando dependencias y fechas de entrega. A través de una comunicación clara y empática, ayudé a mantener el ritmo del equipo y a garantizar que todos comprendieran las prioridades del ciclo de desarrollo.<br><br>
-      <b>TB2:</b> Durante las reuniones, expresé mis dudas y opiniones acerca de distribuciones de tareas y avances, de manera que como equipo pudimos reforzar acuerdos y presentar entregables de calidad.
+      <b>TB2:</b> Durante las reuniones, expresé mis dudas y opiniones acerca de distribuciones de tareas y avances, de manera que como equipo pudimos reforzar acuerdos y presentar entregables de calidad.<br><br>
+      <b>TF:</b> Estuve al pendiente de los avances del equipo y ofrecía apoyo a mis compañeros. También estuve coordinando tanto en el grupo como por interno para cambios en el código o informe.<br><br> 
     </td>
   </tr>
   <tr>
@@ -354,7 +369,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Sulca Sanchez, Piero Angel:</b><br>
       <b>TB1:</b> Participé activamente en las discusiones, expresando mis puntos de vista y observaciones con respeto y fundamentos. Esto facilitó la resolución colaborativa de retos, mejoró la claridad de las tareas y reforzó el compromiso del equipo hacia los objetivos.<br><br>
       <b>TP:</b> Expliqué los avances alcanzados en el área asignada y participé en la revisión técnica de entregables. Mi comunicación se centró en la claridad de los resultados obtenidos y en la búsqueda conjunta de soluciones a los desafíos presentados, fortaleciendo la coordinación general del equipo.<br><br>
-      <b>TB2:</b> Comuniqué mis ideas y aporté con sugerencias durante el Sprint 3 y como consecuencia el equipo pudo avanzar distintas tareas en los tiempos establecidos.
+      <b>TB2:</b> Comuniqué mis ideas y aporté con sugerencias durante el Sprint 3 y como consecuencia el equipo pudo avanzar distintas tareas en los tiempos establecidos.<br><br>
+      <b>TF:</b> Coordiné con el equipo distintos apartados que debíamos completar para esta entrega y siempre mostré disposición para ayudar a los demás.<br><br>
     </td>
   </tr>
   <tr>
@@ -363,12 +379,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Choy Robles, Vanessa May Lang:</b><br>
       <b>TB1:</b> Elaboré reportes de avance de forma periódica, presentando la información de manera ordenada y clara. Empleé tablas, esquemas y resúmenes ejecutivos para facilitar la revisión por parte del equipo y los stakeholders, contribuyendo a mantener la documentación organizada y trazable.<br><br>
       <b>TP:</b> Documenté los avances del Sprint 2 mediante reportes con capturas y explicaciones detalladas de las mejoras implementadas. Incorporé esquemas visuales para facilitar la comprensión de los resultados, asegurando la trazabilidad y coherencia de la información presentada.<br><br>
-      <b>TB2:</b> Contribuí con el Sprint Backlog así como evidencias del Sprint 3 mediante imágenes, explicaciones, tecnologías especializados para la organización y resúmenes del avance. 
+      <b>TB2:</b> Contribuí con el Sprint Backlog así como evidencias del Sprint 3 mediante imágenes, explicaciones, tecnologías especializados para la organización y resúmenes del avance. <br><br>
+      <b>TF:</b> Ayudé con el Sprint 4 y el informe, además de avanzar con el código respecto a Gestión de Personal. También contribuí con la bibliografía. <br><br>
     </td>
     <td rowspan="5">
       <b>TB1:</b> Los participantes demostraron un manejo eficaz de la comunicación escrita, adaptando el estilo según el público y el contexto. La elaboración de informes, actas y reportes claros favoreció la transparencia, la coordinación interna y la toma de decisiones informadas, impulsando directamente el éxito del proyecto.<br><br>
       <b>TP:</b> En el Sprint 2, los estudiantes consolidaron sus habilidades de comunicación escrita mediante reportes técnicos más completos y estructurados. La claridad y precisión en la documentación mejoraron la gestión del conocimiento del equipo y facilitaron el seguimiento de los avances del proyecto.<br><br>
-      <b>TB2:</b> El equipo demostró grandes destrezas para la comunicación escrita durante el Sprint 3 porque se evidenciaba con cada documento el progreso del grupo así como la consolidación del proyecto desde el frontend como el backend.
+      <b>TB2:</b> El equipo demostró grandes destrezas para la comunicación escrita durante el Sprint 3 porque se evidenciaba con cada documento el progreso del grupo así como la consolidación del proyecto desde el frontend como el backend.<br><br>
+      <b>TF:</b> El equipo demostró grandes destrezas para la comunicación escrita durante el Sprint 4 el cual se evidencia en el progreso del proyecto al culminar y unir el frontend con el backend.<br><br>
     </td>
   </tr>
   <tr>
@@ -377,7 +395,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>TB1:</b> Me responsabilicé de elaborar minutas y resúmenes de cada reunión, dejando constancia de acuerdos, decisiones y tareas asignadas. Este registro detallado permitió que todos tuvieran claridad sobre los próximos pasos y sirvió como guía para evaluar el progreso alcanzado.<br><br>
       <b>TP:</b> Redacté los documentos de planificación y revisión del Sprint 2, registrando los acuerdos tomados y las observaciones sobre las entregas. Aseguré la consistencia de la información y facilité la comunicación de los resultados al resto del equipo.<br><br>
       <b>TB2:</b>Me encargué de documentar el avance respecto al bounded context de Inventory en el backend y en comunicar a
-      mis compañeros acerca de mis avances. También realicé coordinaciones para la grabación del video about the product.
+      mis compañeros acerca de mis avances. También realicé coordinaciones para la grabación del video about the product.<br><br>
+      <b>TF:</b> Aporté con las evidencias de las contribuciones en el github así como correcciones respecto al informe. También coordiné con el equipo para la grabación de videos y envío de archivos.<br><br>
     </td>
   </tr>
   <tr>
@@ -385,7 +404,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>Rios Piñan, Dayro Richard:</b><br>
       <b>TB1:</b> Redacté documentos con observaciones y recomendaciones de mejora, utilizando un lenguaje técnico pero fácil de entender. Consolidé la información en reportes periódicos que facilitaron la toma de decisiones basadas en datos y mejoraron la gestión de ajustes en el proyecto.<br><br>
       <b>TP:</b> Elaboré reportes técnicos sobre la implementación de las mejoras visuales, integrando descripciones funcionales y técnicas. La documentación se adaptó al nivel de conocimiento del lector, garantizando claridad en las revisiones y comentarios de avance.<br><br>
-      <b>TB2:</b> Contribuí con la documentación del sprint planning así como la evaluación de las heurísticas. También informaba al equipo acerca de los avances y les consultaba para verificar que todos estemos de acuerdo.
+      <b>TB2:</b> Contribuí con la documentación del sprint planning así como la evaluación de las heurísticas. También informaba al equipo acerca de los avances y les consultaba para verificar que todos estemos de acuerdo.<br><br>
+      <b>TF:</b> Aporté con el registro de versiones y con el código de ventas el cual fue documentado en el infrome y ppt. También coordiné con el equipo para la grabación de videos y envío de archivos.<br><br>
     </td>
   </tr>
   <tr>
@@ -394,7 +414,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>TB1:</b> Me encargué de generar actas detalladas de las reuniones, donde registré compromisos, plazos y dependencias entre tareas. Esta práctica permitió mantener la transparencia, asegurar responsabilidades y garantizar la continuidad de las acciones planificadas.<br><br>
       <b>TP:</b> Actualicé las actas del Sprint 2, documentando los cambios en las tareas y las dependencias técnicas. Además, consolidé la información del progreso semanal, mejorando la trazabilidad de los compromisos y resultados alcanzados.<br><br>
       <b>TB2:</b> Me encargué de documentar el avance respecto al bounded context de Inventory en el backend y en comunicar a
-      mis compañeros acerca de mis avances. También acerca de las mejoras implementadas para el frontend.
+      mis compañeros acerca de mis avances. También acerca de las mejoras implementadas para el frontend.<br><br>
+      <b>TF:</b> Ayudé con las correcciones de este informe y documentación del código para el bounded context de inventario y sales. También coordiné con el equipo para la grabación de videos y envío de archivos.<br><br>
     </td>
   </tr>
   <tr>
@@ -403,7 +424,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <b>TB1:</b> Documenté los hallazgos obtenidos en entrevistas y sesiones de trabajo grupal en informes bien estructurados y fáciles de leer. Esta información facilitó la comprensión de los requerimientos y apoyó la toma de decisiones estratégicas del equipo.<br><br>
       <b>TP:</b> Apoyé en la redacción del informe de resultados del Sprint 2, integrando evidencias gráficas y descripciones de las tareas completadas. La redacción se centró en la claridad y en la presentación de datos verificables que reflejaron los avances reales del proyecto.<br><br>
       <b>TB2:</b> Aporté en documentar los resultados del sprint 3 acerca del bounded context de Users and Permission en el
-      backend. También de realizar coordinaciones para la segunda versión del frontend.
+      backend. También de realizar coordinaciones para la segunda versión del frontend.<br><br>
+      <b>TF:</b> Aporté con las evidencias de las contribuciones en el github así como correcciones respecto al informe. También coordiné con el equipo para la grabación de videos y envío de archivos.<br><br>
     </td>
   </tr>
 </table>
@@ -3868,7 +3890,18 @@ Realizar pruebas piloto en entornos reales con bodegas y startups para validar m
 
 # Bibliografía
 
-GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Investigación 2024_. <https://fmguy.org/web-2024/indice-faltantes.html>
+GS1 Uruguay. (2024). _Estudio de faltantes de mercadería en góndola – Investigación 2024_. <https://fmguy.org/web-2024/indice-faltantes.html> <br>
+
+Valverde, J. L. C., Herrera, A. A. C., & Castro, K. J. T. (2023). _Estrategias comerciales de las bodegas y su futuro dentro del canal tradicional_ (Master's thesis, Pontificia Universidad Catolica del Peru (Peru)). <https://www.proquest.com/openview/b7f446f130b7c938439b83a671eb0fee/1?pq-origsite=gscholar&cbl=2026366&diss=y>
+<br>
+
+Arroyo Holguin, G. M., & Cruz Aquino, N. A. Identificación y diseño de mejoras en la logística de distribución y cadena de suministros de una Bodega de Vinos y Piscos Naturales en el Valle de Pisco-Perú. Caso: Bodega Murga. <https://repositorioacademico.upc.edu.pe/handle/10757/672284>
+<br>
+
+Hinojosa Wong, H. S., & Perca Rivera, A. G. Nuevas tecnologías y su relación con la competitividad de bodegas tradicionales en la ciudad de Huancayo, 2021. <https://repositorioacademico.upc.edu.pe/handle/10757/660397>
+<br>
+
+Cairo Casas, E. D., Lucio Cruz, J. J., Makiya Francia, R. G., Ramos Murazzo, J. P., & Palomino Padilla, I. H. (2021). Plataforma digital para la gestión del negocio de las bodegas" GOODSTOCK". <https://tesis.pucp.edu.pe/items/9d8d69cb-2688-4976-b004-cf9a630dd05e>
 
 <div style="page-break-after: always;"></div>
 
